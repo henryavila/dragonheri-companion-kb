@@ -1,18 +1,13 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { D } from '@/data'
+import { resolveActivities, legacyForActivity as findLegacy } from '@/data/teams'
 
 const selectedActivity = ref(null)
 const activeTab = ref('time')
 
 // Activities loaded once — resolve string team references from DATA_TEAMS
-const allTeams = window.DATA_TEAMS || []
-const activities = ref((window.DATA_ACTIVITIES || []).map(a => {
-  const custom = a.teams?.custom
-  if (!custom?.length || typeof custom[0] !== 'string') return a
-  const resolved = custom.map(id => allTeams.find(t => t.id === id)).filter(Boolean)
-  return { ...a, teams: { ...a.teams, custom: resolved } }
-}))
+const activities = ref(resolveActivities(window.DATA_ACTIVITIES || [], window.DATA_TEAMS || []))
 
 const categoryLabels = {
   equipment: 'Equipment',
@@ -74,16 +69,10 @@ const elColorMap = {
 }
 
 // Legacy teams from S1 (DATA_TEAMS)
-const legacyTeams = ref(window.DATA_TEAMS || [])
+const legacyTeams = window.DATA_TEAMS || []
 
 function legacyForActivity(activity) {
-  const name = activity?.name
-  if (!name) return []
-  // Exclude teams already shown in the custom section (resolved from DATA_TEAMS)
-  const customIds = new Set((activity.teams?.custom || []).map(t => t.id).filter(Boolean))
-  return legacyTeams.value.filter(t =>
-    !customIds.has(t.id) && (t.activity === name || (t.activities && t.activities.includes(name)))
-  )
+  return findLegacy(activity, legacyTeams)
 }
 </script>
 
