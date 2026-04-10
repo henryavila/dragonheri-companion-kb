@@ -73,38 +73,43 @@ const selectedRecipe = ref(null)
         <div class="text-[0.78rem] text-text-dim leading-relaxed">{{ cooking.golden_rule }}</div>
       </div>
 
-      <!-- Shopping Route -->
-      <h2 class="font-display text-base font-semibold text-gold mb-3">Rota de Compras</h2>
-      <div class="space-y-2 mb-6">
-        <div
-          v-for="stop in cooking.shopping_route" :key="stop.stop"
-          class="bg-bg-card border border-border rounded-xl px-3 py-3"
-        >
-          <div class="flex items-start gap-3">
-            <div class="w-7 h-7 rounded-full bg-gold/20 border border-gold/40 flex items-center justify-center shrink-0 text-gold font-bold text-sm">{{ stop.stop }}</div>
-            <div class="flex-1 min-w-0">
-              <div class="text-sm font-semibold text-gold-bright">{{ stop.location }}</div>
-              <div class="text-[0.68rem] text-text-muted mt-0.5 italic">{{ stop.note }}</div>
-              <div class="flex flex-wrap gap-1.5 mt-2">
-                <span
-                  v-for="item in stop.buy" :key="item"
-                  class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[0.65rem] font-medium border"
-                  :class="ingredient(item).element
-                    ? `${elBg[ingredient(item).element]} ${elBorder[ingredient(item).element]} ${elText[ingredient(item).element]}`
-                    : 'bg-bg-elevated border-border text-text-primary'"
-                >
-                  {{ item }}
-                  <span class="text-text-muted">{{ ingredient(item).cost }}g</span>
-                </span>
+      <!-- Desktop: 2-column layout -->
+      <div class="md:grid md:grid-cols-2 md:gap-6">
+        <!-- Shopping Route -->
+        <div>
+          <h2 class="font-display text-base font-semibold text-gold mb-3">Rota de Compras</h2>
+          <div class="space-y-2 mb-6 md:mb-0">
+            <div
+              v-for="stop in cooking.shopping_route" :key="stop.stop"
+              class="bg-bg-card border border-border rounded-xl px-3 py-3"
+            >
+              <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-full bg-gold/20 border border-gold/40 flex items-center justify-center shrink-0 text-gold font-bold text-sm">{{ stop.stop }}</div>
+                <div class="flex-1 min-w-0">
+                  <div class="text-sm font-semibold text-gold-bright">{{ stop.location }}</div>
+                  <div class="text-[0.68rem] text-text-muted mt-0.5 italic">{{ stop.note }}</div>
+                  <div class="flex flex-wrap gap-1.5 mt-2">
+                    <span
+                      v-for="item in stop.buy" :key="item"
+                      class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[0.65rem] font-medium border"
+                      :class="ingredient(item).element
+                        ? `${elBg[ingredient(item).element]} ${elBorder[ingredient(item).element]} ${elText[ingredient(item).element]}`
+                        : 'bg-bg-elevated border-border text-text-primary'"
+                    >
+                      {{ item }}
+                      <span class="text-text-muted">{{ ingredient(item).cost }}g</span>
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Stock Priority -->
-      <h2 class="font-display text-base font-semibold text-gold mb-3">Top 5 para Estocar</h2>
-      <div class="space-y-2">
+        <!-- Stock Priority -->
+        <div>
+          <h2 class="font-display text-base font-semibold text-gold mb-3">Top 5 para Estocar</h2>
+          <div class="space-y-2">
         <div
           v-for="sp in cooking.stock_priority" :key="sp.rank"
           class="bg-bg-card border rounded-xl px-3 py-2.5 cursor-pointer transition-all hover:border-border-hover active:scale-[0.98]"
@@ -144,11 +149,13 @@ const selectedRecipe = ref(null)
           </div>
         </div>
       </div>
+        </div>
+      </div><!-- /md:grid 2-col -->
     </div>
 
     <!-- ==================== TAB: POR ATIVIDADE ==================== -->
     <div v-if="tab === 'activity'">
-      <div class="space-y-2">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div
           v-for="fa in cooking.food_by_activity" :key="fa.activity"
           class="bg-bg-card border rounded-xl px-3 py-2.5 cursor-pointer transition-all hover:border-border-hover active:scale-[0.98]"

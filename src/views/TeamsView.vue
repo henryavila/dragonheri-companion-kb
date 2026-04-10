@@ -66,6 +66,17 @@ const elColorMap = {
   Fire: 'el-fire', Ice: 'el-ice', Lightning: 'el-lightning',
   Poison: 'el-poison', Necrosis: 'el-necrosis', Radiance: 'el-radiance'
 }
+
+// Legacy teams from S1 (DATA_TEAMS)
+const legacyTeams = ref(window.DATA_TEAMS || [])
+
+function legacyForActivity(activity) {
+  const name = activity?.name
+  if (!name) return []
+  return legacyTeams.value.filter(t =>
+    t.activity === name || (t.activities && t.activities.includes(name))
+  )
+}
 </script>
 
 <template>
@@ -230,7 +241,34 @@ const elColorMap = {
               <p v-if="team.notes" class="text-[0.68rem] text-text-dim mt-2 leading-relaxed">{{ team.notes }}</p>
             </div>
 
-            <div v-if="!(selectedActivity.teams?.community?.length) && !(selectedActivity.teams?.custom?.length)" class="text-center py-8">
+            <!-- Legacy teams (S1) -->
+            <div v-for="team in legacyForActivity(selectedActivity)" :key="team.id" class="bg-bg-card border border-border rounded-xl p-3.5 opacity-75">
+              <div class="flex items-center justify-between mb-2 flex-wrap gap-2">
+                <div class="flex items-center gap-2">
+                  <span class="font-display text-xs font-semibold text-text-muted">{{ team.name }}</span>
+                  <span class="px-1.5 py-0.5 rounded text-[0.5rem] font-bold uppercase bg-text-muted/10 text-text-muted border border-text-muted/20">Legacy S1</span>
+                </div>
+                <span v-if="team.result?.time_display" class="px-2 py-0.5 rounded-full text-[0.6rem] font-semibold border border-border text-text-dim">{{ team.result.time_display }}</span>
+                <span v-else-if="team.dps_result" class="px-2 py-0.5 rounded-full text-[0.6rem] font-semibold border border-border text-text-dim">{{ team.dps_result }}</span>
+              </div>
+              <div v-for="m in team.members" :key="m.id" class="flex items-center gap-2.5 py-1.5">
+                <img :src="D.heroImgUrl(m.id)" class="w-10 h-10 rounded-lg border border-border object-cover object-[center_15%]" loading="lazy" />
+                <div class="flex-1 min-w-0">
+                  <div class="text-sm font-semibold" :class="D.isOwned(m.id) ? 'text-text-primary' : 'text-text-muted'">
+                    {{ D.hero(m.id)?.name || '?' }}
+                    <span v-if="!D.isOwned(m.id)" class="text-[0.6rem] text-accent-red font-normal ml-1">(nao tem)</span>
+                  </div>
+                  <div class="text-[0.68rem] text-text-dim">{{ m.role }}</div>
+                </div>
+                <div v-if="m.artifact" class="text-[0.65rem] text-text-muted text-right max-w-[120px] truncate">{{ m.artifact }}</div>
+              </div>
+              <div v-if="team.affinity" class="mt-2 flex items-center gap-2 px-3 py-2 rounded-lg bg-bg-elevated border border-border">
+                <span class="text-[0.7rem] font-semibold text-text-muted">{{ team.affinity }}</span>
+              </div>
+              <p v-if="team.notes" class="text-[0.68rem] text-text-dim mt-2 leading-relaxed">{{ team.notes }}</p>
+            </div>
+
+            <div v-if="!(selectedActivity.teams?.community?.length) && !(selectedActivity.teams?.custom?.length) && !legacyForActivity(selectedActivity).length" class="text-center py-8">
               <p class="text-sm text-text-muted">Nenhum time definido para esta atividade.</p>
             </div>
           </div>

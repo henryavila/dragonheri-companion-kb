@@ -12,9 +12,9 @@ const items = [
 ]
 
 const moreItems = [
+  { name: 'cooking', label: 'Cooking', icon: '🍖', path: '/cooking' },
   { name: 'artifacts', label: 'Artefatos', icon: '✧', path: '/artifacts' },
   { name: 'tierlist', label: 'Tier List', icon: '▣', path: '/tierlist' },
-  { name: 'cooking', label: 'Cooking', icon: '🍖', path: '/cooking' },
 ]
 
 const showMore = ref(false)
