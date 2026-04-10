@@ -24,14 +24,13 @@ const recipeById = computed(() => {
 
 const ingredient = (name) => cooking.value.ingredients?.[name] || {}
 
-// Format vendor info: "NPC — Location (Region)"
+// Format vendor info
 const vendorLabel = (name) => {
   const ing = ingredient(name)
-  if (!ing.npc) return ing.merchant || '?'
+  if (!ing.npc) return '?'
   return `${ing.npc} — ${ing.location}`
 }
-const vendorRegion = (name) => ingredient(name).region || ''
-const vendorShort = (name) => ingredient(name).location || ingredient(name).merchant?.split(' — ')[0] || '?'
+const vendorShort = (name) => ingredient(name).location || '?'
 
 // --- Filters for recipe tab ---
 const recipeFilter = ref('all') // 'all' | 'legendary-atk' | 'legendary-def' | 'epic'
@@ -96,7 +95,7 @@ const selectedRecipe = ref(null)
                 <div class="w-7 h-7 rounded-full bg-gold/20 border border-gold/40 flex items-center justify-center shrink-0 text-gold font-bold text-sm">{{ stop.stop }}</div>
                 <div class="flex-1 min-w-0">
                   <div class="text-sm font-semibold text-gold-bright">{{ stop.location }}</div>
-                  <div v-if="stop.region" class="text-[0.65rem] text-el-ice">{{ stop.region }}</div>
+                  <!-- region removido: precisa validar in-game -->
                   <div v-if="stop.npc" class="text-[0.65rem] text-text-dim mt-0.5">NPC: {{ stop.npc }}</div>
                   <div class="text-[0.68rem] text-text-muted mt-0.5 italic">{{ stop.note }}</div>
                   <div class="flex flex-wrap gap-1.5 mt-2">
@@ -333,10 +332,15 @@ const selectedRecipe = ref(null)
                   <div class="flex-1 min-w-0">
                     <div class="text-[0.78rem] font-semibold text-text-primary">{{ ing.name }}</div>
                     <div class="text-[0.72rem] text-accent-green font-medium mt-0.5">{{ vendorLabel(ing.name) }}</div>
-                    <div v-if="vendorRegion(ing.name)" class="text-[0.65rem] text-el-ice mt-0.5">{{ vendorRegion(ing.name) }}</div>
                     <div class="text-[0.65rem] text-text-muted">{{ ingredient(ing.name).cost }}g cada — {{ ingredient(ing.name).cost * ing.qty }}g total</div>
                     <div v-if="ingredient(ing.name).note" class="text-[0.6rem] text-gold-dim mt-0.5 italic">{{ ingredient(ing.name).note }}</div>
-                    <div v-if="ingredient(ing.name).alt_vendor" class="text-[0.6rem] text-text-muted mt-0.5">Alt: {{ ingredient(ing.name).alt_vendor.npc }} — {{ ingredient(ing.name).alt_vendor.location }} ({{ ingredient(ing.name).alt_vendor.cost }}g)</div>
+                    <!-- Other vendors -->
+                    <div v-if="ingredient(ing.name).vendors?.length > 1" class="mt-1.5 space-y-0.5">
+                      <div class="text-[0.55rem] text-text-muted uppercase tracking-wider">Tambem vende:</div>
+                      <div v-for="v in ingredient(ing.name).vendors.slice(1, 4)" :key="v.location" class="text-[0.6rem] text-text-dim">
+                        {{ v.npc }} — {{ v.location }} <span class="text-text-muted">({{ v.cost }}g, {{ v.qty }} unid)</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
