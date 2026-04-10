@@ -696,7 +696,7 @@ window.DATA_TEAMS = [
       { id: 22790, role: "Amplifier / Aura Energy support" },
       { id: 21500, role: "Amplifier / Healer / Aura synergy" },
       { id: 23820, role: "Amplifier / Bond deploy (+20% Max HP, +20% DMG Bonus) / Shield AoE" },
-      { id: 22130, role: "Captain / Buffer CritDMG / 5a Aura (completa school bond)" }
+      { id: 22130, role: "Captain / Passiva: cada consumo de Aura Energy = Crit DMG Up (ate 20 stacks) pra ela + maior ATK ally" }
     ],
     tests: [
       {
@@ -716,10 +716,10 @@ window.DATA_TEAMS = [
       }
     ],
     mechanics: {
-      key_mechanic: "5 Aura school = school bond MAXIMO. Shahla CritDMG buffer amplifica todo o time. 5 Radiance = 5 Incandescence (+20% Elemental DMG, +2% DR). Sem sustain dedicado — a sinergia Aura gera shields/healing internas suficientes para waves.",
-      insight: "Acilia era desnecessaria neste modo. A 5a Aura (Shahla) gera mais DPS que o sustain extra da Acilia. Score: 130 → 313 → 715. Cada upgrade: +140% e +128%."
+      key_mechanic: "5 Aura school = school bond MAXIMO. O DIFERENCIAL e a passiva da Shahla (Soothing Fragrance): cada vez que um aliado Aura consome Aura Energy, Shahla + aliado Aura com maior ATK ganham Crit Damage Up (ate 20 stacks). Com 4 aliados Aura consumindo energia constantemente, Crit DMG escala EXPONENCIALMENTE. 5 Radiance = 5 Incandescence (+20% Elemental DMG, +2% DR).",
+      insight: "O boost de 313 → 715 (+128%) NAO foi school bond — foi a passiva da Shahla. Crit DMG Up stackando em loop com 4 aliados Aura = multiplicador que accelera ao longo da luta. Quanto mais longa a luta, mais forte fica."
     },
-    notes: "Time Aura COMPLETO (5/5). Shahla > Acilia neste modo: 5 Aura school bond + CritDMG buffer > 4 Aura + sustain solo. Inversao do Fey Meander (onde Acilia e necessaria para bosses). Regra: modo wave = mais DPS, modo boss = mais sustain."
+    notes: "Time Aura COMPLETO (5/5). Shahla > Acilia por causa da PASSIVA (Crit DMG Up ate 20 stacks por consumo de Aura Energy), nao so pelo school bond. Em wave mode (Fallen Shadow Spire), a luta dura o bastante pra Crit DMG escalar. Em boss fights curtos (Fey Meander bosses), Acilia sustain pode ser melhor."
   }
 ];
 
