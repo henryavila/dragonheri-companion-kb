@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# Superpowers session artifacts
+.superpowers/
+
+# OS files
+Thumbs.db
+.DS_Store

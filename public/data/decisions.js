@@ -1,0 +1,1649 @@
+// decisions.js — Extracted from context/decisions-log.md
+// Generated: 2026-02-13
+
+window.DATA_DECISIONS = [
+  {
+    date: "2026-03-26",
+    title: "Shadow World Expedition: 4 bosses — Twitch 177M, Vasska 98M, Tamar 86M, Thelandor 46.8M (total 407.8M)",
+    tags: ["shadow-world-expedition", "continental-boss", "twitch", "vasska", "tamar", "thelandor", "score"],
+    summary: "Todos os 4 bosses com novos recordes na Shadow World Expedition (substitui Continental Challenge). Twitch 177M (+172%), Vasska 98M (+140%), Tamar 86M (+78%), Thelandor 46.8M (+48%). Total: 407.8M (era 144M).",
+    impact: "Salto massivo em todos os bosses. Twitch lidera com 177M. Thelandor: novo lineup com Irzillas no triple Summon. Vasska: Ice Elite com Hvitar como carry. Tamar e Twitch: mesmos lineups, scores muito maiores.",
+    details: `SHADOW WORLD EXPEDITION (26/Mar/2026)
+Substitui o Continental Challenge. Mesmos bosses, novo modo.
+
+TWITCH — 177.000.000 (era 64.916.184, +172%)
+- Nastjenka (20740) — Captain / DPS carry
+- Divine Ascetic (23020) — DPS burst / Feather enabler
+- Acilia (20420) — Frontline sustain / Anti-debuff
+- Tharivol (20890) — DPS single-target / ATK Speed ramp
+- Sutha (21560) — DPS burst / ATK Speed
+- Mesmo lineup, score quase 3x maior
+
+VASSKA — 98.000.000 (era 40.727.619, +140%)
+- Time: Ice Elite (Hvitar + Auster + Lossenia + Hochadir + Felosia)
+- Lineup exato pendente de confirmacao detalhada
+
+TAMAR — 86.000.000 (era 48.303.293, +78%)
+- Lothair + Durango + Twitch + Ergander + Oggok
+- Mesmo lineup Full Poison
+
+THELANDOR — 46.800.000 (era 31.588.324, +48%)
+- Ladehlia + Sintrellia + Eurion + Isitarian + Irzillas
+- Novo lineup com Irzillas (triple Summon school)
+
+TOTAL: 407.800.000 (era 144.203.966, +183%)`
+  },
+  {
+    date: "2026-03-26",
+    title: "Banner Thelendor 300 pulls: 3 heróis novos (Irzillas, Zeffi, Thelendor) + 7 inspirations",
+    tags: ["banner", "summon", "thelendor", "irzillas", "zeffi", "inspiration", "300-pull"],
+    summary: "Banner Thelendor 300 pulls rendeu 10 legendários: 3 novos (Irzillas, Zeffi DI#2, Thelendor AC SS DI#15) e 7 duplicatas convertidas em inspiration (Lucien x2, Sutha x2, Huberg, Talwer, Ergander).",
+    impact: "Irzillas já entrou no time Thelandor (46.8M). Thelendor (Radiance Rally, AC SS, DI#15) é DPS top-tier — potencial para time Rally/Radiance. Zeffi (DI#2!) surpreende com AC B mas DI altíssimo — DEF Up II + Invincibility + dispel passivo.",
+    details: `BANNER 300 PULLS (data exata nao informada, registrado 26/Mar/2026)
+
+HEROIS NOVOS (3):
+- Irzillas (22180) — Necrosis, Legendary, Summon school. AC A, HH 3.6, DI #39. Já no time Thelandor
+- Zeffi (22040) — Lightning, Legendary, Support school. AC B, HH 3.8, DI #2! DEF Up II + Invincibility + dispel
+- Thelendor (20840) — Radiance, Legendary, Rally school. AC SS, HH 4.2, DI #15! Moonlight rain DPS + DEF ignore por Rally stack
+
+DUPLICATAS → INSPIRATION (7):
+- Lucien (20990): insp 1 → 3 (+2)
+- Sutha (21560): insp 1 → 3 (+2)
+- Huberg (20320): insp 0 → 1 (+1)
+- Talwer (21320): insp 3 → 4 (+1)
+- Ergander (21010): insp 1 → 2 (+1)
+
+TOTAIS ATUALIZADOS:
+- Heroes: 163 → 166
+- Legendaries: 42 → 45
+- Inspirations: 35 → 42`
+  },
+  {
+    date: "2026-03-24",
+    title: "Planar Expedition: Vortex (novo time) sobe para 13.250 pontos",
+    tags: ["planar-expedition", "guild-boss", "vortex", "score", "symbiotic-giga-elementa"],
+    summary: "Novo benchmark reportado para a luta 2/2 de Planar Expedition: o time Vortex, na versao nova, chegou a 13.250 pontos.",
+    impact: "O save anterior do Vortex nesta luta era 7.141. O novo numero confirma um salto relevante, mas a composicao detalhada do 'novo time' ainda nao foi normalizada no dataset canonico.",
+    details: `PLANAR EXPEDITION - SYMBIOTIC GIGA ELEMENTA (24/Mar/2026)
+
+RESULTADO REPORTADO
+- Boss: Symbiotic Giga Elementa (Lv220)
+- Luta: 2/2
+- Time: Vortex (novo time)
+- Pontuacao: 13.250
+
+CONTEXTO
+- Benchmark anterior salvo para esta luta com Vortex: 7.141
+- O jogador confirmou o nome do time e a nova pontuacao
+- A composicao detalhada da versao nova nao foi informada nesta conversa
+
+LEITURA
+- O novo Vortex praticamente dobra o save anterior da luta 2
+- O benchmark fica preservado no log de decisoes e na memoria
+- teams.js da versao antiga permanece como snapshot ate normalizar o lineup exato`
+  },
+  {
+    date: "2026-03-20",
+    title: "Continental Challenge: Khrysos salvo em 3.3M e tentativa encerrada",
+    tags: ["continental-challenge", "imperial-shadow-recast", "khrysos", "score"],
+    summary: "Resultado salvo no boss Khrysos: 3.308.220. A tentativa foi encerrada sem continuar retries.",
+    impact: "Fica registrado o benchmark real salvo do Khrysos nesta rodada, mesmo abaixo dos outros bosses. Decisao de encerrar retries preserva tempo e fecha o ticket.",
+    details: `CONTINENTAL CHALLENGE - KHRYSOS (20/Mar/2026)
+
+RESULTADO SALVO
+- Score final salvo: 3.308.220
+
+LEITURA
+- Tentativa encerrada apos o score de 3.308.220
+- Registro mantido como benchmark real salvo desta rodada
+- A composicao exata desta luta ainda nao foi normalizada no dataset canonico`
+  },
+  {
+    date: "2026-03-20",
+    title: "Continental Challenge: Vinyara salvo em 13.8M",
+    tags: ["continental-challenge", "imperial-shadow-recast", "vinyara", "score"],
+    summary: "Resultado salvo no boss Vinyara: 13.844.586.",
+    impact: "Fica registrado o benchmark atual salvo do Vinyara nesta rodada. A composicao foi confirmada depois e corresponde ao shell Fire/Wild com Brody.",
+    details: `CONTINENTAL CHALLENGE - VINYARA (20/Mar/2026)
+
+RESULTADO SALVO
+- Score final salvo: 13.844.586
+
+TIME CONFIRMADO
+- Flora
+- Brody
+- Errich
+- Caspar
+- Felicity
+
+LEITURA
+- Score registrado como benchmark real salvo desta rodada
+- Composicao confirmada depois: time recomendado com Brody
+- Pode ser promovido ao dataset canonico de teams.js sem alterar o score`
+  },
+  {
+    date: "2026-03-20",
+    title: "Continental Challenge: Tamar sobe para 48.3M com Full Poison",
+    tags: ["continental-challenge", "imperial-shadow-recast", "tamar", "poison", "score"],
+    summary: "Novo resultado salvo no boss Tamar: 48.303.293. O shell Full Poison foi mantido e converteu melhor a mecanica de debuff stacking do fight.",
+    impact: "Fica registrado um salto claro sobre o save anterior de 33.3M sem abandonar a composicao certa do boss. Poison continua sendo a resposta mais coerente para Tamar.",
+    details: `CONTINENTAL CHALLENGE - TAMAR (20/Mar/2026)
+
+RESULTADO SALVO
+- Score final salvo: 48.303.293
+
+TIME MANTIDO - FULL POISON
+- Lothair
+- Durango
+- Twitch
+- Ergander
+- Oggok
+
+LEITURA
+- Mesmo shell Full Poison ja validado anteriormente
+- O boss continua recompensando debuff stacking e feedback de Poison
+- Registro salvo como benchmark atual do Tamar nesta rodada`
+  },
+  {
+    date: "2026-03-20",
+    title: "Continental Challenge: Thelandor sobe para 31.6M com o mesmo Summon Army",
+    tags: ["continental-challenge", "imperial-shadow-recast", "thelandor", "summon", "score"],
+    summary: "Novo resultado salvo no Thelandor: 31.588.324. O time foi mantido em relacao ao save anterior, sem troca de lineup.",
+    impact: "Fica registrado que o shell Summon Army continua escalando bem sem exigir remapeamento de herois. O ganho veio de execucao/otimizacao da mesma base, nao de reinventar a comp.",
+    details: `CONTINENTAL CHALLENGE - THELANDOR (20/Mar/2026)
+
+RESULTADO SALVO
+- Score final salvo: 31.588.324
+
+TIME MANTIDO
+- Ladehlia (captain)
+- Sintrellia
+- Isitarian
+- Ghul'ende
+- Torrin
+
+LEITURA
+- Mesmo time do save anterior de 26.126.556
+- Resultado novo confirma que o shell de summons continua sendo a resposta correta para o boss
+- Registro salvo como benchmark atual do Thelandor nesta rodada`
+  },
+  {
+    date: "2026-03-20",
+    title: "Continental Challenge: Vasska salvo em 58.6M apos 20+ tentativas",
+    tags: ["continental-challenge", "imperial-shadow-recast", "vasska", "hochadir", "score", "retry"],
+    summary: "Resultado salvo no Vasska: 58.623.295. Houve uma tentativa inicial de 71.9M com variante envolvendo Hochadir, mas as runs seguintes ficaram majoritariamente abaixo de 61M e a luta foi fechada no score mais estavel disponivel.",
+    impact: "Fica registrado que o teto observado foi maior que o score salvo, mas sem consistencia suficiente para perseguir mais retries. A decisao correta foi travar a run de 58.6M em vez de arriscar perder tempo no fim da janela.",
+    details: `CONTINENTAL CHALLENGE - VASSKA (20/Mar/2026)
+
+RESULTADO SALVO
+- Score final salvo: 58.623.295
+
+VARIACAO DAS TENTATIVAS
+- Melhor tentativa observada no inicio: 71.9M
+- Essa melhor abertura veio com variante mencionada pelo jogador como "com Hochadir"
+- Depois disso, as runs nao passaram de 61M
+- Faixa mais comum nas retries: abaixo de 60M
+- Apos ~20 tentativas, a luta foi encerrada e o score de 58.623.295 foi salvo
+
+LEITURA
+- Havia teto alto, mas a consistencia caiu forte depois da primeira run
+- O score salvo ficou abaixo do pico, porem acima da faixa recorrente das tentativas posteriores
+- Registro mantido como benchmark real salvo; a composicao exata 5/5 desta variante ainda nao foi normalizada no arquivo canonico de times`
+  },
+  {
+    date: "2026-03-20",
+    title: "Continental Challenge: Twitch sobe para 64.9M com Acilia na frente",
+    tags: ["continental-challenge", "imperial-shadow-recast", "twitch", "dauntless", "acilia", "tharivol", "positioning", "score"],
+    summary: "Novo recorde salvo no boss Twitch: 64.916.184. A comp trocou Tamar por Acilia e Garett por Tharivol; o salto final veio do ajuste de posicionamento.",
+    impact: "Fica salvo um padrao mais estavel que o antigo glass cannon de 44M. Acilia protege a abertura, Nastjenka para de tomar foco cedo, e Tharivol alimenta o core Dauntless sem depender da aura redundante do Garett.",
+    details: `CONTINENTAL CHALLENGE - TWITCH (20/Mar/2026)
+
+TIME FINAL SALVO
+- Nastjenka (captain)
+- Sutha
+- Divine Ascetic
+- Tharivol
+- Acilia
+
+TROCAS DE COMPOSICAO
+- Tamar -> Acilia
+- Garett -> Tharivol
+
+PROGRESSAO DA RUN
+- Primeira rodada com a nova comp: ~51.7M
+- Ajuste vencedor: Nastjenka estava de frente para o boss; trocou de lugar com a Acilia
+- Posicionamento final salvo: Acilia na frente, Nastjenka fora da linha direta do boss, Tharivol no fundo atras da Acilia
+- Resultado final salvo: 64.916.184
+
+LEITURA
+- O gargalo real era survival/targeting, nao falta de dano bruto
+- Acilia segurou a linha inicial e reduziu a morte precoce do carry
+- Tharivol encaixou melhor que Garett neste shell porque converte ATK Speed em valor direto para a Nastjenka`
+  },
+  {
+    date: "2026-03-15",
+    title: "S1 Legendary Hero Prince Chest: Tharivol escolhido (Lightning Dauntless, DI #35)",
+    tags: ["chest", "tharivol", "lightning", "dauntless", "s1"],
+    summary: "Bau S1 Legendary Hero Prince Chest com 24 opcoes. 4 herois novos disponiveis: Alton (Radiance DI#19), Premtsa (Necrosis DI#25), Tharivol (Lightning DI#35), Irzillas (Necrosis DI#39). Escolhido Tharivol por: (1) desbloqueia 4 composicoes AllClash Endgame (G.Venom, G.Rot, A.Battlefield, Frost Domain), (2) Battle skill ignora Immortality (mecanica unica), (3) sinergia direta com Nastjenka (ATK Speed stacking → Crit Rate), (4) 'golden trio' Nastjenka+Ivellios+Tharivol domina endgame. Premtsa (2a opcao) descartada por cair na S3. Alton (3a) descartado por 'not too relevant outside rally' (HellHades).",
+    impact: "42o Legendario. Time Dauntless atualizado: Garett sai, Tharivol entra (com Acilia). 4 times AllClash Endgame desbloqueados. Nastjenka+DA+Sutha+Tharivol+Acilia = nova composicao principal.",
+    details: `BAU S1 LEGENDARY HERO PRINCE CHEST (24 opcoes, 15/Mar/2026)
+
+HEROIS NOVOS DISPONIVEIS (4 de 24):
+- Alton (Radiance Rally, AC S, HH 4.0, DI #19) — HellHades: "little use outside rally, not too relevant right now"
+- Premtsa (Necrosis Summon, AC SS, HH 3.9, DI #25) — SS tier mas cai na S3
+- Tharivol (Lightning Dauntless, AC A, HH 3.7, DI #35) — Core do "golden trio" com Nastjenka
+- Irzillas (Necrosis Summon, AC A, HH 3.6, DI #39) — Support/summoner nicho
+
+ESCOLHA: THARIVOL
+- AllClash endgame usa em G.Venom, G.Curse, A.Battlefield, Frost Domain
+- Battle 300% single target IGNORA IMMORTALITY
+- Passiva ATK Speed Up por hit no mesmo alvo (ate 15 stacks)
+- Nastjenka passiva: 10% ATK Speed extra = +1% Crit Rate → multiplicador direto
+- Comunidade confirma: "Nastjenka needs Ivellios, Tharivol and Sutha to function at peak"
+
+TIME DAUNTLESS ATUALIZADO:
+Nastjenka(cap) + DA + Sutha + Tharivol + Acilia
+Garett → reserva (captain aura redundante com Nastjenka)`
+  },
+  {
+    date: "2026-03-13",
+    title: "Continental Challenge Semana 3: 4 bosses salvos — 144.2M total (Twitch 44M, Vasska 40.7M, Tamar 33.3M, Thelandor 26.1M)",
+    tags: ["continental-challenge", "imperial-shadow-recast", "vasska", "thelandor", "twitch", "tamar", "hvitar", "rowena", "frost", "poison", "optimization"],
+    summary: "Salvou 4 bosses no Continental Challenge. Twitch (Dauntless) 44M, Vasska (Frost Blitz) 40.7M, Tamar (Poison Chain) 33.3M, Thelandor (Summon) 26.1M. Total: 144.2M. Vasska 4 iteracoes, Tamar 3 iteracoes. Rank 12 (top 11-20) → 110 Shadow Amethysts. Total amethysts ~475 → Utior GARANTIDO.",
+    impact: "144.2M total em 4 bosses. Rank 12 no Continental. 475 Shadow Amethysts = Utior garantido (450 necessarios). Twitch (heroi) = DPS carry BRUTAL no Poison (62k/s). Rowena (EPIC!) provou mecanica > raridade. Hvitar justificou 300 pulls.",
+    details: `CONTINENTAL CHALLENGE SEMANA 3 (4 tickets)
+
+BOSS 1 — TWITCH: 44,012,678 (Tier S++)
+- Time: Nastjenka(cap) + DA + Sutha + Garett + Tamar
+- Dauntless puro. ~15 retries para conseguir. Todos morrem eventualmente.
+
+BOSS 2 — THELANDOR: 26,126,556 (Tier S+)
+- Time: Ladehlia(cap) + Sintrellia + Isitarian + Ghul'ende + Torrin
+- Isitarian > Zhar'loth (+22% dano). Dragon Remnant synergy com summons.
+
+BOSS 3 — VASSKA: 40,727,619 (Tier S++)
+- Time FINAL: Lossenia(cap) + Auster(DPO) + Hvitar(RoW) + Rowena(Eyeball) + Felosia(Aurelium)
+- 4 iteracoes de otimizacao:
+  (1) Hochadir+Eurion = 21.5M (baseline)
+  (2) Felosia+Eurion = 26.5M auto (+23%, survival perfeito)
+  (3) Rowena(DPO)+Felosia = 39.2M manual (sem Eurion, +83%)
+  (4) DPO→Auster + Eyeball→Rowena = 40.7M manual (+89% vs baseline)
+
+APRENDIZADOS CONTINENTAL:
+1. Isitarian > Zhar'loth em bosses de summon — DPS multiplicativo > Def Down utility
+2. Ring of Winter na Hvitar (DoT constante) > Auster (burst periodico) = mais procs ice storm
+3. DPO no heroi com ATK MAIS ALTO (Auster 8/8 > Rowena Epic) = buff mais forte pro time
+4. Eyeball no heroi com Ult MAIS FORTE (Rowena 800% Frost > Auster 520%) = mais impacto
+5. Eurion e gargalo de DPS em boss fights — substituir por DPS + shield (Felosia) = +14M
+6. 4 Frost DPS + 1 shield > 2 DPS + 2 survival quando boss nao tem one-shot
+7. Time morrendo com DPS alto (40.7M) >>> time vivo com DPS baixo (26.5M)
+8. Rowena (EPIC) com 800% Frost + ignora DEF vale slot — mecanica > raridade
+9. Artifact swap entre 2 herois (DPO↔Eyeball) = +1.5M — otimizacao importa
+10. Felosia Ult timing (30% DR + Control Immunity 10s) = janela de burst segura no manual
+
+BOSS 4 — TAMAR: 33,350,971 (Tier S+)
+- Time: Lothair + Durango + Twitch + Ergander + Oggok (Enlight aura captain)
+- Full Poison. 3 iteracoes: 24.3M → 28.7M → 33.3M (runas+gear otimizados)
+- Twitch = DPS carry BRUTAL (62k/s vs Lothair 27k/s vs Durango 13k/s)
+- Lothair+Durango morreram 4s antes do fim
+
+TOTAL SEMANA 3: 144.2M em 4 bosses (Twitch 44M + Vasska 40.7M + Tamar 33.3M + Thelandor 26.1M)`
+  },
+
+  {
+    date: "2026-03-13",
+    title: "Banner Premium Summons Necro/Ice — 300 pulls, Hvitar obtida (pity 300)",
+    tags: ["banner", "summoning", "hvitar", "ice", "frost", "s1-exclusive", "inspirations"],
+    summary: "300 pulls no Banner Premium Summons Necro/Ice. Hvitar selecionada no pity 300. 11 Legendarios no total (1 novo + 10 duplicatas = 10 inspirations). Wyrmarrow zerou.",
+    impact: "Hvitar (DI #6, AC SS, Ice/Frost) é o upgrade MAIS esperado para o time Ice. Substitui Hochadir na Frost chain. Execute <15% HP + Icewind auto + DoT = DPS massivo. Time Ice agora no nivel do AllClash ideal.",
+    details: `BANNER: Premium Summons Necro/Ice
+Selectáveis (pity 300): Hvitar, Felosia, Ghul'ende, Lelwanis
+Escolhida: HVITAR
+
+LEGENDARIOS OBTIDOS (11 total):
+- Hvitar (NOVO) — Ice/Frost S1 Exclusive, DI #6, AC SS
+- Ghul'ende (duplicata → Insp.1)
+- Felosia (duplicata → Insp.1)
+- Lucien (duplicata → Insp.1)
+- Journ (duplicata → Insp.3)
+- Errich (duplicata → Insp.3)
+- Rhash (duplicata → Insp.1)
+- Durango x2 (duplicatas → Insp.3)
+- Alphanarsy (duplicata → Insp.2)
+- Divine Ascetic (duplicata → Insp.1)
+
+RECURSOS: Wyrmarrow 0 (zerou)
+
+IMPACTO NOS TIMES:
+- Time Ice/Frost: Hochadir → Hvitar (variante AllClash agora disponivel)
+- Frost chain upgrade: Lossenia aplica → Auster tracking → Hvitar DoT+Execute (substitui detonacao do Hochadir por DPS sustentado + execute)
+- 10 novas inspirations distribuidas em herois-chave (Durango 3, Errich 3, Journ 3)
+
+PRÓXIMO PASSO: Testar Hvitar no time Ice IMEDIATAMENTE`
+  },
+
+  {
+    date: "2026-03-11",
+    title: "DPS Crit Loadouts: benchmark in-game + Clean Sweep para DA",
+    tags: ["gear", "loadout", "divine-ascetic", "nastjenka", "ladehlia", "sutha", "benchmark"],
+    summary: "Captura de stats in-game dos 4 heróis DPS Crit com loadouts equipados. DA troca luva Cyril CritR40 por mythic Clean Sweep ATK%40 (+29.8% DPS). Runas mantidas (CritD positiva, atual negativa).",
+    impact: "DA sobe de #4 para #2 no ranking DPS. Ranking final: Nastjenka 13519 > DA 8621 > Ladehlia 8422 > Sutha 7536.",
+    details: `BENCHMARK (DPS = ATK × (1 + CritR × CritD))
+#1 Nastjenka (Crit 1): ATK 3748, CritR 99.4%, CritD 262.2% → DPS 13,519 | Power 44,426
+#2 DA (Crit 2 + Clean Sweep): ATK 3405, CritR 90.6%, CritD 169.1% → DPS 8,621
+#3 Ladehlia (Crit 4): ATK 3582, CritR 67.0%, CritD 201.7% → DPS 8,422 | Power 43,433
+#4 Sutha (Crit 3): ATK 3629, CritR 71.4%, CritD 150.8% → DPS 7,536 | Power 37,853
+#5 Huberg (Crit 5): ATK 4108, CritR 26.7%, CritD 179.8% → DPS 6,079
+
+DECISÃO: DA — Clean Sweep mythic
+- Troca: Cyril's Whisper gloves (CritR 40 main) → Clean Sweep mythic (ATK% 40 main, CritR 10.5, CritD 16.7)
+- Resultado: ATK +747, CritR +1.5%, CritD +0.8% → +29.8% DPS
+- Perde Cyril 2pc set bonus, mas ganho bruto compensa
+
+RUNAS AVALIADAS (DA com Clean Sweep):
+- Positiva ATK+523 / CritD-40%: -1.1% DPS → REJEITADA (manter CritD)
+- Negativa ATK+134 / CritR-7.2% / CritD-15.1%: -6.1% DPS → REJEITADA (manter atual)
+
+HUBERG — Runas escolhidas:
+- Positiva: ATK +302 + CritR 3.7% (vs CritR 7.4% pura → +10.5% DPS)
+- Negativa: ATK 335 + CritR 4.9% + CritD 42% (excelente, tudo útil)
+- Stats finais: ATK 1590+2518=4108, CritR 26.7%, CritD 179.8%
+- INSIGHT: Huberg tem maior ATK bruto (4108) e CritD forte (179.8%). Gargalo = CritR 26.7%.
+  Com gear CritR 70% → DPS 9,278 (#2). Com 90% → DPS 10,755 (rival Nastjenka).
+  PRIORIDADE: gear com CritR main/subs para Huberg`
+  },
+
+  {
+    date: "2026-03-09",
+    title: "Pillar Expedition (Alliance Event): 24.600k pontos — 4x recorde anterior",
+    tags: ["pillar-expedition", "alliance-event", "immortals-ice", "record", "boss"],
+    summary: "Time Immortals Ice fez 24.600k pontos no evento de aliança Pillar Expedition. Resultado é 4x o valor mais alto anterior. Henry lutou contra 3 bosses.",
+    impact: "Recorde pessoal massivo no evento de aliança. Confirma que o time Immortals Ice (Auster+Lossenia+Torrin+Eurion+Felosia) é extremamente forte em conteúdo de boss prolongado.",
+    details: `RESULTADO
+- Evento: Pillar Expedition (evento de aliança)
+- Time: Immortals Ice
+- Pontuação: 24.600k (24.6M)
+- Recorde anterior: ~6.150k (~6.15M)
+- Multiplicador: 4x o recorde anterior
+- Bosses enfrentados: 3
+
+PRÓXIMOS PASSOS
+- No próximo Pillar Expedition, montar times específicos por boss para maximizar score
+- Documentar composição por boss para otimizar ainda mais`
+  },
+
+  {
+    date: "2026-03-09",
+    title: "Imperial Shadow Recast Sem2: plano 4 bosses + posicionamento consolidado",
+    tags: ["imperial-shadow-recast", "continental-challenge", "semana-2", "planning", "positioning", "thelandor", "vasska", "vinyara", "tamar"],
+    summary: "Plano do Continental foi limpo e consolidado para Semana 2 (4 tickets), com 1 mapa operacional por boss e posicionamento objetivo para reduzir erro de lock e ganhar consistencia.",
+    impact: "Execucao ficou direta para rotina curta: 4 bosses definidos, 20 herois unicos mapeados e posicionamento pronto para retry/salvar score sem improviso.",
+    details: `CONTEXTO
+- Henry entrou na Semana 2 (4 tickets) e pediu reorganizacao total do plano.
+- O mapa anterior estava com informacao repetida e distribuida em fases diferentes.
+
+DECISAO
+- Consolidar 1 mapa operacional com 4 bosses e 20 herois unicos:
+  1) Thelandor: Ladehlia + Sintrellia + Ghul'ende + Zhar'loth + Torrin
+  2) Vasska: Lossenia + Auster + Hochadir + Vinyara + Felosia
+  3) Vinyara (boss): Flora + Brody + Errich + Caspar + Felicity
+  4) Tamar (boss): Durango + Lothair + Vicana + Jathalea + Ergander
+
+POSICIONAMENTO CHAVE
+- Thelandor: bloco recuado protegendo Ladehlia (carry).
+- Vasska: 4 no canto do fundo e Hochadir 1 passo a frente (setup benchmark 35M).
+- Vinyara: Brody isolado na frente; 4 DPS no fundo bem espacado.
+- Tamar: Ergander ancora no centro; Vicana/Jathalea em cantos opostos no fundo.
+
+LEARNING
+- Posicionamento impacta score tanto quanto troca de heroi em fights com pressao no backline.
+- Plano operacional limpo por semana reduz erro de lock e acelera execucao (30-40 min/dia).`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Temporal Vortex: Dauntless Aggro 31.3M (Nastjenka+Garett+DA+Sutha+Acilia)",
+    tags: ["temporal-vortex", "team", "dauntless", "acilia", "optimization", "31M"],
+    summary: "Otimizou time de Vortex em 4 etapas: Wild Fire puro (~5M) → +Felosia (19M) → Dauntless+Torrin+Eurion (23-24M) → Dauntless Aggro+Acilia (31.3M). Garett > Sutha confirmado (43% vs 27% DPS). Acilia como sustain solo + 5 Resplendence superou modulo Torrin+Eurion.",
+    impact: "Score Vortex: 31.3M (recorde pessoal). +30% vs time anterior (24M). APRENDIZADO: aura captain NAO stacka — so 1 ativa.",
+    details: `EVOLUCAO COMPLETA:
+- Wild Fire puro (Caspar+Errich+Adolphus+Flora+Felicity): ~5M — morre rapido
+- Wild Fire + Felosia (no lugar de Caspar): 19M — sustain resolve morte
+- Dauntless + Sutha + Torrin+Eurion: 23M — imortalidade + burst
+- Dauntless + Garett + Torrin+Eurion: 24M — Garett > Sutha
+- Dauntless Aggro (Nastjenka+Garett+DA+Sutha+Acilia): 31.3M — CAMPEAO!
+INSIGHT: 5 Resplendence (+20% Elemental DMG) + Acilia (5.0/5.0 Vortex, DI #14) como sustain solo > modulo Torrin+Eurion (2 slots).
+AURA: Captain aura NAO stacka. So 1 ativa. +24% ATK (Nastjenka) > +24% Crit DMG (Garett) quando <3/5 tem crit alto.
+DAUNTLESS BOND: 2=40%, 3+=50% Thundercloud. Jump de 2→3 e pequeno (+10%).`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Piece of Treasure: Weapon Fearless Challenge para Nastjenka (forge + smelt)",
+    tags: ["gear", "forge", "piece-of-treasure", "weapon", "nastjenka", "fearless-challenge"],
+    summary: "Forjou Mythic Weapon com set Fearless Challenge (+16% damage vs inimigos com >50% mais HP). Substats: Crit Damage 36.8% (4 upgrades), ATK% 5.5%, Crit Rate 3.6%, Accuracy 7. Smeltou 18 cristais em ATK% e outros subs.",
+    impact: "Weapon transferivel para qualquer DPS. +16% damage incondicional em PvE. Carry para S2 via Boundless Chest.",
+    details: `ANALISE COMPLETA:
+- 14 sets miticos analisados (6 Weapon/Helmet, 8 Armor/Gloves)
+- Fearless Challenge escolhido por: 16% incondicional > 25% Imposing Presence com uptime baixo (Nastjenka Melee)
+- Weapon escolhido por: ATK main stat (melhor para DPS) vs Armor (DEF/HP main)
+- 4x upgrades em Crit Damage (7%/upgrade = maior valor bruto)
+- Primeiro craft teve CD 35.7% mas ATK% 2.3% (pessimo). Resetou pois selecionou set errado.
+- Segundo craft: CD 36.8%, ATK% 5.5%, CR 3.6%, ACC 7 — base rolls excelentes.
+- 4o sub: Accuracy (transferivel para Vinyara/Lothair) em vez de HP% original.
+- Smeltou ~18 cristais em ATK% (prioridade). Sobraram 2.
+- APRENDIZADO: ATK Speed e Skill Haste NAO existem como gear substats (somente Runas).
+- APRENDIZADO: Gear substats salvos em mechanics.js com base/upgrade ranges completos.`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "PvP Arena refatorado: Triple Control Immunity (rank 108 → 19!)",
+    tags: ["pvp", "arena", "team", "lucien", "felosia", "control-immunity"],
+    summary: "Substituiu Garett+Voresh por Lucien(Captain)+Felosia. Triple Control Immunity + Lucien captain +30% Max HP resolveu o problema de morrer facil. Artefatos PvP reassignados. Resultado: rank 108 → 19.",
+    impact: "Rank 108 → 19 no PvP Arena. Salto de 89 posicoes. Time nao morre mais. Nastjenka como unico DPS e suficiente quando time sobrevive.",
+    details: `TIME ANTERIOR (rank 80): Nastjenka+Vinyara+Eurion+Voresh+Garett
+PROBLEMA: sem Control Immunity, sem healer, Garett Melee morria primeiro
+NOVO TIME: Lucien(Captain)+Nastjenka+Vinyara+Felosia+Eurion
+TRIPLE CONTROL IMMUNITY:
+- Layer 1 (segundo 0): Lucien passiva → Shield + Control Immunity + Ult Energy protection
+- Layer 2 (cada 6s): Vinyara auto-resist CC → counter-Freeze atacante
+- Layer 3 (ult ready): Felosia ult → Shield AoE + 30% DR + Control Immunity 10s
+ARTEFATOS PVP:
+- Nastjenka: The Great River Lamp (melhor que Thunder Deity em PvP — +10% stacking)
+- Eurion: Giant Turtle Shell (AoE shield > Drugo taunt em PvP)
+- Vinyara: Rift Hourglass (ACC + Skill Haste para ciclar ult)
+- Felosia: Aurelium Vest (shield → -10% DMG)
+- Lucien: Gatekeeper's Staff (overheal → shield)
+LUCIEN TALENT: Bottom (Defensiva) — HP% > DEF% > RES > ACC`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Frey Lv231->240: formacao do time Immortals e novo wall de DPS",
+    tags: ["frey-corridor", "progress", "lv231", "lv239", "lv240", "immortals", "felosia", "torrin", "rowena", "acilia"],
+    summary: "Com food Ice e pivot para Felosia, a progressao subiu ate Lv239; no Lv240, os testes mostraram trade-off claro entre sustain total e dano para fechar no tempo.",
+    impact: "Time Immortals virou baseline de consistencia no Frey alto. Proximo passo e versao hibrida (Torrin + Rowena) para manter sobrevivencia sem estourar o timer.",
+    details: `CHECKPOINTS REPORTADOS (FREY)
+- Lv231: clear com tank morto no fim da luta, Torrin segurando a run. Food usado: bonus Ice.
+- Gargalo da fase: Lothair pulando no backline e matando DPS/support.
+
+SWAPS TESTADOS
+- Tamar -> Felosia: passou o Lv231 (novo core "Immortals").
+- Com Immortals: avancou ate Lv239.
+- Lv240 teste 1: Felosia -> Acilia (mantendo Torrin) = timeout; ninguem morreu.
+- Lv240 teste 2: Torrin -> Rowena (com Acilia) = mais dano bruto, mas DPS morreram e run terminou com boss ~40% HP e <1 min restante.
+
+LEARNING
+- Torrin e ancora de estabilidade no Frey alto.
+- Felosia e resposta forte contra dive no backline (ex: Lothair).
+- Acilia + Torrin ao mesmo tempo pode alongar demais a luta em andares de timeout.
+- Comp hibrida passa a ser prioridade: manter Torrin e adicionar DPS extra sem abrir mao da sobrevivencia.`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Affinity bonuses atualizados por screenshot in-game (conta atual)",
+    tags: ["mechanics", "elemental-affinity", "permafrost", "ulceration", "resplendence", "logs"],
+    summary: "Screenshots em logs confirmaram o estado atual dos bonus de afinidade e corrigiram premissas antigas (3x vs 5x herois).",
+    impact: "Build/teambuild passa a considerar bonus extra real com 5 herois da mesma afinidade: +20% Elemental Damage Bonus e +2% Damage Resistance.",
+    details: `FONTE
+- logs/Captura de tela 2026-03-06 112608.png (Permafrost)
+- logs/Captura de tela 2026-03-06 112612.png (Wildfire)
+- logs/Captura de tela 2026-03-06 112616.png (Resplendence)
+
+BONUS 3 HEROIS (estado atual da conta)
+- Permafrost: +20% ATK, +20% HP, ACC 50, RES 50, DEF 200, HP 2000, ATK 200
+- Wildfire/Ulceration: +20% ATK, +20% HP, ACC 50, RES 20, DEF 200, HP 2000, ATK 200
+- Resplendence: +20% ATK, +20% HP, ACC 50, DEF 200, HP 2000, ATK 200
+
+BONUS 5 HEROIS
+- Elemental Damage Bonus +20%
+- Damage Resistance +2%
+
+CORRECOES
+- Ulceration nao esta mais em +2% HP neste snapshot (agora +20% HP)
+- 5 herois nao e igual a 3 herois no estado atual da conta`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Frey Lv220->229: sequencia de swaps consolidada e novo wall mapeado",
+    tags: ["frey-corridor", "progress", "lv220", "lv222", "lv226", "lv229", "rowena", "felosia", "torrin", "acilia", "fire-wild"],
+    summary: "Apos passar o Lv219, a progressao no Frey subiu ate o Lv229 com iteracoes de burst/sustain; o novo bloqueio e uma comp Fire/Wild de alta pressao.",
+    impact: "Registro completo de benchmark por troca: ficou claro quando priorizar burst (Rowena) vs estabilidade (Felosia), e que Torrin com Horn como amplificador rendeu mais progresso que Acilia nesse trecho.",
+    details: `CHECKPOINTS REPORTADOS (FREY)
+- Lv219: clear facil com time recomendado
+
+- Lv220->222
+  * Trocas: Torrin -> Acilia e Tamar -> Rowena (Ice Epic DPS)
+  * Resultado: avancou ate Lv222
+
+- Lv223->226
+  * Troca: Acilia -> Torrin (com Solar King's Horn para amplificar dano)
+  * Resultado: avancou ate Lv226
+  * Observacao: Rowena virou TOP2 DPS, mas morreu rapido em alguns andares
+
+- Lv227->229
+  * Troca: Rowena -> Felosia (mais tempo de luta)
+  * Resultado: avancou ate Lv229
+
+WALL ATUAL (LV229)
+- Inimigos: Felicity x2 (back corners), Caspar (back center), Horrus + Garrika (front)
+- Diagnostico: comp Fire/Wild de burst prolongado; luta longa acaba derretendo Eurion e depois o resto do time
+
+LEARNING
+- Rowena aumenta teto de burst, mas exige protecao extra para uptime.
+- Felosia reduz risco e aumenta consistencia em andares longos.
+- No trecho Lv220->229, Torrin com Horn como amplificador teve impacto maior de progressao que Acilia.`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Frey: progresso consolidado por nivel e clear da fase Lv219 com anti-buff",
+    tags: ["frey-corridor", "progress", "lv170", "lv172", "lv204", "lv219", "tamar", "bionphray", "deverick", "manual"],
+    summary: "Progresso do Frey foi consolidado com registro por checkpoint; a fase travada no Lv219 caiu com setup anti-buff (Tamar) e controle manual de janela.",
+    impact: "Agora existe roteiro replicavel por nivel. Em andares de sustain pesado, anti-buff com Accuracy alto entrega mais resultado que insistir no mesmo core sem ajuste.",
+    details: `CHECKPOINTS SALVOS (FREY)
+- Lv170: Lossenia + Auster + Hochadir + Vinyara + Felosia (posicionamento em canto para proteger DPS)
+- Lv172: Lossenia + Auster + Eurion + Vinyara + Felosia (troca Hochadir -> Eurion para segurar frontline)
+- Fase de Mithrasea/Donella: clear ao jogar Manual e focar ultis na Mithrasea
+- Lv204 (inimigos: Fihrah/Alvis atras; Garrika+Acilia+Martina na frente): progresso mantido
+- Lv219 (inimigos: 2x Bionphray frente, Vinyara centro, 2x Deverick cantos): fase superada
+
+TIME DO CLEAR DA FASE LV219
+- Eurion + Torrin + Tamar + Lossenia + Auster
+
+SETUP CHAVE (TAMAR)
+- Artefato: Rift Hourglass
+- Talentos S1: linha do meio completa (I->VI)
+- Thresholds: Accuracy 300+ e Skill Haste 45+
+
+LEARNING
+- Contra comp de tank+sustain, Tamar (Buff Prohibition + dispel + Attack Penalty II) muda a luta.
+- Manual continua decisivo para priorizar janela de ult e alvo certo.`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Frey: clear do bloqueio com Manual focando Mithrasea",
+    tags: ["frey-corridor", "manual", "mithrasea", "targeting", "donella", "progress"],
+    summary: "No Auto a luta estendia e resetava por ressurreicao da Mithrasea; no Manual com foco de ult no alvo certo, o clear saiu.",
+    impact: "Aprendizado pratico para Frey alto: controle de alvo no Manual decide mais que trocar 1 heroi quando o gargalo e ressurreicao.",
+    details: `CENARIO
+- Time Ice com posicionamento em canto ja sobrevivia, mas sem finalizar por causa de ressurreicao.
+- Problema principal: Mithrasea + Donella estendendo a luta; Sagomir mergulhando no backline.
+
+DECISAO VENCEDORA
+- Jogar em Manual
+- Direcionar ultis para prioridade de alvo (Mithrasea primeiro)
+
+LEARNING
+- Auto tende a gastar burst em alvo errado nesse tipo de comp.
+- No cliente S1, na pratica, nao ha "lock" persistente de alvo para manter foco o tempo todo; o ajuste e manual por janela de skill/ult.`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Vasska Sem1: score final fechado em 35M com posicionamento no canto",
+    tags: ["imperial-shadow-recast", "continental-challenge", "semana-1", "vasska", "ice", "positioning", "score"],
+    summary: "Resultado final da Semana 1 no Vasska subiu para 35M com stack no canto e protecao dos DPS atras das supports.",
+    impact: "Novo benchmark da semana salvo. Mostra que ajuste de posicionamento entregou ganho maior que troca simples de heroi.",
+    details: `RESULTADO FINAL SALVO
+- Boss: Vasska (Continental, Semana 1)
+- Score final: 35M
+
+TIME USADO
+- Lossenia + Auster + Hochadir + Vinyara + Felosia
+
+POSICIONAMENTO CHAVE
+- 4 herois no canto do fundo
+- DPS protegidos atras de Felosia e Vinyara
+
+LEARNING
+- Posicionamento foi o maior multiplicador de score nesta luta.`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Frey Corridor: progresso ate Lv172 com variante anti-morte do time Ice",
+    tags: ["frey-corridor", "time-ice", "positioning", "progress", "mithrasea", "donella"],
+    summary: "Com o time Ice usado no Continental, houve progresso ate o Lv170; ao trocar Hochadir por Eurion, avancou ate o Lv172.",
+    impact: "Sobrevivencia estabilizada, mas surgiu gargalo de finalizacao: Mithrasea ressuscita alvos e prolonga a luta.",
+    details: `PROGRESSO REPORTADO
+- Time base (Continental): Lossenia + Auster + Hochadir + Vinyara + Felosia
+- Avanco inicial: ate Lv170
+- Ajuste: Hochadir -> Eurion
+- Novo avanco: ate Lv172
+
+GARGALO ATUAL
+- Dive no backline mata DPS se posicionamento nao estiver fechado
+- Mithrasea fica intocavel em janela critica e ressuscita os alvos
+- Donella adiciona controle/debuff e aumenta pressao de tempo`
+  },
+
+  {
+    date: "2026-03-06",
+    title: "Vasska Sem1: teste de posicionamento em canto eleva score para 34M",
+    tags: ["imperial-shadow-recast", "continental-challenge", "semana-1", "vasska", "ice", "positioning", "score"],
+    summary: "Ajuste de posicionamento no time Ice (stack no canto do fundo com DPS protegidos por Felosia e Vinyara) elevou o score para 34M.",
+    impact: "Salto expressivo de score no mesmo core de herois. Reforca que posicionamento impacta tanto quanto build em fights com burst nos backliners.",
+    details: `TESTE REPORTADO
+- Time: Lossenia + Auster + Hochadir + Vinyara + Felosia
+- Posicionamento: 4 herois no canto do fundo; DPS atras de Felosia e Vinyara
+- Resultado: 34M
+
+LEARNING
+- Proteger DPS com dupla de suporte na linha da frente/imediata reduz mortes precoces de Auster/Lossenia.
+- Ajuste de posicionamento pode gerar ganho grande de score sem trocar herois.`
+  },
+
+  // ── 2026-03-06 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-03-06",
+    title: "Continental Challenge Sem1: 2o ticket salvo com Dauntless + Acilia (15.866.656)",
+    tags: ["imperial-shadow-recast", "continental-challenge", "semana-1", "vasska", "dauntless", "acilia", "stats", "score"],
+    summary: "Com o Thelandor ja salvo e os herois travados, o 2o ticket da semana foi fechado com Nastjenka+Sutha+Garett+Divine Ascetic+Acilia.",
+    impact: "Baseline de referencia salvo para Sem2/Sem3. Aprendizado reforcado: no Continental, threshold de atributos decide mais que trocar 1 heroi sem recalibrar build.",
+    details: `CONTEXTO
+- Semana 1: ticket 1 ja salvo no Thelandor
+- Ticket 2 salvo no Vasska com time Dauntless + Acilia
+
+TIME USADO
+- Nastjenka (20740)
+- Sutha (21560)
+- Garett (20660)
+- Divine Ascetic (23020)
+- Acilia (20420)
+
+RESULTADO
+- Score salvo: 15.866.656
+
+STATS REGISTRADOS (prints em logs/)
+- Nastjenka: ATK 4114 | Crit Rate 94.0% | Crit Damage 156.1% | Skill Haste 20
+- Divine Ascetic: ATK 3528 | Crit Rate 105.1% | Crit Damage 145.4% | Accuracy 132
+- Sutha: ATK 4458 | Crit Rate 17.5% | Crit Damage 137.5% | Accuracy 159
+- Garett: ATK 2542 | Crit Rate 22.0% | Crit Damage 129.4% | Skill Haste 20
+- Acilia: HP 126944 | DEF 3136 | Enlightenment 195 | Skill Haste 12
+
+LEARNING
+- Build/atributos pesam mais que trocar 1 heroi sem ajustar set.
+- Proximo passo: subir crit real de Sutha/Garett e converter overcap de crit do DA em dano.`
+  },
+
+  // ── 2026-03-05 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-03-05",
+    title: "Banner atual: Felosia selecionada + 7 lendarios (2 novos, 5 inspirations)",
+    tags: ["banner", "summon", "felosia", "lucien", "vinyara", "tamar", "ergander", "donella", "alphanarsy", "inspiration"],
+    summary: "No banner atual vieram Vinyara, Tamar, Lucien, Alphanarsy, Ergander e Donella; heroi selecionado: Felosia. Novos no roster: Lucien e Felosia.",
+    impact: "Roster sobe para 161 herois e 40 lendarios. Ganho de 5 inspirations lendarias: Vinyara 0→1, Tamar 0→1, Alphanarsy 0→1, Ergander 0→1, Donella 1→2. Felosia adiciona camada forte de sobrevivencia para Vortex/Graves.",
+    details: `Resultado do banner atual
+- Novos lendarios: Lucien (Ice/Support), Felosia (Ice/Support - selecionada)
+- Duplicatas (inspiration):
+  - Vinyara 0->1
+  - Tamar 0->1
+  - Alphanarsy 0->1
+  - Ergander 0->1
+  - Donella 1->2
+
+Observacao de uso:
+- Felosia: foco em sobrevivencia (shield AoE + Damage Reduction + Control Immunity)
+- Lucien: opcao defensiva de Ice para lutas com controle pesado.`
+  },
+
+  {
+    date: "2026-03-05",
+    title: "Grave of Rot: novo setup com Eches limpa Lv15, mas Lv16 ainda trava no Devour",
+    tags: ["times", "grave-rot", "eches", "acilia", "torrin", "nastjenka", "artefato", "teste"],
+    summary: "Com Eches no lugar da Donella, o time passou o Grave of Rot Lv15. No Lv16, o boss ainda vence no endgame com devour sequencial (Acilia e depois Eches).",
+    impact: "Upgrade real de consistencia no Lv15. Gargalo atual mudou de 'morrer cedo' para 'controle de devour/janela final' no Lv16.",
+    details: `SETUP TESTADO (Grave of Rot)
+- Time: Nastjenka + Divine Ascetic + Acilia + Torrin + Eches
+- Resultado: Lv15 CLEAR
+- Lv16: falha no endgame (Acilia e depois Eches devorados)
+
+Artefatos usados no teste:
+- Eches -> Rift Hourglass
+- Nastjenka -> The Great River Lamp
+- Acilia -> Mirror of the Living
+
+Leitura do teste:
+- Debuff/control de campo melhorou com Eches
+- Sobrevivencia geral subiu em relacao ao setup anterior
+- Proximo gargalo e timing/posicionamento para segurar a fase de Devour no Lv16.`
+  },
+
+  {
+    date: "2026-03-05",
+    title: "Grave of Rot Lv18 CLEAR: threshold de status/atributos decide a run",
+    tags: ["times", "grave-rot", "summon", "gear", "artefato", "accuracy", "crit", "aprendizado"],
+    summary: "Clear do Lv18 veio ao focar status/atributos (gear+artefatos): summons em crit altissimo e debuffer com ~400 Accuracy para manter uptime de debuffs.",
+    impact: "Aprendizado chave de progressao alta: em Rot Lv18, a composicao so funciona com thresholds de stats. Sem esses thresholds, o boss entra no endgame e devora em sequencia.",
+    details: `RESULTADO
+- Grave of Rot Lv18 CLEAR
+
+TIME REPORTADO
+- Torrin + Ladehlia + Isitarian + Sintrellia/Zadok
+- Debuffer com ~400 Accuracy
+- Summons com crit muito alto (proximo de 100%)
+
+LEARNING (PRATICO)
+- O segredo nao foi trocar apenas heroi: foi bater o threshold de status/atributos
+- Accuracy alto no debuffer = debuff consistente no boss
+- Crit alto nos summons = dano suficiente para fechar antes do endgame de Devour
+- Gear + artefato certos mudam mais o resultado que trocar 1 heroi sem ajustar stats.`
+  },
+
+  // ── 2026-02-26 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-26",
+    title: "Banner Flora 300 pulls — Flora obtida (DI #1) + Huberg + 4 Inspirations + 2 Mythics comprados",
+    tags: ["banner", "flora", "huberg", "fire", "wild", "radiance", "rally", "artefato", "mythic", "afinidade"],
+    summary: "Banner exclusivo Flora 300 pulls. Novos: Flora (Fire/Wild DI #1), Huberg (Radiance/Rally DI #34). Inspirations: Errich 1→2, Felicity 0→1, Caspar 0→1, Talwer 2→3. Comprou Dawn Pipe Organ (Flora) e Ring of the Scarlet Sorcerer (Felicity). Errich/Felicity/Caspar com Afinidade Lv1.",
+    impact: "Flora DI #1 transforma o time Fire/Wild num powerhouse. Sinergia Wild completa: Errich +2 dice max → Flora familiar triggers → Felicity multi-beam → Caspar throwing knives. Dawn Pipe Organ em Flora buffa ATK de TODOS ranged. Ring of Scarlet Sorcerer em Felicity amplifica beams com dice >=5. Time Fire/Wild agora e potencialmente o time mais forte do roster.",
+    details: `BANNER FLORA (300 pulls exclusivo)
+Novos Legendarios:
+- Flora (20410, Fire/Wild, DI #1): Melhor heroi S1. Captain +24% ATK all. Vortex 16 stacks = 900% explosion. Familiar ataca em ally dice >=5.
+- Huberg (20320, Radiance/Rally, DI #34, AC S): Rally DPS. Captain +30% ATK Fae/Pillar. 5.0 Goblin/Fae/Pillar/bosses.
+
+Inspirations (duplicatas):
+- Errich 1→2, Felicity 0→1, Caspar 0→1, Talwer 2→3
+
+Artefatos comprados:
+- Dawn Pipe Organ (Mythic, ATK+ATK%): Ranged allies ganham 5% ATK do wearer. Equipado em Flora.
+- Ring of the Scarlet Sorcerer (Mythic Fire, ATK+CritDmg): Wild dice >=5 → +10% skill damage. Equipado em Felicity.
+
+Afinidade:
+- Errich, Felicity, Caspar: Afinidade Lv1
+
+WILD FIRE SYNERGY CHAIN (novo aprendizado):
+1. Errich Passiva: +2 dice max (base 6→8) para TODOS Wild aliados — permanente
+2. Flora Passiva: ally Wild dice >=5 → familiar ataca target (+25%ATK) + Flora ganha Insight
+3. Flora Battle: Insight max → dice SEMPRE max → mais triggers
+4. Felicity Battle: recast em dice >=4 (ate 3x). Ult: 3 beams extras em dice >=5 (5→8)
+5. Caspar Passiva: dice par → Absurd Charade → ignora DEF crescente
+6. Caspar Ult: marca → ally dice >=4 → throwing knives automaticas
+7. Tonalnan: +5% Crit DMG por ally dice >=5 + 5 hits = +20% ATK Up burst
+
+FEEDBACK LOOP: Mais Wild heroes → mais dice rolls → mais triggers → mais DPS exponencial.
+5 Wild (Flora+Errich+Felicity+Caspar+Tonalnan) = sinergias no maximo.
+
+DECISAO PENDENTE: Refazer todos os times (atividade + por elemento) na proxima sessao.`
+  },
+
+  // ── 2026-02-25 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-25",
+    title: "Analise de banners — Flora vs Hvitar vs Lelwanis vs Thelendor + banner Monstros",
+    tags: ["banner", "analise", "pendente", "flora", "hvitar", "lelwanis", "thelendor", "mithrasea", "radiance"],
+    summary: "Dois banners analisados, decisao adiada. Banner Exclusivos S1: Flora(Fire/Wild DI#1), Hvitar(Ice/Frost DI#6), Lelwanis(Necrosis/Summon DI#9), Thelendor(Radiance/Rally DI#15). Banner Monstros: Khrysos, Reytah, Elecebre, Berengar, Mithrasea(DI#7), Grishnaar.",
+    impact: "Nenhuma decisao tomada. Analise salva para referencia futura.",
+    details: `BANNER EXCLUSIVOS S1 — Recomendacao: Flora
+- Flora (Fire/Wild, DI #1): Completa time Fire/Wild ja montado (Rhash e placeholder). Time AllClash #1 (198.9M DPS). Captain +24% ATK all battles. Sinergia brutal com Errich (feedback loop Wild dice).
+- Hvitar (Ice/Frost, DI #6, AC SS): Upgrade incremental sobre Rowena. Time Ice ja forte com Hochadir+Lossenia 8/8.
+- Lelwanis (Necrosis/Summon, DI #9, AC SS): Redundante — core Summon (Ladehlia+Sintrellia+Eurion) ja e o time mais forte.
+- Thelendor (Radiance/Rally, DI #15, AC SS): Precisaria montar time Rally do zero. Potencial com Lorentheel Insp.3.
+
+BANNER MONSTROS — Recomendacao: Mithrasea
+- Mithrasea (Radiance/Support, DI #7): Resurreicao AoE unica. 5.0 em 11/13 atividades. Radiance = Resplendence affinity (prioridade #1).
+- Grishnaar (Lightning/Support, DI #13): Protege 1 aliado (maior Crit DMG). Bom pra Arena mas inferior a Eurion (protecao full team).
+- Khrysos (Fire/Support, DI #12): Tank Fire solido mas Eurion e universal.
+- Reytah (Poison/Support, DI #22): Debuffer. Time Poison ja forte.
+- Elecebre (Ice/Support, DI #38): CC nicho. Baixo tier.
+- Berengar (Necrosis/Support, DI #36): Chaos afeta aliados. Arriscado.
+
+INSIGHT TIME RADIANCE:
+Henry tem 5 Legendarios Radiance (Lorentheel Insp.3, Acilia, Philto, Donella Insp.1, Sagomir Insp.1) mas ZERO time dedicado montado. Lorentheel Insp.3 e o heroi com maior potencial nao-explorado. Time viavel: Lorentheel+Philto+Acilia+Catherine+Gitouna. Thelendor e Mithrasea melhorariam significativamente.`
+  },
+
+  {
+    date: "2026-02-25",
+    title: "Frost Domain Lv18 CLEAR — 4 Dauntless + Acilia (sem healer!)",
+    tags: ["times", "teste", "frost-domain", "lv18", "conquista", "dauntless", "acilia", "dps-race"],
+    summary: "Frost Domain Lv18 CLEAR com Nastjenka(20740)+Sutha(21560)+DA(23020)+Garett(20660)+Acilia(20420). Pure DPS race — 4 Dauntless + Acilia anti-debuff. ZERO healer, ZERO tank.",
+    impact: "Prova que DPS race puro funciona em Frost Domain. Acilia Debuff Immunity essencial (boss aplica debuffs pesados). Artefato da Acilia amplifica dano dos aliados quando ela cura = sinergia com Dauntless procs. Torrin e Eurion DESNECESSARIOS neste boss.",
+    details: `Time: Nastjenka(captain) + Sutha + DA + Garett + Acilia
+Bonds: 5 Resplendence (4 Lightning + 1 Radiance) | 4 Dauntless | 1 Support
+Affinity: Resplendence (+20% ATK)
+
+ANTES: Nastjenka+Garett+Sutha+Acilia+Torrin (com healer)
+AGORA: Trocou Torrin por DA — mais DPS, sem necessidade de heal.
+
+INSIGHT: DPS race viavel em Frost Domain. Boss morre antes de matar o time.
+Acilia com artefato que aumenta dano dos aliados quando cura = combo perfeito com Dauntless (multi-hit procs = mais curas = mais damage amp).`
+  },
+
+  {
+    date: "2026-02-25",
+    title: "Flame Domain Lv18 CLEAR super facil — Summon + Acilia + Imortalidade",
+    tags: ["times", "teste", "flame-domain", "lv17", "lv18", "conquista", "summon", "acilia"],
+    summary: "Flame Domain Lv18 CLEAR super facil. Acilia(20420)+Torrin(20690)+Eurion(20060)+Ladehlia(23080)+Sintrellia(24780). UPGRADE MASSIVO de Lv14 apertado → Lv18 tranquilo.",
+    impact: "Acilia no lugar de Isitarian = salto de 4 levels. Lv17 HP intocado (Torrin desnecessario, trocou por Isitarian pra mais DPS). Lv18 Torrin obrigatorio — sem ele nao passa, com ele super facil. Core Summon (Ladehlia+Sintrellia+Eurion) universal — flex slots adaptam por boss.",
+    details: `Time: Acilia + Torrin + Eurion + Ladehlia + Sintrellia
+Bonds: 4 Permafrost (3 Necro + 1 Ice) + 1 Radiance (Acilia) | 2 Summon | 3 Support
+
+Lv17: HP quase intocado. Torrin desnecessario — trocou por Isitarian (mais DPS). Passou com folga.
+Lv18: Tirou Isitarian, voltou Torrin. Super facil. Sem Torrin nao aguenta.
+
+ANTES: Lv14 apertado com Isitarian (Epic B, HH 2.3) — morria primeiro, HP abria 25%.
+AGORA: Lv18 super facil. Acilia (Legendary) >> Isitarian (Epic).
+
+INSIGHT: Core Summon (Ladehlia+Sintrellia+Eurion) e universal. Flex slots (Acilia/Eches/Vinyara + Torrin/DPS extra) adaptam por boss e nivel.`
+  },
+
+  // ── 2026-02-24 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-24",
+    title: "Compra massiva: 10 Mythics na loja S1",
+    tags: ["artefato", "mythic", "compra", "soul-imprint", "poison", "upgrade"],
+    summary: "Comprou 10 Mythics usando 10 Soul Imprints (2 Poison + 5 Radiance + 3 Fire). Total: 16 Mythics. 4 SIs restantes guardados (2 Poison, 1 Lightning, 1 Necrosis).",
+    impact: "Time Poison com 5 Mythics dedicados (Lothair, Durango, Jathalea, Ergander, Oggok). Torrin, Vinyara, Ghul'ende e Tamar com Mythics. Queen's Fan sem herói definido.",
+    details: "Statue of Serpent Deity→Lothair, Ri'kir Boomerang→Durango, Gatekeeper's Staff→Torrin, Witch's Remains→Ghul'ende, Rift Hourglass→Tamar, Drugo's Blast Jar→Ergander, Aurelium Vest→Vinyara, Solar King's Horn→Oggok, Whisper of Consumer→Jathalea, Queen's Fan→pendente. SIs gastos: Vicana, Talwer, Lorentheel x3, Donella, Sagomir, Journ x2, Errich."
+  },
+
+  {
+    date: "2026-02-24",
+    title: "Legendary Option Chest II: Tamar escolhida",
+    tags: ["bau", "decisao", "tamar", "lightning", "legendario"],
+    summary: "Escolheu Tamar (Lightning SS, DI #27) no Legendary Hero Option Chest II. Anti-buff specialist com Buff Prohibition AoE + Stun + passiva que pune buffs.",
+    impact: "Tamar entra no grupo SS-tier. Resolve G.Curse e conteúdo anti-buff. 36 Legendários, 157 heróis.",
+    details: "Opções descartadas: Gillian (DI #20 mas healer redundante), Ripekas (HH 4.3 mas tank redundante com Eurion), Lucien (redundante Ice tank), Bionphray (tier C). Tamar é o único SS disponível e traz kit ÚNICO de anti-buff Legendary."
+  },
+
+  {
+    date: "2026-02-24",
+    title: "Target Summons 3 completo: 4 Legendários + 1 Epic + 4 Inspirations",
+    tags: ["banner", "summon", "target-summons", "legendarios", "poison", "necrosis", "fire"],
+    summary: "Completou o banner Target Summons 3. Obteve 4 novos Legendários (Oggok, Huldork, Ghul'ende, Ergander), 1 Epic (Zhar'loth), e 4 Inspirations (Talwer x2, Journ x2).",
+    impact: "Reforço MASSIVO em Poison (Ergander DI#23 tank + Oggok DI#11 healer) e Necrosis (Ghul'ende HH 4.6, 5.0 em 13/13). Huldork S-tier Fire debuffer. Total: 35 Legendários, 156 heróis.",
+    details: "Ordem dos pulls: Zhar'loth, Talwer (dupe), Oggok, Talwer (dupe), Huldork, Journ (dupe), Ghul'ende, Journ (dupe), Ergander. Inspirations: Talwer 0→2, Journ 0→2."
+  },
+
+  // ── 2026-02-22 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-22",
+    title: "Banner Lothair concluído: 300 pulls e herói obtido",
+    tags: ["banner", "summon", "lothair", "pity", "legendarios", "recurso"],
+    summary: "Fez os 20 pulls finais (300/300), garantiu o Lothair e fechou o banner.",
+    impact: "Core Poison SS completo. Perfil atualizado com Lothair obtido e progresso do banner finalizado.",
+    details: "Essence of Creation: 35.144 -> 38.014. Total ganho nesse banner (comparado ao checkpoint anterior de 280 pulls): +2.870."
+  },
+
+  // ── 2026-02-21 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-21",
+    title: "Soul Imprint obtido: Hochadir (Ice)",
+    tags: ["recurso", "soul-imprint", "ice", "hochadir"],
+    summary: "Henry obteve um Soul Imprint do Hochadir (Ice).",
+    impact: "Mais 1 Soul Imprint Ice disponível para resgatar Mythic no futuro.",
+    details: "Soul Imprint registrado em profile.js (lista de remanescentes). Nenhuma outra mudança declarada."
+  },
+  {
+    date: "2026-02-21",
+    title: "Banner Flora x Lothair: escolha pelo Lothair (pendente)",
+    tags: ["banner", "decisao", "lothair", "poison", "progresso", "pendente"],
+    summary: "Decidido pegar o Lothair no banner Flora x Lothair para progresso geral consistente. Ainda nao foi obtido.",
+    impact: "Lothair entrara no core Poison (Durango + Vicana + Jathalea) e aumentara DPS em bosses e dungeons.",
+    details: "Motivo: prioridade em progresso geral S1 e sinergia imediata com time Poison. Time Fire com Flora foi salvo como referencia futura em teams.js."
+  },
+  {
+    date: "2026-02-21",
+    title: "Banner Acilia: 300 pulls concluídos",
+    tags: ["banner", "summon", "acilia", "pity", "legendarios"],
+    summary: "Fez 300 pulls no banner Acilia. Acilia obtida. Saíram 5 legendários novos + 2 duplicatas lendárias.",
+    impact: "Roster expandido com novos supports (Acilia, Journ, Talwer, Alphanarsy, Garrika). Duplicatas de Sagomir e Torrin geraram +2 Inspiration.",
+    details: "Legendários novos: Acilia, Journ, Talwer, Alphanarsy, Garrika. Duplicatas: Sagomir, Torrin. Épicos novos: Brody, Theodore, Questa, Vicuc, Gladros, Irma, Lethander."
+  },
+  {
+    date: "2026-02-21",
+    title: "Comprou Ring of Winter (Mythic) e equipou no Auster",
+    tags: ["artefato", "mythic", "ring-of-winter", "auster", "ice"],
+    summary: "Ring of Winter comprado com Soul Imprint Ice e equipado no Auster.",
+    impact: "Upgrade direto no DPS Frost. Ice Storm proca em alvos com Frost e acelera clear em content Frost.",
+    details: "Soul Imprint Ice consumido (Hochadir). Atualizado em artifacts.js e profile.js."
+  },
+  {
+    date: "2026-02-21",
+    title: "Torrin com skills 8/8",
+    tags: ["scrolls", "skills", "torrin", "upgrade"],
+    summary: "Usou 5 Skill Scrolls para finalizar as skills do Torrin.",
+    impact: "Core de sobrevivencia maximizado (heal + debuff immunity + invisibilidade no max).",
+    details: "Torrin agora 8/8. Atualizado em my-roster.js e profile.js."
+  },
+  {
+    date: "2026-02-21",
+    title: "Banner Lothair: 280 pulls (sem garantir)",
+    tags: ["banner", "summon", "lothair", "pity", "legendarios"],
+    summary: "Fez 280/300 pulls no banner do Lothair. Lothair ainda nao obtido.",
+    impact: "Ganhos: Caspar, Rhash e Twitch (Legendarios novos) + Caraman e Follie (Epics novos). Duplicatas: Vicana, Errich, Jathalea (+1 Inspiration cada).",
+    details: "Legendares novos: Caspar, Rhash, Twitch. Duplicatas: Vicana, Errich, Jathalea. Epics novos: Caraman, Follie. Essence of Creation agora 35.144."
+  },
+  {
+    date: "2026-02-21",
+    title: "Impacto imediato: Fire/Wild e Poison reforçados",
+    tags: ["impacto", "times", "fire", "poison", "wild"],
+    summary: "Caspar e Rhash reforcam o core Fire/Wild; Twitch abre variante Poison com mais DPS single-target. Duplicatas aumentam Insp de Vicana/Errich/Jathalea.",
+    impact: "Time Fire ganha burst e consistencia (Caspar+Rhash). Temporal Vortex pode usar Fire/Wild mesmo sem Flora. Poison melhora estabilidade com Insp.1 em Vicana/Jathalea.",
+    details: "Atualizados times canônicos e referências em teams.js."
+  },
+
+  // ── 2026-02-20 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-20",
+    title: "Confirmacao de progresso: server no dia 14",
+    tags: ["progresso", "season", "confirmacao", "timeline"],
+    summary: "Henry confirmou que o servidor esta exatamente no dia 14 da season.",
+    impact: "A referencia temporal de curto prazo passa a ser Day 14 (janela critica de eventos/banners).",
+    details: "Registro de contexto para analises e priorizacao: status atual confirmado pelo jogador como Day 14."
+  },
+
+  {
+    date: "2026-02-20",
+    title: "Tempest Domain Lv14-15 CLEAR, Lv16 bloqueado (boss regen HP)",
+    tags: ["times", "teste", "tempest-domain", "lv14", "lv15", "lv16", "conquista", "bloqueado"],
+    summary: "Tempest Domain testado com Ladehlia+Sintrellia+Eches+Torrin+Eurion. Lv14 CLEAR (HP full, 38s sobrando — apertado no timer). Lv15 CLEAR (4:13s, HP nunca abaixo de 50%). Lv16 bloqueado — boss recupera HP demais, time não morre mas não mata (boss terminou com ~40% HP).",
+    impact: "Tempest Domain Lv15 é o teto atual. Survival perfeito (time nunca em risco) mas DPS insuficiente pro Lv16. Boss regen é o problema — mesmo Eches Healing Reduction não basta. Precisa mais DPS ou gear/talentos melhores.",
+    details: `Time VENCEDOR: Ladehlia(SS) + Sintrellia(S) + Eches(B Epic, Debuffer) + Torrin(A) + Eurion(A).
+Eches: Ult Healing Prohibition + Recharge Penalty + dispel aliados. Battle: Healing Reduction. Passiva: debuffs = -10% damage no boss.
+
+Lv14: CLEAR. HP full. Timer: 38s restando = DPS quase não passou.
+Lv15: CLEAR. 4:13s. HP nunca abaixo de 50%. Survival fácil, DPS ok.
+Lv16: BLOQUEADO. Time sobreviveu inteiro. Boss recupera HP mais rápido que o time causa dano. Boss terminou com ~40% HP.
+
+Time FRACASSADO: Durango(SS) + Vicana(S) + Jathalea(A) + Torrin + Eurion (Poison DoT).
+Lv15: TIME MORREU. Boss ficou com HP cheio. Não conseguiu matar os dragões pequenos (adds), que curam o boss. Poison DoT não tem AoE burst suficiente pra limpar adds.
+
+APRENDIZADO CRÍTICO: Tempest Domain tem ADDS (dragões pequenos) que CURAM o boss. Time precisa de AoE pra matar adds rápido. Poison DoT = single-target lento = adds vivem = boss regen infinito. Summon Necrosis (Shadow Demon AoE) + Eches (Healing Reduction) é a combinação certa.
+
+Bottleneck Lv16: DPS puro. Survival está sobrando. Precisa mais talentos/gear.`
+  },
+
+  {
+    date: "2026-02-20",
+    title: "Daily Harp Lv14 CLEAR — Dauntless Vortex. Lv15 bloqueado (Eurion morre com boss 80%)",
+    tags: ["times", "teste", "daily-harp", "lv14", "lv15", "conquista", "bloqueado", "dauntless"],
+    summary: "Daily Harp Lv14 CLEAR com Dauntless Vortex (Nastjenka+DA+Sutha+Torrin+Eurion). Lv15: Eurion morre com boss ainda em 80% HP. Precisa upar mais.",
+    impact: "Lv14 é o teto atual. Falta poder para Lv15 — Eurion não aguenta o dano do boss. Progresso depende de Resonance/gear/levels.",
+    details: "Time: Nastjenka(SS) + Divine Ascetic(SS) + Sutha(A) + Torrin(A) + Eurion(A). 3 Dauntless + módulo imortalidade. Lv15 boss mata Eurion rápido demais (80% HP restante no boss quando Eurion morre). Gap de poder grande — não é questão de composição, é stats."
+  },
+
+  {
+    date: "2026-02-20",
+    title: "Flame Domain Lv14 CLEAR — Summon Necrosis + Imortalidade",
+    tags: ["times", "teste", "flame-domain", "lv14", "conquista", "summon", "apertado"],
+    summary: "Flame Domain Lv14 CLEAR apertado com Ladehlia+Sintrellia+Isitarian+Torrin+Eurion. Isitarian morreu e HP dos outros abriu gap de 25%. Não vai ter Lv15.",
+    impact: "Flame Domain Lv14 finalizado mas no limite. Time Summon Necrosis funciona mas Isitarian (Epic B, HH 2.3) é o elo fraco — morre primeiro. Teto atingido sem upgrade (Premtsa substituiria Isitarian).",
+    details: `Time: Ladehlia(SS) + Sintrellia(S) + Isitarian(B Epic) + Torrin(A) + Eurion(A).
+Bonds: 3 Necrosis (parcial) + 3 Summon (Phoenix Forte) + 2 Support.
+Loop: Ladehlia Shadow Demon → Sintrellia clona → 2 Shadow Demons → Isitarian dragon ataques extras.
+Torrin+Eurion = módulo imortalidade.
+
+RESULTADO: Clear apertado. Isitarian morreu durante a luta. HP dos sobreviventes abriu gap de ~25%.
+Lv15 INVIÁVEL com esse time — Isitarian Epic B stats muito baixos para aguentar.
+
+Para subir: Premtsa (SS) substituiria Isitarian → mais DPS + mais tanky (Legendary stats).`
+  },
+
+  {
+    date: "2026-02-20",
+    title: "Novo herói: Adolphus (Epic Fire Healer)",
+    tags: ["roster", "heroi-novo", "fire", "epic", "healer", "support"],
+    summary: "Obteve Adolphus (23250) via pull aleatório. Epic Fire Healer/Support. AC A, HH 3.8, DI #28. Shield AoE + heal via passiva.",
+    impact: "Fire agora tem tank (Isolde) E healer (Adolphus) A-tier. Composição Fire completa: Felicity + Errich + Tonalnan + Isolde(tank) + Adolphus(healer). 5.0 em Grave of Curse.",
+    details: "Adolphus — Deep Elf Wizard. School: Support. Sem Captain. Ult (Fiery Wall): Fire DMG AoE + Shield AoE 15% Max HP. Battle (Aura of Protection): Shield single 10% Max HP 10s + Ult Energy +10. Passiva (Life Transfusion): shield em alvo que já tem shield = heal 75% do shield. Sinergia: double-shield = heal constante. Era 2a opção no Baú Épico S1 (Isolde escolhida, 12/Fev). Agora obtido por outra via. Ratings HH: 5.0 G.Curse, 4.5 em T.Vortex/G.Venom/G.Rot/H.Ruins/Green Dragon/Violet Dragon/Gloomland. DI #28."
+  },
+
+  // ── 2026-02-19 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-19",
+    title: "Grave of Curse Lv14 CLEAR — Vinyara Dispel é a chave",
+    tags: ["times", "teste", "grave-curse", "lv14", "conquista", "vinyara", "aprendizado"],
+    summary: "Grave of Curse Lv14 CLEAR tranquilo com Nastjenka+DA+Vinyara+Torrin+Eurion. Antes: 7 testes fracassados no Lv12 (melhor 35% HP). Lv12 passou com força bruta (3 DPS). Lv13-14 passou com Vinyara no lugar de Sutha.",
+    impact: "Dungeon completamente dominada. Vinyara é ESSENCIAL neste boss — resolve 3 mecânicas simultaneamente. Voresh Buff Prohibition é RESISTIDO pelo boss, dispel da Vinyara é a única opção.",
+    details: `APRENDIZADOS CRÍTICOS:
+
+1. VINYARA DISPEL > VORESH BUFF PROHIBITION neste boss. Boss Blood Prince Xenos resiste Buff Prohibition mas NÃO resiste dispel. Vinyara Ult remove buffs existentes = counter perfeito.
+
+2. TIMING VINYARA: Após os 2 buffs do boss (Rage of Blood), ANTES do ataque final. Boss ataca sem buff = dano controlado. Permafrost +20% ACC ajuda Vinyara acertar o dispel.
+
+3. VINYARA RESOLVE 3 MECÂNICAS:
+   - Ult dispela ATK buff (Rage of Blood)
+   - Shield absorve Blood Gush → previne Max HP drain
+   - Passiva auto-resiste Stun (controle a cada 6s)
+
+4. PERMAFROST +20% ACC é crítico — garante timing do dispel.
+
+5. IMORTALIDADE > BURST confirmado novamente. Lv12 com força bruta (3 DPS), Lv13+ com Vinyara (2 DPS + survival). Menos DPS mas time não morre = dano acumulado infinito.
+
+6. DA (Divine Ascetic) quase morreu no Lv14 — ponto fraco do time. Se morrer em níveis futuros, trocar por Garett (passiva ganha ATK ao tomar dano + self-heal).
+
+Testes Lv8 (antes da progressão, 17/Fev):
+- Nastjenka+Sutha+DA+Torrin+Eurion: 35% HP boss (melhor)
+- Nastjenka+DA+Donella+Torrin+Eurion: 38-55% (inconsistente)
+- Nastjenka+Sutha+Voresh+Torrin+Eurion: 65% (Voresh resistido)
+- Ladehlia+Voresh+Horrus+Shook+Nathaniel: 45% (sem survival)
+
+Testes 19/Fev (pós progressão):
+- 3 DPS brute force: Lv12 CLEAR, Lv13 MORREU
+- Vinyara substitui Sutha: Lv13 CLEAR, Lv14 CLEAR tranquilo`
+  },
+
+  {
+    date: "2026-02-19",
+    title: "Ancient Battlefield Lv8 CLEAR — Immortal Ice + Voresh",
+    tags: ["times", "teste", "ancient-battlefield", "lv8", "conquista", "aprendizado"],
+    summary: "Ancient Battlefield Lv8 CLEAR com Torrin+Eurion+Auster+Voresh+Vinyara(fundo). 5 Permafrost. Testados 5+ composições diferentes antes de encontrar a solução.",
+    impact: "Dungeon desbloqueada. 5 Permafrost (+20% ATK/HP/ACC) é o melhor bônus de afinidade. Imortalidade + anti-buff + Backfire garantido = combo perfeito.",
+    details: `APRENDIZADOS CRÍTICOS:
+
+1. IMORTALIDADE > BURST no Ancient Battlefield.
+   - Burst (Nastjenka+Garett+DA+Voresh+Vinyara): Lv7 OK, Lv8 boss 45% HP
+   - Burst+Torrin (Nastjenka+Garett+Voresh+Torrin): Lv8 boss 70% HP (pior!)
+   - Immortal sem Voresh (Torrin+Eurion+Vinyara+Auster+Lossenia): Lv8 boss 15%
+   - Immortal + Voresh: Lv8 CLEAR
+
+2. VINYARA NO FUNDO = BACKFIRE GARANTIDO. Passiva auto-resiste controle a cada 6s. Stun do boss (ciclo 18s) = sempre resistido → Backfire 10s todo ciclo.
+
+3. VORESH ESSENCIAL NO AB. Boss self-buff (Skill 3) ramp é o que mata. Sem Voresh, Immortal Ice chegou a 15% mas boss rampou e matou. Com Voresh: CLEAR.
+
+4. VORESH PRECISA GEAR HP/DEF. Epic = stats baixos. Foi o primeiro a morrer nos testes iniciais. Boss buff chegou a 36 stacks (Voresh não bloqueia 100% mas imortalidade compensa).
+
+5. 5 PERMAFROST = MELHOR AFINIDADE. +20% ATK, +20% HP, +20% ACC em TODOS os 5 heróis. ACC ajuda Voresh acertar Buff Prohibition.
+
+6. LOSSENIA DISPENSÁVEL quando Auster aplica Frost sozinho (Ult 520% AoE + Frost 100%).
+
+7. TIME ATRITO (Torrin+Garius+Voresh+Lossenia+Sigrid) NÃO FUNCIONA — DPS insuficiente, nem passa Lv7.
+
+8. SUTHA ≈ DA quando aura não stacka. Aura da Sutha (+30% ATK Speed) desperdiçada se Nastjenka é captain. DA com Kui Crown é equivalente ou melhor.
+
+9. SUTHA É MELEE — não pode ir no fundo (posição de Stun bait).`
+  },
+
+  {
+    date: "2026-02-19",
+    title: "Afinidade atualizada: TODAS têm bônus % agora",
+    tags: ["mecanica", "afinidade", "atualizacao"],
+    summary: "Bônus de afinidade atualizado. Flat base igual para todos. Permafrost: +20% ATK, +20% HP, +20 ACC. Wildfire/Ulceration e Resplendence: +20% ATK.",
+    impact: "Permafrost é a afinidade MAIS FORTE (única com +HP e +ACC). Explica por que times 5 Permafrost dominam. ACC ajuda Vinyara/Voresh acertar dispels/prohibitions.",
+    details: "Antes: só Permafrost tinha bônus %. Agora todas têm. Flat base (3+ heróis): +2000 HP, +200 DEF, +200 ATK (igual qualquer elemento). Percent: Permafrost +20% ATK/HP/ACC, Wildfire +20% ATK, Resplendence +20% ATK."
+  },
+
+  {
+    date: "2026-02-19",
+    title: "Novo herói: Soveliss (Epic Ice Support)",
+    tags: ["roster", "heroi-novo", "ice", "epic"],
+    summary: "Obteve Soveliss (21000). Epic Ice Support com aura +30 ACC all battles. Heal + Hit Recovery. Anti-invisibilidade.",
+    impact: "Herói de tier baixo (AC C, HH 1.6, DI #140). Aura de +30 ACC é útil mas existem opções melhores (Lossenia +40 ACC). Sem impacto nos times atuais.",
+    details: "Soveliss — Wood Elf Ranger. School: Support. Captain: +30 Accuracy all battles. Ult: 2x Hail of Arrows Cold DMG + 50% drena Ult Energy. Battle: Heal + Hit Recovery 5s. Passiva: detecta Invisibilidade + Cold DMG + Attack Penalty II."
+  },
+
+  {
+    date: "2026-02-19",
+    title: "Guild: Entrou na DragonBros (A3 geral, Top 2 eventos)",
+    tags: ["guild", "social", "conteudo-grupo"],
+    summary: "Entrou na guild DragonBros. Ranking A3 no geral, Top 2 em vários eventos.",
+    impact: "Acesso a Expedition + Guild War + bônus de guild. Guild forte = recompensas melhores.",
+    details: "DragonBros — guild de alto nível no servidor. A3 no ranking geral e consistentemente Top 2 em eventos."
+  },
+
+  {
+    date: "2026-02-19",
+    title: "Goblin Lair Lv12 MAX — 3 Estrelas (1m11s) com Frost Chain ELITE",
+    tags: ["times", "teste", "goblin-lair", "frost", "auster", "conquista"],
+    summary: "Time Frost Chain ELITE (Auster+Ladehlia+Hochadir+Lossenia+Rowena) subiu do Lv9 direto pro Lv12 MAX com 3 estrelas em 1m11s. Full DPS sem tank/healer. Auster 32.8% DPS share.",
+    impact: "Goblin Lair completamente dominado — desempenho máximo atingido. Frost Chain ELITE confirmado como time superior ao Summon+Dauntless misto anterior (1:23). Auster é o melhor DPS do time com 32.8%.",
+    details: `DPS Share por herói:
+- Auster (DPS Skill 2 SUB): 32.8% — CARRY absoluto. Tracking arrows em todos com Frost
+- Ladehlia (DPS Skill): 23.9% — Shadow Demon AoE persistente entre ciclos Frost
+- Hochadir (DPS Crit): 18.7% — Detona Frost AoE + estende Frost +5s
+- Lossenia (DPS Crit 2): 13.7% — Aplica Frost massivo com tornado + bounce
+- Rowena (DPS Crit 3 SUB): 11% — Executa em Frost 800%
+
+4 Frost school = Frozen 5s + auto-Frozen no inicio! Chain: Lossenia aplica → Auster dispara tracking arrows → Hochadir detona AoE → Rowena executa.
+
+Considerou trocar Rowena por Sigrid (Ult AoE em debuffados, Lossenia aplica constantemente). Descartado: já é 3 estrelas no MAX.`
+  },
+
+  // ── 2026-02-17 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-17",
+    title: "Grave of Curse Lv12 — 7 testes, melhor resultado 35% HP restante",
+    tags: ["times", "teste", "grave-curse", "lv12", "em-progresso"],
+    summary: "Boss Blood Prince Xenos (Necrosis) no lv12 resiste a debuffs e mata o time com Max HP drain + AoE burst. Melhor resultado: 35% HP restante (3 DPS + Torrin+Eurion). Donella (ATK Penalty + Stun) quase compensa perda de DPS mas resultados inconsistentes (38-55%). Aura ACC +40 não ajudou. Próximo teste: Nathaniel (shield bloqueia Max HP drain) no lugar de Donella.",
+    impact: "Lv12 ainda não vencido. Problema principal: Blood Gush drena Max HP permanentemente → Torrin morre em ~55% HP do boss → survival loop quebra → time morre. Precisamos de counter para o drain E DPS suficiente.",
+    details: `Testes realizados (Grave of Curse Lv12, boss Blood Prince Xenos):
+1. Nastjenka + Sutha + Divine Ascetic + Torrin + Eurion (Aura ATK +24%) → 35% HP restante (MELHOR). 3 DPS + survival core. Sem counter pro boss buff/drain. Garett foi pior DPS que DA.
+2. Nastjenka + Sutha + Voresh + Torrin + Eurion (Aura ATK +24%) → 65% HP. Voresh resistido pelo boss = Buff Prohibition não cola.
+3. Ladehlia + Voresh + Horrus + Shook + Nathaniel → 45% HP. Debuffs não sincronizaram no auto-battle. Sem survival core.
+4. Nastjenka + DA + Donella + Voresh + Eurion → 55-60% HP. Sem Torrin = Voresh morre rápido.
+5. Nastjenka + DA + Donella + Torrin + Eurion (Aura ATK +24%) → 38% HP (run 1), 55% HP (run 2). Inconsistente. Torrin morre com 55% HP do boss.
+6. Nastjenka + DA + Donella + Torrin + Eurion (Aura ACC +40) → 56% HP. Accuracy não compensou perda de ATK.
+
+Aprendizados:
+- Torrin+Eurion é INEGOCIÁVEL (sem eles = time morre muito mais rápido)
+- Boss RESISTE debuffs do Voresh mesmo com gear Accuracy max
+- Donella ATK Penalty II ajuda mas resultados inconsistentes (38% vs 55%)
+- Aura ACC +40 da Donella pior que ATK +24% da Nastjenka
+- Blood Gush (Max HP drain) é o que mata Torrin → precisa de shield (Nathaniel)
+
+PRÓXIMO TESTE: Nastjenka + DA + Nathaniel + Torrin + Eurion
+- Nathaniel AoE Shield bloqueia Max HP drain
+- 3/5 Lightning → Feast of Thunder (Lightning +5%, ATK +10%)
+- Captain: Nastjenka +24% ATK`
+  },
+
+  {
+    date: "2026-02-17",
+    title: "Kui Crown (Mythic Exclusive) Obtida — Divine Ascetic",
+    tags: ["artefatos", "mythic", "exclusive", "divine-ascetic", "kui-crown", "evento"],
+    summary: "Kui Crown (Mythic Exclusive da Divine Ascetic) obtida via evento. ATK + Crit Rate. Skill: 10 Obsession no inicio + 15% damage em max stacks. Substitui Harpy's Nail (Legendary interim). 5o Mythic.",
+    impact: "Divine Ascetic agora com Mythic exclusivo — DPS massivamente superior. Harpy's Nail liberada para redistribuicao. 5 Mythics total.",
+    details: "Kui Crown: Unyielding Obsession — começa batalha com 10 Obsession (Battle imediatamente faz 1 ataque extra). Max stacks = +15% damage. Stats ATK + Crit Rate (ideal DPS). Harpy's Nail (ATK+ATK%, passive +10% damage) era interim — passive nem ajudava a DA. Upgrade MASSIVO."
+  },
+
+  {
+    date: "2026-02-17",
+    title: "Auster Obtido (Baú Dia 10) + Skill Scrolls Usados (Auster, Eurion, Torrin)",
+    tags: ["heroes", "auster", "legendary", "ice", "frost", "obtido", "scrolls", "skill"],
+    summary: "Auster (Ice Legendary SS, HH 4.5, Frost, DI #26) obtido do Baú Dia 10. Todos Skill Scrolls usados: Auster 8/8 MAX, Eurion 8/8 MAX, Torrin 3/8 (faltam 5). Skills podem ser resetadas sem custo.",
+    impact: "22o Legendário. 5o Ice Legendary (Hochadir S + Vinyara A + Eurion A + Lossenia S + Auster SS). 3o Frost school (Auster+Lossenia+Hochadir = 3 Frost = Frozen 5s + Frozen automático no início!). Auster SS = melhor DPS Ice do jogo, 5.0 em 10/13 atividades. Skill Scrolls zerados — Torrin falta 5 scrolls pra MAX. Reset de skills é gratuito.",
+    details: "Kit Auster: Ult (Bone Chill) 520% AoE Cold + Frost 10s + tracking arrows em todos inimigos no range. Battle (Toxophilite) 3 flechas 120% cada, 50% chance ignora 100% DEF. Passiva (Double Shot): basic attacks e skills disparam tracking arrow em até 2 inimigos com Frost (+55% Cold + recarrega Ult Energy 2.5). Frost chain elite: Auster+Lossenia aplicam Frost massivo → Hochadir detona AoE. Captain: +30% DEF em Fey Meander e Trial Breakthrough. Scrolls: 10 disponíveis → Auster 8 (MAX), Eurion 8 (MAX), Torrin 3 (faltam 5). Total usado: 19 scrolls (tinham 10 + reciclaram de outros heróis via reset gratuito)."
+  },
+
+  // ── 2026-02-16 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-16",
+    title: "Affinity Evolution: 4 caminhos escolhidos (ATK x3 + HP Permafrost)",
+    tags: ["mecanica", "afinidade", "evolucao", "decisao", "estrategia"],
+    summary: "Sistema Affinity Evolution: 6 caminhos (3 ATK + 3 HP, um por afinidade), escolher 4. Max Lv 10 = +20%. Escolhidos: Resplendence ATK, Permafrost ATK, Permafrost HP, Ulceration ATK.",
+    impact: "Todos DPS em todos os 3 elementos ganham +20% ATK. Tanks/Healers Permafrost (Eurion 9 times, Vinyara 5, Torrin 6) ganham +20% HP. Cortados: Resplendence HP (DPS nao precisam), Ulceration HP (so Frurbath se beneficia).",
+    details: "Analise por team-slots: Resplendence ATK = 28 slots DPS (Nastjenka 11 + Garett 7 + Sutha 7 + outros). Permafrost ATK = 18+ slots DPS (Ladehlia 4 + Hochadir 3 + Sintrellia 3 + Voresh 5 heal=ATK + Auster futuro). Permafrost HP = 20 slots survival (Eurion 9 + Torrin 6 + Vinyara 5). Ulceration ATK = 11+ slots (Durango + Lothair futuro SS + Frurbath 3 + Sigrid 2). Resplendence HP cortado (Catherine 2 + Nathaniel 1 = 3 slots, DPS nao usam). Ulceration HP cortado (Frurbath 3 + Isolde 1 = 4 slots tank)."
+  },
+
+  // ── 2026-02-15 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-15",
+    title: "Jathalea Obtida (Poison Legendary, School Poison)",
+    tags: ["heroes", "jathalea", "legendary", "poison", "obtido"],
+    summary: "Jathalea (Poison Legendary A, HH 3.6, DI #44, School Poison) obtida. DPS AoE com Thorny Poison + anti-dispel. 5.0 em Green/Violet Dragon + Gloomland.",
+    impact: "21o Legendário. 3o Legendary Poison (Durango SS + Vicana S + Jathalea A). Substitui Shink (Epic) no Time Poison — upgrade direto (Legendary stats + HH 3.6 > 3.1, mesmo school Poison). Com Lothair futuro: 4 Poison school no time = bond máximo.",
+    details: "Kit: Ult (Determination) 700% ATK AoE + 3 Thorny Poison + Enlightenment Penalty 20% 15s. Mortos não ressuscitam. Battle (Headstrong) 300% ATK single + 75% Poison + 50% Thorny Poison. Passiva (Cherished Wish): Thorny Poison dispelado = 6% Target Max HP Derivative por stack (cap 100% ATK). Anti-cleanse mechanic único. Ratings 5.0: Green Dragon, Violet Dragon, Gloomland (bosses). 4.5 Temporal Vortex. 4.0 G.Venom/G.Curse/Fae/Pillar. 1.0 A.Battlefield (péssima)."
+  },
+
+  // ── 2026-02-14 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-14",
+    title: "Compra Mythic: Mark of the Ice Calamity (Lossenia) via Soul Imprint Vinyara",
+    tags: ["artefatos", "mythic", "soul-imprint", "compra", "lossenia", "frost"],
+    summary: "Comprou Mark of the Ice Calamity (Mythic) usando Soul Imprint da Vinyara. Equipado na Lossenia (Frost enabler BiS). Blood Prince's Bracelet liberado.",
+    impact: "Lossenia agora com Mythic: Frost 50% undispellable + Cold Damage stacking +5%. Hochadir pode detonar Frost sem risco de dispel. 4 Mythics no total. 5 Soul Imprints restantes (Ivellios, Donella, Lorentheel x3).",
+    details: "Mark of the Ice Calamity (ATK + Accuracy): Frost do wearer 50% chance undispellable. Apos aplicar Frost, +1% Cold Damage 10s, cap 5 stacks (+5%). Cada stack com duracao separada. Substitui Blood Prince's Bracelet (Legendary, kill -> heal). Quase evoluiu o Legendary antes de perceber que podia comprar o Mythic — sempre verificar Mythics disponiveis antes de investir em Legendary."
+  },
+  {
+    date: "2026-02-14",
+    title: "Todos os times montados + Lossenia substitui Rowena no time Boss/Summon",
+    tags: ["times", "lossenia", "rowena", "ressonancia"],
+    summary: "Todos os times foram montados. Lossenia substituiu Rowena no time Boss/Summon (ficou mais forte). Ressonancia: Lv 79 (Lv 80 bloqueado, libera em ~5 dias).",
+    impact: "Time Boss atualizado: Ladehlia + Lossenia + Sintrellia + Torrin + Eurion. Rowena sai do roster ativo. Ressonancia 79 = cap atual.",
+    details: "Lossenia (Frost tornado + bounce) superou Rowena (800% Frost executor) no time Summon. Lossenia aplica mais Frost consistently + sinergia com Sintrellia clones. Resonance Level 79, cap 80 bloqueado pelo jogo por ~5 dias (libera ~19/Fev/2026)."
+  },
+
+  // ── 2026-02-13 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-13",
+    title: "Compra de 2 Artefatos Mythic (Soul Imprints)",
+    tags: ["artefatos", "mythic", "soul-imprint", "compra"],
+    summary: "Usou Soul Imprints de Garett e Sutha para comprar Thunder Deity's Spear (Nastjenka) e Great River Lamp (Garett).",
+    impact: "Nastjenka ganha combo duplo 60% em basic attacks. Garett ganha +1% damage stacking p\u00f3s-Ult (cap 10%). 3 Soul Imprints restantes guardados (Ivellios, Donella, Vinyara) para quando artefatos ficarem dispon\u00edveis.",
+    details: "Thunder Deity's Spear: basic attack 60% combo duplo (CD 7s), sinergia com Nastjenka (3 flash + feathers = combos constantes). Great River Lamp: +1% damage stacking ap\u00f3s Ult, cap 10 (+10%), Garett Ult crit garantido = stacks r\u00e1pidos. N\u00e3o comprados: Tempest War Drum (Ivellios), Everlasting Diamond (Donella), Giant Turtle Offspring's Shell (Vinyara) \u2014 n\u00e3o existem na loja ainda."
+  },
+  {
+    date: "2026-02-13",
+    title: "Legendary Skill Scrolls: Ladehlia + Nastjenka MAXADAS (11 usados, 10 restam)",
+    tags: ["scrolls", "skill", "upgrade", "executado"],
+    summary: "Usou 11 scrolls: Ladehlia 3 (8/8 MAX), Nastjenka 8 (8/8 MAX). Sistema corrigido: 2 skills x 4 niveis = 8 scrolls por heroi. Restam 10.",
+    impact: "Ladehlia e Nastjenka maxadas. Lothair usara 8 dos 10 restantes quando chegar (~6 dias). Sobram 2 extras.",
+    details: "CORRECAO: Sistema e 8 scrolls por heroi (2 skills x 4 niveis), nao 10. Ladehlia 5/8 -> 8/8 (3 scrolls). Nastjenka 0/8 -> 8/8 (8 scrolls). Total: 11 usados, 10 restam. Lothair 0/8 -> 8/8 (8 scrolls quando chegar). Proximos: Garett, Sutha, Eurion."
+  },
+  {
+    date: "2026-02-13",
+    title: "Compra de 4 Artefatos Legendary (Artifact Shop)",
+    tags: ["artefatos", "legendary", "compra"],
+    summary: "Comprou Phoenix Feather (Garett), Pocket of Seduction (Eurion), Wine of Dragon Blood (Nastjenka), Harpy's Nail (Ivellios). Gasto: 120 moedas, sobra 15.",
+    impact: "4 her\u00f3is core equipados com artefatos Legendary. Invent\u00e1rio: 1 Mythic + 18/28 Legendary.",
+    details: "Phoenix Feather \u2192 Garett (6 times, sempre HP <50%, +20% ATK sinergia passiva +200%). Pocket of Seduction \u2192 Eurion (6 times, tank absorve tudo, -5% damage/debuff cap 2 = -10%). Wine of Dragon Blood \u2192 Nastjenka (8 times, +20% Crit Rate p\u00f3s-Ult, ATK+ATK Speed). Harpy's Nail \u2192 Ivellios (4 times, passive follow-up attacks +10% Damage Bonus). 10 artefatos n\u00e3o comprados por efeitos marginais."
+  },
+  {
+    date: "2026-02-13",
+    title: "Great Demon's Skull (Mythic) Obtido",
+    tags: ["artefatos", "mythic", "obtido"],
+    summary: "Primeiro artefato Mythic obtido. Equipado em Ladehlia.",
+    impact: "Ladehlia ganha Demonic Grudge: aliado invoca undead \u2192 +3% Necrotic Damage 10s, at\u00e9 6 stacks (+18%). Sinergia direta com Time Boss (Ladehlia+Sintrellia = 2 undead summons).",
+    details: "Stats: ATK + Crit Rate. Skill: Demonic Grudge \u2014 aliado invoca undead \u2192 +3% Necrotic Damage 10s, at\u00e9 6 stacks (+18%)."
+  },
+  {
+    date: "2026-02-13",
+    title: "Ba\u00fas Dia 5: LOSSENIA + DURANGO (Legendary Hero Option Chest I)",
+    tags: ["ba\u00fa", "heroes", "lossenia", "durango", "legendary"],
+    summary: "Escolheu Lossenia (Ice S, DI #3, Frost) e Durango (Poison SS, HH 4.3) nos 2 ba\u00fas Dia 5.",
+    impact: "Lossenia: Frost chain com Hochadir, 2 Frost = Frozen 5s. Durango: melhor DPS Poison, substitui Ladehlia off-element \u2192 5 Ulceration + 3 Poison (60% Pool!). 19 Legend\u00e1rios total.",
+    details: "Ba\u00fa oficial: Legendary Hero Option Chest I (18 op\u00e7\u00f5es). Lossenia: tornado Frost + marca aliado + basics bouncers \u2192 Hochadir detona AoE. Com Auster futuro = Ice ELITE. Durango: multi-hit + AoE Poison no in\u00edcio (passiva) + crit ignora 30% DEF. Captain: +40 Accuracy. Com Lothair futuro = 3 Poison school = 60% Pool. Descartados: Divine Ascetic (vem gr\u00e1tis), Rhash (Poison/Ice prioridade), Caspar/Tharivol/Huberg (tiers inferiores), ascens\u00f5es."
+  },
+  {
+    date: "2026-02-13",
+    title: "Sintrellia Obtida (outra fonte)",
+    tags: ["heroes", "sintrellia", "legendary", "necrosis", "summon"],
+    summary: "Sintrellia (Necrosis S, Summon) obtida de outra fonte, sem gastar ba\u00fa.",
+    impact: "17o Legend\u00e1rio. Time Summon parcialmente vi\u00e1vel (Ladehlia + Sintrellia = 2 Summon). Clone do Shadow Demon = 2 demons simult\u00e2neos = DPS dobrado.",
+    details: "Kit: Battle 3 flechas AoE +180% ATK Necrotic + Banshee's Curse 5s. Ultimate: CLONA undead aliado com maior ATK (Shadow Demon da Ladehlia). Passiva: todos undead aliados +10% do ATK da Sintrellia. Captain: +24% ATK. Sinergia com Isitarian: mais undead summons = mais ataques extras do dragon. Premtsa ainda falta para trio completo."
+  },
+  {
+    date: "2026-02-13",
+    title: "Time Boss: Testado com Sintrellia e Lossenia (UPGRADE MASSIVO)",
+    tags: ["times", "boss", "teste", "sintrellia", "lossenia"],
+    summary: "Trocou Vinyara por Sintrellia (+131%) e Lossenia (+82%) no time Boss. Vinyara era redundante com Torrin+Eurion.",
+    impact: "Novo time Boss campe\u00e3o: Ladehlia+Rowena+Sintrellia+Torrin+Eurion (3.12M vs 1.35M baseline). Aprendizado: AMPLIFICADORES > UTILITY quando survival est\u00e1 garantido.",
+    details: "Testes (mesmo boss): Vinyara = 1.35M (baseline), Lossenia = 2.46M (+82%), Sintrellia = 3.12M (+131%). Vinyara redundante: Torrin+Eurion garantem imortalidade SOZINHOS, shield/dispel desnecess\u00e1rio. Slot livre deve ser amplificador. Sintrellia clona Shadow Demon + buffa ATK undead +10%. Lossenia aplica Frost \u2192 Rowena detona 800% + ignora 40% DEF."
+  },
+  {
+    date: "2026-02-13",
+    title: "Temporal Vortex: Torrin+Eurion \u00e9 M\u00d3DULO UNIVERSAL",
+    tags: ["times", "teste", "torrin", "eurion", "vortex"],
+    summary: "Testou Dauntless puro (480k) vs Dauntless+Torrin+Eurion (1.86M) = +288%. Torrin+Eurion funciona em QUALQUER time.",
+    impact: "Novo padr\u00e3o: come\u00e7ar com Torrin+Eurion base, preencher 3 slots com DPS. Ivellios e Schaltar substitu\u00eddos.",
+    details: "Testes Vortex: Boss time (Ladehlia+Rowena+Sintrellia+Torrin+Eurion) = 1.54M (S). Dauntless puro (Nastjenka+Sutha+Garett+Ivellios+Schaltar) = 480k (morreram r\u00e1pido). Dauntless+Eurion sem healer = 639k. Dauntless+Torrin+Eurion (Nastjenka+Sutha+Garett) = 1.86M. Descoberta: survival base universal."
+  },
+  {
+    date: "2026-02-13",
+    title: "An\u00e1lise Completa: Banners Exclusivos (10 Her\u00f3is, 5 Banners)",
+    tags: ["banner", "an\u00e1lise", "nastjenka", "lothair"],
+    summary: "Analisou 10 her\u00f3is em 5 banners. Recomenda\u00e7\u00e3o: Nastjenka (Banner 2) + Lothair (Banner 4). Dois SS, HH 4.6, times diferentes.",
+    impact: "Nastjenka AGORA \u2192 acumular \u2192 Lothair em 6 dias. Lothair libera Ba\u00fa Dia 5 (n\u00e3o precisa mais de Durango).",
+    details: "Ranking: 1. Nastjenka (10/10, SS, HH 4.6, #1 do jogo), 2. Lothair (10/10, SS, HH 4.6, 13/13 perfeito), 3. Flora (7.5), 4. Ergander (7), 5. Ghul'ende (7), 6. Felosia (6), 7. Acilia (5), 8. Thelendor (4), 9. Zeffi (4), 10. Garrika (2). Aprendizado: DI alto + AC baixo = endgame S1 specialist. HH alto + DI baixo = valoriza versatilidade. 3 fontes concordam = confian\u00e7a m\u00e1xima."
+  },
+  {
+    date: "2026-02-13",
+    title: "Banner Nastjenka: 300 Pulls Realizados",
+    tags: ["banner", "pulls", "nastjenka", "wyrmarrow", "heroes"],
+    summary: "Gastou ~30.000 Wyrmarrow (300 pulls). Obteve Nastjenka (SS) + 4 Legend\u00e1rios Radiance novos + 2 duplicatas (Garett, Sutha Insp.) + 7 \u00c9picos.",
+    impact: "Legend\u00e1rios: 11 \u2192 16 (+5). Radiance: 0 \u2192 4. SS-tier: 2 \u2192 4 (+Nastjenka, Donella). 6 Inspira\u00e7\u00f5es ganhas. Wyrmarrow: ~60k \u2192 ~30k (reservado Lothair).",
+    details: "Legend\u00e1rios novos: Nastjenka (Lightning SS Dauntless, garantido), Lorentheel (Radiance S Rally, 4 drops, Insp.3), Donella (Radiance SS Support, 2 drops, Insp.1), Philto (Radiance S Rally), Sagomir (Radiance B Support). Duplicatas: Garett +1 Insp., Sutha +1 Insp. \u00c9picos novos: Alvis (Radiance C), Thurnus (Lightning C), Kamari (Radiance C), Duling (Radiance B), Shook (Lightning B), Shagrol (Lightning B), Ihuicatl (Lightning C). Time Rally/Radiance agora vi\u00e1vel."
+  },
+
+  // ── 2026-02-12 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-12",
+    title: "Frey Corridor: +14 N\u00edveis com Time Survival",
+    tags: ["teste", "frey-corridor", "times"],
+    summary: "Time Permafrost Survival avan\u00e7ou +14 n\u00edveis no Frey Corridor (superou time DPS puro anterior que fez ~10).",
+    impact: "Em conte\u00fado longo/dif\u00edcil, sobreviv\u00eancia > burst. Time Survival agora \u00e9 principal de Bosses/Frey Corridor.",
+    details: "Mesmo time: Ladehlia + Rowena + Vinyara + Torrin + Eurion. Superou time DPS puro (Frurbath+Vicana+Felicity+Sutha+Ladehlia). Time vivo = dano acumulado infinito. Ladehlia (3k/s) + Rowena (2k/s) = DPS suficiente. Torrin + Eurion = dupla universal de sobreviv\u00eancia."
+  },
+  {
+    date: "2026-02-12",
+    title: "Segundo Ba\u00fa Dia 5 Obtido",
+    tags: ["ba\u00fa", "recurso"],
+    summary: "Henry agora tem 2 Ba\u00fas de Sele\u00e7\u00e3o Lend\u00e1rio (Dia 5) \u2014 18 op\u00e7\u00f5es cada.",
+    impact: "Durango + Sintrellia agora \u00e9 poss\u00edvel simultaneamente. Time Poison perfeito E Time Summon vi\u00e1vel.",
+    details: "Com 2 ba\u00fas, pode pegar Durango + Sintrellia (antes era um OU outro). \u00c1rvore de decis\u00e3o precisa revis\u00e3o \u2014 cen\u00e1rio 'melhor dos dois mundos' mais prov\u00e1vel."
+  },
+  {
+    date: "2026-02-12",
+    title: "Time Permafrost SURVIVAL Testado (Tier S + 4M Vortex)",
+    tags: ["times", "teste", "permafrost", "survival", "torrin", "eurion"],
+    summary: "Time Ladehlia+Rowena+Vinyara+Torrin+Eurion obteve Tier S no evento Divine Ascetic e 4M no Temporal Vortex.",
+    impact: "Torrin + Eurion = dupla core de sobreviv\u00eancia (imortalidade). Ladehlia 3k/s DPS, Rowena 2k/s sem setup Frost.",
+    details: "Eurion Ally Protection absorve dano de todos \u2192 Torrin cura \u2192 anti-morte invenc\u00edvel 5s \u2192 Invisibilidade 10s \u2192 loop infinito. Bonds: 5 Permafrost, 1 Summon, 1 Frost, 2 Support. Time alternativo ao Ice can\u00f4nico. Henry: 'Esse healer e esse tank s\u00e3o maravilhosos!!!!!'"
+  },
+  {
+    date: "2026-02-12",
+    title: "Ba\u00fas Lend\u00e1rios: An\u00e1lise Profunda (PENDENTE \u2014 aguardando 300 pulls)",
+    tags: ["ba\u00fa", "an\u00e1lise", "legendary"],
+    summary: "An\u00e1lise profunda dos ba\u00fas Dia 5 e Dia 10. Duas op\u00e7\u00f5es finalistas: A (Durango+Philto) vs B (Sintrellia+Premtsa = Time Summon). Decis\u00e3o depende dos pulls do banner.",
+    impact: "\u00c1rvore de decis\u00e3o criada para adaptar escolha dos ba\u00fas conforme Legend\u00e1rios que ca\u00edrem nos 300 pulls.",
+    details: "Op\u00e7\u00e3o A: Durango (Poison SS) + Philto (Radiance S) \u2014 Poison perfeito, 4 times sem conflito. Op\u00e7\u00e3o B: Sintrellia + Premtsa = Time Summon (Ladehlia+Sintrellia+Premtsa+Voresh+Eurion) com 5 Permafrost + 3 Summon + 2 Support. Loop: Ladehlia invoca Shadow Demon \u2192 Sintrellia clona \u2192 Premtsa explode undead AoE. Fatores: Resonance Level iguala her\u00f3is, afinidade early d\u00e1 stats fixos (+200 ATK), her\u00f3is podem estar em m\u00faltiplos times. Se cair Durango nos pulls \u2192 Op\u00e7\u00e3o B. Se cair Sintrellia \u2192 Ba\u00fa 1 Durango + Ba\u00fa 2 Premtsa."
+  },
+  {
+    date: "2026-02-12",
+    title: "CORRE\u00c7\u00c3O: Inspira\u00e7\u00e3o \u00e9 s\u00f3 para Legend\u00e1rios",
+    tags: ["mec\u00e2nica", "corre\u00e7\u00e3o", "inspira\u00e7\u00e3o"],
+    summary: "Sistema de Inspira\u00e7\u00e3o \u00e9 exclusivo de Legend\u00e1rios. Duplicata de \u00c9pico/Raro d\u00e1 apenas material.",
+    impact: "Em ba\u00fas de \u00c9pico/Raro, sempre preferir her\u00f3i NOVO (material duplicado n\u00e3o vale).",
+    details: "Inspira\u00e7\u00e3o requer duplicata do mesmo Legend\u00e1rio. Duplicata de \u00c9pico/Raro d\u00e1 artefatos/fragmentos, N\u00c3O Inspira\u00e7\u00e3o. Corrigido em: chest-selection.md, decisions-log.md."
+  },
+  {
+    date: "2026-02-12",
+    title: "Ba\u00fa Raro S1: GUARDADO",
+    tags: ["ba\u00fa", "raro"],
+    summary: "Guardou o ba\u00fa \u2014 Henry j\u00e1 tem todos os raros S1.",
+    impact: "Ba\u00fa reservado para quando lan\u00e7arem raros de novas seasons.",
+    details: "Duplicata de Raro N\u00c3O d\u00e1 Inspira\u00e7\u00e3o. Todos raros j\u00e1 obtidos. Melhor esperar novos her\u00f3is."
+  },
+  {
+    date: "2026-02-12",
+    title: "Ba\u00fa \u00c9pico S1: ISOLDE (Fire Tank A)",
+    tags: ["ba\u00fa", "\u00e9pico", "isolde", "fire"],
+    summary: "Escolheu Isolde (Fire Tank A, HH 3.8) no Ba\u00fa \u00c9pico S1. Fire era elemento com mais lacunas (zero tank A-tier).",
+    impact: "Fire ganha tank dedicado A-tier. Composi\u00e7\u00e3o Fire: Felicity(Leg.) + Errich(Leg.) + Tonalnan + Isolde(tank) + Horrus/Alfie.",
+    details: "Duplicata de \u00c9pico N\u00c3O d\u00e1 Inspira\u00e7\u00e3o. Descartados: Vicuc (Poison saturado), Adolphus (Fire Healer A, 2a op\u00e7\u00e3o), Zhar'loth (Necrosis A, sem time), Rava (Ice j\u00e1 forte)."
+  },
+  {
+    date: "2026-02-12",
+    title: "Torrin Obtido (Confirmado)",
+    tags: ["heroes", "torrin", "legendary", "necrosis", "obtido"],
+    summary: "Torrin (Necrosis Legendary, Support, HH 4.1, AC A) confirmado obtido. Previamente marcado como incerto (TOP 200 Gladiator Arena).",
+    impact: "11o Legend\u00e1rio. Core do Frost Domain \u2014 double layer immunity com Catherine. Scroll 7 confirmado para Torrin.",
+    details: "Kit: Battle dispela debuffs + heal. Ultimate: Invisibilidade 10s para todos aliados + Debuff Immunity. Passiva: marca 1 aliado \u2192 +20% HP e DEF. Aura: +40 Resistance. Resolve incerteza que existia desde 09/Fev."
+  },
+  {
+    date: "2026-02-12",
+    title: "Eurion Obtido (Evento)",
+    tags: ["heroes", "eurion", "legendary", "ice", "obtido"],
+    summary: "Eurion (Ice Legendary, Defense/Tank, HH 4.1) obtido via evento. 5.0 em 10 de 13 atividades.",
+    impact: "10o Legend\u00e1rio. Resolve o MAIOR problema do time Ice: falta de tank A-tier. Antes: Dallbam (Epic C-tier). Agora: Eurion (Leg. A, HH 4.1) = tank de elite.",
+    details: "Time Ice: Eurion (tank) + Hochadir (DPS S) + Vinyara (DPS A) + Voresh (SS support) + flex. Referenciado em team-compositions.md como 'core Frost tank'."
+  },
+  {
+    date: "2026-02-12",
+    title: "Garett Obtido (Ba\u00fa Aleat\u00f3rio Extra)",
+    tags: ["heroes", "garett", "legendary", "lightning", "obtido"],
+    summary: "Garett (Lightning Legendary, Dauntless, HH 4.2) obtido de ba\u00fa aleat\u00f3rio extra. 5.0 em Arena, Green/Violet Dragon, Gloomland.",
+    impact: "9o Legend\u00e1rio (na \u00e9poca). 4o Legendary Dauntless. Lightning agora com 3 Legendary DPS Dauntless. Captain: +24% Crit Damage stacka com aura Nastjenka (+24% ATK).",
+    details: "Kit: Captain +24% Crit Damage. Battle: 3 golpes, +2% HP + dano, conta como basic attack. Ultimate: 5 golpes crit garantido + 30% Crit DMG extra 10s, consome 7% HP. Passiva (Sobering Pain): ATK sobe ao tomar dano (20% do dano recebido), stacka at\u00e9 200% do ATK base. Garett + Ivellios compartilham mec\u00e2nica 'tomar dano \u2192 mais ATK'."
+  },
+
+  // ── 2026-02-11 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-11",
+    title: "REVIS\u00c3O GERAL: Tier List AllClash + HellHades Combinada",
+    tags: ["tier-list", "an\u00e1lise", "corre\u00e7\u00e3o"],
+    summary: "Extra\u00e7\u00e3o direta do DOM de AllClash (284 her\u00f3is) + API HellHades (280). 301 her\u00f3is combinados. V\u00e1rias corre\u00e7\u00f5es de tier.",
+    impact: "Sutha S\u2192A, Frurbath S\u2192A, Sigrid S\u2192A, Voresh S\u2192SS, Ladehlia S\u2192SS, Hochadir A\u2192S, Vicana A\u2192S. Ba\u00fas revisados: Ba\u00fa 1 Sintrellia\u2192Durango (SS), Ba\u00fa 2 Lothair\u2192Auster (Lothair N\u00c3O est\u00e1 no ba\u00fa!). Top 14 SS-tier identificados.",
+    details: "Corre\u00e7\u00f5es: Sutha A (HH 3.8, n\u00e3o S), Frurbath A (HH 4.4, core), Sigrid A (HH 4.2), Ivellios B (HH 4.4), Voresh SS (HH 4.2, UPGRADE), Ladehlia SS (Reborn-exclusive, UPGRADE), Hochadir S (HH 3.8, UPGRADE), Vicana S (HH 3.4, UPGRADE). Ba\u00fa 1: Durango (Poison SS, HH 4.3, \u00fanico SS dispon\u00edvel). Ba\u00fa 2: Auster (Ice SS, HH 4.5, 5.0 em 10/13). ERRO ANTERIOR: Lothair recomendado para Ba\u00fa 2 mas N\u00c3O est\u00e1 dispon\u00edvel. Banner 300 pulls: Nastjenka mantido (SS, HH 4.6, #1)."
+  },
+
+  // ── 2026-02-10 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-10",
+    title: "Novo Time: Dauntless (com Nastjenka)",
+    tags: ["times", "dauntless", "nastjenka"],
+    summary: "Composi\u00e7\u00e3o: Nastjenka (DPS/Aura SS) + Sutha (DPS burst) + Ivellios (DPS/Scale) + Frurbath (Tank/Heal) + Garius (Support).",
+    impact: "4 Resplendence (+20% ATK/DEF), 3 Dauntless (50% Thundercloud), 2 Support (10% HP shield), Nastjenka +24% ATK aura.",
+    details: "Uso: farm r\u00e1pido (Goblin Lair, gear) \u2014 burst > DoT. Boss fights \u2014 loop de procs Dauntless + ATK stacking. Alternativa ao Poison quando burst \u00e9 mais eficiente."
+  },
+  {
+    date: "2026-02-10",
+    title: "Ivellios: Reavaliado (D \u2192 A-B em time Dauntless)",
+    tags: ["heroes", "ivellios", "reavalia\u00e7\u00e3o"],
+    summary: "Ivellios era D-tier gen\u00e9rico mas funciona no 'Nastjenka's crew' (Ivellios+Sutha+Schaltar). Passiva 20% follow-up Dauntless + Ultimate ignora 100% DEF.",
+    impact: "Ivellios ocupa 3o slot Dauntless (Nastjenka+Sutha+Ivellios = 3 Dauntless = 50% Thundercloud). N\u00c3O investir Master Scroll, mas USAR no time.",
+    details: "Kit Reborn (corrigido vs JSON dragonheir.info): Passiva (Black Feather Volley): aliado basic attack \u2192 10% follow-up, Dauntless = 20%. Battle (Dancing Arrow): dano Lightning + Attack Speed Up I para Dauntless 4s. Ultimate (Featherstorm): flecha poderosa, Derivative damage, ignora 100% DEF. Loop: Nastjenka ataca \u2192 Ivellios proca 20% \u2192 Thundercloud 50% \u2192 Sutha crita \u2192 Phantom \u2192 Ivellios de novo. Build: Queen's Fan + Enlightenment em toda gear + stackar ATK."
+  },
+  {
+    date: "2026-02-10",
+    title: "Banner Exclusivo: NASTJENKA (Lightning/Dauntless S-tier)",
+    tags: ["banner", "nastjenka", "plano", "wyrmarrow"],
+    summary: "Decis\u00e3o de salvar Wyrmarrow para banner exclusivo da Nastjenka (300 pulls = 30.000 Wyrmarrow). Melhor hero\u00edna do jogo, +24% ATK universal.",
+    impact: "Prioridade m\u00e1xima de recursos. Pausar pulls aleat\u00f3rios. Sinergia com Sutha (Dauntless) + Ivellios.",
+    details: "Nastjenka: MELHOR HERO\u00cdNA DO JOGO (un\u00e2nime). Aura +24% ATK permanente para todos aliados. Passiva: Crit Rate extra baseada em Attack Speed. Ultimate: dano massivo + amplifica ATK aliados 10s. Elemento Lightning, School Dauntless. Banner chega em ~3 dias (~13/Fev). Alternativas descartadas: Ghul'ende (universal support), Flora (+30% ATK fire), Ergander (melhor tank)."
+  },
+
+  // ── 2026-02-09 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-09",
+    title: "Ba\u00fas de Sele\u00e7\u00e3o de Lend\u00e1rio (Dia 5 e Dia 10)",
+    tags: ["ba\u00fa", "an\u00e1lise", "sintrellia", "auster"],
+    summary: "An\u00e1lise inicial dos ba\u00fas. Ba\u00fa 1 (Dia 5): Sintrellia (Necrosis A-S, Summon). Ba\u00fa 2 (Dia 10): Auster (Ice S, Frost).",
+    impact: "Sintrellia duplica Shadow Demon da Ladehlia. Auster = melhor DPS Frost do jogo + Frost 3 (Auster+Hochadir+Rowena).",
+    details: "Ba\u00fa 1 Sintrellia: Necrosis, Summon, A-S (DI 4.5/5). Duplica Shadow Demon (Ultimate copia invoca\u00e7\u00e3o com maior ATK). Se Torrin chegar: tri\u00e2ngulo dourado Ladehlia+Sintrellia+Torrin. Descartados: Durango (Poison j\u00e1 forte), Radiance (sem roster), Rhash (precisa Wild), Divine Ascetic (vem gr\u00e1tis). Ba\u00fa 2 Auster: Ice, Frost, S un\u00e2nime. Battle Skill 50% chance ignorar 100% DEF. Descartados: Premtsa (compete com Ladehlia), Philto (sem Radiance), Twitch (A-tier), Felicity Asc.1 (medíocre). Consenso: novo Legendary > ascens\u00e3o no early game."
+  },
+  {
+    date: "2026-02-09",
+    title: "Torrin: Status Atualizado",
+    tags: ["heroes", "torrin", "status"],
+    summary: "Torrin precisava TOP 200 Gladiator Arena (incerto). School: Support (N\u00c3O Summon). Atualizado: OBTIDO em 12/Fev.",
+    impact: "Master Scroll 7 reservado para Torrin. Core Frost Domain. Integrado no time.",
+    details: "Antes: 'Chegando via evento'. Depois: precisa TOP 200 Gladiator Arena \u2014 incerto. Resultado final: OBTIDO em 12/Fev. School Support, n\u00e3o Summon como esperado."
+  },
+  {
+    date: "2026-02-09",
+    title: "School Bonds: Sistema Descoberto + Times Reconstru\u00eddos",
+    tags: ["mec\u00e2nica", "school-bonds", "times", "descoberta"],
+    summary: "Descoberto segundo sistema de bonds (School Bonds) que stacka com Elemental Affinity. 7 Schools: Toxin, Wild, Frost, Dauntless, Summon, Rally, Support.",
+    impact: "Times reconstru\u00eddos: Poison 3 Toxin + 2 Support (60% Poison Pool!). Ice 2 Frost + 2 Support (Frozen 5s). Fire j\u00e1 tinha 3 Wild. Princ\u00edpio: mono-elemento maximiza school bonds.",
+    details: "Support \u00e9 cross-element. SuperYennefer: Fire, Support. Torrin: Support (N\u00c3O Summon!). Poison: sa\u00edram Sigrid/Sifris, entraram Shink/Lorarii (Toxin A-tier). Ice+Necro: saiu Gardrus, entrou Rowena (Frost A-tier). Fire+Poison: 3 Wild natural (dados m\u00e1ximos Burst). Boss/PvP: multi-elemento sacrifica school bonds por raw Legendary power."
+  },
+  {
+    date: "2026-02-09",
+    title: "Ladehlia: NL \u2192 S-tier (Descoberta Major)",
+    tags: ["heroes", "ladehlia", "descoberta", "tier"],
+    summary: "Pesquisa revelou Ladehlia como S-tier em AllClash, HellHades e Pocket Gamer. Hero\u00edna do Reborn (substituiu Scharlach). DPS/Summoner Necrosis.",
+    impact: "Henry agora com 2 Legendary S-tier (Sutha + Ladehlia). Necrosis deixa de ser ponto fraco. Ladehlia sobe para prioridade #2 em Master Scrolls.",
+    details: "Role: DPS/Summoner Necrosis. Invoca Shadow Demon (720% ATK). Battle Skill execu\u00e7\u00e3o (+1% dano por 1% HP perdido). Passiva stacking 'Satisfied'. Ascens\u00e3o 1 ativa: Insp.1 = 10 stacks Satisfied no in\u00edcio. Sinergia combat kit com Torrin (heal+invis mant\u00e9m viva). N\u00c3O \u00e9 school bond. Upgrade futuro: Sintrellia (duplica Shadow Demon). Build: ATK em tudo, Imperial Executioner ou Unclean Bloodline, Great Demon Skull."
+  },
+  {
+    date: "2026-02-09",
+    title: "Corre\u00e7\u00e3o: Heksandra \u00e9 Healer, n\u00e3o DPS",
+    tags: ["heroes", "heksandra", "corre\u00e7\u00e3o"],
+    summary: "Heksandra (Poison Epic A-tier) \u00e9 Healer/Support, n\u00e3o DPS. Cura AoE %HP max, cleanse debuffs, +30% heal em aliados <40% HP.",
+    impact: "Uma das melhores healers F2P. Corrigido em my-roster.md e my-teams.md.",
+    details: "Skills: Cura AoE baseada em %HP max (Ultimate), cleanse de debuffs (Battle Skill), passiva +30% heal em aliados <40% HP. Fontes: HellHades, dragonheir.info, AllClash, Pocket Gamer, Item Level Gaming."
+  },
+  {
+    date: "2026-02-09",
+    title: "Pesquisa: Adventurer (Personagem Principal) nos Times",
+    tags: ["mec\u00e2nica", "adventurer", "pesquisa"],
+    summary: "PC ocupa 1 dos 5 slots, \u00e9 opcional. Elemento Fire/Ice/Lightning (troca gr\u00e1tis). Classe irrelevante para combate (s\u00f3 overworld). Melhor usar 5 her\u00f3is especializados.",
+    impact: "SuperYennefer permanece Fire (bond Fire+Poison). N\u00e3o incluir no time principal Poison (5 Poison puros > 4 Poison + 1 Fire PC).",
+    details: "Control Skill: AoE dano + Shield aliados, funciona com PC fora do time (exceto Grand Gladiator Arena). Nenhuma tier list inclui o PC. Fontes: dragonheir.info, Pocket Gamer, AllClash, BlueStacks guide, GamingOnPhone."
+  },
+  {
+    date: "2026-02-09",
+    title: "Master Scrolls: Plano de Uso (ATUALIZADO \u2014 Ladehlia S-tier)",
+    tags: ["scrolls", "plano", "master"],
+    summary: "Prioridade: 1. Sutha (Leg.S burst), 2. Ladehlia (Leg.S Asc.1), 3. Frurbath (Epic S tank/heal), 4. Vicana (Leg.A DPS), 5. Felicity (Leg.A boss), 6. Hochadir (Leg.A Ice), 7. Guardar para Torrin.",
+    impact: "7 Master Scrolls alocados por prioridade. Ladehlia subiu para #2 ap\u00f3s descoberta S-tier.",
+    details: "Scroll 1: Sutha (Legendary S \u2014 burst DPS). Scroll 2: Ladehlia (Legendary S, Asc.1 \u2014 DPS/Summoner carry). Scroll 3: Frurbath (Epic S, tank/heal essencial). Scroll 4: Vicana (Legendary A, DPS core Poison). Scroll 5: Felicity (Legendary A, boss-killer). Scroll 6: Hochadir (Legendary A, DPS Ice). Scroll 7: Guardar para Torrin (Legendary S, combat kit com Ladehlia)."
+  },
+  {
+    date: "2026-02-09",
+    title: "Roster Analisado (~106 her\u00f3is identificados)",
+    tags: ["roster", "an\u00e1lise"],
+    summary: "8 Legend\u00e1rios na \u00e9poca: Sutha, Vicana, Felicity, Errich, Hochadir, Vinyara, Ladehlia, Ivellios. 3 S-tier n\u00e3o-Legendary: Frurbath, Sigrid, Voresh. Elemento mais forte: Poison.",
+    impact: "Time principal = Poison DoT (Frurbath+Vicana+Sigrid+Heksandra+Sifris). Time 2: Ice+Necrosis. Torrin chegando via evento.",
+    details: "Her\u00f3i mais valioso: Sutha = Legendary + S-tier (\u00fanica combina\u00e7\u00e3o). Elemento: Poison (2S+1Leg.A+7A) > Ice (1S+2Leg.A+5A) > Fire (2 Leg.). Depois vieram Garett, Eurion, Torrin \u2192 total 11 na \u00e9poca."
+  },
+
+  // ── 2026-02-08 ──────────────────────────────────────────────────────────
+
+  {
+    date: "2026-02-08",
+    title: "Recursos Confirmados",
+    tags: ["recursos", "conta"],
+    summary: "118 her\u00f3is, 7 Master Scrolls, 2.583 Wyrmarrow, 26 artefatos. Heliolite Dice convertidos a 350 Wyrmarrow cada.",
+    impact: "Base de recursos para planejamento inicial.",
+    details: "118 her\u00f3is, 7 Master Scrolls, 2.583 Wyrmarrow, 26 artefatos. Heliolite Dice convertidos a 350 Wyrmarrow cada."
+  },
+  {
+    date: "2026-02-08",
+    title: "Heran\u00e7a de Conta",
+    tags: ["conta", "veterano", "heran\u00e7a"],
+    summary: "Decidiu usar conta veterana (n\u00e3o criar conta nova). Veteranos ganham at\u00e9 15.000 Wyrmarrow no Account Appraisal vs 4.800 para novos.",
+    impact: "118 her\u00f3is + 26 artefatos preservados. Base muito mais forte que come\u00e7ar do zero.",
+    details: "A\u00e7\u00e3o: Selecionou 'Veteran Server' \u2192 Criou personagem \u2192 Event > Legacy Character Inheritance \u2192 Confirmou heran\u00e7a de Morrigann."
+  },
+
+  // ============================================================
+  // S6 — Hymn of Chess & Blade (Abr/2026)
+  // ============================================================
+
+  {
+    date: "2026-04-08",
+    title: "S6 Entrada + Pesquisa ampla + Atualização completa de dados",
+    tags: ["s6", "season-change", "data-update", "affinities"],
+    summary: "Entrou na S6 (Hymn of Chess & Blade). Afinidades mudaram: Devitalization (Ice+Poison), Incandescence (Fire+Radiance), Vertigo (Lightning+Necrosis). Dados atualizados via API dragonheir.info (316 heróis). heroes.js e tiers.js regravados com dados S1-S6.",
+    impact: "Afinidades S6 mudam composições. Ice+Poison juntos (Hvitar+Lothair). Lightning+Necrosis juntos (Nastjenka+Ladehlia). Fire+Radiance juntos. Affinity Evolution paths podem ter resetado.",
+    details: "API CDN: i.dmzgame.com/dragonheir/json/en/heroes-2025.json (316 heróis) + common/tier.json (163 rated). Raw data em data/raw/. CLAUDE.md, mechanics.js, profile.js, mentoria-aprendizados.md, teams.js, guides.js atualizados."
+  },
+  {
+    date: "2026-04-08",
+    title: "Perseus obtido via Forthfaring Summons (10 dice)",
+    tags: ["s6", "hero-obtained", "perseus", "forthfaring"],
+    summary: "Perseus (Necrosis/Support S6) obtido no Forthfaring Summons com apenas 10 Heliolite Dice (drop sortudo).",
+    impact: "Support Necrosis S-Tier. Vertigo (Lightning+Necrosis). Eliminou necessidade do Total Selectable banner pra Perseus."
+  },
+  {
+    date: "2026-04-08",
+    title: "Echoing Shadow Summon: Wish List TRAVADA (Aemonleyda + Perkunte)",
+    tags: ["s6", "echoing-shadow", "banner", "wish-list", "locked"],
+    summary: "Wish List confirmada e travada no Echoing Shadow Summon. DPS: Aemonleyda (300) + Perkunte (800). Supports: Lincos (100), Diantha (200), Stanguem (400), Orfenna (600). Pool é Radiance + Lightning.",
+    impact: "6 heróis novos garantidos via milestones. 3 são Aura (Aemonleyda, Lincos, Diantha) = core de time Aura. Orfenna habilita combo com Perkunte (Electrocuted refresh). Stanguem reforça Lightning.",
+    details: "Análise cruzada: Premtsa garantida via Ticket Stuck Issuance (futuro). Ripekas garantido via chest separado (dias). Lelwanis sacrificada pois Necrosis DPS coberto por Ladehlia+Premtsa. Aemonleyda (Aura 5.0) abre arquétipo Aura completo com Anneliesis+Talethia."
+  },
+  {
+    date: "2026-04-08",
+    title: "Plano S6 REVISADO: Echoing + Radiant Wings + 3x Chest S5",
+    tags: ["s6", "plan", "banners", "aura-team", "thunderbolt"],
+    summary: "Plano revisado apos descobrir: (1) Talethia NAO esta no chest S5, (2) pode comprar 3 chests (3k DC cada), (3) Ripekas obtido. Total: 14 herois novos.",
+    impact: "3 arquetipos reforçados: Aura (5 heroes: Anneliesis+Shahla+Aemonleyda+Lincos+Diantha), Thunderbolt trio (Perkunte+Orfenna+Shai'nachtan), Burn (Karf). Premtsa garantida separado (Ticket).",
+    details: `PLANO FINAL S6:
+Obtidos: Perseus (Forthfaring 10 dice), Ripekas (Chest gratis)
+Futuro garantido: Premtsa (Ticket Stuck Issuance)
+Echoing Shadow 800 (80k Wyrm) — TRAVADO:
+  100=Lincos (Aura 4.625), 200=Diantha (Aura 4.625), 300=Aemonleyda (Aura 5.0),
+  400=Stanguem (Lightning 4.75), 600=Orfenna (Thunderbolt, Perkunte enabler), 800=Perkunte (Thunderbolt 5.0)
+Radiant Wings 300 (30k Wyrm): Anneliesis (exclusive Aura S6)
+3x Chest S5 (9k DC total): Shai'nachtan (Thunderbolt 4.75), Shahla (Aura S5), Karf (Burn 4.62)
+NOTA: Talethia (AllClash S+) NAO disponivel no chest. Shahla substitui como 5a Aura (buffer CritDMG).
+Budget: ~110k Wyrm + 9k DC + reserva 40-70k pra proximo banner (Aethereal? Maashtur?).
+Contexto: Ice e o time mais forte. Dauntless bom pra Vortex. Fire/Radiance sao fracos (Aura e investimento novo do zero).`
+  },
+  {
+    date: "2026-04-08",
+    title: "Ripekas obtido via Chest seleção",
+    tags: ["s6", "hero-obtained", "ripekas", "chest"],
+    summary: "Ripekas (Necrosis/Support S1) obtido via chest de seleção gratuito.",
+    impact: "HH 4.3, avg 4.0. 5.0 em Vortex/H.Ruins/A.Battlefield/Arena/Fae/Pillar. Vertigo (Lightning+Necrosis)."
+  },
+  {
+    date: "2026-04-09",
+    title: "Echoing Shadow Summon 800 pulls COMPLETO — 10 novos + 14 inspirations",
+    tags: ["s6", "echoing-shadow", "banner", "800-pulls", "aura", "thunderbolt", "radiance", "lightning"],
+    summary: "800 pulls no Echoing Shadow Summon. 24 legendários (18 regular + 6 milestone). 10 novos: Lincos, Diantha, Aemonleyda (Aura core), Stanguem, Orfenna, Perkunte (Thunderbolt), Nissa, Bionphray, Phaessa, Gillian. 14 inspirations (Nissa x6, Lincos x2, Aemonleyda x1, Stanguem x1, Orfenna x1, Tamar x1, Zeffi x1, Donella x1).",
+    impact: "Core Aura obtido: Aemonleyda+Lincos+Diantha (3/5, faltam Anneliesis+Shahla). Thunderbolt duo: Perkunte+Orfenna (falta Shai'nachtan). Nissa com 6 inspirations (Thunderbolt S2). Roster 168→178, Legendaries 47→57.",
+    details: `ECHOING SHADOW SUMMON — 800 PULLS (Pool: Radiance + Lightning)
+
+Milestone Bonus (Wish List — todos obtidos conforme planejado):
+  100=Lincos (Radiance/Aura S3)
+  200=Diantha (Radiance/Aura S3)
+  300=Aemonleyda (Radiance/Aura S3, rating 5.0)
+  400=Stanguem (Lightning/Support S3)
+  600=Orfenna (Lightning/Thunderbolt S4, Perkunte enabler)
+  800=Perkunte (Lightning/Thunderbolt S2, rating 5.0)
+
+Regular pulls (18 legendários):
+  Stanguem, Nissa x7, Orfenna, Tamar, Bionphray, Lincos x2, Phaessa, Gillian, Aemonleyda, Zeffi, Donella
+
+Inspirations atualizadas: Tamar 1→2, Zeffi 0→1, Donella 2→3, Nissa 0→6, Lincos 0→2, Aemonleyda 0→1, Stanguem 0→1, Orfenna 0→1
+
+BUG CORRIGIDO: Ripekas estava com id 21520 (Perkunte). Corrigido para 21740.
+
+ERRO DE PLANEJAMENTO (sessao anterior 08/Abr):
+  Talethia (Radiance/Aura S5, AC S) deveria ter ficado no slot 300 da wish list NO LUGAR de Aemonleyda.
+  Motivo: Talethia NAO tem outra forma de obtencao (nao esta em chests, banners, tickets).
+  O Echoing Shadow era a UNICA janela. Aemonleyda (S3) tem mais chances de reaparecer.
+  Resultado: Aemonleyda caiu no pull regular de qualquer forma — o slot 300 da wish list foi desperdicado
+  como inspiration em vez de garantir Talethia.
+  APRENDIZADO: Ao montar wish list, priorizar herois SEM outra fonte de obtencao > herois com rating alto
+  mas obteniveis por outros meios.
+
+PRÓXIMOS PASSOS do plano S6:
+  - Radiant Wings 300 pulls → Anneliesis (Aura S6 exclusive)
+  - 3x Chest S5 → Shai'nachtan + Shahla + Karf
+  - Premtsa via Ticket Stuck Issuance
+  - Talethia: PERDIDA nesta season. Monitorar proximas oportunidades (banners futuros, chests S6+)`
+  },
+  {
+    date: "2026-04-09",
+    title: "3x Chest S5 completo — Shai'nachtan + Shahla + Karf",
+    tags: ["s6", "chest-s5", "hero-obtained", "thunderbolt", "aura", "burn"],
+    summary: "3 chests S5 comprados (9k DC total). Obtidos: Shai'nachtan (Lightning/Thunderbolt S2), Shahla (Radiance/Aura S5), Karf (Fire/Burn S2).",
+    impact: "Thunderbolt TRIO completo: Perkunte+Orfenna+Shai'nachtan. Aura 4/5 (falta Anneliesis via Radiant Wings). Burn aberto com Karf. Roster 178→181, Legendaries 57→60."
+  },
+  {
+    date: "2026-04-09",
+    title: "Radiant Wings 300 pulls COMPLETO — Anneliesis obtida, TIME AURA 5/5",
+    tags: ["s6", "radiant-wings", "banner", "300-pulls", "anneliesis", "aura", "milestone"],
+    summary: "Banner Radiant Wings 300 pulls. 11 legendários: 1 novo (Anneliesis, exclusive Aura S6) + 10 duplicatas convertidas em inspiration (Gillian, Eurion, Journ, Talwer, Torrin, Lincos x2, Lucien, Stanguem, Diantha).",
+    impact: "MARCO: TIME AURA 5/5 COMPLETO — Anneliesis+Aemonleyda+Lincos+Diantha+Shahla. Plano S6 de banners 100% executado (Echoing Shadow 800 + Radiant Wings 300 + 3x Chest S5). Roster 181→182, Legendaries 60→61, Inspirations 56→66.",
+    details: `RADIANT WINGS BANNER — 300 PULLS (09/Abr/2026)
+
+HERÓI NOVO (1):
+- Anneliesis (23820) — Radiance/Aura S6, EXCLUSIVE. AC A.
+  Passiva: Bonds com aliado no deploy (+20% Max HP, +20% DMG Bonus, +20 Ult Energy).
+  5s depois entra no campo e solta ult automaticamente.
+  Battle: Aura Energy pra todos Radiance + Shield AoE (explode quando quebra).
+  Ult: Light of Judgment — dano massivo + buff.
+
+DUPLICATAS → INSPIRATION (10):
+- Gillian (20000): 0→1
+- Eurion (20060): 0→1
+- Journ (21450): 3→4
+- Talwer (21320): 4→5
+- Torrin (20690): 1→2
+- Lincos (22790): 2→4 (+2)
+- Lucien (20990): 3→4
+- Stanguem (21310): 1→2
+- Diantha (21500): 0→1
+
+MARCO ATINGIDO:
+  TIME AURA COMPLETO 5/5: Anneliesis + Aemonleyda + Lincos + Diantha + Shahla
+  Plano S6 de banners 100% concluído:
+    ✓ Echoing Shadow 800 → 10 novos + 14 inspirations
+    ✓ Radiant Wings 300 → Anneliesis (exclusive)
+    ✓ 3x Chest S5 → Shai'nachtan + Shahla + Karf
+
+PRÓXIMOS PASSOS:
+  - Montar time Aura e testar em dungeons
+  - Premtsa via Ticket Stuck Issuance (pendente)
+  - PRÓXIMO BANNER: Talethia (23090) — aguardar banner de seleção`
+  },
+  {
+    date: "2026-04-09",
+    title: "PRIORIDADE: Próximo banner = Talethia (Aura S5, AC S)",
+    tags: ["s6", "priority", "talethia", "aura", "banner", "waiting"],
+    summary: "Próximo banner reservado para Talethia (23090, Radiance/Aura S5, AC S). Aguardando banner de seleção que inclua ela. 300 pulls garantem.",
+    impact: "Talethia é a engine de Aura Energy do time — passiva gera Crystal Arrows, ult restaura 5 Aura Energy/s e distribui pra aliados. Corrige o erro da wish list do Echoing Shadow. Time Aura final: Anneliesis+Talethia+Aemonleyda+Lincos+Diantha (Shahla sai ou vira flex).",
+    details: `DECISÃO: RESERVAR PRÓXIMO BANNER PARA TALETHIA
+Herói: Talethia (23090) — Radiance/Aura S5, Range DPS, AC S
+Status: AGUARDANDO banner de seleção que inclua ela
+Custo esperado: 300 pulls (30k Wyrmarrow) = pity garantido
+
+POR QUE:
+  Talethia foi PERDIDA no erro de planejamento do Echoing Shadow (slot 300 desperdiçado com Aemonleyda).
+  Ela NÃO tem outra fonte de obtenção (sem chests, sem tickets).
+  É a engine do arquétipo Aura: Condensation stacks → Crystal Arrows automáticos.
+  Ult: 10s de 5 Aura Energy/s + ignora 60% DEF + redistribui Aura Energy.
+
+REGRA: Não gastar Wyrmarrow em NADA até Talethia aparecer em banner.`
+  }
+];

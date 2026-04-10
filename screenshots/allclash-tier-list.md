@@ -1,0 +1,3644 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "AllClash" [ref=e5] [cursor=pointer]:
+        - /url: https://www.allclash.com/
+        - img "AllClash" [ref=e6]
+      - navigation [ref=e7]:
+        - button "Close mobile menu button" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: 
+    - complementary [ref=e10]:
+      - generic [ref=e11]:
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "Browse Games" [ref=e16] [cursor=pointer]:
+              - /url: https://www.allclash.com/
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "All Games" [ref=e21] [cursor=pointer]:
+              - /url: https://www.allclash.com/
+          - listitem [ref=e22]:
+            - link "Account" [ref=e23] [cursor=pointer]:
+              - /url: https://www.allclash.com/account/
+          - listitem [ref=e24]:
+            - link "Logout" [ref=e25] [cursor=pointer]:
+              - /url: https://www.allclash.com/wp-login.php?action=logout
+        - link "PRO Login" [ref=e27] [cursor=pointer]:
+          - /url: https://www.allclash.com/login-3/
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - searchbox "Search..." [ref=e31]
+            - button "Search" [ref=e32] [cursor=pointer]
+  - generic [ref=e35]:
+    - banner [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - button "Mobile menu button" [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]: 
+            - link "AllClash" [ref=e44] [cursor=pointer]:
+              - /url: https://www.allclash.com/
+              - img "AllClash" [ref=e45]
+          - navigation [ref=e47]:
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - link "All Games" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.allclash.com/
+                  - generic [ref=e51]: All Games
+              - listitem [ref=e52]:
+                - link "Account" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.allclash.com/account/
+                  - generic [ref=e54]: Account
+              - listitem [ref=e55]:
+                - link "Logout" [ref=e56] [cursor=pointer]:
+                  - /url: https://www.allclash.com/wp-login.php?action=logout
+                  - generic [ref=e57]: Logout
+          - generic [ref=e58]:
+            - button "Search" [ref=e59]:
+              - generic [ref=e60] [cursor=pointer]: 
+            - link "PRO Login" [ref=e61] [cursor=pointer]:
+              - /url: https://www.allclash.com/login-3/
+        - text:  
+    - main [ref=e62]:
+      - iframe [ref=e4332]:
+        - generic [active] [ref=f312e1]:
+          - generic [ref=f312e3]:
+            - link [ref=f312e4] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CEF_2ttLXadTAKsnx1sQPnubvmAT7t9q0hgHvwfi5rhX85sOc_UMQASDln-4sYM2Yto_8AqABpO6NryjIAQngAgCoAwHIAwqqBLYCT9Di5c4Ap3TcBnqoNm0Y_0vKpgrgDF67gRFuGgFNteZsulf6rurze8cppcKzcf-i_ftzUKQtg_xubv1r5KImvOaVexEAaXDIIkjDr-HvnycCGBdotAPcLRpqNUDlWeyYn3w4XKiqU8r73wwBJjmkeExcqutANZb0zzir3CwMQvsirDpsohN3RCGKMb8FcQpyzL5CgF-T3STBPZUjggFMJOy9_pV4xXVR0Ik0zKye58LSRUtqubF-Wag_eSDQfH2ELN21jblx-z197n91qRD-n7OKI2ZNmaIMRnWdkwThE4bwx2J2Q3nJoQvZ4q50-GLyNIGnVYA2Yivx4Vq4wdVKBCtQG5CWITFUZcshOsv79tFxSylR7Tr6h1onkWVEXPZFLuACOIU7m-uz496YqFbze6j4y1WuRsAEmPSwqcYF4AQBiAX5jOiDV6AGLoAHmqumO6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgHwsixAtgHANIILgiAYRABGB0yCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_MnCl5fhkwOaCR1odHRwczovL2Nsb3VkLmdvb2dsZS5jb20vZnJlZbEJxlacQzn6Y8uACgPICwHgCwGADAGiDAOQAQGqDQJCUsgNAeINEwjTh8OXl-GTAxXJuJUCHR7zG0PqDRMIm-7Dl5fhkwMVybiVAh0e8xtDiA7___________8BuBPkA9gTDIgUAdAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjY0OTQ3MTYzNjRQBroXAjgBqhgXCQAAAACI_gxBEgo2NDk0NzE2MzY0GAGyGAkSArhQGC4iAQDQGAHoGAGyGQEvwhkCCAE&gclid=EAIaIQobChMI1PPwl5fhkwMVybiVAh0e8xtDEAEYASAAEgJwqvD_BwE&num=1&cid=CAQS0gEABaugfWGXjdSU9mFO8f94mmPGS4OqKTsJ3iv0xmlS1tuE5YJug31Daecs66wHniYtkEtwVuSvtabQHmx6lG7NZfqQAHZAF_WMoOJnD0FVC8iNpUX_VSWqXN6Iy1FL2-isiY046WTbi7QHYfP9onk9eTT406RjE33UyUHMAB_BH7tDoOq1IhkRdn1wXNjeuIHDe3WZ4lEcGbBZXDW-yOjgmLR1TUvuOEFv5Tv0gxNc65ysHnxXRBeKOSo1ZzZ7OsfQx8UKxVC376qbo7JkDw64pDUYAQ&sig=AOD64_0AMyGzBPNNNllD9WL4hi_j25yNMQ&client=ca-pub-8573325940152694&rf=4&nb=9&adurl=https://ad.doubleclick.net/ddm/trackclk/N5295.134426.GOOGLEDISPLAYNETWOR/B34817303.436679363%3Bdc_trk_aid%3D629600873%3Bdc_trk_cid%3D247583232%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Fgad_source%3D5%26gad_campaignid%3D23361881721
+              - img [ref=f312e5]
+            - link [ref=f312e7] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CEF_2ttLXadTAKsnx1sQPnubvmAT7t9q0hgHvwfi5rhX85sOc_UMQASDln-4sYM2Yto_8AqABpO6NryjIAQngAgCoAwHIAwqqBLYCT9Di5c4Ap3TcBnqoNm0Y_0vKpgrgDF67gRFuGgFNteZsulf6rurze8cppcKzcf-i_ftzUKQtg_xubv1r5KImvOaVexEAaXDIIkjDr-HvnycCGBdotAPcLRpqNUDlWeyYn3w4XKiqU8r73wwBJjmkeExcqutANZb0zzir3CwMQvsirDpsohN3RCGKMb8FcQpyzL5CgF-T3STBPZUjggFMJOy9_pV4xXVR0Ik0zKye58LSRUtqubF-Wag_eSDQfH2ELN21jblx-z197n91qRD-n7OKI2ZNmaIMRnWdkwThE4bwx2J2Q3nJoQvZ4q50-GLyNIGnVYA2Yivx4Vq4wdVKBCtQG5CWITFUZcshOsv79tFxSylR7Tr6h1onkWVEXPZFLuACOIU7m-uz496YqFbze6j4y1WuRsAEmPSwqcYF4AQBiAX5jOiDV6AGLoAHmqumO6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgHwsixAtgHANIILgiAYRABGB0yCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_MnCl5fhkwOaCR1odHRwczovL2Nsb3VkLmdvb2dsZS5jb20vZnJlZbEJxlacQzn6Y8uACgPICwHgCwGADAGiDAOQAQGqDQJCUsgNAeINEwjTh8OXl-GTAxXJuJUCHR7zG0PqDRMIm-7Dl5fhkwMVybiVAh0e8xtDiA7___________8BuBPkA9gTDIgUAdAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjY0OTQ3MTYzNjRQBroXAjgBqhgXCQAAAACI_gxBEgo2NDk0NzE2MzY0GAGyGAkSArhQGC4iAQDQGAHoGAGyGQEvwhkCCAE&gclid=EAIaIQobChMI1PPwl5fhkwMVybiVAh0e8xtDEAEYASAAEgJwqvD_BwE&num=1&cid=CAQS0gEABaugfWGXjdSU9mFO8f94mmPGS4OqKTsJ3iv0xmlS1tuE5YJug31Daecs66wHniYtkEtwVuSvtabQHmx6lG7NZfqQAHZAF_WMoOJnD0FVC8iNpUX_VSWqXN6Iy1FL2-isiY046WTbi7QHYfP9onk9eTT406RjE33UyUHMAB_BH7tDoOq1IhkRdn1wXNjeuIHDe3WZ4lEcGbBZXDW-yOjgmLR1TUvuOEFv5Tv0gxNc65ysHnxXRBeKOSo1ZzZ7OsfQx8UKxVC376qbo7JkDw64pDUYAQ&sig=AOD64_0AMyGzBPNNNllD9WL4hi_j25yNMQ&client=ca-pub-8573325940152694&rf=4&nb=19&adurl=https://ad.doubleclick.net/ddm/trackclk/N5295.134426.GOOGLEDISPLAYNETWOR/B34817303.436679363%3Bdc_trk_aid%3D629600873%3Bdc_trk_cid%3D247583232%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Fgad_source%3D5%26gad_campaignid%3D23361881721
+              - img [ref=f312e8]
+            - link "Infraestrutura Google" [ref=f312e11] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CEF_2ttLXadTAKsnx1sQPnubvmAT7t9q0hgHvwfi5rhX85sOc_UMQASDln-4sYM2Yto_8AqABpO6NryjIAQngAgCoAwHIAwqqBLYCT9Di5c4Ap3TcBnqoNm0Y_0vKpgrgDF67gRFuGgFNteZsulf6rurze8cppcKzcf-i_ftzUKQtg_xubv1r5KImvOaVexEAaXDIIkjDr-HvnycCGBdotAPcLRpqNUDlWeyYn3w4XKiqU8r73wwBJjmkeExcqutANZb0zzir3CwMQvsirDpsohN3RCGKMb8FcQpyzL5CgF-T3STBPZUjggFMJOy9_pV4xXVR0Ik0zKye58LSRUtqubF-Wag_eSDQfH2ELN21jblx-z197n91qRD-n7OKI2ZNmaIMRnWdkwThE4bwx2J2Q3nJoQvZ4q50-GLyNIGnVYA2Yivx4Vq4wdVKBCtQG5CWITFUZcshOsv79tFxSylR7Tr6h1onkWVEXPZFLuACOIU7m-uz496YqFbze6j4y1WuRsAEmPSwqcYF4AQBiAX5jOiDV6AGLoAHmqumO6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgHwsixAtgHANIILgiAYRABGB0yCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_MnCl5fhkwOaCR1odHRwczovL2Nsb3VkLmdvb2dsZS5jb20vZnJlZbEJxlacQzn6Y8uACgPICwHgCwGADAGiDAOQAQGqDQJCUsgNAeINEwjTh8OXl-GTAxXJuJUCHR7zG0PqDRMIm-7Dl5fhkwMVybiVAh0e8xtDiA7___________8BuBPkA9gTDIgUAdAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjY0OTQ3MTYzNjRQBroXAjgBqhgXCQAAAACI_gxBEgo2NDk0NzE2MzY0GAGyGAkSArhQGC4iAQDQGAHoGAGyGQEvwhkCCAE&gclid=EAIaIQobChMI1PPwl5fhkwMVybiVAh0e8xtDEAEYASAAEgJwqvD_BwE&num=1&cid=CAQS0gEABaugfWGXjdSU9mFO8f94mmPGS4OqKTsJ3iv0xmlS1tuE5YJug31Daecs66wHniYtkEtwVuSvtabQHmx6lG7NZfqQAHZAF_WMoOJnD0FVC8iNpUX_VSWqXN6Iy1FL2-isiY046WTbi7QHYfP9onk9eTT406RjE33UyUHMAB_BH7tDoOq1IhkRdn1wXNjeuIHDe3WZ4lEcGbBZXDW-yOjgmLR1TUvuOEFv5Tv0gxNc65ysHnxXRBeKOSo1ZzZ7OsfQx8UKxVC376qbo7JkDw64pDUYAQ&sig=AOD64_0AMyGzBPNNNllD9WL4hi_j25yNMQ&client=ca-pub-8573325940152694&rf=4&nb=0&adurl=https://ad.doubleclick.net/ddm/trackclk/N5295.134426.GOOGLEDISPLAYNETWOR/B34817303.436679363%3Bdc_trk_aid%3D629600873%3Bdc_trk_cid%3D247583232%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Fgad_source%3D5%26gad_campaignid%3D23361881721
+            - link "Inscreva-Se" [ref=f312e14] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CEF_2ttLXadTAKsnx1sQPnubvmAT7t9q0hgHvwfi5rhX85sOc_UMQASDln-4sYM2Yto_8AqABpO6NryjIAQngAgCoAwHIAwqqBLYCT9Di5c4Ap3TcBnqoNm0Y_0vKpgrgDF67gRFuGgFNteZsulf6rurze8cppcKzcf-i_ftzUKQtg_xubv1r5KImvOaVexEAaXDIIkjDr-HvnycCGBdotAPcLRpqNUDlWeyYn3w4XKiqU8r73wwBJjmkeExcqutANZb0zzir3CwMQvsirDpsohN3RCGKMb8FcQpyzL5CgF-T3STBPZUjggFMJOy9_pV4xXVR0Ik0zKye58LSRUtqubF-Wag_eSDQfH2ELN21jblx-z197n91qRD-n7OKI2ZNmaIMRnWdkwThE4bwx2J2Q3nJoQvZ4q50-GLyNIGnVYA2Yivx4Vq4wdVKBCtQG5CWITFUZcshOsv79tFxSylR7Tr6h1onkWVEXPZFLuACOIU7m-uz496YqFbze6j4y1WuRsAEmPSwqcYF4AQBiAX5jOiDV6AGLoAHmqumO6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgHwsixAtgHANIILgiAYRABGB0yCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_MnCl5fhkwOaCR1odHRwczovL2Nsb3VkLmdvb2dsZS5jb20vZnJlZbEJxlacQzn6Y8uACgPICwHgCwGADAGiDAOQAQGqDQJCUsgNAeINEwjTh8OXl-GTAxXJuJUCHR7zG0PqDRMIm-7Dl5fhkwMVybiVAh0e8xtDiA7___________8BuBPkA9gTDIgUAdAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjY0OTQ3MTYzNjRQBroXAjgBqhgXCQAAAACI_gxBEgo2NDk0NzE2MzY0GAGyGAkSArhQGC4iAQDQGAHoGAGyGQEvwhkCCAE&gclid=EAIaIQobChMI1PPwl5fhkwMVybiVAh0e8xtDEAEYASAAEgJwqvD_BwE&num=1&cid=CAQS0gEABaugfWGXjdSU9mFO8f94mmPGS4OqKTsJ3iv0xmlS1tuE5YJug31Daecs66wHniYtkEtwVuSvtabQHmx6lG7NZfqQAHZAF_WMoOJnD0FVC8iNpUX_VSWqXN6Iy1FL2-isiY046WTbi7QHYfP9onk9eTT406RjE33UyUHMAB_BH7tDoOq1IhkRdn1wXNjeuIHDe3WZ4lEcGbBZXDW-yOjgmLR1TUvuOEFv5Tv0gxNc65ysHnxXRBeKOSo1ZzZ7OsfQx8UKxVC376qbo7JkDw64pDUYAQ&sig=AOD64_0AMyGzBPNNNllD9WL4hi_j25yNMQ&client=ca-pub-8573325940152694&rf=4&nb=8&adurl=https://ad.doubleclick.net/ddm/trackclk/N5295.134426.GOOGLEDISPLAYNETWOR/B34817303.436679363%3Bdc_trk_aid%3D629600873%3Bdc_trk_cid%3D247583232%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Fgad_source%3D5%26gad_campaignid%3D23361881721
+              - generic [ref=f312e16]: Inscreva-Se
+          - generic [ref=f312e18]:
+            - link [ref=f312e20] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLIy-xjkZH8DR2OwcCQY7Q8jqP030iHR2-rkpkufYqQDmuiPao9H6eA7Dm2p2FVS-YZ9L5n1dJgOkvWdYubPgzQru7JUw92aMXY4mxSw-MbFyRPBN_0tP8KusgOYAriW8uv4xpqeWoEzJUY7Pg1aPAJ2EEJjKhBaj4KoQJe6i517kNLhlAMS5m0mPjpzcP6F_JDKAoa-tvdKNIo0u_vJeZBr1y2qJ-hulid2h_TpOytqXszqLV0hF0nX91FTZWdom6cSWJMwA4dX-GGfbGjlNru_AxZDGOTTPFysC8QvUpogWb_7t3WSFtMLTFwff9jk9AXJGXQZXAhh4AtZaXmNdLCVYo6jIFwzfuNmvsUCoV_d16Vz3bPVg3Gw_2MKNJQlkJTiCRKEXOQkkguT5SR65To8sDn6CiWRLSp98sPUPkHkm5Zq2N4c0agmEEb-HFEeafpjK5MgP4BRI0l38QxVPZLZ3FXRsMzG2URph1kE2vUz457yNSGDbe6b08qmcdVl6yjPM-0A_g4VfkCfpfmKgnfmrAwVKtOXdzGRZLVcCYRP4qFR8j3wRuB-xEsTBBCgIcRSw2lgVVjoZ6Vm_cIYvIm-EIA5-pfwrWHOMfUGgKJe63dM5s7HXXTWdvs3zfBlvGs5WHEUkfY4bhMR-_NnKeQ5jam2VzNWE_o6I3QXbfI8DJQwDXrL5Frm3doaWpqmwgQjEhtlRlhCynl15_BWkZ2HXPEOiVhFrF-XwwrsbpUnFu1GT11XyE5yEm8zr5PA9meg8L_OrgBU_XelyGYHgFZs3JtOLTXXbXhjDz7VaY5a5jM-9UMkAQV2KQH6TSfJ6OH5nR6L7xjcGS4LBfhAG9Rmn8-4jeD9tmWklAQ6SupDDS75vP44FQR6cjMiVbv8OmbxwflOwJ86KmHvQoPoIJEaA2ipLzDQGwzCxrS6ic7OHvVwWQ0-vx9ZgW_gkX1XfB6XwbUoLyeUwiliqlGvsiV8t16QJBiC0ghVCFkUwyMJifBy_p24z_TnSUg5DG5neEToaVjD5Rp-LzzrHetrP3Qn5SIDRpAOURfgptW01WlAmGnX5L-dRfDweKjXOxzsGTKAhmzoYyZVpjiJncOHqurC8mi4p3on5wx864EbDSJVpfAUfvA0x8Fy-d2greJhPca1faEj5UYta7tN2uuM-Sgmy4_lbLV7KHWLreh9uA7phwFegVyzXjYWj3sYM5K4wtbAbLxwl6lZJSQnQhR6gJom0hoqIQgpCfzWkdMHjFxa1mRyviOuy0AHR39wybFKo5NvaeHT_DDawDy3Yw_YYJo2l84UwnhZp8ALGi45hfAIlWESK5Bsiad1OhSEVlFbvT8G8k-TlErZlrmI2IYtdTFWnyZwqLtC9IXHCL9Bidr8G3XEUsC3HcZ_hPrItz2Ie7QsWgmcumEexPExJOnHY1hve1nakTwE6pcKfMb62hGwrotitWl_izJ72DuQB0CDRPfInSqxuLVkdqoRTbeSWNSR1AKYI--bxlURBLKGVY4f4GHLidJYXuaS0ccOWLfOOiPfEJe651OYEhCUwYRNdcYvnFBGctgLPtVgLMzqD2NHXBWzx7_yyNXEYjPYWehYs65YntZhPPKubd8ChZMOVoaH13qDdHhEDblRYgkDGV_eFwDgvy8CmM25Sn_02Zz_FPisqQISbmERiDXfea_AOUkNL04C-Tmk43n5O9-5nZoFwP7y--rOjdemDpn6k20jgL8Vaie-9mgQBWaE26o8QyX8yWV51BPqULsy-LlZZ4swRGMfEalYgjXaYI4caaRPrwzzbjZte7bgqyi2K2MrxHtbRrrXt7y6Ad6y1PwaOL5HAJaOBkWWPe_vtouE5YvjqyF7Fgm57DbOZskTcFUQm9P5GiM7m8stLkwdBQA4kq78bB3aMQO9-VuRoX4XtEMGiPOBEEwGqmtqRvieoPqKp92C5p9GhYJHW8Sm8Jv-RXtPzaMpKO3wwF9S_zCuwLVcsjPTrq4G-UzvdrrXWhhtWnDx64VsM02qhW-vIYfm0XClcLL5E5yuifGUBuOl1C0ktwim-lrgAKQP30kuaZHR7CoJP8sSyMGpfgRoOgdhohKvP9OYWbdtKaK4tyRSW_2DKbBoTLByT5i7xzwSHoBW4bmz9yN2PzHj0qB57N24J2wX4vT0P-S464iwKc-ksQehNDTYJeh8aYoNRgO3EszTMkE-Y8PdnuXssuzuqQbhLpwDenLNBVMyh4w4XuATw02_H26_6XF8REpg4cfI8M2_1PyX3uSXSkac0CgAUT3oXeVhshR8r1CR4JbTFnpAM1gSdfHoc2HXfVXLoFkKYYsjQzkduhieIGWa6LnlhA9mGujQh928B8Q-xaQBWc2mW-FuMUsyDYBAFZQTYi-d7yuSYcQyVw9LvcRJI3Ej8J-AnnPDE59mrrse5GCo0t706mi_Y5zUy3ugIRf-dotwK2HvbPYCuBfLDsuyalu2RWxnqPbFQIj3V1InzZhhOhL0ebkdygNV-Pa3kWir4VrTrb54JPwuvzCEDfSdzSAC-R-e19bDPG5wnFVOEFcJrqFb9GajETbmKvtkeqTvODXSX0gfHPISLIHNxyGkNoHoIdlQKVVyPoeeocrcT_hfzVyLNu3txAYTBVX_syeF4C8b0iaO4yePWNwEjpsXf69ydpGcjLwsTOsrEkdKtY7YKuSFC76HBG2n4WOpX0gfrSaX&opi=122715837
+              - img [ref=f312e22]
+            - link [ref=f312e24] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLIy-xjkZH8DR2OwcCQY7Q8jqP030iHR2-rkpkufYqQDmuiPao9H6eA7Dm2p2FVS-YZ9L5n1dJgOkvWdYubPgzQru7JUw92aMXY4mxSw-MbFyRPBN_0tP8KusgOYAriW8uv4xpqeWoEzJUY7Pg1aPAJ2EEJjKhBaj4KoQJe6i517kNLhlAMS5m0mPjpzcP6F_JDKAoa-tvdKNIo0u_vJeZBr1y2qJ-hulid2h_TpOytqXszqLV0hF0nX91FTZWdom6cSWJMwA4dX-GGfbGjlNru_AxZDGOTTPFysC8QvUpogWb_7t3WSFtMLTFwff9jk9AXJGXQZXAhh4AtZaXmNdLCVYo6jIFwzfuNmvsUCoV_d16Vz3bPVg3Gw_2MKNJQlkJTiCRKEXOQkkguT5SR65To8sDn6CiWRLSp98sPUPkHkm5Zq2N4c0agmEEb-HFEeafpjK5MgP4BRI0l38QxVPZLZ3FXRsMzG2URph1kE2vUz457yNSGDbe6b08qmcdVl6yjPM-0A_g4VfkCfpfmKgnfmrAwVKtOXdzGRZLVcCYRP4qFR8j3wRuB-xEsTBBCgIcRSw2lgVVjoZ6Vm_cIYvIm-EIA5-pfwrWHOMfUGgKJe63dM5s7HXXTWdvs3zfBlvGs5WHEUkfY4bhMR-_NnKeQ5jam2VzNWE_o6I3QXbfI8DJQwDXrL5Frm3doaWpqmwgQjEhtlRlhCynl15_BWkZ2HXPEOiVhFrF-XwwrsbpUnFu1GT11XyE5yEm8zr5PA9meg8L_OrgBU_XelyGYHgFZs3JtOLTXXbXhjDz7VaY5a5jM-9UMkAQV2KQH6TSfJ6OH5nR6L7xjcGS4LBfhAG9Rmn8-4jeD9tmWklAQ6SupDDS75vP44FQR6cjMiVbv8OmbxwflOwJ86KmHvQoPoIJEaA2ipLzDQGwzCxrS6ic7OHvVwWQ0-vx9ZgW_gkX1XfB6XwbUoLyeUwiliqlGvsiV8t16QJBiC0ghVCFkUwyMJifBy_p24z_TnSUg5DG5neEToaVjD5Rp-LzzrHetrP3Qn5SIDRpAOURfgptW01WlAmGnX5L-dRfDweKjXOxzsGTKAhmzoYyZVpjiJncOHqurC8mi4p3on5wx864EbDSJVpfAUfvA0x8Fy-d2greJhPca1faEj5UYta7tN2uuM-Sgmy4_lbLV7KHWLreh9uA7phwFegVyzXjYWj3sYM5K4wtbAbLxwl6lZJSQnQhR6gJom0hoqIQgpCfzWkdMHjFxa1mRyviOuy0AHR39wybFKo5NvaeHT_DDawDy3Yw_YYJo2l84UwnhZp8ALGi45hfAIlWESK5Bsiad1OhSEVlFbvT8G8k-TlErZlrmI2IYtdTFWnyZwqLtC9IXHCL9Bidr8G3XEUsC3HcZ_hPrItz2Ie7QsWgmcumEexPExJOnHY1hve1nakTwE6pcKfMb62hGwrotitWl_izJ72DuQB0CDRPfInSqxuLVkdqoRTbeSWNSR1AKYI--bxlURBLKGVY4f4GHLidJYXuaS0ccOWLfOOiPfEJe651OYEhCUwYRNdcYvnFBGctgLPtVgLMzqD2NHXBWzx7_yyNXEYjPYWehYs65YntZhPPKubd8ChZMOVoaH13qDdHhEDblRYgkDGV_eFwDgvy8CmM25Sn_02Zz_FPisqQISbmERiDXfea_AOUkNL04C-Tmk43n5O9-5nZoFwP7y--rOjdemDpn6k20jgL8Vaie-9mgQBWaE26o8QyX8yWV51BPqULsy-LlZZ4swRGMfEalYgjXaYI4caaRPrwzzbjZte7bgqyi2K2MrxHtbRrrXt7y6Ad6y1PwaOL5HAJaOBkWWPe_vtouE5YvjqyF7Fgm57DbOZskTcFUQm9P5GiM7m8stLkwdBQA4kq78bB3aMQO9-VuRoX4XtEMGiPOBEEwGqmtqRvieoPqKp92C5p9GhYJHW8Sm8Jv-RXtPzaMpKO3wwF9S_zCuwLVcsjPTrq4G-UzvdrrXWhhtWnDx64VsM02qhW-vIYfm0XClcLL5E5yuifGUBuOl1C0ktwim-lrgAKQP30kuaZHR7CoJP8sSyMGpfgRoOgdhohKvP9OYWbdtKaK4tyRSW_2DKbBoTLByT5i7xzwSHoBW4bmz9yN2PzHj0qB57N24J2wX4vT0P-S464iwKc-ksQehNDTYJeh8aYoNRgO3EszTMkE-Y8PdnuXssuzuqQbhLpwDenLNBVMyh4w4XuATw02_H26_6XF8REpg4cfI8M2_1PyX3uSXSkac0CgAUT3oXeVhshR8r1CR4JbTFnpAM1gSdfHoc2HXfVXLoFkKYYsjQzkduhieIGWa6LnlhA9mGujQh928B8Q-xaQBWc2mW-FuMUsyDYBAFZQTYi-d7yuSYcQyVw9LvcRJI3Ej8J-AnnPDE59mrrse5GCo0t706mi_Y5zUy3ugIRf-dotwK2HvbPYCuBfLDsuyalu2RWxnqPbFQIj3V1InzZhhOhL0ebkdygNV-Pa3kWir4VrTrb54JPwuvzCEDfSdzSAC-R-e19bDPG5wnFVOEFcJrqFb9GajETbmKvtkeqTvODXSX0gfHPISLIHNxyGkNoHoIdlQKVVyPoeeocrcT_hfzVyLNu3txAYTBVX_syeF4C8b0iaO4yePWNwEjpsXf69ydpGcjLwsTOsrEkdKtY7YKuSFC76HBG2n4WOpX0gfrSaX&opi=122715837
+              - img [ref=f312e26]
+          - img [ref=f312e29] [cursor=pointer]
+          - generic [ref=f312e40]:
+            - img [ref=f312e43]
+            - generic [ref=f312e46]:
+              - text: Ads by
+              - img [ref=f312e47]
+            - generic [ref=f312e50]:
+              - generic [ref=f312e53] [cursor=pointer]: Stop seeing this ad
+              - link [ref=f312e55] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXhJPLIy-xjkZH8DR2OwcCQY7Q8jqP030iHR2-rkpkufYqQDmuiPao9H6eA7Dm2p2FVS-YZ9L5n1dJgOkvWdYubPgzQru7JUw92aMXY4mxSw-MbFyRPBN_0tP8KusgOYAriW8uv4xpqeWoEzJUY7Pg1aPAJ2EEJjKhBaj4KoQJe6i517kNLhlAMS5m0mPjpzcP6F_JDKAoa-tvdKNIo0u_vJeZBr1y2qJ-hulid2h_TpOytqXszqLV0hF0nX91FTZWdom6cSWJMwA4dX-GGfbGjlNru_AxZDGOTTPFysC8QvUpogWb_7t3WSFtMLTFwff9jk9AXJGXQZXAhh4AtZaXmNdLCVYo6jIFwzfuNmvsUCoV_d16Vz3bPVg3Gw_2MKNJQlkJTiCRKEXOQkkguT5SR65To8sDn6CiWRLSp98sPUPkHkm5Zq2N4c0agmEEb-HFEeafpjK5MgP4BRI0l38QxVPZLZ3FXRsMzG2URph1kE2vUz457yNSGDbe6b08qmcdVl6yjPM-0A_g4VfkCfpfmKgnfmrAwVKtOXdzGRZLVcCYRP4qFR8j3wRuB-xEsTBBCgIcRSw2lgVVjoZ6Vm_cIYvIm-EIA5-pfwrWHOMfUGgKJe63dM5s7HXXTWdvs3zfBlvGs5WHEUkfY4bhMR-_NnKeQ5jam2VzNWE_o6I3QXbfI8DJQwDXrL5Frm3doaWpqmwgQjEhtlRlhCynl15_BWkZ2HXPEOiVhFrF-XwwrsbpUnFu1GT11XyE5yEm8zr5PA9meg8L_OrgBU_XelyGYHgFZs3JtOLTXXbXhjDz7VaY5a5jM-9UMkAQV2KQH6TSfJ6OH5nR6L7xjcGS4LBfhAG9Rmn8-4jeD9tmWklAQ6SupDDS75vP44FQR6cjMiVbv8OmbxwflOwJ86KmHvQoPoIJEaA2ipLzDQGwzCxrS6ic7OHvVwWQ0-vx9ZgW_gkX1XfB6XwbUoLyeUwiliqlGvsiV8t16QJBiC0ghVCFkUwyMJifBy_p24z_TnSUg5DG5neEToaVjD5Rp-LzzrHetrP3Qn5SIDRpAOURfgptW01WlAmGnX5L-dRfDweKjXOxzsGTKAhmzoYyZVpjiJncOHqurC8mi4p3on5wx864EbDSJVpfAUfvA0x8Fy-d2greJhPca1faEj5UYta7tN2uuM-Sgmy4_lbLV7KHWLreh9uA7phwFegVyzXjYWj3sYM5K4wtbAbLxwl6lZJSQnQhR6gJom0hoqIQgpCfzWkdMHjFxa1mRyviOuy0AHR39wybFKo5NvaeHT_DDawDy3Yw_YYJo2l84UwnhZp8ALGi45hfAIlWESK5Bsiad1OhSEVlFbvT8G8k-TlErZlrmI2IYtdTFWnyZwqLtC9IXHCL9Bidr8G3XEUsC3HcZ_hPrItz2Ie7QsWgmcumEexPExJOnHY1hve1nakTwE6pcKfMb62hGwrotitWl_izJ72DuQB0CDRPfInSqxuLVkdqoRTbeSWNSR1AKYI--bxlURBLKGVY4f4GHLidJYXuaS0ccOWLfOOiPfEJe651OYEhCUwYRNdcYvnFBGctgLPtVgLMzqD2NHXBWzx7_yyNXEYjPYWehYs65YntZhPPKubd8ChZMOVoaH13qDdHhEDblRYgkDGV_eFwDgvy8CmM25Sn_02Zz_FPisqQISbmERiDXfea_AOUkNL04C-Tmk43n5O9-5nZoFwP7y--rOjdemDpn6k20jgL8Vaie-9mgQBWaE26o8QyX8yWV51BPqULsy-LlZZ4swRGMfEalYgjXaYI4caaRPrwzzbjZte7bgqyi2K2MrxHtbRrrXt7y6Ad6y1PwaOL5HAJaOBkWWPe_vtouE5YvjqyF7Fgm57DbOZskTcFUQm9P5GiM7m8stLkwdBQA4kq78bB3aMQO9-VuRoX4XtEMGiPOBEEwGqmtqRvieoPqKp92C5p9GhYJHW8Sm8Jv-RXtPzaMpKO3wwF9S_zCuwLVcsjPTrq4G-UzvdrrXWhhtWnDx64VsM02qhW-vIYfm0XClcLL5E5yuifGUBuOl1C0ktwim-lrgAKQP30kuaZHR7CoJP8sSyMGpfgRoOgdhohKvP9OYWbdtKaK4tyRSW_2DKbBoTLByT5i7xzwSHoBW4bmz9yN2PzHj0qB57N24J2wX4vT0P-S464iwKc-ksQehNDTYJeh8aYoNRgO3EszTMkE-Y8PdnuXssuzuqQbhLpwDenLNBVMyh4w4XuATw02_H26_6XF8REpg4cfI8M2_1PyX3uSXSkac0CgAUT3oXeVhshR8r1CR4JbTFnpAM1gSdfHoc2HXfVXLoFkKYYsjQzkduhieIGWa6LnlhA9mGujQh928B8Q-xaQBWc2mW-FuMUsyDYBAFZQTYi-d7yuSYcQyVw9LvcRJI3Ej8J-AnnPDE59mrrse5GCo0t706mi_Y5zUy3ugIRf-dotwK2HvbPYCuBfLDsuyalu2RWxnqPbFQIj3V1InzZhhOhL0ebkdygNV-Pa3kWir4VrTrb54JPwuvzCEDfSdzSAC-R-e19bDPG5wnFVOEFcJrqFb9GajETbmKvtkeqTvODXSX0gfHPISLIHNxyGkNoHoIdlQKVVyPoeeocrcT_hfzVyLNu3txAYTBVX_syeF4C8b0iaO4yePWNwEjpsXf69ydpGcjLwsTOsrEkdKtY7YKuSFC76HBG2n4WOpX0gfrSaX&opi=122715837
+                - generic [ref=f312e56]:
+                  - text: Why this ad?
+                  - img [ref=f312e57]
+          - generic [ref=f312e59]:
+            - generic [ref=f312e62] [cursor=pointer]: Ad covered content
+            - generic [ref=f312e65] [cursor=pointer]: Ad was inappropriate
+            - generic [ref=f312e68] [cursor=pointer]: Seen this ad multiple times
+            - generic [ref=f312e71] [cursor=pointer]: Not interested in this ad
+          - generic [ref=f312e77]: We'll try not to show that ad again
+          - generic [ref=f312e83]:
+            - text: Ad closed by
+            - img [ref=f312e84]
+      - generic [ref=e66]:
+        - generic [ref=e68]:
+          - img "dragonheir season 5 tier list" [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e73]: April 6, 2026
+            - 'heading "The Best Dragonheir: Silent Gods Heroes (Tier List) 2026 – Season 5 Hymn of Chess & Blade" [level=1] [ref=e74]'
+        - generic [ref=e75]:
+          - generic [ref=e77]:
+            - generic [ref=e80]:
+              - paragraph [ref=e81]: "Dragonheir: Silent Gods (or Dragonstride: Legacy Reborn in the context of the relaunch 2025) offers a ton of characters you can use for the different game modes and it can be really frustrating to invest a ton of time and resources to build a character that is not that great later in the game – for that reason I have created this frequently-updated tier list here with al characters in Dragonheir to help you decide if what heroes to invest in."
+              - button "✖ Remove Ad" [ref=e84] [cursor=pointer]:
+                - generic [ref=e86]: ✖ Remove Ad
+              - 'heading "The Best Characters in Dragonheir: Silent Gods" [level=2] [ref=e87]'
+              - paragraph [ref=e88]: "Alright, below you will find the full list of all the characters I have evaluated and tested so far in Dragonheir: Silent Gods."
+              - blockquote [ref=e89]:
+                - paragraph [ref=e90]:
+                  - strong [ref=e91]: ⚠️⚠️⚠️ April 7th Update!
+                  - text: Dragonheir doesn’t force players through the seasonal progression anymore so all players, no matter if you are a veteran player of the relaunch or started last week, everyone will be in Season 5 and have access to all heroes and content of Season 5 and moving on from that. There still will be seasonal reset on gear like we know it but you will not be forces as a new player to play through “old” content for several seasons and never catch up, Newer players will get additional goodies to help them catch up with older players (those details have not really been stated out).
+                - paragraph [ref=e92]: What does it mean for our content? No more messing with seasonal sections in tier lists. No more messing with seasonal builds for heroes. All are on the same page which makes our content a lot easier. We already updated first builds for the upcoming Season 5 from the access we had so you can full step into it once the update is live.
+              - button "✖ Remove Ad" [ref=e95] [cursor=pointer]:
+                - generic [ref=e97]: ✖ Remove Ad
+              - blockquote [ref=e98]:
+                - paragraph [ref=e99]: To see the new Season 5 heroes, select the “S5” filter below.
+              - generic [ref=e100]:
+                - generic [ref=e101] [cursor=pointer]:
+                  - img "All" [ref=e102]
+                  - generic [ref=e103]: Show All
+                - generic [ref=e105] [cursor=pointer]: Legendary
+                - generic [ref=e107] [cursor=pointer]: Epic
+                - generic [ref=e109] [cursor=pointer]: Rare
+                - generic [ref=e111] [cursor=pointer]: S1
+                - generic [ref=e113] [cursor=pointer]: S2
+                - generic [ref=e115] [cursor=pointer]: S3
+                - generic [ref=e117] [cursor=pointer]: S4
+                - generic [ref=e119] [cursor=pointer]: S5
+              - generic [ref=e120]:
+                - generic [ref=e121] [cursor=pointer]:
+                  - img "All" [ref=e122]
+                  - generic [ref=e123]: Show All
+                - generic [ref=e124] [cursor=pointer]:
+                  - img "Fire" [ref=e125]
+                  - generic [ref=e126]: Fire
+                - generic [ref=e127] [cursor=pointer]:
+                  - img "Radiance" [ref=e128]
+                  - generic [ref=e129]: Radiance
+                - generic [ref=e130] [cursor=pointer]:
+                  - img "Poison" [ref=e131]
+                  - generic [ref=e132]: Poison
+                - generic [ref=e133] [cursor=pointer]:
+                  - img "Lightning" [ref=e134]
+                  - generic [ref=e135]: Lightning
+                - generic [ref=e136] [cursor=pointer]:
+                  - img "Necrosis" [ref=e137]
+                  - generic [ref=e138]: Necrosis
+                - generic [ref=e139] [cursor=pointer]:
+                  - img "Ice" [ref=e140]
+                  - generic [ref=e141]: Ice
+              - generic [ref=e142]:
+                - generic [ref=e143] [cursor=pointer]:
+                  - img "All" [ref=e144]
+                  - generic [ref=e145]: Show All
+                - generic [ref=e146] [cursor=pointer]:
+                  - img "Burn" [ref=e147]
+                  - generic [ref=e148]: Burn
+                - generic [ref=e149] [cursor=pointer]:
+                  - img "Wild" [ref=e150]
+                  - generic [ref=e151]: Wild
+                - generic [ref=e152] [cursor=pointer]:
+                  - img "Aura" [ref=e153]
+                  - generic [ref=e154]: Aura
+                - generic [ref=e155] [cursor=pointer]:
+                  - img "Rally" [ref=e156]
+                  - generic [ref=e157]: Rally
+                - generic [ref=e158] [cursor=pointer]:
+                  - img "Corrosion" [ref=e159]
+                  - generic [ref=e160]: Corrosion
+                - generic [ref=e161] [cursor=pointer]:
+                  - img "Toxin" [ref=e162]
+                  - generic [ref=e163]: Toxin
+                - generic [ref=e164] [cursor=pointer]:
+                  - img "Dauntless" [ref=e165]
+                  - generic [ref=e166]: Dauntless
+                - generic [ref=e167] [cursor=pointer]:
+                  - img "Thunderbolt" [ref=e168]
+                  - generic [ref=e169]: Thunderbolt
+                - generic [ref=e170] [cursor=pointer]:
+                  - img "Shadow" [ref=e171]
+                  - generic [ref=e172]: Shadow
+                - generic [ref=e173] [cursor=pointer]:
+                  - img "Summon" [ref=e174]
+                  - generic [ref=e175]: Summon
+                - generic [ref=e176] [cursor=pointer]:
+                  - img "Ice Blast" [ref=e177]
+                  - generic [ref=e178]: Ice Blast
+                - generic [ref=e179] [cursor=pointer]:
+                  - img "Frost" [ref=e180]
+                  - generic [ref=e181]: Frost
+                - generic [ref=e182] [cursor=pointer]:
+                  - img "Support" [ref=e183]
+                  - generic [ref=e184]: Support
+              - generic [ref=e185]:
+                - paragraph [ref=e186]: "Search:"
+                - textbox "Enter name" [ref=e187]
+              - generic [ref=e188]:
+                - generic [ref=e190]:
+                  - img "nastjenka" [ref=e192]
+                  - generic [ref=e193]:
+                    - generic [ref=e194]: Nastjenka
+                    - generic [ref=e195]:
+                      - link "Best Build" [ref=e197] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-nastjenka-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e198]: ⓘ Details
+                  - generic [ref=e199]:
+                    - generic [ref=e200]: S
+                    - generic [ref=e201]: ⁺
+                - generic [ref=e203]:
+                  - img "the dark lady" [ref=e205]
+                  - generic [ref=e206]:
+                    - generic [ref=e207]: The Dark Lady
+                    - generic [ref=e208]:
+                      - link "Best Build" [ref=e210] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-the-dark-lady-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e211]: ⓘ Details
+                  - generic [ref=e212]:
+                    - generic [ref=e213]: S
+                    - generic [ref=e214]: ⁺
+                - generic [ref=e216]:
+                  - img "talethia" [ref=e218]
+                  - generic [ref=e219]:
+                    - generic [ref=e220]: Talethia
+                    - generic [ref=e221]:
+                      - link "Best Build" [ref=e223] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-talethia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e224]: ⓘ Details
+                  - generic [ref=e225]:
+                    - generic [ref=e226]: S
+                    - generic [ref=e227]: ⁺
+                - generic [ref=e229]:
+                  - img "yfeir" [ref=e231]
+                  - generic [ref=e232]:
+                    - generic [ref=e233]: Yfeir
+                    - generic [ref=e234]:
+                      - link "Best Build" [ref=e236] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-yfeir-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e237]: ⓘ Details
+                  - generic [ref=e239]: S
+                - generic [ref=e241]:
+                  - img "ozul" [ref=e243]
+                  - generic [ref=e244]:
+                    - generic [ref=e245]: Ozul
+                    - generic [ref=e246]:
+                      - link "Best Build" [ref=e248] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ozul-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e249]: ⓘ Details
+                  - generic [ref=e251]: S
+                - generic [ref=e253]:
+                  - img "voresh" [ref=e255]
+                  - generic [ref=e256]:
+                    - generic [ref=e257]: Voresh
+                    - generic [ref=e258]:
+                      - link "Best Build" [ref=e260] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-voresh-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e261]: ⓘ Details
+                  - generic [ref=e263]: S
+                - generic [ref=e265]:
+                  - img "hvitar" [ref=e267]
+                  - generic [ref=e268]:
+                    - generic [ref=e269]: Hvitar
+                    - generic [ref=e270]:
+                      - link "Best Build" [ref=e272] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-hvitar-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e273]: ⓘ Details
+                  - generic [ref=e275]: S
+                - generic [ref=e277]:
+                  - img "tamar" [ref=e279]
+                  - generic [ref=e280]:
+                    - generic [ref=e281]: Tamar
+                    - generic [ref=e282]:
+                      - link "Best Build" [ref=e284] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-tamar-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e285]: ⓘ Details
+                  - generic [ref=e287]: S
+                - generic [ref=e289]:
+                  - img "sintrellia" [ref=e291]
+                  - generic [ref=e292]:
+                    - generic [ref=e293]: Sintrellia
+                    - generic [ref=e294]:
+                      - link "Best Build" [ref=e296] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-sintrellia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e297]: ⓘ Details
+                  - generic [ref=e299]: S
+                - generic [ref=e301]:
+                  - img "ladehlia" [ref=e303]
+                  - generic [ref=e304]:
+                    - generic [ref=e305]: Ladehlia
+                    - generic [ref=e306]:
+                      - link "Best Build" [ref=e308] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ladehlia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e309]: ⓘ Details
+                  - generic [ref=e311]: S
+                - generic [ref=e313]:
+                  - img "donella" [ref=e315]
+                  - generic [ref=e316]:
+                    - generic [ref=e317]: Donella
+                    - generic [ref=e318]:
+                      - link "Best Build" [ref=e320] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-donella-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e321]: ⓘ Details
+                  - generic [ref=e323]: S
+                - generic [ref=e325]:
+                  - img "maashtur" [ref=e327]
+                  - generic [ref=e328]:
+                    - generic [ref=e329]: Maashtur
+                    - generic [ref=e330]:
+                      - link "Best Build" [ref=e332] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-maashtur-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e333]: ⓘ Details
+                  - generic [ref=e335]: S
+                - generic [ref=e337]:
+                  - img "perkunte" [ref=e339]
+                  - generic [ref=e340]:
+                    - generic [ref=e341]: Perkunte
+                    - generic [ref=e342]:
+                      - link "Best Build" [ref=e344] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-perkunte-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e345]: ⓘ Details
+                  - generic [ref=e347]: S
+                - generic [ref=e349]:
+                  - img "thelendor" [ref=e351]
+                  - generic [ref=e352]:
+                    - generic [ref=e353]: Thelendor
+                    - generic [ref=e354]:
+                      - link "Best Build" [ref=e356] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-thelendor-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e357]: ⓘ Details
+                  - generic [ref=e359]: S
+                - generic [ref=e361]:
+                  - img "seyir" [ref=e363]
+                  - generic [ref=e364]:
+                    - generic [ref=e365]: Seyir
+                    - generic [ref=e366]:
+                      - link "Best Build" [ref=e368] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-seyir-build-in-dragonheir-gear-artifacts-prio/?ts=20260406-18
+                      - generic [ref=e369]: ⓘ Details
+                  - generic [ref=e371]: S
+                - generic [ref=e373]:
+                  - img "ivira" [ref=e375]
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: Ivira
+                    - generic [ref=e378]:
+                      - link "Best Build" [ref=e380] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ivira-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e381]: ⓘ Details
+                  - generic [ref=e383]: S
+                - generic [ref=e385]:
+                  - img "szecedith" [ref=e387]
+                  - generic [ref=e388]:
+                    - generic [ref=e389]: Szecedith
+                    - generic [ref=e390]:
+                      - link "Best Build" [ref=e392] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-szecedith-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e393]: ⓘ Details
+                  - generic [ref=e395]: S
+                - generic [ref=e397]:
+                  - img "rook" [ref=e399]
+                  - generic [ref=e400]:
+                    - generic [ref=e401]: Rook
+                    - generic [ref=e402]:
+                      - link "Best Build" [ref=e404] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-rook-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e405]: ⓘ Details
+                  - generic [ref=e407]: S
+                - generic [ref=e409]:
+                  - img "aemonleyda" [ref=e411]
+                  - generic [ref=e412]:
+                    - generic [ref=e413]: Aemonleyda
+                    - generic [ref=e414]:
+                      - link "Best Build" [ref=e416] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-aemonleyda-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e417]: ⓘ Details
+                  - generic [ref=e419]: S
+                - generic [ref=e421]:
+                  - img "rhash" [ref=e423]
+                  - generic [ref=e424]:
+                    - generic [ref=e425]: Rhash
+                    - generic [ref=e426]:
+                      - link "Best Build" [ref=e428] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-rhash-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e429]: ⓘ Details
+                  - generic [ref=e431]: S
+                - generic [ref=e433]:
+                  - img "khrysos" [ref=e435]
+                  - generic [ref=e436]:
+                    - generic [ref=e437]: Khrysos
+                    - generic [ref=e438]:
+                      - link "Best Build" [ref=e440] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-khrysos-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e441]: ⓘ Details
+                  - generic [ref=e443]: S
+                - generic [ref=e445]:
+                  - img "auster" [ref=e447]
+                  - generic [ref=e448]:
+                    - generic [ref=e449]: Auster
+                    - generic [ref=e450]:
+                      - link "Best Build" [ref=e452] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-auster-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e453]: ⓘ Details
+                  - generic [ref=e455]: S
+                - generic [ref=e457]:
+                  - img "durango" [ref=e459]
+                  - generic [ref=e460]:
+                    - generic [ref=e461]: Durango
+                    - generic [ref=e462]:
+                      - link "Best Build" [ref=e464] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-durango-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e465]: ⓘ Details
+                  - generic [ref=e467]: S
+                - generic [ref=e469]:
+                  - img "ghul'ende" [ref=e471]
+                  - generic [ref=e472]:
+                    - generic [ref=e473]: Ghul'ende
+                    - generic [ref=e474]:
+                      - link "Best Build" [ref=e476] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ghulende-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e477]: ⓘ Details
+                  - generic [ref=e479]: S
+                - generic [ref=e481]:
+                  - img "maashtur" [ref=e483]
+                  - generic [ref=e484]:
+                    - generic [ref=e485]: Maashtur
+                    - generic [ref=e486]:
+                      - link "Best Build" [ref=e488] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-maashtur-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e489]: ⓘ Details
+                  - generic [ref=e490]:
+                    - generic [ref=e491]: A
+                    - generic [ref=e492]: ⁺
+                - generic [ref=e494]:
+                  - img "fredegonda" [ref=e496]
+                  - generic [ref=e497]:
+                    - generic [ref=e498]: Fredegonda
+                    - generic [ref=e499]:
+                      - link "Best Build" [ref=e501] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-fredegonda-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e502]: ⓘ Details
+                  - generic [ref=e503]:
+                    - generic [ref=e504]: A
+                    - generic [ref=e505]: ⁺
+                - generic [ref=e507]:
+                  - img "fathomdown" [ref=e509]
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: Fathomdown
+                    - generic [ref=e512]:
+                      - link "Best Build" [ref=e514] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-fathomdown-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e515]: ⓘ Details
+                  - generic [ref=e516]:
+                    - generic [ref=e517]: A
+                    - generic [ref=e518]: ⁺
+                - generic [ref=e520]:
+                  - img "aspalta" [ref=e522]
+                  - generic [ref=e523]:
+                    - generic [ref=e524]: Aspalta
+                    - generic [ref=e525]:
+                      - link "Best Build" [ref=e527] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-aspalta-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e528]: ⓘ Details
+                  - generic [ref=e529]:
+                    - generic [ref=e530]: A
+                    - generic [ref=e531]: ⁺
+                - generic [ref=e533]:
+                  - img "whisk" [ref=e535]
+                  - generic [ref=e536]:
+                    - generic [ref=e537]: Whisk
+                    - generic [ref=e538]:
+                      - link "Best Build" [ref=e540] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-whisk-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e541]: ⓘ Details
+                  - generic [ref=e542]:
+                    - generic [ref=e543]: A
+                    - generic [ref=e544]: ⁺
+                - generic [ref=e546]:
+                  - img "naro" [ref=e548]
+                  - generic [ref=e549]:
+                    - generic [ref=e550]: Naro
+                    - generic [ref=e551]:
+                      - link "Best Build" [ref=e553] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-naro-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e554]: ⓘ Details
+                  - generic [ref=e555]:
+                    - generic [ref=e556]: A
+                    - generic [ref=e557]: ⁺
+                - generic [ref=e559]:
+                  - img "beldelle" [ref=e561]
+                  - generic [ref=e562]:
+                    - generic [ref=e563]: Beldelle
+                    - generic [ref=e564]:
+                      - link "Best Build" [ref=e566] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-beldelle-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e567]: ⓘ Details
+                  - generic [ref=e568]:
+                    - generic [ref=e569]: A
+                    - generic [ref=e570]: ⁺
+                - generic [ref=e572]:
+                  - img "astaion" [ref=e574]
+                  - generic [ref=e575]:
+                    - generic [ref=e576]: Astaion
+                    - generic [ref=e577]:
+                      - link "Best Build" [ref=e579] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-astaion-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e580]: ⓘ Details
+                  - generic [ref=e581]:
+                    - generic [ref=e582]: A
+                    - generic [ref=e583]: ⁺
+                - generic [ref=e585]:
+                  - img "synarell" [ref=e587]
+                  - generic [ref=e588]:
+                    - generic [ref=e589]: Synarell
+                    - generic [ref=e590]:
+                      - link "Best Build" [ref=e592] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-synarell-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e593]: ⓘ Details
+                  - generic [ref=e594]:
+                    - generic [ref=e595]: A
+                    - generic [ref=e596]: ⁺
+                - generic [ref=e598]:
+                  - img "feenja" [ref=e600]
+                  - generic [ref=e601]:
+                    - generic [ref=e602]: Feenja
+                    - generic [ref=e603]:
+                      - link "Best Build" [ref=e605] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-feenja-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e606]: ⓘ Details
+                  - generic [ref=e607]:
+                    - generic [ref=e608]: A
+                    - generic [ref=e609]: ⁺
+                - generic [ref=e611]:
+                  - img "vicana" [ref=e613]
+                  - generic [ref=e614]:
+                    - generic [ref=e615]: Vicana
+                    - generic [ref=e616]:
+                      - link "Best Build" [ref=e618] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-vicana-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e619]: ⓘ Details
+                  - generic [ref=e620]:
+                    - generic [ref=e621]: A
+                    - generic [ref=e622]: ⁺
+                - generic [ref=e624]:
+                  - img "gitouna" [ref=e626]
+                  - generic [ref=e627]:
+                    - generic [ref=e628]: Gitouna
+                    - generic [ref=e629]:
+                      - link "Best Build" [ref=e631] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gitouna-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e632]: ⓘ Details
+                  - generic [ref=e633]:
+                    - generic [ref=e634]: A
+                    - generic [ref=e635]: ⁺
+                - generic [ref=e637]:
+                  - img "alaura" [ref=e639]
+                  - generic [ref=e640]:
+                    - generic [ref=e641]: Alaura
+                    - generic [ref=e642]:
+                      - link "Best Build" [ref=e644] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-alaura-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e645]: ⓘ Details
+                  - generic [ref=e646]:
+                    - generic [ref=e647]: A
+                    - generic [ref=e648]: ⁺
+                - generic [ref=e650]:
+                  - img "trolgar" [ref=e652]
+                  - generic [ref=e653]:
+                    - generic [ref=e654]: Trolgar
+                    - generic [ref=e655]:
+                      - link "Best Build" [ref=e657] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-trolgar-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e658]: ⓘ Details
+                  - generic [ref=e659]:
+                    - generic [ref=e660]: A
+                    - generic [ref=e661]: ⁺
+                - generic [ref=e663]:
+                  - img "sacredeia" [ref=e665]
+                  - generic [ref=e666]:
+                    - generic [ref=e667]: Sacredeia
+                    - generic [ref=e668]:
+                      - link "Best Build" [ref=e670] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-sacredeia-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e671]: ⓘ Details
+                  - generic [ref=e672]:
+                    - generic [ref=e673]: A
+                    - generic [ref=e674]: ⁺
+                - generic [ref=e676]:
+                  - img "shinnah" [ref=e678]
+                  - generic [ref=e679]:
+                    - generic [ref=e680]: Shinnah
+                    - generic [ref=e681]:
+                      - link "Best Build" [ref=e683] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-shinnah-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e684]: ⓘ Details
+                  - generic [ref=e685]:
+                    - generic [ref=e686]: A
+                    - generic [ref=e687]: ⁺
+                - generic [ref=e689]:
+                  - img "huldork" [ref=e691]
+                  - generic [ref=e692]:
+                    - generic [ref=e693]: Huldork
+                    - generic [ref=e694]:
+                      - link "Best Build" [ref=e696] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-huldork-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e697]: ⓘ Details
+                  - generic [ref=e698]:
+                    - generic [ref=e699]: A
+                    - generic [ref=e700]: ⁺
+                - generic [ref=e702]:
+                  - img "elminster aumar" [ref=e704]
+                  - generic [ref=e705]:
+                    - generic [ref=e706]: Elminster Aumar
+                    - generic [ref=e707]:
+                      - link "Best Build" [ref=e709] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-elminster-aumar-build-in-dragonheir-gear-artifacts-prio-season-2/
+                      - generic [ref=e710]: ⓘ Details
+                  - generic [ref=e711]:
+                    - generic [ref=e712]: A
+                    - generic [ref=e713]: ⁺
+                - generic [ref=e715]:
+                  - img "lossenia" [ref=e717]
+                  - generic [ref=e718]:
+                    - generic [ref=e719]: Lossenia
+                    - generic [ref=e720]:
+                      - link "Best Build" [ref=e722] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lossenia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e723]: ⓘ Details
+                  - generic [ref=e724]:
+                    - generic [ref=e725]: A
+                    - generic [ref=e726]: ⁺
+                - generic [ref=e728]:
+                  - img "premtsa" [ref=e730]
+                  - generic [ref=e731]:
+                    - generic [ref=e732]: Premtsa
+                    - generic [ref=e733]:
+                      - link "Best Build" [ref=e735] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-premtsa-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e736]: ⓘ Details
+                  - generic [ref=e737]:
+                    - generic [ref=e738]: A
+                    - generic [ref=e739]: ⁺
+                - generic [ref=e741]:
+                  - img "lelwanis" [ref=e743]
+                  - generic [ref=e744]:
+                    - generic [ref=e745]: Lelwanis
+                    - generic [ref=e746]:
+                      - link "Best Build" [ref=e748] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lelwanis-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e749]: ⓘ Details
+                  - generic [ref=e750]:
+                    - generic [ref=e751]: A
+                    - generic [ref=e752]: ⁺
+                - generic [ref=e754]:
+                  - img "sigrid" [ref=e756]
+                  - generic [ref=e757]:
+                    - generic [ref=e758]: Sigrid
+                    - generic [ref=e759]:
+                      - link "Best Build" [ref=e761] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-sigrid-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e762]: ⓘ Details
+                  - generic [ref=e763]:
+                    - generic [ref=e764]: A
+                    - generic [ref=e765]: ⁺
+                - generic [ref=e767]:
+                  - img "ergander" [ref=e769]
+                  - generic [ref=e770]:
+                    - generic [ref=e771]: Ergander
+                    - generic [ref=e772]:
+                      - link "Best Build" [ref=e774] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ergander-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e775]: ⓘ Details
+                  - generic [ref=e776]:
+                    - generic [ref=e777]: A
+                    - generic [ref=e778]: ⁺
+                - generic [ref=e780]:
+                  - img "scaarr" [ref=e782]
+                  - generic [ref=e783]:
+                    - generic [ref=e784]: Scaarr
+                    - generic [ref=e785]:
+                      - link "Best Build" [ref=e787] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-scaarr-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e788]: ⓘ Details
+                  - generic [ref=e789]:
+                    - generic [ref=e790]: A
+                    - generic [ref=e791]: ⁺
+                - generic [ref=e793]:
+                  - img "irmoush" [ref=e795]
+                  - generic [ref=e796]:
+                    - generic [ref=e797]: Irmoush
+                    - generic [ref=e798]:
+                      - link "Best Build" [ref=e800] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-irmoush-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e801]: ⓘ Details
+                  - generic [ref=e802]:
+                    - generic [ref=e803]: A
+                    - generic [ref=e804]: ⁺
+                - generic [ref=e806]:
+                  - img "zhorak" [ref=e808]
+                  - generic [ref=e809]:
+                    - generic [ref=e810]: Zhorak
+                    - generic [ref=e811]:
+                      - link "Best Build" [ref=e813] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-zhorak-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e814]: ⓘ Details
+                  - generic [ref=e815]:
+                    - generic [ref=e816]: A
+                    - generic [ref=e817]: ⁺
+                - generic [ref=e819]:
+                  - img "flora" [ref=e821]
+                  - generic [ref=e822]:
+                    - generic [ref=e823]: Flora
+                    - generic [ref=e824]:
+                      - link "Best Build" [ref=e826] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-flora-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e827]: ⓘ Details
+                  - generic [ref=e828]:
+                    - generic [ref=e829]: A
+                    - generic [ref=e830]: ⁺
+                - generic [ref=e832]:
+                  - img "alfie" [ref=e834]
+                  - generic [ref=e835]:
+                    - generic [ref=e836]: Alfie
+                    - generic [ref=e837]:
+                      - link "Best Build" [ref=e839] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-alfie-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e840]: ⓘ Details
+                  - generic [ref=e841]:
+                    - generic [ref=e842]: A
+                    - generic [ref=e843]: ⁺
+                - generic [ref=e845]:
+                  - img "hochadir" [ref=e847]
+                  - generic [ref=e848]:
+                    - generic [ref=e849]: Hochadir
+                    - generic [ref=e850]:
+                      - link "Best Build" [ref=e852] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-hochadir-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e853]: ⓘ Details
+                  - generic [ref=e854]:
+                    - generic [ref=e855]: A
+                    - generic [ref=e856]: ⁺
+                - generic [ref=e858]:
+                  - img "alphanarsy" [ref=e860]
+                  - generic [ref=e861]:
+                    - generic [ref=e862]: Alphanarsy
+                    - generic [ref=e863]:
+                      - link "Best Build" [ref=e865] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-alphanarsy-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e866]: ⓘ Details
+                  - generic [ref=e867]:
+                    - generic [ref=e868]: A
+                    - generic [ref=e869]: ⁺
+                - generic [ref=e871]:
+                  - img "ripekas" [ref=e873]
+                  - generic [ref=e874]:
+                    - generic [ref=e875]: Ripekas
+                    - generic [ref=e876]:
+                      - link "Best Build" [ref=e878] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ripekas-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e879]: ⓘ Details
+                  - generic [ref=e880]:
+                    - generic [ref=e881]: A
+                    - generic [ref=e882]: ⁺
+                - generic [ref=e884]:
+                  - img "twitch" [ref=e886]
+                  - generic [ref=e887]:
+                    - generic [ref=e888]: Twitch
+                    - generic [ref=e889]:
+                      - link "Best Build" [ref=e891] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-twitch-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e892]: ⓘ Details
+                  - generic [ref=e893]:
+                    - generic [ref=e894]: A
+                    - generic [ref=e895]: ⁺
+                - generic [ref=e897]:
+                  - img "lothair" [ref=e899]
+                  - generic [ref=e900]:
+                    - generic [ref=e901]: Lothair
+                    - generic [ref=e902]:
+                      - link "Best Build" [ref=e904] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lothair-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e905]: ⓘ Details
+                  - generic [ref=e906]:
+                    - generic [ref=e907]: A
+                    - generic [ref=e908]: ⁺
+                - generic [ref=e910]:
+                  - img "saverio" [ref=e912]
+                  - generic [ref=e913]:
+                    - generic [ref=e914]: Saverio
+                    - generic [ref=e915]:
+                      - link "Best Build" [ref=e917] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-saverio-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e918]: ⓘ Details
+                  - generic [ref=e919]:
+                    - generic [ref=e920]: A
+                    - generic [ref=e921]: ⁺
+                - generic [ref=e923]:
+                  - img "anneliesis" [ref=e925]
+                  - generic [ref=e926]:
+                    - generic [ref=e927]: Anneliesis
+                    - generic [ref=e928]:
+                      - link "Best Build" [ref=e930] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-anneliesis-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e931]: ⓘ Details
+                  - generic [ref=e932]:
+                    - generic [ref=e933]: A
+                    - generic [ref=e934]: ⁺
+                - generic [ref=e936]:
+                  - img "paixton" [ref=e938]
+                  - generic [ref=e939]:
+                    - generic [ref=e940]: Paixton
+                    - generic [ref=e941]:
+                      - link "Best Build" [ref=e943] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-paixton-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e944]: ⓘ Details
+                  - generic [ref=e945]:
+                    - generic [ref=e946]: A
+                    - generic [ref=e947]: ⁺
+                - generic [ref=e949]:
+                  - img "shahla" [ref=e951]
+                  - generic [ref=e952]:
+                    - generic [ref=e953]: Shahla
+                    - generic [ref=e954]:
+                      - link "Best Build" [ref=e956] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-shahla-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e957]: ⓘ Details
+                  - generic [ref=e958]:
+                    - generic [ref=e959]: A
+                    - generic [ref=e960]: ⁺
+                - generic [ref=e962]:
+                  - img "victor" [ref=e964]
+                  - generic [ref=e965]:
+                    - generic [ref=e966]: Victor
+                    - generic [ref=e967]:
+                      - link "Best Build" [ref=e969] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-victor-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e970]: ⓘ Details
+                  - generic [ref=e971]:
+                    - generic [ref=e972]: A
+                    - generic [ref=e973]: ⁺
+                - generic [ref=e975]:
+                  - img "diantha" [ref=e977]
+                  - generic [ref=e978]:
+                    - generic [ref=e979]: Diantha
+                    - generic [ref=e980]:
+                      - link "Best Build" [ref=e982] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-diantha-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e983]: ⓘ Details
+                  - generic [ref=e984]:
+                    - generic [ref=e985]: A
+                    - generic [ref=e986]: ⁺
+                - generic [ref=e988]:
+                  - img "caspar" [ref=e990]
+                  - generic [ref=e991]:
+                    - generic [ref=e992]: Caspar
+                    - generic [ref=e993]:
+                      - link "Best Build" [ref=e995] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-caspar-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e996]: ⓘ Details
+                  - generic [ref=e997]:
+                    - generic [ref=e998]: A
+                    - generic [ref=e999]: ⁺
+                - generic [ref=e1001]:
+                  - img "lucien" [ref=e1003]
+                  - generic [ref=e1004]:
+                    - generic [ref=e1005]: Lucien
+                    - generic [ref=e1006]:
+                      - link "Best Build" [ref=e1008] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lucien-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1009]: ⓘ Details
+                  - generic [ref=e1010]:
+                    - generic [ref=e1011]: A
+                    - generic [ref=e1012]: ⁺
+                - generic [ref=e1014]:
+                  - img "gardrus" [ref=e1016]
+                  - generic [ref=e1017]:
+                    - generic [ref=e1018]: Gardrus
+                    - generic [ref=e1019]:
+                      - link "Best Build" [ref=e1021] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gardrus-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1022]: ⓘ Details
+                  - generic [ref=e1023]:
+                    - generic [ref=e1024]: A
+                    - generic [ref=e1025]: ⁺
+                - generic [ref=e1027]:
+                  - img "bernarde" [ref=e1029]
+                  - generic [ref=e1030]:
+                    - generic [ref=e1031]: Bernarde
+                    - generic [ref=e1032]:
+                      - link "Best Build" [ref=e1034] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-bernarde-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1035]: ⓘ Details
+                  - generic [ref=e1037]: A
+                - generic [ref=e1039]:
+                  - img "zhar'loth" [ref=e1041]
+                  - generic [ref=e1042]:
+                    - generic [ref=e1043]: Zhar'loth
+                    - generic [ref=e1044]:
+                      - link "Best Build" [ref=e1046] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-zarloth-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1047]: ⓘ Details
+                  - generic [ref=e1049]: A
+                - generic [ref=e1051]:
+                  - img "vicuc" [ref=e1053]
+                  - generic [ref=e1054]:
+                    - generic [ref=e1055]: Vicuc
+                    - generic [ref=e1056]:
+                      - link "Best Build" [ref=e1058] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-vicuc-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1059]: ⓘ Details
+                  - generic [ref=e1061]: A
+                - generic [ref=e1063]:
+                  - img "philto" [ref=e1065]
+                  - generic [ref=e1066]:
+                    - generic [ref=e1067]: Philto
+                    - generic [ref=e1068]:
+                      - link "Best Build" [ref=e1070] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-philto-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1071]: ⓘ Details
+                  - generic [ref=e1073]: A
+                - generic [ref=e1075]:
+                  - img "lorentheel" [ref=e1077]
+                  - generic [ref=e1078]:
+                    - generic [ref=e1079]: Lorentheel
+                    - generic [ref=e1080]:
+                      - link "Best Build" [ref=e1082] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lorentheel-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1083]: ⓘ Details
+                  - generic [ref=e1085]: A
+                - generic [ref=e1087]:
+                  - img "huberg" [ref=e1089]
+                  - generic [ref=e1090]:
+                    - generic [ref=e1091]: Huberg
+                    - generic [ref=e1092]:
+                      - link "Best Build" [ref=e1094] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-huberg-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1095]: ⓘ Details
+                  - generic [ref=e1097]: A
+                - generic [ref=e1099]:
+                  - img "alton" [ref=e1101]
+                  - generic [ref=e1102]:
+                    - generic [ref=e1103]: Alton
+                    - generic [ref=e1104]:
+                      - link "Best Build" [ref=e1106] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-alton-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1107]: ⓘ Details
+                  - generic [ref=e1109]: A
+                - generic [ref=e1111]:
+                  - img "acilia" [ref=e1113]
+                  - generic [ref=e1114]:
+                    - generic [ref=e1115]: Acilia
+                    - generic [ref=e1116]:
+                      - link "Best Build" [ref=e1118] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-acilia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1119]: ⓘ Details
+                  - generic [ref=e1121]: A
+                - generic [ref=e1123]:
+                  - img "dane" [ref=e1125]
+                  - generic [ref=e1126]:
+                    - generic [ref=e1127]: Dane
+                    - generic [ref=e1128]:
+                      - link "Best Build" [ref=e1130] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dane-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1131]: ⓘ Details
+                  - generic [ref=e1133]: A
+                - generic [ref=e1135]:
+                  - img "usha" [ref=e1137]
+                  - generic [ref=e1138]:
+                    - generic [ref=e1139]: Usha
+                    - generic [ref=e1140]:
+                      - link "Best Build" [ref=e1142] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-usha-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1143]: ⓘ Details
+                  - generic [ref=e1145]: A
+                - generic [ref=e1147]:
+                  - img "berengar" [ref=e1149]
+                  - generic [ref=e1150]:
+                    - generic [ref=e1151]: Berengar
+                    - generic [ref=e1152]:
+                      - link "Best Build" [ref=e1154] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-berengar-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1155]: ⓘ Details
+                  - generic [ref=e1157]: A
+                - generic [ref=e1159]:
+                  - img "gaiolere" [ref=e1161]
+                  - generic [ref=e1162]:
+                    - generic [ref=e1163]: Gaiolere
+                    - generic [ref=e1164]:
+                      - link "Best Build" [ref=e1166] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gaiolere-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1167]: ⓘ Details
+                  - generic [ref=e1169]: A
+                - generic [ref=e1171]:
+                  - img "lincos" [ref=e1173]
+                  - generic [ref=e1174]:
+                    - generic [ref=e1175]: Lincos
+                    - generic [ref=e1176]:
+                      - link "Best Build" [ref=e1178] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lincos-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e1179]: ⓘ Details
+                  - generic [ref=e1181]: A
+                - generic [ref=e1183]:
+                  - img "sutha" [ref=e1185]
+                  - generic [ref=e1186]:
+                    - generic [ref=e1187]: Sutha
+                    - generic [ref=e1188]:
+                      - link "Best Build" [ref=e1190] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-sutha-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1191]: ⓘ Details
+                  - generic [ref=e1193]: A
+                - generic [ref=e1195]:
+                  - img "divine ascetic" [ref=e1197]
+                  - generic [ref=e1198]:
+                    - generic [ref=e1199]: Divine Ascetic
+                    - generic [ref=e1200]:
+                      - link "Best Build" [ref=e1202] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-divine-ascetic-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1203]: ⓘ Details
+                  - generic [ref=e1205]: A
+                - generic [ref=e1207]:
+                  - img "frurbath" [ref=e1209]
+                  - generic [ref=e1210]:
+                    - generic [ref=e1211]: Frurbath
+                    - generic [ref=e1212]:
+                      - link "Best Build" [ref=e1214] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-frurbath-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1215]: ⓘ Details
+                  - generic [ref=e1217]: A
+                - generic [ref=e1219]:
+                  - img "calavera" [ref=e1221]
+                  - generic [ref=e1222]:
+                    - generic [ref=e1223]: Calavera
+                    - generic [ref=e1224]:
+                      - link "Best Build" [ref=e1226] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-calavera-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e1227]: ⓘ Details
+                  - generic [ref=e1229]: A
+                - generic [ref=e1231]:
+                  - img "stanguem" [ref=e1233]
+                  - generic [ref=e1234]:
+                    - generic [ref=e1235]: Stanguem
+                    - generic [ref=e1236]:
+                      - link "Best Build" [ref=e1238] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-stanguem-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e1239]: ⓘ Details
+                  - generic [ref=e1241]: A
+                - generic [ref=e1243]:
+                  - img "guinavivre" [ref=e1245]
+                  - generic [ref=e1246]:
+                    - generic [ref=e1247]: Guinavivre
+                    - generic [ref=e1248]:
+                      - link "Best Build" [ref=e1250] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-guinavivre-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1251]: ⓘ Details
+                  - generic [ref=e1253]: A
+                - generic [ref=e1255]:
+                  - img "vex" [ref=e1257]
+                  - generic [ref=e1258]:
+                    - generic [ref=e1259]: Vex
+                    - generic [ref=e1260]:
+                      - link "Best Build" [ref=e1262] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-vex-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1263]: ⓘ Details
+                  - generic [ref=e1265]: A
+                - generic [ref=e1267]:
+                  - img "errich" [ref=e1269]
+                  - generic [ref=e1270]:
+                    - generic [ref=e1271]: Errich
+                    - generic [ref=e1272]:
+                      - link "Best Build" [ref=e1274] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-errich-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1275]: ⓘ Details
+                  - generic [ref=e1277]: A
+                - generic [ref=e1279]:
+                  - img "reytah" [ref=e1281]
+                  - generic [ref=e1282]:
+                    - generic [ref=e1283]: Reytah
+                    - generic [ref=e1284]:
+                      - link "Best Build" [ref=e1286] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-reytah-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1287]: ⓘ Details
+                  - generic [ref=e1289]: A
+                - generic [ref=e1291]:
+                  - img "eli" [ref=e1293]
+                  - generic [ref=e1294]:
+                    - generic [ref=e1295]: Eli
+                    - generic [ref=e1296]:
+                      - link "Best Build" [ref=e1298] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-eli-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1299]: ⓘ Details
+                  - generic [ref=e1301]: A
+                - generic [ref=e1303]:
+                  - img "pardis" [ref=e1305]
+                  - generic [ref=e1306]:
+                    - generic [ref=e1307]: Pardis
+                    - generic [ref=e1308]:
+                      - link "Best Build" [ref=e1310] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-pardis-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1311]: ⓘ Details
+                  - generic [ref=e1313]: A
+                - generic [ref=e1315]:
+                  - img "fathomdown" [ref=e1317]
+                  - generic [ref=e1318]:
+                    - generic [ref=e1319]: Fathomdown
+                    - generic [ref=e1320]:
+                      - link "Best Build" [ref=e1322] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-fathomdown-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e1323]: ⓘ Details
+                  - generic [ref=e1325]: A
+                - generic [ref=e1327]:
+                  - img "halramar" [ref=e1329]
+                  - generic [ref=e1330]:
+                    - generic [ref=e1331]: Halramar
+                    - generic [ref=e1332]:
+                      - link "Best Build" [ref=e1334] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-halramar-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e1335]: ⓘ Details
+                  - generic [ref=e1337]: A
+                - generic [ref=e1339]:
+                  - img "deeno" [ref=e1341]
+                  - generic [ref=e1342]:
+                    - generic [ref=e1343]: Deeno
+                    - generic [ref=e1344]:
+                      - link "Best Build" [ref=e1346] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-deeno-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e1347]: ⓘ Details
+                  - generic [ref=e1349]: A
+                - generic [ref=e1351]:
+                  - img "chorak" [ref=e1353]
+                  - generic [ref=e1354]:
+                    - generic [ref=e1355]: Chorak
+                    - generic [ref=e1356]:
+                      - link "Best Build" [ref=e1358] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-chorak-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1359]: ⓘ Details
+                  - generic [ref=e1361]: A
+                - generic [ref=e1363]:
+                  - img "aschetius" [ref=e1365]
+                  - generic [ref=e1366]:
+                    - generic [ref=e1367]: Aschetius
+                    - generic [ref=e1368]:
+                      - link "Best Build" [ref=e1370] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-aschetius-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1371]: ⓘ Details
+                  - generic [ref=e1373]: A
+                - generic [ref=e1375]:
+                  - img "malak" [ref=e1377]
+                  - generic [ref=e1378]:
+                    - generic [ref=e1379]: Malak
+                    - generic [ref=e1380]:
+                      - link "Best Build" [ref=e1382] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-malak-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1383]: ⓘ Details
+                  - generic [ref=e1385]: A
+                - generic [ref=e1387]:
+                  - img "gladys" [ref=e1389]
+                  - generic [ref=e1390]:
+                    - generic [ref=e1391]: Gladys
+                    - generic [ref=e1392]:
+                      - link "Best Build" [ref=e1394] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gladys-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1395]: ⓘ Details
+                  - generic [ref=e1397]: A
+                - generic [ref=e1399]:
+                  - img "horace" [ref=e1401]
+                  - generic [ref=e1402]:
+                    - generic [ref=e1403]: Horace
+                    - generic [ref=e1404]:
+                      - link "Best Build" [ref=e1406] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-horace-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1407]: ⓘ Details
+                  - generic [ref=e1409]: A
+                - generic [ref=e1411]:
+                  - img "tonalnan" [ref=e1413]
+                  - generic [ref=e1414]:
+                    - generic [ref=e1415]: Tonalnan
+                    - generic [ref=e1416]:
+                      - link "Best Build" [ref=e1418] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-tonalnan-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1419]: ⓘ Details
+                  - generic [ref=e1421]: A
+                - generic [ref=e1423]:
+                  - img "shahla" [ref=e1425]
+                  - generic [ref=e1426]:
+                    - generic [ref=e1427]: Shahla
+                    - generic [ref=e1428]:
+                      - link "Best Build" [ref=e1430] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-shahla-build-in-dragonheir-gear-artifacts-prio-incl-season-4/?ts=20260406-18
+                      - generic [ref=e1431]: ⓘ Details
+                  - generic [ref=e1433]: A
+                - generic [ref=e1435]:
+                  - img "balsaazer" [ref=e1437]
+                  - generic [ref=e1438]:
+                    - generic [ref=e1439]: Balsaazer
+                    - generic [ref=e1440]:
+                      - link "Best Build" [ref=e1442] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-balsaazer-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1443]: ⓘ Details
+                  - generic [ref=e1445]: A
+                - generic [ref=e1447]:
+                  - img "cervinia" [ref=e1449]
+                  - generic [ref=e1450]:
+                    - generic [ref=e1451]: Cervinia
+                    - generic [ref=e1452]:
+                      - link "Best Build" [ref=e1454] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-cervinia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1455]: ⓘ Details
+                  - generic [ref=e1457]: A
+                - generic [ref=e1459]:
+                  - img "kyrza" [ref=e1461]
+                  - generic [ref=e1462]:
+                    - generic [ref=e1463]: Kyrza
+                    - generic [ref=e1464]:
+                      - link "Best Build" [ref=e1466] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-kyrza-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1467]: ⓘ Details
+                  - generic [ref=e1469]: A
+                - generic [ref=e1471]:
+                  - img "quaesitia" [ref=e1473]
+                  - generic [ref=e1474]:
+                    - generic [ref=e1475]: Quaesitia
+                    - generic [ref=e1476]:
+                      - link "Best Build" [ref=e1478] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-quaesitia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1479]: ⓘ Details
+                  - generic [ref=e1481]: A
+                - generic [ref=e1483]:
+                  - img "daphne" [ref=e1485]
+                  - generic [ref=e1486]:
+                    - generic [ref=e1487]: Daphne
+                    - generic [ref=e1488]:
+                      - link "Best Build" [ref=e1490] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-daphne-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e1491]: ⓘ Details
+                  - generic [ref=e1493]: A
+                - generic [ref=e1495]:
+                  - img "hirvolm" [ref=e1497]
+                  - generic [ref=e1498]:
+                    - generic [ref=e1499]: Hirvolm
+                    - generic [ref=e1500]:
+                      - link "Best Build" [ref=e1502] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-hirvolm-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1503]: ⓘ Details
+                  - generic [ref=e1505]: A
+                - generic [ref=e1507]:
+                  - img "dalk" [ref=e1509]
+                  - generic [ref=e1510]:
+                    - generic [ref=e1511]: Dalk
+                    - generic [ref=e1512]:
+                      - link "Best Build" [ref=e1514] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dalk-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1515]: ⓘ Details
+                  - generic [ref=e1517]: A
+                - generic [ref=e1519]:
+                  - img "isolde" [ref=e1521]
+                  - generic [ref=e1522]:
+                    - generic [ref=e1523]: Isolde
+                    - generic [ref=e1524]:
+                      - link "Best Build" [ref=e1526] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-isolde-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1527]: ⓘ Details
+                  - generic [ref=e1529]: A
+                - generic [ref=e1531]:
+                  - img "felicity" [ref=e1533]
+                  - generic [ref=e1534]:
+                    - generic [ref=e1535]: Felicity
+                    - generic [ref=e1536]:
+                      - link "Best Build" [ref=e1538] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-felicity-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1539]: ⓘ Details
+                  - generic [ref=e1541]: A
+                - generic [ref=e1543]:
+                  - img "rowena" [ref=e1545]
+                  - generic [ref=e1546]:
+                    - generic [ref=e1547]: Rowena
+                    - generic [ref=e1548]:
+                      - link "Best Build" [ref=e1550] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-rowena-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1551]: ⓘ Details
+                  - generic [ref=e1553]: A
+                - generic [ref=e1555]:
+                  - img "grishnaar" [ref=e1557]
+                  - generic [ref=e1558]:
+                    - generic [ref=e1559]: Grishnaar
+                    - generic [ref=e1560]:
+                      - link "Best Build" [ref=e1562] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-grishnaar-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1563]: ⓘ Details
+                  - generic [ref=e1565]: A
+                - generic [ref=e1567]:
+                  - img "rashaad" [ref=e1569]
+                  - generic [ref=e1570]:
+                    - generic [ref=e1571]: Rashaad
+                    - generic [ref=e1572]:
+                      - link "Best Build" [ref=e1574] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-rashaad-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1575]: ⓘ Details
+                  - generic [ref=e1576]:
+                    - generic [ref=e1577]: B
+                    - generic [ref=e1578]: ⁺
+                - generic [ref=e1580]:
+                  - img "miro" [ref=e1582]
+                  - generic [ref=e1583]:
+                    - generic [ref=e1584]: Miro
+                    - generic [ref=e1585]:
+                      - link "Best Build" [ref=e1587] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-miro-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e1588]: ⓘ Details
+                  - generic [ref=e1589]:
+                    - generic [ref=e1590]: B
+                    - generic [ref=e1591]: ⁺
+                - generic [ref=e1593]:
+                  - img "molothorn" [ref=e1595]
+                  - generic [ref=e1596]:
+                    - generic [ref=e1597]: Molothorn
+                    - generic [ref=e1598]:
+                      - link "Best Build" [ref=e1600] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-molothorn-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1601]: ⓘ Details
+                  - generic [ref=e1602]:
+                    - generic [ref=e1603]: B
+                    - generic [ref=e1604]: ⁺
+                - generic [ref=e1606]:
+                  - img "durem" [ref=e1608]
+                  - generic [ref=e1609]:
+                    - generic [ref=e1610]: Durem
+                    - generic [ref=e1611]:
+                      - link "Best Build" [ref=e1613] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-durem-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1614]: ⓘ Details
+                  - generic [ref=e1615]:
+                    - generic [ref=e1616]: B
+                    - generic [ref=e1617]: ⁺
+                - generic [ref=e1619]:
+                  - img "bleddyn" [ref=e1621]
+                  - generic [ref=e1622]:
+                    - generic [ref=e1623]: Bleddyn
+                    - generic [ref=e1624]:
+                      - link "Best Build" [ref=e1626] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-bleddyn-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1627]: ⓘ Details
+                  - generic [ref=e1628]:
+                    - generic [ref=e1629]: B
+                    - generic [ref=e1630]: ⁺
+                - generic [ref=e1632]:
+                  - img "sleight" [ref=e1634]
+                  - generic [ref=e1635]:
+                    - generic [ref=e1636]: Sleight
+                    - generic [ref=e1637]:
+                      - link "Best Build" [ref=e1639] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-sleight-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1640]: ⓘ Details
+                  - generic [ref=e1641]:
+                    - generic [ref=e1642]: B
+                    - generic [ref=e1643]: ⁺
+                - generic [ref=e1645]:
+                  - img "rose" [ref=e1647]
+                  - generic [ref=e1648]:
+                    - generic [ref=e1649]: Rose
+                    - generic [ref=e1650]:
+                      - link "Best Build" [ref=e1652] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-rose-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1653]: ⓘ Details
+                  - generic [ref=e1654]:
+                    - generic [ref=e1655]: B
+                    - generic [ref=e1656]: ⁺
+                - generic [ref=e1658]:
+                  - img "adolphus" [ref=e1660]
+                  - generic [ref=e1661]:
+                    - generic [ref=e1662]: Adolphus
+                    - generic [ref=e1663]:
+                      - link "Best Build" [ref=e1665] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-adolphus-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1666]: ⓘ Details
+                  - generic [ref=e1667]:
+                    - generic [ref=e1668]: B
+                    - generic [ref=e1669]: ⁺
+                - generic [ref=e1671]:
+                  - img "theodore" [ref=e1673]
+                  - generic [ref=e1674]:
+                    - generic [ref=e1675]: Theodore
+                    - generic [ref=e1676]:
+                      - link "Best Build" [ref=e1678] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-theodore-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1679]: ⓘ Details
+                  - generic [ref=e1680]:
+                    - generic [ref=e1681]: B
+                    - generic [ref=e1682]: ⁺
+                - generic [ref=e1684]:
+                  - img "rephe" [ref=e1686]
+                  - generic [ref=e1687]:
+                    - generic [ref=e1688]: Rephe
+                    - generic [ref=e1689]:
+                      - link "Best Build" [ref=e1691] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-rephe-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1692]: ⓘ Details
+                  - generic [ref=e1693]:
+                    - generic [ref=e1694]: B
+                    - generic [ref=e1695]: ⁺
+                - generic [ref=e1697]:
+                  - img "majtan" [ref=e1699]
+                  - generic [ref=e1700]:
+                    - generic [ref=e1701]: Majtan
+                    - generic [ref=e1702]:
+                      - link "Best Build" [ref=e1704] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-majtan-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e1705]: ⓘ Details
+                  - generic [ref=e1706]:
+                    - generic [ref=e1707]: B
+                    - generic [ref=e1708]: ⁺
+                - generic [ref=e1710]:
+                  - img "orfenna" [ref=e1712]
+                  - generic [ref=e1713]:
+                    - generic [ref=e1714]: Orfenna
+                    - generic [ref=e1715]:
+                      - link "Best Build" [ref=e1717] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-orfenna-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e1718]: ⓘ Details
+                  - generic [ref=e1719]:
+                    - generic [ref=e1720]: B
+                    - generic [ref=e1721]: ⁺
+                - generic [ref=e1723]:
+                  - img "ylindra" [ref=e1725]
+                  - generic [ref=e1726]:
+                    - generic [ref=e1727]: Ylindra
+                    - generic [ref=e1728]:
+                      - link "Best Build" [ref=e1730] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ylindra-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1731]: ⓘ Details
+                  - generic [ref=e1732]:
+                    - generic [ref=e1733]: B
+                    - generic [ref=e1734]: ⁺
+                - generic [ref=e1736]:
+                  - img "pearl" [ref=e1738]
+                  - generic [ref=e1739]:
+                    - generic [ref=e1740]: Pearl
+                    - generic [ref=e1741]:
+                      - link "Best Build" [ref=e1743] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-pearl-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e1744]: ⓘ Details
+                  - generic [ref=e1745]:
+                    - generic [ref=e1746]: B
+                    - generic [ref=e1747]: ⁺
+                - generic [ref=e1749]:
+                  - img "phaessa" [ref=e1751]
+                  - generic [ref=e1752]:
+                    - generic [ref=e1753]: Phaessa
+                    - generic [ref=e1754]:
+                      - link "Best Build" [ref=e1756] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-phaessa-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1757]: ⓘ Details
+                  - generic [ref=e1758]:
+                    - generic [ref=e1759]: B
+                    - generic [ref=e1760]: ⁺
+                - generic [ref=e1762]:
+                  - img "gragrir" [ref=e1764]
+                  - generic [ref=e1765]:
+                    - generic [ref=e1766]: Gragrir
+                    - generic [ref=e1767]:
+                      - link "Best Build" [ref=e1769] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gregor-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1770]: ⓘ Details
+                  - generic [ref=e1771]:
+                    - generic [ref=e1772]: B
+                    - generic [ref=e1773]: ⁺
+                - generic [ref=e1775]:
+                  - img "shai'nachtan" [ref=e1777]
+                  - generic [ref=e1778]:
+                    - generic [ref=e1779]: Shai'nachtan
+                    - generic [ref=e1780]:
+                      - link "Best Build" [ref=e1782] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-shainachtan-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1783]: ⓘ Details
+                  - generic [ref=e1784]:
+                    - generic [ref=e1785]: B
+                    - generic [ref=e1786]: ⁺
+                - generic [ref=e1788]:
+                  - img "nissa" [ref=e1790]
+                  - generic [ref=e1791]:
+                    - generic [ref=e1792]: Nissa
+                    - generic [ref=e1793]:
+                      - link "Best Build" [ref=e1795] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-nissa-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1796]: ⓘ Details
+                  - generic [ref=e1797]:
+                    - generic [ref=e1798]: B
+                    - generic [ref=e1799]: ⁺
+                - generic [ref=e1801]:
+                  - img "tharivol" [ref=e1803]
+                  - generic [ref=e1804]:
+                    - generic [ref=e1805]: Tharivol
+                    - generic [ref=e1806]:
+                      - link "Best Build" [ref=e1808] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-tharivol-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1809]: ⓘ Details
+                  - generic [ref=e1810]:
+                    - generic [ref=e1811]: B
+                    - generic [ref=e1812]: ⁺
+                - generic [ref=e1814]:
+                  - img "irina" [ref=e1816]
+                  - generic [ref=e1817]:
+                    - generic [ref=e1818]: Irina
+                    - generic [ref=e1819]:
+                      - link "Best Build" [ref=e1821] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-irina-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1822]: ⓘ Details
+                  - generic [ref=e1823]:
+                    - generic [ref=e1824]: B
+                    - generic [ref=e1825]: ⁺
+                - generic [ref=e1827]:
+                  - img "iola" [ref=e1829]
+                  - generic [ref=e1830]:
+                    - generic [ref=e1831]: Iola
+                    - generic [ref=e1832]:
+                      - link "Best Build" [ref=e1834] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-iola-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1835]: ⓘ Details
+                  - generic [ref=e1836]:
+                    - generic [ref=e1837]: B
+                    - generic [ref=e1838]: ⁺
+                - generic [ref=e1840]:
+                  - img "shink" [ref=e1842]
+                  - generic [ref=e1843]:
+                    - generic [ref=e1844]: Shink
+                    - generic [ref=e1845]:
+                      - link "Best Build" [ref=e1847] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-shink-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1848]: ⓘ Details
+                  - generic [ref=e1849]:
+                    - generic [ref=e1850]: B
+                    - generic [ref=e1851]: ⁺
+                - generic [ref=e1853]:
+                  - img "oggok" [ref=e1855]
+                  - generic [ref=e1856]:
+                    - generic [ref=e1857]: Oggok
+                    - generic [ref=e1858]:
+                      - link "Best Build" [ref=e1860] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-oggok-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1861]: ⓘ Details
+                  - generic [ref=e1862]:
+                    - generic [ref=e1863]: B
+                    - generic [ref=e1864]: ⁺
+                - generic [ref=e1866]:
+                  - img "lorarii" [ref=e1868]
+                  - generic [ref=e1869]:
+                    - generic [ref=e1870]: Lorarii
+                    - generic [ref=e1871]:
+                      - link "Best Build" [ref=e1873] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lorarii-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1874]: ⓘ Details
+                  - generic [ref=e1875]:
+                    - generic [ref=e1876]: B
+                    - generic [ref=e1877]: ⁺
+                - generic [ref=e1879]:
+                  - img "jathalea" [ref=e1881]
+                  - generic [ref=e1882]:
+                    - generic [ref=e1883]: Jathalea
+                    - generic [ref=e1884]:
+                      - link "Best Build" [ref=e1886] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-jathalea-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1887]: ⓘ Details
+                  - generic [ref=e1888]:
+                    - generic [ref=e1889]: B
+                    - generic [ref=e1890]: ⁺
+                - generic [ref=e1892]:
+                  - img "caroux" [ref=e1894]
+                  - generic [ref=e1895]:
+                    - generic [ref=e1896]: Caroux
+                    - generic [ref=e1897]:
+                      - link "Best Build" [ref=e1899] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-caroux-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1900]: ⓘ Details
+                  - generic [ref=e1901]:
+                    - generic [ref=e1902]: B
+                    - generic [ref=e1903]: ⁺
+                - generic [ref=e1905]:
+                  - img "baelvernal" [ref=e1907]
+                  - generic [ref=e1908]:
+                    - generic [ref=e1909]: Baelvernal
+                    - generic [ref=e1910]:
+                      - link "Best Build" [ref=e1912] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-baelvernal-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1913]: ⓘ Details
+                  - generic [ref=e1914]:
+                    - generic [ref=e1915]: B
+                    - generic [ref=e1916]: ⁺
+                - generic [ref=e1918]:
+                  - img "theodemer" [ref=e1920]
+                  - generic [ref=e1921]:
+                    - generic [ref=e1922]: Theodemer
+                    - generic [ref=e1923]:
+                      - link "Best Build" [ref=e1925] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-theodemer-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e1926]: ⓘ Details
+                  - generic [ref=e1927]:
+                    - generic [ref=e1928]: B
+                    - generic [ref=e1929]: ⁺
+                - generic [ref=e1931]:
+                  - img "taldie" [ref=e1933]
+                  - generic [ref=e1934]:
+                    - generic [ref=e1935]: Taldie
+                    - generic [ref=e1936]:
+                      - link "Best Build" [ref=e1938] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-taldie-build-in-dragonheir-gear-artifacts-prio-reborn-2025/
+                      - generic [ref=e1939]: ⓘ Details
+                  - generic [ref=e1940]:
+                    - generic [ref=e1941]: B
+                    - generic [ref=e1942]: ⁺
+                - generic [ref=e1944]:
+                  - img "gegnu" [ref=e1946]
+                  - generic [ref=e1947]:
+                    - generic [ref=e1948]: Gegnu
+                    - generic [ref=e1949]:
+                      - link "Best Build" [ref=e1951] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gegnu-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1952]: ⓘ Details
+                  - generic [ref=e1953]:
+                    - generic [ref=e1954]: B
+                    - generic [ref=e1955]: ⁺
+                - generic [ref=e1957]:
+                  - img "careth" [ref=e1959]
+                  - generic [ref=e1960]:
+                    - generic [ref=e1961]: Careth
+                    - generic [ref=e1962]:
+                      - link "Best Build" [ref=e1964] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-careth-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e1965]: ⓘ Details
+                  - generic [ref=e1966]:
+                    - generic [ref=e1967]: B
+                    - generic [ref=e1968]: ⁺
+                - generic [ref=e1970]:
+                  - img "nadja" [ref=e1972]
+                  - generic [ref=e1973]:
+                    - generic [ref=e1974]: Nadja
+                    - generic [ref=e1975]:
+                      - link "Best Build" [ref=e1977] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-nadja-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e1978]: ⓘ Details
+                  - generic [ref=e1979]:
+                    - generic [ref=e1980]: B
+                    - generic [ref=e1981]: ⁺
+                - generic [ref=e1983]:
+                  - img "aladiah" [ref=e1985]
+                  - generic [ref=e1986]:
+                    - generic [ref=e1987]: Aladiah
+                    - generic [ref=e1988]:
+                      - link "Best Build" [ref=e1990] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-aladiah-build-in-dragonheir-gear-artifacts-prio-incl-season-3/
+                      - generic [ref=e1991]: ⓘ Details
+                  - generic [ref=e1992]:
+                    - generic [ref=e1993]: B
+                    - generic [ref=e1994]: ⁺
+                - generic [ref=e1996]:
+                  - img "manda" [ref=e1998]
+                  - generic [ref=e1999]:
+                    - generic [ref=e2000]: Manda
+                    - generic [ref=e2001]:
+                      - link "Best Build" [ref=e2003] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-manda-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2004]: ⓘ Details
+                  - generic [ref=e2005]:
+                    - generic [ref=e2006]: B
+                    - generic [ref=e2007]: ⁺
+                - generic [ref=e2009]:
+                  - img "ardreth" [ref=e2011]
+                  - generic [ref=e2012]:
+                    - generic [ref=e2013]: Ardreth
+                    - generic [ref=e2014]:
+                      - link "Best Build" [ref=e2016] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ardreth-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2017]: ⓘ Details
+                  - generic [ref=e2018]:
+                    - generic [ref=e2019]: B
+                    - generic [ref=e2020]: ⁺
+                - generic [ref=e2022]:
+                  - img "rava" [ref=e2024]
+                  - generic [ref=e2025]:
+                    - generic [ref=e2026]: Rava
+                    - generic [ref=e2027]:
+                      - link "Best Build" [ref=e2029] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-rava-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2030]: ⓘ Details
+                  - generic [ref=e2031]:
+                    - generic [ref=e2032]: B
+                    - generic [ref=e2033]: ⁺
+                - generic [ref=e2035]:
+                  - img "eurion" [ref=e2037]
+                  - generic [ref=e2038]:
+                    - generic [ref=e2039]: Eurion
+                    - generic [ref=e2040]:
+                      - link "Best Build" [ref=e2042] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-eurion-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2043]: ⓘ Details
+                  - generic [ref=e2044]:
+                    - generic [ref=e2045]: B
+                    - generic [ref=e2046]: ⁺
+                - generic [ref=e2048]:
+                  - img "naguk" [ref=e2050]
+                  - generic [ref=e2051]:
+                    - generic [ref=e2052]: Naguk
+                    - generic [ref=e2053]:
+                      - link "Best Build" [ref=e2055] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-naguk-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2056]: ⓘ Details
+                  - generic [ref=e2057]:
+                    - generic [ref=e2058]: B
+                    - generic [ref=e2059]: ⁺
+                - generic [ref=e2061]:
+                  - img "tioh" [ref=e2063]
+                  - generic [ref=e2064]:
+                    - generic [ref=e2065]: Tioh
+                    - generic [ref=e2066]:
+                      - link "Best Build" [ref=e2068] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-tioh-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2069]: ⓘ Details
+                  - generic [ref=e2070]:
+                    - generic [ref=e2071]: B
+                    - generic [ref=e2072]: ⁺
+                - generic [ref=e2074]:
+                  - img "questa" [ref=e2076]
+                  - generic [ref=e2077]:
+                    - generic [ref=e2078]: Questa
+                    - generic [ref=e2079]:
+                      - link "Best Build" [ref=e2081] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-questa-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2082]: ⓘ Details
+                  - generic [ref=e2083]:
+                    - generic [ref=e2084]: B
+                    - generic [ref=e2085]: ⁺
+                - generic [ref=e2087]:
+                  - img "heksandra" [ref=e2089]
+                  - generic [ref=e2090]:
+                    - generic [ref=e2091]: Heksandra
+                    - generic [ref=e2092]:
+                      - link "Best Build" [ref=e2094] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-heksandra-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2095]: ⓘ Details
+                  - generic [ref=e2096]:
+                    - generic [ref=e2097]: B
+                    - generic [ref=e2098]: ⁺
+                - generic [ref=e2100]:
+                  - img "shagrol" [ref=e2102]
+                  - generic [ref=e2103]:
+                    - generic [ref=e2104]: Shagrol
+                    - generic [ref=e2105]:
+                      - link "Best Build" [ref=e2107] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-shagrol-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2108]: ⓘ Details
+                  - generic [ref=e2109]:
+                    - generic [ref=e2110]: B
+                    - generic [ref=e2111]: ⁺
+                - generic [ref=e2113]:
+                  - img "irzillas" [ref=e2115]
+                  - generic [ref=e2116]:
+                    - generic [ref=e2117]: Irzillas
+                    - generic [ref=e2118]:
+                      - link "Best Build" [ref=e2120] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-irzillas-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2121]: ⓘ Details
+                  - generic [ref=e2122]:
+                    - generic [ref=e2123]: B
+                    - generic [ref=e2124]: ⁺
+                - generic [ref=e2126]:
+                  - img "thalorian" [ref=e2128]
+                  - generic [ref=e2129]:
+                    - generic [ref=e2130]: Thalorian
+                    - generic [ref=e2131]:
+                      - link "Best Build" [ref=e2133] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-thalorian-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e2134]: ⓘ Details
+                  - generic [ref=e2135]:
+                    - generic [ref=e2136]: B
+                    - generic [ref=e2137]: ⁺
+                - generic [ref=e2139]:
+                  - img "dielke" [ref=e2141]
+                  - generic [ref=e2142]:
+                    - generic [ref=e2143]: Dielke
+                    - generic [ref=e2144]:
+                      - link "Best Build" [ref=e2146] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dielke-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2147]: ⓘ Details
+                  - generic [ref=e2148]:
+                    - generic [ref=e2149]: B
+                    - generic [ref=e2150]: ⁺
+                - generic [ref=e2152]:
+                  - img "tatoth" [ref=e2154]
+                  - generic [ref=e2155]:
+                    - generic [ref=e2156]: Tatoth
+                    - generic [ref=e2157]:
+                      - link "Best Build" [ref=e2159] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-tatoth-build-in-dragonheir-gear-artifacts-prio-reborn-2025/
+                      - generic [ref=e2160]: ⓘ Details
+                  - generic [ref=e2161]:
+                    - generic [ref=e2162]: B
+                    - generic [ref=e2163]: ⁺
+                - generic [ref=e2165]:
+                  - img "bigby" [ref=e2167]
+                  - generic [ref=e2168]:
+                    - generic [ref=e2169]: Bigby
+                    - generic [ref=e2170]:
+                      - link "Best Build" [ref=e2172] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-bigby-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2173]: ⓘ Details
+                  - generic [ref=e2174]:
+                    - generic [ref=e2175]: B
+                    - generic [ref=e2176]: ⁺
+                - generic [ref=e2178]:
+                  - img "narzilla" [ref=e2180]
+                  - generic [ref=e2181]:
+                    - generic [ref=e2182]: Narzilla
+                    - generic [ref=e2183]:
+                      - link "Best Build" [ref=e2185] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-narzilla-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2186]: ⓘ Details
+                  - generic [ref=e2187]:
+                    - generic [ref=e2188]: B
+                    - generic [ref=e2189]: ⁺
+                - generic [ref=e2191]:
+                  - img "karf" [ref=e2193]
+                  - generic [ref=e2194]:
+                    - generic [ref=e2195]: Karf
+                    - generic [ref=e2196]:
+                      - link "Best Build" [ref=e2198] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-karf-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2199]: ⓘ Details
+                  - generic [ref=e2200]:
+                    - generic [ref=e2201]: B
+                    - generic [ref=e2202]: ⁺
+                - generic [ref=e2204]:
+                  - img "vinyara" [ref=e2206]
+                  - generic [ref=e2207]:
+                    - generic [ref=e2208]: Vinyara
+                    - generic [ref=e2209]:
+                      - link "Best Build" [ref=e2211] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-vinyara-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2212]: ⓘ Details
+                  - generic [ref=e2213]:
+                    - generic [ref=e2214]: B
+                    - generic [ref=e2215]: ⁺
+                - generic [ref=e2217]:
+                  - img "felosia" [ref=e2219]
+                  - generic [ref=e2220]:
+                    - generic [ref=e2221]: Felosia
+                    - generic [ref=e2222]:
+                      - link "Best Build" [ref=e2224] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-felosia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2225]: ⓘ Details
+                  - generic [ref=e2226]:
+                    - generic [ref=e2227]: B
+                    - generic [ref=e2228]: ⁺
+                - generic [ref=e2230]:
+                  - img "elecebre" [ref=e2232]
+                  - generic [ref=e2233]:
+                    - generic [ref=e2234]: Elecebre
+                    - generic [ref=e2235]:
+                      - link "Best Build" [ref=e2237] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-elecebre-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2238]: ⓘ Details
+                  - generic [ref=e2239]:
+                    - generic [ref=e2240]: B
+                    - generic [ref=e2241]: ⁺
+                - generic [ref=e2243]:
+                  - img "nimbus" [ref=e2245]
+                  - generic [ref=e2246]:
+                    - generic [ref=e2247]: Nimbus
+                    - generic [ref=e2248]:
+                      - link "Best Build" [ref=e2250] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-nimbus-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2251]: ⓘ Details
+                  - generic [ref=e2252]:
+                    - generic [ref=e2253]: B
+                    - generic [ref=e2254]: ⁺
+                - generic [ref=e2256]:
+                  - img "utior" [ref=e2258]
+                  - generic [ref=e2259]:
+                    - generic [ref=e2260]: Utior
+                    - generic [ref=e2261]:
+                      - link "Best Build" [ref=e2263] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-utior-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2264]: ⓘ Details
+                  - generic [ref=e2265]:
+                    - generic [ref=e2266]: B
+                    - generic [ref=e2267]: ⁺
+                - generic [ref=e2269]:
+                  - img "torrin" [ref=e2271]
+                  - generic [ref=e2272]:
+                    - generic [ref=e2273]: Torrin
+                    - generic [ref=e2274]:
+                      - link "Best Build" [ref=e2276] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-torrin-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2277]: ⓘ Details
+                  - generic [ref=e2278]:
+                    - generic [ref=e2279]: B
+                    - generic [ref=e2280]: ⁺
+                - generic [ref=e2282]:
+                  - img "mithrasea" [ref=e2284]
+                  - generic [ref=e2285]:
+                    - generic [ref=e2286]: Mithrasea
+                    - generic [ref=e2287]:
+                      - link "Best Build" [ref=e2289] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-mithrasea-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2290]: ⓘ Details
+                  - generic [ref=e2291]:
+                    - generic [ref=e2292]: B
+                    - generic [ref=e2293]: ⁺
+                - generic [ref=e2295]:
+                  - img "gillian" [ref=e2297]
+                  - generic [ref=e2298]:
+                    - generic [ref=e2299]: Gillian
+                    - generic [ref=e2300]:
+                      - link "Best Build" [ref=e2302] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gillian-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2303]: ⓘ Details
+                  - generic [ref=e2304]:
+                    - generic [ref=e2305]: B
+                    - generic [ref=e2306]: ⁺
+                - generic [ref=e2308]:
+                  - img "garius" [ref=e2310]
+                  - generic [ref=e2311]:
+                    - generic [ref=e2312]: Garius
+                    - generic [ref=e2313]:
+                      - link "Best Build" [ref=e2315] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-garius-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2316]: ⓘ Details
+                  - generic [ref=e2317]:
+                    - generic [ref=e2318]: B
+                    - generic [ref=e2319]: ⁺
+                - generic [ref=e2321]:
+                  - img "martina" [ref=e2323]
+                  - generic [ref=e2324]:
+                    - generic [ref=e2325]: Martina
+                    - generic [ref=e2326]:
+                      - link "Best Build" [ref=e2328] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-martina-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2329]: ⓘ Details
+                  - generic [ref=e2330]:
+                    - generic [ref=e2331]: B
+                    - generic [ref=e2332]: ⁺
+                - generic [ref=e2334]:
+                  - img "hegio" [ref=e2336]
+                  - generic [ref=e2337]:
+                    - generic [ref=e2338]: Hegio
+                    - generic [ref=e2339]:
+                      - link "Best Build" [ref=e2341] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-hegio-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2342]: ⓘ Details
+                  - generic [ref=e2343]:
+                    - generic [ref=e2344]: B
+                    - generic [ref=e2345]: ⁺
+                - generic [ref=e2347]:
+                  - img "ashqar" [ref=e2349]
+                  - generic [ref=e2350]:
+                    - generic [ref=e2351]: Ashqar
+                    - generic [ref=e2352]:
+                      - link "Best Build" [ref=e2354] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ashqar-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e2355]: ⓘ Details
+                  - generic [ref=e2357]: B
+                - generic [ref=e2359]:
+                  - img "ghellid" [ref=e2361]
+                  - generic [ref=e2362]:
+                    - generic [ref=e2363]: Ghellid
+                    - generic [ref=e2364]:
+                      - link "Best Build" [ref=e2366] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ghellid-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2367]: ⓘ Details
+                  - generic [ref=e2369]: B
+                - generic [ref=e2371]:
+                  - img "tarulla" [ref=e2373]
+                  - generic [ref=e2374]:
+                    - generic [ref=e2375]: Tarulla
+                    - generic [ref=e2376]:
+                      - link "Best Build" [ref=e2378] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-tarulla-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e2379]: ⓘ Details
+                  - generic [ref=e2381]: B
+                - generic [ref=e2383]:
+                  - img "nord" [ref=e2385]
+                  - generic [ref=e2386]:
+                    - generic [ref=e2387]: Nord
+                    - generic [ref=e2388]:
+                      - link "Best Build" [ref=e2390] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-nord-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2391]: ⓘ Details
+                  - generic [ref=e2393]: B
+                - generic [ref=e2395]:
+                  - img "gerthin" [ref=e2397]
+                  - generic [ref=e2398]:
+                    - generic [ref=e2399]: Gerthin
+                    - generic [ref=e2400]:
+                      - link "Best Build" [ref=e2402] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gerthin-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2403]: ⓘ Details
+                  - generic [ref=e2405]: B
+                - generic [ref=e2407]:
+                  - img "nedda" [ref=e2409]
+                  - generic [ref=e2410]:
+                    - generic [ref=e2411]: Nedda
+                    - generic [ref=e2412]:
+                      - link "Best Build" [ref=e2414] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-nedda-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2415]: ⓘ Details
+                  - generic [ref=e2417]: B
+                - generic [ref=e2419]:
+                  - img "drizzt do'urden" [ref=e2421]
+                  - generic [ref=e2422]:
+                    - generic [ref=e2423]: Drizzt Do'Urden
+                    - generic [ref=e2424]:
+                      - link "Best Build" [ref=e2426] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-drizzt-dourden-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2427]: ⓘ Details
+                  - generic [ref=e2429]: B
+                - generic [ref=e2431]:
+                  - img "schaltar" [ref=e2433]
+                  - generic [ref=e2434]:
+                    - generic [ref=e2435]: Schaltar
+                    - generic [ref=e2436]:
+                      - link "Best Build" [ref=e2438] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-schaltar-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2439]: ⓘ Details
+                  - generic [ref=e2441]: B
+                - generic [ref=e2443]:
+                  - img "garret" [ref=e2445]
+                  - generic [ref=e2446]:
+                    - generic [ref=e2447]: Garret
+                    - generic [ref=e2448]:
+                      - link "Best Build" [ref=e2450] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-garret-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2451]: ⓘ Details
+                  - generic [ref=e2453]: B
+                - generic [ref=e2455]:
+                  - img "vasska" [ref=e2457]
+                  - generic [ref=e2458]:
+                    - generic [ref=e2459]: Vasska
+                    - generic [ref=e2460]:
+                      - link "Best Build" [ref=e2462] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-vasska-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2463]: ⓘ Details
+                  - generic [ref=e2465]: B
+                - generic [ref=e2467]:
+                  - img "talwer" [ref=e2469]
+                  - generic [ref=e2470]:
+                    - generic [ref=e2471]: Talwer
+                    - generic [ref=e2472]:
+                      - link "Best Build" [ref=e2474] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-talwer-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2475]: ⓘ Details
+                  - generic [ref=e2477]: B
+                - generic [ref=e2479]:
+                  - img "catherine" [ref=e2481]
+                  - generic [ref=e2482]:
+                    - generic [ref=e2483]: Catherine
+                    - generic [ref=e2484]:
+                      - link "Best Build" [ref=e2486] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-catherine-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2487]: ⓘ Details
+                  - generic [ref=e2489]: B
+                - generic [ref=e2491]:
+                  - img "eleuia" [ref=e2493]
+                  - generic [ref=e2494]:
+                    - generic [ref=e2495]: Eleuia
+                    - generic [ref=e2496]:
+                      - link "Best Build" [ref=e2498] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-eleuia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2499]: ⓘ Details
+                  - generic [ref=e2501]: B
+                - generic [ref=e2503]:
+                  - img "bronagh" [ref=e2505]
+                  - generic [ref=e2506]:
+                    - generic [ref=e2507]: Bronagh
+                    - generic [ref=e2508]:
+                      - link "Best Build" [ref=e2510] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-bronagh-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2511]: ⓘ Details
+                  - generic [ref=e2513]: B
+                - generic [ref=e2515]:
+                  - img "dargo" [ref=e2517]
+                  - generic [ref=e2518]:
+                    - generic [ref=e2519]: Dargo
+                    - generic [ref=e2520]:
+                      - link "Best Build" [ref=e2522] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dargo-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2523]: ⓘ Details
+                  - generic [ref=e2525]: B
+                - generic [ref=e2527]:
+                  - img "haldy" [ref=e2529]
+                  - generic [ref=e2530]:
+                    - generic [ref=e2531]: Haldy
+                    - generic [ref=e2532]:
+                      - link "Best Build" [ref=e2534] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-haldy-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2535]: ⓘ Details
+                  - generic [ref=e2537]: B
+                - generic [ref=e2539]:
+                  - img "zeffi" [ref=e2541]
+                  - generic [ref=e2542]:
+                    - generic [ref=e2543]: Zeffi
+                    - generic [ref=e2544]:
+                      - link "Best Build" [ref=e2546] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-zeffi-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2547]: ⓘ Details
+                  - generic [ref=e2549]: B
+                - generic [ref=e2551]:
+                  - img "corrin" [ref=e2553]
+                  - generic [ref=e2554]:
+                    - generic [ref=e2555]: Corrin
+                    - generic [ref=e2556]:
+                      - link "Best Build" [ref=e2558] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-corrin-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2559]: ⓘ Details
+                  - generic [ref=e2561]: B
+                - generic [ref=e2563]:
+                  - img "berrik" [ref=e2565]
+                  - generic [ref=e2566]:
+                    - generic [ref=e2567]: Berrik
+                    - generic [ref=e2568]:
+                      - link "Best Build" [ref=e2570] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-berrik-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2571]: ⓘ Details
+                  - generic [ref=e2573]: B
+                - generic [ref=e2575]:
+                  - img "gulal" [ref=e2577]
+                  - generic [ref=e2578]:
+                    - generic [ref=e2579]: Gulal
+                    - generic [ref=e2580]:
+                      - link "Best Build" [ref=e2582] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gulal-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2583]: ⓘ Details
+                  - generic [ref=e2585]: B
+                - generic [ref=e2587]:
+                  - img "araces" [ref=e2589]
+                  - generic [ref=e2590]:
+                    - generic [ref=e2591]: Araces
+                    - generic [ref=e2592]:
+                      - link "Best Build" [ref=e2594] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-araces-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2595]: ⓘ Details
+                  - generic [ref=e2597]: B
+                - generic [ref=e2599]:
+                  - img "mera" [ref=e2601]
+                  - generic [ref=e2602]:
+                    - generic [ref=e2603]: Mera
+                    - generic [ref=e2604]:
+                      - link "Best Build" [ref=e2606] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-mera-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e2607]: ⓘ Details
+                  - generic [ref=e2609]: B
+                - generic [ref=e2611]:
+                  - img "rasran" [ref=e2613]
+                  - generic [ref=e2614]:
+                    - generic [ref=e2615]: Rasran
+                    - generic [ref=e2616]:
+                      - link "Best Build" [ref=e2618] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-rasran-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2619]: ⓘ Details
+                  - generic [ref=e2621]: B
+                - generic [ref=e2623]:
+                  - img "theohein" [ref=e2625]
+                  - generic [ref=e2626]:
+                    - generic [ref=e2627]: Theohein
+                    - generic [ref=e2628]:
+                      - link "Best Build" [ref=e2630] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-theohein-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2631]: ⓘ Details
+                  - generic [ref=e2633]: B
+                - generic [ref=e2635]:
+                  - img "eirnin" [ref=e2637]
+                  - generic [ref=e2638]:
+                    - generic [ref=e2639]: Eirnin
+                    - generic [ref=e2640]:
+                      - link "Best Build" [ref=e2642] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-eirnin-build-in-dragonheir-gear-artifacts-prio-incl-season-4/
+                      - generic [ref=e2643]: ⓘ Details
+                  - generic [ref=e2645]: B
+                - generic [ref=e2647]:
+                  - img "lyle" [ref=e2649]
+                  - generic [ref=e2650]:
+                    - generic [ref=e2651]: Lyle
+                    - generic [ref=e2652]:
+                      - link "Best Build" [ref=e2654] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lyle-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2655]: ⓘ Details
+                  - generic [ref=e2657]: B
+                - generic [ref=e2659]:
+                  - img "ivellios" [ref=e2661]
+                  - generic [ref=e2662]:
+                    - generic [ref=e2663]: Ivellios
+                    - generic [ref=e2664]:
+                      - link "Best Build" [ref=e2666] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ivellios-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2667]: ⓘ Details
+                  - generic [ref=e2669]: B
+                - generic [ref=e2671]:
+                  - img "gerana" [ref=e2673]
+                  - generic [ref=e2674]:
+                    - generic [ref=e2675]: Gerana
+                    - generic [ref=e2676]:
+                      - link "Best Build" [ref=e2678] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gerana-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2679]: ⓘ Details
+                  - generic [ref=e2681]: B
+                - generic [ref=e2683]:
+                  - img "isitarian" [ref=e2685]
+                  - generic [ref=e2686]:
+                    - generic [ref=e2687]: Isitarian
+                    - generic [ref=e2688]:
+                      - link "Best Build" [ref=e2690] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-isitarian-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2691]: ⓘ Details
+                  - generic [ref=e2693]: B
+                - generic [ref=e2695]:
+                  - img "eches" [ref=e2697]
+                  - generic [ref=e2698]:
+                    - generic [ref=e2699]: Eches
+                    - generic [ref=e2700]:
+                      - link "Best Build" [ref=e2702] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-eches-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2703]: ⓘ Details
+                  - generic [ref=e2705]: B
+                - generic [ref=e2707]:
+                  - img "gumm" [ref=e2709]
+                  - generic [ref=e2710]:
+                    - generic [ref=e2711]: Gumm
+                    - generic [ref=e2712]:
+                      - link "Best Build" [ref=e2714] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gumm-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2715]: ⓘ Details
+                  - generic [ref=e2717]: B
+                - generic [ref=e2719]:
+                  - img "seidic" [ref=e2721]
+                  - generic [ref=e2722]:
+                    - generic [ref=e2723]: Seidic
+                    - generic [ref=e2724]:
+                      - link "Best Build" [ref=e2726] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-seidic-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2727]: ⓘ Details
+                  - generic [ref=e2729]: B
+                - generic [ref=e2731]:
+                  - img "fizzle" [ref=e2733]
+                  - generic [ref=e2734]:
+                    - generic [ref=e2735]: Fizzle
+                    - generic [ref=e2736]:
+                      - link "Best Build" [ref=e2738] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-fizzle-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2739]: ⓘ Details
+                  - generic [ref=e2741]: B
+                - generic [ref=e2743]:
+                  - img "bionphray" [ref=e2745]
+                  - generic [ref=e2746]:
+                    - generic [ref=e2747]: Bionphray
+                    - generic [ref=e2748]:
+                      - link "Best Build" [ref=e2750] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-bionphray-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2751]: ⓘ Details
+                  - generic [ref=e2753]: B
+                - generic [ref=e2755]:
+                  - img "sagomir" [ref=e2757]
+                  - generic [ref=e2758]:
+                    - generic [ref=e2759]: Sagomir
+                    - generic [ref=e2760]:
+                      - link "Best Build" [ref=e2762] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-sagomir-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2763]: ⓘ Details
+                  - generic [ref=e2765]: B
+                - generic [ref=e2767]:
+                  - img "caledo" [ref=e2769]
+                  - generic [ref=e2770]:
+                    - generic [ref=e2771]: Caledo
+                    - generic [ref=e2772]:
+                      - link "Best Build" [ref=e2774] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-caledo-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2775]: ⓘ Details
+                  - generic [ref=e2777]: B
+                - generic [ref=e2779]:
+                  - img "sifris" [ref=e2781]
+                  - generic [ref=e2782]:
+                    - generic [ref=e2783]: Sifris
+                    - generic [ref=e2784]:
+                      - link "Best Build" [ref=e2786] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-sifris-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2787]: ⓘ Details
+                  - generic [ref=e2789]: B
+                - generic [ref=e2791]:
+                  - img "chitter" [ref=e2793]
+                  - generic [ref=e2794]:
+                    - generic [ref=e2795]: Chitter
+                    - generic [ref=e2796]:
+                      - link "Best Build" [ref=e2798] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-chitter-build-in-dragonheir-gear-artifacts-prio-reborn-2025/
+                      - generic [ref=e2799]: ⓘ Details
+                  - generic [ref=e2801]: B
+                - generic [ref=e2803]:
+                  - img "sabrina" [ref=e2805]
+                  - generic [ref=e2806]:
+                    - generic [ref=e2807]: Sabrina
+                    - generic [ref=e2808]:
+                      - link "Best Build" [ref=e2810] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-sabrina-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2811]: ⓘ Details
+                  - generic [ref=e2813]: B
+                - generic [ref=e2815]:
+                  - img "cykkol" [ref=e2817]
+                  - generic [ref=e2818]:
+                    - generic [ref=e2819]: Cykkol
+                    - generic [ref=e2820]:
+                      - link "Best Build" [ref=e2822] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-cykkol-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2823]: ⓘ Details
+                  - generic [ref=e2825]: B
+                - generic [ref=e2827]:
+                  - img "zraacs" [ref=e2829]
+                  - generic [ref=e2830]:
+                    - generic [ref=e2831]: Zraacs
+                    - generic [ref=e2832]:
+                      - link "Best Build" [ref=e2834] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-zraacs-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2835]: ⓘ Details
+                  - generic [ref=e2837]: B
+                - generic [ref=e2839]:
+                  - img "aryasso" [ref=e2841]
+                  - generic [ref=e2842]:
+                    - generic [ref=e2843]: Aryasso
+                    - generic [ref=e2844]:
+                      - link "Best Build" [ref=e2846] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-aryasso-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2847]: ⓘ Details
+                  - generic [ref=e2849]: B
+                - generic [ref=e2851]:
+                  - img "shook" [ref=e2853]
+                  - generic [ref=e2854]:
+                    - generic [ref=e2855]: Shook
+                    - generic [ref=e2856]:
+                      - link "Best Build" [ref=e2858] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-shook-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2859]: ⓘ Details
+                  - generic [ref=e2861]: B
+                - generic [ref=e2863]:
+                  - img "meggan" [ref=e2865]
+                  - generic [ref=e2866]:
+                    - generic [ref=e2867]: Meggan
+                    - generic [ref=e2868]:
+                      - link "Best Build" [ref=e2870] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-meggan-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2871]: ⓘ Details
+                  - generic [ref=e2873]: B
+                - generic [ref=e2875]:
+                  - img "gareth" [ref=e2877]
+                  - generic [ref=e2878]:
+                    - generic [ref=e2879]: Gareth
+                    - generic [ref=e2880]:
+                      - link "Best Build" [ref=e2882] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gareth-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2883]: ⓘ Details
+                  - generic [ref=e2885]: B
+                - generic [ref=e2887]:
+                  - img "nathaniel" [ref=e2889]
+                  - generic [ref=e2890]:
+                    - generic [ref=e2891]: Nathaniel
+                    - generic [ref=e2892]:
+                      - link "Best Build" [ref=e2894] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-nathaniel-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2895]: ⓘ Details
+                  - generic [ref=e2897]: B
+                - generic [ref=e2899]:
+                  - img "garian" [ref=e2901]
+                  - generic [ref=e2902]:
+                    - generic [ref=e2903]: Garian
+                    - generic [ref=e2904]:
+                      - link "Best Build" [ref=e2906] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-garian-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2907]: ⓘ Details
+                  - generic [ref=e2909]: B
+                - generic [ref=e2911]:
+                  - img "roberta" [ref=e2913]
+                  - generic [ref=e2914]:
+                    - generic [ref=e2915]: Roberta
+                    - generic [ref=e2916]:
+                      - link "Best Build" [ref=e2918] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-roberta-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2919]: ⓘ Details
+                  - generic [ref=e2920]:
+                    - generic [ref=e2921]: C
+                    - generic [ref=e2922]: ⁺
+                - generic [ref=e2924]:
+                  - img "horrus" [ref=e2926]
+                  - generic [ref=e2927]:
+                    - generic [ref=e2928]: Horrus
+                    - generic [ref=e2929]:
+                      - link "Best Build" [ref=e2931] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-horrus-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2932]: ⓘ Details
+                  - generic [ref=e2933]:
+                    - generic [ref=e2934]: C
+                    - generic [ref=e2935]: ⁺
+                - generic [ref=e2937]:
+                  - img "deverick" [ref=e2939]
+                  - generic [ref=e2940]:
+                    - generic [ref=e2941]: Deverick
+                    - generic [ref=e2942]:
+                      - link "Best Build" [ref=e2944] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-deverick-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2945]: ⓘ Details
+                  - generic [ref=e2946]:
+                    - generic [ref=e2947]: C
+                    - generic [ref=e2948]: ⁺
+                - generic [ref=e2950]:
+                  - img "gloin" [ref=e2952]
+                  - generic [ref=e2953]:
+                    - generic [ref=e2954]: Gloin
+                    - generic [ref=e2955]:
+                      - link "Best Build" [ref=e2957] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gloin-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2958]: ⓘ Details
+                  - generic [ref=e2959]:
+                    - generic [ref=e2960]: C
+                    - generic [ref=e2961]: ⁺
+                - generic [ref=e2963]:
+                  - img "dubok" [ref=e2965]
+                  - generic [ref=e2966]:
+                    - generic [ref=e2967]: Dubok
+                    - generic [ref=e2968]:
+                      - link "Best Build" [ref=e2970] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dubok-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2971]: ⓘ Details
+                  - generic [ref=e2972]:
+                    - generic [ref=e2973]: C
+                    - generic [ref=e2974]: ⁺
+                - generic [ref=e2976]:
+                  - img "dorkuraz" [ref=e2978]
+                  - generic [ref=e2979]:
+                    - generic [ref=e2980]: Dorkuraz
+                    - generic [ref=e2981]:
+                      - link "Best Build" [ref=e2983] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dorkuraz-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2984]: ⓘ Details
+                  - generic [ref=e2985]:
+                    - generic [ref=e2986]: C
+                    - generic [ref=e2987]: ⁺
+                - generic [ref=e2989]:
+                  - img "wellby" [ref=e2991]
+                  - generic [ref=e2992]:
+                    - generic [ref=e2993]: Wellby
+                    - generic [ref=e2994]:
+                      - link "Best Build" [ref=e2996] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-wellby-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e2997]: ⓘ Details
+                  - generic [ref=e2998]:
+                    - generic [ref=e2999]: C
+                    - generic [ref=e3000]: ⁺
+                - generic [ref=e3002]:
+                  - img "zadie" [ref=e3004]
+                  - generic [ref=e3005]:
+                    - generic [ref=e3006]: Zadie
+                    - generic [ref=e3007]:
+                      - link "Best Build" [ref=e3009] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-zadie-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3010]: ⓘ Details
+                  - generic [ref=e3011]:
+                    - generic [ref=e3012]: C
+                    - generic [ref=e3013]: ⁺
+                - generic [ref=e3015]:
+                  - img "garrika" [ref=e3017]
+                  - generic [ref=e3018]:
+                    - generic [ref=e3019]: Garrika
+                    - generic [ref=e3020]:
+                      - link "Best Build" [ref=e3022] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-garrika-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3023]: ⓘ Details
+                  - generic [ref=e3024]:
+                    - generic [ref=e3025]: C
+                    - generic [ref=e3026]: ⁺
+                - generic [ref=e3028]:
+                  - img "caraman" [ref=e3030]
+                  - generic [ref=e3031]:
+                    - generic [ref=e3032]: Caraman
+                    - generic [ref=e3033]:
+                      - link "Best Build" [ref=e3035] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-caraman-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3036]: ⓘ Details
+                  - generic [ref=e3037]:
+                    - generic [ref=e3038]: C
+                    - generic [ref=e3039]: ⁺
+                - generic [ref=e3041]:
+                  - img "olgan" [ref=e3043]
+                  - generic [ref=e3044]:
+                    - generic [ref=e3045]: Olgan
+                    - generic [ref=e3046]:
+                      - link "Best Build" [ref=e3048] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-olgan-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3049]: ⓘ Details
+                  - generic [ref=e3050]:
+                    - generic [ref=e3051]: C
+                    - generic [ref=e3052]: ⁺
+                - generic [ref=e3054]:
+                  - img "altin" [ref=e3056]
+                  - generic [ref=e3057]:
+                    - generic [ref=e3058]: Altin
+                    - generic [ref=e3059]:
+                      - link "Best Build" [ref=e3061] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-altin-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3062]: ⓘ Details
+                  - generic [ref=e3063]:
+                    - generic [ref=e3064]: C
+                    - generic [ref=e3065]: ⁺
+                - generic [ref=e3067]:
+                  - img "arlow" [ref=e3069]
+                  - generic [ref=e3070]:
+                    - generic [ref=e3071]: Arlow
+                    - generic [ref=e3072]:
+                      - link "Best Build" [ref=e3074] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-arlow-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3075]: ⓘ Details
+                  - generic [ref=e3076]:
+                    - generic [ref=e3077]: C
+                    - generic [ref=e3078]: ⁺
+                - generic [ref=e3080]:
+                  - img "thia" [ref=e3082]
+                  - generic [ref=e3083]:
+                    - generic [ref=e3084]: Thia
+                    - generic [ref=e3085]:
+                      - link "Best Build" [ref=e3087] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-thia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3088]: ⓘ Details
+                  - generic [ref=e3089]:
+                    - generic [ref=e3090]: C
+                    - generic [ref=e3091]: ⁺
+                - generic [ref=e3093]:
+                  - img "fihrah" [ref=e3095]
+                  - generic [ref=e3096]:
+                    - generic [ref=e3097]: Fihrah
+                    - generic [ref=e3098]:
+                      - link "Best Build" [ref=e3100] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-fihrah-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3101]: ⓘ Details
+                  - generic [ref=e3102]:
+                    - generic [ref=e3103]: C
+                    - generic [ref=e3104]: ⁺
+                - generic [ref=e3106]:
+                  - img "vidimir" [ref=e3108]
+                  - generic [ref=e3109]:
+                    - generic [ref=e3110]: Vidimir
+                    - generic [ref=e3111]:
+                      - link "Best Build" [ref=e3113] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-vidimir-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3114]: ⓘ Details
+                  - generic [ref=e3115]:
+                    - generic [ref=e3116]: C
+                    - generic [ref=e3117]: ⁺
+                - generic [ref=e3119]:
+                  - img "duling" [ref=e3121]
+                  - generic [ref=e3122]:
+                    - generic [ref=e3123]: Duling
+                    - generic [ref=e3124]:
+                      - link "Best Build" [ref=e3126] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-duling-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3127]: ⓘ Details
+                  - generic [ref=e3128]:
+                    - generic [ref=e3129]: C
+                    - generic [ref=e3130]: ⁺
+                - generic [ref=e3132]:
+                  - img "broll" [ref=e3134]
+                  - generic [ref=e3135]:
+                    - generic [ref=e3136]: Broll
+                    - generic [ref=e3137]:
+                      - link "Best Build" [ref=e3139] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-broll-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3140]: ⓘ Details
+                  - generic [ref=e3141]:
+                    - generic [ref=e3142]: C
+                    - generic [ref=e3143]: ⁺
+                - generic [ref=e3145]:
+                  - img "journ" [ref=e3147]
+                  - generic [ref=e3148]:
+                    - generic [ref=e3149]: Journ
+                    - generic [ref=e3150]:
+                      - link "Best Build" [ref=e3152] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-journ-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3153]: ⓘ Details
+                  - generic [ref=e3154]:
+                    - generic [ref=e3155]: C
+                    - generic [ref=e3156]: ⁺
+                - generic [ref=e3158]:
+                  - img "lethander" [ref=e3160]
+                  - generic [ref=e3161]:
+                    - generic [ref=e3162]: Lethander
+                    - generic [ref=e3163]:
+                      - link "Best Build" [ref=e3165] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lethander-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3166]: ⓘ Details
+                  - generic [ref=e3167]:
+                    - generic [ref=e3168]: C
+                    - generic [ref=e3169]: ⁺
+                - generic [ref=e3171]:
+                  - img "thurnus" [ref=e3173]
+                  - generic [ref=e3174]:
+                    - generic [ref=e3175]: Thurnus
+                    - generic [ref=e3176]:
+                      - link "Best Build" [ref=e3178] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-thurnus-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3179]: ⓘ Details
+                  - generic [ref=e3180]:
+                    - generic [ref=e3181]: C
+                    - generic [ref=e3182]: ⁺
+                - generic [ref=e3184]:
+                  - img "noteera" [ref=e3186]
+                  - generic [ref=e3187]:
+                    - generic [ref=e3188]: Noteera
+                    - generic [ref=e3189]:
+                      - link "Best Build" [ref=e3191] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-noteera-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3192]: ⓘ Details
+                  - generic [ref=e3193]:
+                    - generic [ref=e3194]: C
+                    - generic [ref=e3195]: ⁺
+                - generic [ref=e3197]:
+                  - img "letalis" [ref=e3199]
+                  - generic [ref=e3200]:
+                    - generic [ref=e3201]: Letalis
+                    - generic [ref=e3202]:
+                      - link "Best Build" [ref=e3204] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-letalis-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3205]: ⓘ Details
+                  - generic [ref=e3206]:
+                    - generic [ref=e3207]: C
+                    - generic [ref=e3208]: ⁺
+                - generic [ref=e3210]:
+                  - img "jijel" [ref=e3212]
+                  - generic [ref=e3213]:
+                    - generic [ref=e3214]: Jijel
+                    - generic [ref=e3215]:
+                      - link "Best Build" [ref=e3217] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-jijel-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3218]: ⓘ Details
+                  - generic [ref=e3219]:
+                    - generic [ref=e3220]: C
+                    - generic [ref=e3221]: ⁺
+                - generic [ref=e3223]:
+                  - img "quarion" [ref=e3225]
+                  - generic [ref=e3226]:
+                    - generic [ref=e3227]: Quarion
+                    - generic [ref=e3228]:
+                      - link "Best Build" [ref=e3230] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-quarion-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3231]: ⓘ Details
+                  - generic [ref=e3232]:
+                    - generic [ref=e3233]: C
+                    - generic [ref=e3234]: ⁺
+                - generic [ref=e3236]:
+                  - img "kailes" [ref=e3238]
+                  - generic [ref=e3239]:
+                    - generic [ref=e3240]: Kailes
+                    - generic [ref=e3241]:
+                      - link "Best Build" [ref=e3243] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-kailes-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3244]: ⓘ Details
+                  - generic [ref=e3245]:
+                    - generic [ref=e3246]: C
+                    - generic [ref=e3247]: ⁺
+                - generic [ref=e3249]:
+                  - img "liko" [ref=e3251]
+                  - generic [ref=e3252]:
+                    - generic [ref=e3253]: Liko
+                    - generic [ref=e3254]:
+                      - link "Best Build" [ref=e3256] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-liko-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3257]: ⓘ Details
+                  - generic [ref=e3258]:
+                    - generic [ref=e3259]: C
+                    - generic [ref=e3260]: ⁺
+                - generic [ref=e3262]:
+                  - img "brody" [ref=e3264]
+                  - generic [ref=e3265]:
+                    - generic [ref=e3266]: Brody
+                    - generic [ref=e3267]:
+                      - link "Best Build" [ref=e3269] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-brody-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3270]: ⓘ Details
+                  - generic [ref=e3271]:
+                    - generic [ref=e3272]: C
+                    - generic [ref=e3273]: ⁺
+                - generic [ref=e3275]:
+                  - img "elvis" [ref=e3277]
+                  - generic [ref=e3278]:
+                    - generic [ref=e3279]: Elvis
+                    - generic [ref=e3280]:
+                      - link "Best Build" [ref=e3282] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-elvis-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3283]: ⓘ Details
+                  - generic [ref=e3284]:
+                    - generic [ref=e3285]: C
+                    - generic [ref=e3286]: ⁺
+                - generic [ref=e3288]:
+                  - img "ihuicatl" [ref=e3290]
+                  - generic [ref=e3291]:
+                    - generic [ref=e3292]: Ihuicatl
+                    - generic [ref=e3293]:
+                      - link "Best Build" [ref=e3295] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-ihuicatl-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3296]: ⓘ Details
+                  - generic [ref=e3297]:
+                    - generic [ref=e3298]: C
+                    - generic [ref=e3299]: ⁺
+                - generic [ref=e3301]:
+                  - img "grover" [ref=e3303]
+                  - generic [ref=e3304]:
+                    - generic [ref=e3305]: Grover
+                    - generic [ref=e3306]:
+                      - link "Best Build" [ref=e3308] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-grover-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3309]: ⓘ Details
+                  - generic [ref=e3310]:
+                    - generic [ref=e3311]: C
+                    - generic [ref=e3312]: ⁺
+                - generic [ref=e3314]:
+                  - img "zethos" [ref=e3316]
+                  - generic [ref=e3317]:
+                    - generic [ref=e3318]: Zethos
+                    - generic [ref=e3319]:
+                      - link "Best Build" [ref=e3321] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-zethos-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3322]: ⓘ Details
+                  - generic [ref=e3323]:
+                    - generic [ref=e3324]: C
+                    - generic [ref=e3325]: ⁺
+                - generic [ref=e3327]:
+                  - img "cifla" [ref=e3329]
+                  - generic [ref=e3330]:
+                    - generic [ref=e3331]: Cifla
+                    - generic [ref=e3332]:
+                      - link "Best Build" [ref=e3334] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-cifla-build-in-dragonheir-gear-artifacts-prio-reborn-2025/
+                      - generic [ref=e3335]: ⓘ Details
+                  - generic [ref=e3336]:
+                    - generic [ref=e3337]: C
+                    - generic [ref=e3338]: ⁺
+                - generic [ref=e3340]:
+                  - img "percival" [ref=e3342]
+                  - generic [ref=e3343]:
+                    - generic [ref=e3344]: Percival
+                    - generic [ref=e3345]:
+                      - link "Best Build" [ref=e3347] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-percival-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3348]: ⓘ Details
+                  - generic [ref=e3349]:
+                    - generic [ref=e3350]: C
+                    - generic [ref=e3351]: ⁺
+                - generic [ref=e3353]:
+                  - img "gladros" [ref=e3355]
+                  - generic [ref=e3356]:
+                    - generic [ref=e3357]: Gladros
+                    - generic [ref=e3358]:
+                      - link "Best Build" [ref=e3360] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gladros-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3361]: ⓘ Details
+                  - generic [ref=e3362]:
+                    - generic [ref=e3363]: C
+                    - generic [ref=e3364]: ⁺
+                - generic [ref=e3366]:
+                  - img "evania" [ref=e3368]
+                  - generic [ref=e3369]:
+                    - generic [ref=e3370]: Evania
+                    - generic [ref=e3371]:
+                      - link "Best Build" [ref=e3373] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-evania-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3374]: ⓘ Details
+                  - generic [ref=e3375]:
+                    - generic [ref=e3376]: C
+                    - generic [ref=e3377]: ⁺
+                - generic [ref=e3379]:
+                  - img "beags" [ref=e3381]
+                  - generic [ref=e3382]:
+                    - generic [ref=e3383]: Beags
+                    - generic [ref=e3384]:
+                      - link "Best Build" [ref=e3386] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-beags-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3387]: ⓘ Details
+                  - generic [ref=e3389]: C
+                - generic [ref=e3391]:
+                  - img "wilt" [ref=e3393]
+                  - generic [ref=e3394]:
+                    - generic [ref=e3395]: Wilt
+                    - generic [ref=e3396]:
+                      - link "Best Build" [ref=e3398] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-wilt-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3399]: ⓘ Details
+                  - generic [ref=e3401]: C
+                - generic [ref=e3403]:
+                  - img "volthug" [ref=e3405]
+                  - generic [ref=e3406]:
+                    - generic [ref=e3407]: Volthug
+                    - generic [ref=e3408]:
+                      - link "Best Build" [ref=e3410] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-volthug-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3411]: ⓘ Details
+                  - generic [ref=e3413]: C
+                - generic [ref=e3415]:
+                  - img "zadok" [ref=e3417]
+                  - generic [ref=e3418]:
+                    - generic [ref=e3419]: Zadok
+                    - generic [ref=e3420]:
+                      - link "Best Build" [ref=e3422] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-zadok-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3423]: ⓘ Details
+                  - generic [ref=e3425]: C
+                - generic [ref=e3427]:
+                  - img "irma" [ref=e3429]
+                  - generic [ref=e3430]:
+                    - generic [ref=e3431]: Irma
+                    - generic [ref=e3432]:
+                      - link "Best Build" [ref=e3434] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-irma-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3435]: ⓘ Details
+                  - generic [ref=e3437]: C
+                - generic [ref=e3439]:
+                  - img "vani" [ref=e3441]
+                  - generic [ref=e3442]:
+                    - generic [ref=e3443]: Vani
+                    - generic [ref=e3444]:
+                      - link "Best Build" [ref=e3446] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-vani-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3447]: ⓘ Details
+                  - generic [ref=e3449]: C
+                - generic [ref=e3451]:
+                  - img "uloar" [ref=e3453]
+                  - generic [ref=e3454]:
+                    - generic [ref=e3455]: Uloar
+                    - generic [ref=e3456]:
+                      - link "Best Build" [ref=e3458] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-uloar-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3459]: ⓘ Details
+                  - generic [ref=e3461]: C
+                - generic [ref=e3463]:
+                  - img "adrie" [ref=e3465]
+                  - generic [ref=e3466]:
+                    - generic [ref=e3467]: Adrie
+                    - generic [ref=e3468]:
+                      - link "Best Build" [ref=e3470] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-adrie-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3471]: ⓘ Details
+                  - generic [ref=e3473]: C
+                - generic [ref=e3475]:
+                  - img "mulier" [ref=e3477]
+                  - generic [ref=e3478]:
+                    - generic [ref=e3479]: Mulier
+                    - generic [ref=e3480]:
+                      - link "Best Build" [ref=e3482] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-mulier-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3483]: ⓘ Details
+                  - generic [ref=e3485]: C
+                - generic [ref=e3487]:
+                  - img "bronwyn" [ref=e3489]
+                  - generic [ref=e3490]:
+                    - generic [ref=e3491]: Bronwyn
+                    - generic [ref=e3492]:
+                      - link "Best Build" [ref=e3494] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-bronwyn-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3495]: ⓘ Details
+                  - generic [ref=e3497]: C
+                - generic [ref=e3499]:
+                  - img "vojeh" [ref=e3501]
+                  - generic [ref=e3502]:
+                    - generic [ref=e3503]: Vojeh
+                    - generic [ref=e3504]:
+                      - link "Best Build" [ref=e3506] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-vojeh-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3507]: ⓘ Details
+                  - generic [ref=e3509]: C
+                - generic [ref=e3511]:
+                  - img "enna" [ref=e3513]
+                  - generic [ref=e3514]:
+                    - generic [ref=e3515]: Enna
+                    - generic [ref=e3516]:
+                      - link "Best Build" [ref=e3518] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-enna-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3519]: ⓘ Details
+                  - generic [ref=e3521]: C
+                - generic [ref=e3523]:
+                  - img "dora" [ref=e3525]
+                  - generic [ref=e3526]:
+                    - generic [ref=e3527]: Dora
+                    - generic [ref=e3528]:
+                      - link "Best Build" [ref=e3530] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dora-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3531]: ⓘ Details
+                  - generic [ref=e3533]: C
+                - generic [ref=e3535]:
+                  - img "korth" [ref=e3537]
+                  - generic [ref=e3538]:
+                    - generic [ref=e3539]: Korth
+                    - generic [ref=e3540]:
+                      - link "Best Build" [ref=e3542] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-korth-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3543]: ⓘ Details
+                  - generic [ref=e3545]: C
+                - generic [ref=e3547]:
+                  - img "varathas" [ref=e3549]
+                  - generic [ref=e3550]:
+                    - generic [ref=e3551]: Varathas
+                    - generic [ref=e3552]:
+                      - link "Best Build" [ref=e3554] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-varathas-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3555]: ⓘ Details
+                  - generic [ref=e3557]: C
+                - generic [ref=e3559]:
+                  - img "alistair" [ref=e3561]
+                  - generic [ref=e3562]:
+                    - generic [ref=e3563]: Alistair
+                    - generic [ref=e3564]:
+                      - link "Best Build" [ref=e3566] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-alistair-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3567]: ⓘ Details
+                  - generic [ref=e3569]: C
+                - generic [ref=e3571]:
+                  - img "follie" [ref=e3573]
+                  - generic [ref=e3574]:
+                    - generic [ref=e3575]: Follie
+                    - generic [ref=e3576]:
+                      - link "Best Build" [ref=e3578] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-follie-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3579]: ⓘ Details
+                  - generic [ref=e3581]: C
+                - generic [ref=e3583]:
+                  - img "edgar" [ref=e3585]
+                  - generic [ref=e3586]:
+                    - generic [ref=e3587]: Edgar
+                    - generic [ref=e3588]:
+                      - link "Best Build" [ref=e3590] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-edgar-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3591]: ⓘ Details
+                  - generic [ref=e3593]: C
+                - generic [ref=e3595]:
+                  - img "dench" [ref=e3597]
+                  - generic [ref=e3598]:
+                    - generic [ref=e3599]: Dench
+                    - generic [ref=e3600]:
+                      - link "Best Build" [ref=e3602] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dench-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3603]: ⓘ Details
+                  - generic [ref=e3605]: C
+                - generic [ref=e3607]:
+                  - img "clovis" [ref=e3609]
+                  - generic [ref=e3610]:
+                    - generic [ref=e3611]: Clovis
+                    - generic [ref=e3612]:
+                      - link "Best Build" [ref=e3614] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-clovis-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3615]: ⓘ Details
+                  - generic [ref=e3617]: C
+                - generic [ref=e3619]:
+                  - img "forbrit" [ref=e3621]
+                  - generic [ref=e3622]:
+                    - generic [ref=e3623]: Forbrit
+                    - generic [ref=e3624]:
+                      - link "Best Build" [ref=e3626] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-forbrit-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3627]: ⓘ Details
+                  - generic [ref=e3629]: C
+                - generic [ref=e3631]:
+                  - img "lydia" [ref=e3633]
+                  - generic [ref=e3634]:
+                    - generic [ref=e3635]: Lydia
+                    - generic [ref=e3636]:
+                      - link "Best Build" [ref=e3638] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-lydia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3639]: ⓘ Details
+                  - generic [ref=e3641]: C
+                - generic [ref=e3643]:
+                  - img "haug" [ref=e3645]
+                  - generic [ref=e3646]:
+                    - generic [ref=e3647]: Haug
+                    - generic [ref=e3648]:
+                      - link "Best Build" [ref=e3650] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-haug-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3651]: ⓘ Details
+                  - generic [ref=e3653]: C
+                - generic [ref=e3655]:
+                  - img "altair" [ref=e3657]
+                  - generic [ref=e3658]:
+                    - generic [ref=e3659]: Altair
+                    - generic [ref=e3660]:
+                      - link "Best Build" [ref=e3662] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-altair-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3663]: ⓘ Details
+                  - generic [ref=e3665]: C
+                - generic [ref=e3667]:
+                  - img "joyce" [ref=e3669]
+                  - generic [ref=e3670]:
+                    - generic [ref=e3671]: Joyce
+                    - generic [ref=e3672]:
+                      - link "Best Build" [ref=e3674] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-joyce-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3675]: ⓘ Details
+                  - generic [ref=e3677]: C
+                - generic [ref=e3679]:
+                  - img "awstin" [ref=e3681]
+                  - generic [ref=e3682]:
+                    - generic [ref=e3683]: Awstin
+                    - generic [ref=e3684]:
+                      - link "Best Build" [ref=e3686] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-awstin-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3687]: ⓘ Details
+                  - generic [ref=e3689]: C
+                - generic [ref=e3691]:
+                  - img "gusni" [ref=e3693]
+                  - generic [ref=e3694]:
+                    - generic [ref=e3695]: Gusni
+                    - generic [ref=e3696]:
+                      - link "Best Build" [ref=e3698] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-gusni-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3699]: ⓘ Details
+                  - generic [ref=e3701]: C
+                - generic [ref=e3703]:
+                  - img "estella" [ref=e3705]
+                  - generic [ref=e3706]:
+                    - generic [ref=e3707]: Estella
+                    - generic [ref=e3708]:
+                      - link "Best Build" [ref=e3710] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-estella-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3711]: ⓘ Details
+                  - generic [ref=e3713]: C
+                - generic [ref=e3715]:
+                  - img "yamyra" [ref=e3717]
+                  - generic [ref=e3718]:
+                    - generic [ref=e3719]: Yamyra
+                    - generic [ref=e3720]:
+                      - link "Best Build" [ref=e3722] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-yamyra-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3723]: ⓘ Details
+                  - generic [ref=e3725]: C
+                - generic [ref=e3727]:
+                  - img "immeral" [ref=e3729]
+                  - generic [ref=e3730]:
+                    - generic [ref=e3731]: Immeral
+                    - generic [ref=e3732]:
+                      - link "Best Build" [ref=e3734] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-immeral-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3735]: ⓘ Details
+                  - generic [ref=e3737]: C
+                - generic [ref=e3739]:
+                  - img "fitz" [ref=e3741]
+                  - generic [ref=e3742]:
+                    - generic [ref=e3743]: Fitz
+                    - generic [ref=e3744]:
+                      - link "Best Build" [ref=e3746] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-fitz-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3747]: ⓘ Details
+                  - generic [ref=e3749]: C
+                - generic [ref=e3751]:
+                  - img "kamari" [ref=e3753]
+                  - generic [ref=e3754]:
+                    - generic [ref=e3755]: Kamari
+                    - generic [ref=e3756]:
+                      - link "Best Build" [ref=e3758] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-kamari-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3759]: ⓘ Details
+                  - generic [ref=e3761]: C
+                - generic [ref=e3763]:
+                  - img "alvis" [ref=e3765]
+                  - generic [ref=e3766]:
+                    - generic [ref=e3767]: Alvis
+                    - generic [ref=e3768]:
+                      - link "Best Build" [ref=e3770] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-alvis-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3771]: ⓘ Details
+                  - generic [ref=e3773]: C
+                - generic [ref=e3775]:
+                  - img "thea" [ref=e3777]
+                  - generic [ref=e3778]:
+                    - generic [ref=e3779]: Thea
+                    - generic [ref=e3780]:
+                      - link "Best Build" [ref=e3782] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-thea-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3783]: ⓘ Details
+                  - generic [ref=e3784]:
+                    - generic [ref=e3785]: D
+                    - generic [ref=e3786]: ⁺
+                - generic [ref=e3788]:
+                  - img "pargu" [ref=e3790]
+                  - generic [ref=e3791]:
+                    - generic [ref=e3792]: Pargu
+                    - generic [ref=e3793]:
+                      - link "Best Build" [ref=e3795] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-pargu-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3796]: ⓘ Details
+                  - generic [ref=e3797]:
+                    - generic [ref=e3798]: D
+                    - generic [ref=e3799]: ⁺
+                - generic [ref=e3801]:
+                  - img "dallbam" [ref=e3803]
+                  - generic [ref=e3804]:
+                    - generic [ref=e3805]: Dallbam
+                    - generic [ref=e3806]:
+                      - link "Best Build" [ref=e3808] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dallbam-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3809]: ⓘ Details
+                  - generic [ref=e3810]:
+                    - generic [ref=e3811]: D
+                    - generic [ref=e3812]: ⁺
+                - generic [ref=e3814]:
+                  - img "yagnatz" [ref=e3816]
+                  - generic [ref=e3817]:
+                    - generic [ref=e3818]: Yagnatz
+                    - generic [ref=e3819]:
+                      - link "Best Build" [ref=e3821] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-yagnatz-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3822]: ⓘ Details
+                  - generic [ref=e3823]:
+                    - generic [ref=e3824]: D
+                    - generic [ref=e3825]: ⁺
+                - generic [ref=e3827]:
+                  - img "tathlyn" [ref=e3829]
+                  - generic [ref=e3830]:
+                    - generic [ref=e3831]: Tathlyn
+                    - generic [ref=e3832]:
+                      - link "Best Build" [ref=e3834] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-tathlyn-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3835]: ⓘ Details
+                  - generic [ref=e3836]:
+                    - generic [ref=e3837]: D
+                    - generic [ref=e3838]: ⁺
+                - generic [ref=e3840]:
+                  - img "dain" [ref=e3842]
+                  - generic [ref=e3843]:
+                    - generic [ref=e3844]: Dain
+                    - generic [ref=e3845]:
+                      - link "Best Build" [ref=e3847] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-dain-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3848]: ⓘ Details
+                  - generic [ref=e3849]:
+                    - generic [ref=e3850]: D
+                    - generic [ref=e3851]: ⁺
+                - generic [ref=e3853]:
+                  - img "soveliss" [ref=e3855]
+                  - generic [ref=e3856]:
+                    - generic [ref=e3857]: Soveliss
+                    - generic [ref=e3858]:
+                      - link "Best Build" [ref=e3860] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-soveliss-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3861]: ⓘ Details
+                  - generic [ref=e3862]:
+                    - generic [ref=e3863]: D
+                    - generic [ref=e3864]: ⁺
+                - generic [ref=e3866]:
+                  - img "loris" [ref=e3868]
+                  - generic [ref=e3869]:
+                    - generic [ref=e3870]: Loris
+                    - generic [ref=e3871]:
+                      - link "Best Build" [ref=e3873] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-loris-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3874]: ⓘ Details
+                  - generic [ref=e3875]:
+                    - generic [ref=e3876]: D
+                    - generic [ref=e3877]: ⁺
+                - generic [ref=e3879]:
+                  - img "sallyanne" [ref=e3881]
+                  - generic [ref=e3882]:
+                    - generic [ref=e3883]: Sallyanne
+                    - generic [ref=e3884]:
+                      - link "Best Build" [ref=e3886] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-sallyanne-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3887]: ⓘ Details
+                  - generic [ref=e3888]:
+                    - generic [ref=e3889]: D
+                    - generic [ref=e3890]: ⁺
+                - generic [ref=e3892]:
+                  - img "livia" [ref=e3894]
+                  - generic [ref=e3895]:
+                    - generic [ref=e3896]: Livia
+                    - generic [ref=e3897]:
+                      - link "Best Build" [ref=e3899] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-livia-build-in-dragonheir-gear-artifacts-prio/
+                      - generic [ref=e3900]: ⓘ Details
+                  - generic [ref=e3901]:
+                    - generic [ref=e3902]: D
+                    - generic [ref=e3903]: ⁺
+              - separator [ref=e3904]
+              - button "✖ Remove Ad" [ref=e3907] [cursor=pointer]:
+                - generic [ref=e3909]: ✖ Remove Ad
+              - heading "Conclusion" [level=3] [ref=e3910]
+              - paragraph [ref=e3911]: I hope this list helps and please keep in mind that there will be a lot of balancing soon after the game starts so make sure to check back here. I am also working on builds for all characters that I will release soon to help you get the most out of them. if you have questions please post a comment below.
+            - generic [ref=e3913]:
+              - generic [ref=e3914]:
+                - generic [ref=e3916]:
+                  - generic [ref=e3917]: By
+                  - link "AllClash Pro Team" [ref=e3918] [cursor=pointer]:
+                    - /url: https://www.allclash.com/author/tim/
+                    - generic [ref=e3920]: AllClash Pro Team
+                - generic [ref=e3922]:
+                  - text: Updated
+                  - time [ref=e3923]: April 07, 2026
+              - list [ref=e3927]:
+                - listitem [ref=e3928]:
+                  - 'link "Dragonheir: Silent Gods" [ref=e3929] [cursor=pointer]':
+                    - /url: https://www.allclash.com/category/dragonheir-silent-gods/
+            - generic [ref=e3930]:
+              - heading "Read Next" [level=2] [ref=e3932]
+              - generic [ref=e3933]:
+                - article [ref=e3934]:
+                  - generic [ref=e3935]:
+                    - generic [ref=e3936]:
+                      - img "dragonheir best saberwinger build" [ref=e3938]
+                      - link "Best Familiar Build for Saberwinger" [ref=e3939] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-familiar-build-for-saberwinger/
+                    - generic [ref=e3940]:
+                      - heading "Best Familiar Build for Saberwinger" [level=3] [ref=e3941]:
+                        - link "Best Familiar Build for Saberwinger" [ref=e3942] [cursor=pointer]:
+                          - /url: https://www.allclash.com/best-familiar-build-for-saberwinger/
+                      - list [ref=e3945]:
+                        - listitem [ref=e3946]:
+                          - 'link "Dragonheir: Silent Gods" [ref=e3947] [cursor=pointer]':
+                            - /url: https://www.allclash.com/category/dragonheir-silent-gods/
+                - article [ref=e3948]:
+                  - generic [ref=e3949]:
+                    - generic [ref=e3950]:
+                      - img "dragonheir best ressym build" [ref=e3952]
+                      - link "Best Familiar Build for Tressym" [ref=e3953] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-familiar-build-for-tressym/
+                    - generic [ref=e3954]:
+                      - heading "Best Familiar Build for Tressym" [level=3] [ref=e3955]:
+                        - link "Best Familiar Build for Tressym" [ref=e3956] [cursor=pointer]:
+                          - /url: https://www.allclash.com/best-familiar-build-for-tressym/
+                      - list [ref=e3959]:
+                        - listitem [ref=e3960]:
+                          - 'link "Dragonheir: Silent Gods" [ref=e3961] [cursor=pointer]':
+                            - /url: https://www.allclash.com/category/dragonheir-silent-gods/
+                - article [ref=e3962]:
+                  - generic [ref=e3963]:
+                    - generic [ref=e3964]:
+                      - img "dragonheir best foliage spiker build" [ref=e3966]
+                      - link "Best Familiar Build for Foliage Spiker" [ref=e3967] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-familiar-build-for-foliage-spiker/
+                    - generic [ref=e3968]:
+                      - heading "Best Familiar Build for Foliage Spiker" [level=3] [ref=e3969]:
+                        - link "Best Familiar Build for Foliage Spiker" [ref=e3970] [cursor=pointer]:
+                          - /url: https://www.allclash.com/best-familiar-build-for-foliage-spiker/
+                      - list [ref=e3973]:
+                        - listitem [ref=e3974]:
+                          - 'link "Dragonheir: Silent Gods" [ref=e3975] [cursor=pointer]':
+                            - /url: https://www.allclash.com/category/dragonheir-silent-gods/
+                - article [ref=e3976]:
+                  - generic [ref=e3977]:
+                    - generic [ref=e3978]:
+                      - img "dragonheir best vulture build" [ref=e3980]
+                      - link "Best Familiar Build for Vulture" [ref=e3981] [cursor=pointer]:
+                        - /url: https://www.allclash.com/best-familiar-build-for-vulture/
+                    - generic [ref=e3982]:
+                      - heading "Best Familiar Build for Vulture" [level=3] [ref=e3983]:
+                        - link "Best Familiar Build for Vulture" [ref=e3984] [cursor=pointer]:
+                          - /url: https://www.allclash.com/best-familiar-build-for-vulture/
+                      - list [ref=e3987]:
+                        - listitem [ref=e3988]:
+                          - 'link "Dragonheir: Silent Gods" [ref=e3989] [cursor=pointer]':
+                            - /url: https://www.allclash.com/category/dragonheir-silent-gods/
+            - generic [ref=e3991]:
+              - list [ref=e3992]:
+                - listitem [ref=e3993]:
+                  - article [ref=e3994]:
+                    - generic [ref=e3995]:
+                      - generic [ref=e3997]: Chris
+                      - link "December 8, 2025 at 4:10 pm" [ref=e3999] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-62823
+                        - time [ref=e4000]: December 8, 2025 at 4:10 pm
+                    - paragraph [ref=e4002]:
+                      - text: names not on the list
+                      - text: Vethak rare poison wildfire
+                      - text: Tauricen rare dauntless resplendence
+                      - text: Urzog rare frost permafrost
+                      - text: Hector rare support permafrost
+                    - link "Reply to Chris" [ref=e4004] [cursor=pointer]:
+                      - /url: "#comment-62823"
+                      - text: Reply 
+                - listitem [ref=e4005]:
+                  - article [ref=e4006]:
+                    - generic [ref=e4007]:
+                      - generic [ref=e4009]: Gavin
+                      - link "May 19, 2024 at 3:24 pm" [ref=e4011] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-50225
+                        - time [ref=e4012]: May 19, 2024 at 3:24 pm
+                    - paragraph [ref=e4014]: Why on earth have you stopped using numerical values for dungeons (GL, etc.)? You can no longer directly compare two heroes. At least consider putting the numerical values back as hover text on the bars.
+                    - link "Reply to Gavin" [ref=e4016] [cursor=pointer]:
+                      - /url: "#comment-50225"
+                      - text: Reply 
+                - listitem [ref=e4017]:
+                  - article [ref=e4018]:
+                    - generic [ref=e4019]:
+                      - generic [ref=e4021]: anti
+                      - link "November 20, 2023 at 11:38 pm" [ref=e4023] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-44645
+                        - time [ref=e4024]: November 20, 2023 at 11:38 pm
+                    - paragraph [ref=e4026]: to be continued?
+                    - link "Reply to anti" [ref=e4028] [cursor=pointer]:
+                      - /url: "#comment-44645"
+                      - text: Reply 
+                - listitem [ref=e4029]:
+                  - article [ref=e4030]:
+                    - generic [ref=e4031]:
+                      - generic [ref=e4033]: keke
+                      - link "November 10, 2023 at 8:30 am" [ref=e4035] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-44283
+                        - time [ref=e4036]: November 10, 2023 at 8:30 am
+                    - generic [ref=e4037]:
+                      - paragraph [ref=e4038]: Hello, thanks for all this information.
+                      - paragraph [ref=e4039]:
+                        - text: "I got those name, which are not in this list :"
+                        - text: isolde
+                        - text: garian
+                        - text: gareth
+                        - text: yamyra
+                        - text: Edgar
+                        - text: Arlow
+                        - text: Evania
+                        - text: kailes
+                        - text: altin
+                      - paragraph [ref=e4040]: Would you be kind and tell me what grade they are ?
+                    - link "Reply to keke" [ref=e4042] [cursor=pointer]:
+                      - /url: "#comment-44283"
+                      - text: Reply 
+                - listitem [ref=e4043]:
+                  - article [ref=e4044]:
+                    - generic [ref=e4045]:
+                      - generic [ref=e4047]: HerrFugbaum
+                      - link "October 31, 2023 at 9:03 am" [ref=e4049] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-42757
+                        - time [ref=e4050]: October 31, 2023 at 9:03 am
+                    - paragraph [ref=e4052]: What about „the Traveller“ (the main Heroe)? I can’t find any ranking or gear guides.
+                    - link "Reply to HerrFugbaum" [ref=e4054] [cursor=pointer]:
+                      - /url: "#comment-42757"
+                      - text: Reply 
+                - listitem [ref=e4055]:
+                  - article [ref=e4056]:
+                    - generic [ref=e4057]:
+                      - generic [ref=e4059]: AbahAya
+                      - link "October 21, 2023 at 8:02 pm" [ref=e4061] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-42406
+                        - time [ref=e4062]: October 21, 2023 at 8:02 pm
+                    - paragraph [ref=e4064]:
+                      - text: Cannot agree more.
+                      - text: I don’t know what is the base the writer enlist this tier list.
+                    - link "Reply to AbahAya" [ref=e4066] [cursor=pointer]:
+                      - /url: "#comment-42406"
+                      - text: Reply 
+                - listitem [ref=e4067]:
+                  - article [ref=e4068]:
+                    - generic [ref=e4069]:
+                      - generic [ref=e4071]: StopMakingTierlistIfYouDontKnow
+                      - link "October 21, 2023 at 4:47 am" [ref=e4073] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-42384
+                        - time [ref=e4074]: October 21, 2023 at 4:47 am
+                    - paragraph [ref=e4076]: This tier list is misleading players…..
+                    - link "Reply to StopMakingTierlistIfYouDontKnow" [ref=e4078] [cursor=pointer]:
+                      - /url: "#comment-42384"
+                      - text: Reply 
+                - listitem [ref=e4079]:
+                  - article [ref=e4080]:
+                    - generic [ref=e4081]:
+                      - generic [ref=e4083]: Nick
+                      - link "October 15, 2023 at 4:11 am" [ref=e4085] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-42192
+                        - time [ref=e4086]: October 15, 2023 at 4:11 am
+                    - paragraph [ref=e4088]: Vidimir is S tier in a frost team, he is an amazing nuker with the frost detonation, does a ton more damage than most others, strong captain skill too, so you clearly haven’t even tested him properly, try again. Make a crit build and pair him with toons who spam frost. He is one of the best damagers for dungeons, especially goblin cave where he recharges his ult incredibly fast from each frost kill.
+                    - link "Reply to Nick" [ref=e4090] [cursor=pointer]:
+                      - /url: "#comment-42192"
+                      - text: Reply 
+                - listitem [ref=e4091]:
+                  - article [ref=e4092]:
+                    - generic [ref=e4093]:
+                      - generic [ref=e4095]: Yerisa
+                      - link "October 13, 2023 at 7:06 am" [ref=e4097] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-42108
+                        - time [ref=e4098]: October 13, 2023 at 7:06 am
+                    - paragraph [ref=e4100]: Is there any chance to get thyt list as Excel file or anything similar? I want to add own remarks to your list, but this format doesn’t allow to copy the complete relevant text
+                    - link "Reply to Yerisa" [ref=e4102] [cursor=pointer]:
+                      - /url: "#comment-42108"
+                      - text: Reply 
+                - listitem [ref=e4103]:
+                  - article [ref=e4104]:
+                    - generic [ref=e4105]:
+                      - generic [ref=e4107]: Wowcurse
+                      - link "October 6, 2023 at 2:06 pm" [ref=e4109] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-41914
+                        - time [ref=e4110]: October 6, 2023 at 2:06 pm
+                    - paragraph [ref=e4112]: Lucien please
+                    - link "Reply to Wowcurse" [ref=e4114] [cursor=pointer]:
+                      - /url: "#comment-41914"
+                      - text: Reply 
+                - listitem [ref=e4115]:
+                  - article [ref=e4116]:
+                    - generic [ref=e4117]:
+                      - generic [ref=e4119]: Alvaro
+                      - link "October 3, 2023 at 7:55 am" [ref=e4121] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-41788
+                        - time [ref=e4122]: October 3, 2023 at 7:55 am
+                    - paragraph [ref=e4124]: Hi, I havent seen Gloin,Withacre, and Terez, are they new?
+                    - link "Reply to Alvaro" [ref=e4126] [cursor=pointer]:
+                      - /url: "#comment-41788"
+                      - text: Reply 
+                - listitem [ref=e4127]:
+                  - article [ref=e4128]:
+                    - generic [ref=e4129]:
+                      - generic [ref=e4131]: Dmitry
+                      - link "September 20, 2023 at 6:22 am" [ref=e4133] [cursor=pointer]:
+                        - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-41278
+                        - time [ref=e4134]: September 20, 2023 at 6:22 am
+                    - paragraph [ref=e4136]: Hi. I don’t see epic Follie, it’s a good hero for pvp/pve ?
+                    - link "Reply to Dmitry" [ref=e4138] [cursor=pointer]:
+                      - /url: "#comment-41278"
+                      - text: Reply 
+                  - list [ref=e4139]:
+                    - listitem [ref=e4140]:
+                      - article [ref=e4141]:
+                        - generic [ref=e4142]:
+                          - generic [ref=e4144]: Tim
+                          - link "September 24, 2023 at 7:35 pm" [ref=e4146] [cursor=pointer]:
+                            - /url: https://www.allclash.com/the-best-dragonheir-silent-gods-characters-tier-list/#comment-41483
+                            - time [ref=e4147]: September 24, 2023 at 7:35 pm
+                        - paragraph [ref=e4149]: Jop pretty solid. I add the missing heroes gradually as not all of them fit the kit from the open beta or were available in the open beta. Follie is added now 🙂
+                        - link "Reply to Tim" [ref=e4151] [cursor=pointer]:
+                          - /url: "#comment-41483"
+                          - text: Reply 
+              - generic [ref=e4152]:
+                - heading "Leave a Reply" [level=2] [ref=e4153]: Leave a Reply
+                - generic [ref=e4154]:
+                  - paragraph [ref=e4155]:
+                    - text: Your email address will not be published.
+                    - generic [ref=e4156]: Required fields are marked *
+                  - paragraph [ref=e4157]:
+                    - generic [ref=e4158]: Comment *
+                    - textbox "Comment *" [ref=e4159]
+                  - paragraph [ref=e4160]:
+                    - generic [ref=e4161]: Your Name *
+                    - textbox "Your Name *" [ref=e4162]
+                  - paragraph [ref=e4163]:
+                    - generic [ref=e4164]: Email Address *
+                    - textbox "Email Address *" [ref=e4165]
+                  - paragraph [ref=e4166]:
+                    - generic [ref=e4167]: Website
+                    - textbox "Website" [ref=e4168]
+                  - paragraph [ref=e4169]:
+                    - checkbox "Save my name, email, and website in this browser for the next time I comment." [ref=e4170]
+                    - generic [ref=e4171]: Save my name, email, and website in this browser for the next time I comment.
+                  - paragraph [ref=e4172]:
+                    - button "Submit Comment" [ref=e4173] [cursor=pointer]
+              - paragraph [ref=e4174]:
+                - text: This site uses Akismet to reduce spam.
+                - link "Learn how your comment data is processed." [ref=e4175] [cursor=pointer]:
+                  - /url: https://akismet.com/privacy/
+          - complementary [ref=e4176]:
+            - generic [ref=e4177]:
+              - list [ref=e4178]:
+                - link "dragonheir best seyir build Best Seyir Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4179] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121732
+                  - listitem [ref=e4180]:
+                    - generic [ref=e4181]:
+                      - img "dragonheir best seyir build" [ref=e4183]
+                      - generic [ref=e4184]: Best Seyir Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best ivira build Best Ivira Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4185] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121733
+                  - listitem [ref=e4186]:
+                    - generic [ref=e4187]:
+                      - img "dragonheir best ivira build" [ref=e4189]
+                      - generic [ref=e4190]: Best Ivira Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best scaarr build Best Scaarr Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4191] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121734
+                  - listitem [ref=e4192]:
+                    - generic [ref=e4193]:
+                      - img "dragonheir best scaarr build" [ref=e4195]
+                      - generic [ref=e4196]: Best Scaarr Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best pardis build Best Pardis Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4197] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121735
+                  - listitem [ref=e4198]:
+                    - generic [ref=e4199]:
+                      - img "dragonheir best pardis build" [ref=e4201]
+                      - generic [ref=e4202]: Best Pardis Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best rashaad build Best Rashaad Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4203] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121738
+                  - listitem [ref=e4204]:
+                    - generic [ref=e4205]:
+                      - img "dragonheir best rashaad build" [ref=e4207]
+                      - generic [ref=e4208]: Best Rashaad Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best szecedith build Best Szecedith Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4209] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121739
+                  - listitem [ref=e4210]:
+                    - generic [ref=e4211]:
+                      - img "dragonheir best szecedith build" [ref=e4213]
+                      - generic [ref=e4214]: Best Szecedith Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best saverio build Best Saverio Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4215] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121740
+                  - listitem [ref=e4216]:
+                    - generic [ref=e4217]:
+                      - img "dragonheir best saverio build" [ref=e4219]
+                      - generic [ref=e4220]: Best Saverio Build in Dragonheir (Gear + Artifacts Prio)
+                - link "Best Caroux Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4221] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121741
+                  - listitem [ref=e4222]:
+                    - generic [ref=e4225]: Best Caroux Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir ebst talethia build Best Talethia Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4226] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121742
+                  - listitem [ref=e4227]:
+                    - generic [ref=e4228]:
+                      - img "dragonheir ebst talethia build" [ref=e4230]
+                      - generic [ref=e4231]: Best Talethia Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best anneliesis build Best Anneliesis Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4232] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=121743
+                  - listitem [ref=e4233]:
+                    - generic [ref=e4234]:
+                      - img "dragonheir best anneliesis build" [ref=e4236]
+                      - generic [ref=e4237]: Best Anneliesis Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best paixton build Best Paixton Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4238] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=68617
+                  - listitem [ref=e4239]:
+                    - generic [ref=e4240]:
+                      - img "dragonheir best paixton build" [ref=e4242]
+                      - generic [ref=e4243]: Best Paixton Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best majtan build Best Majtan Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4244] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=68625
+                  - listitem [ref=e4245]:
+                    - generic [ref=e4246]:
+                      - img "dragonheir best majtan build" [ref=e4248]
+                      - generic [ref=e4249]: Best Majtan Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best ashqar build Best Ashqar Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4250] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=68630
+                  - listitem [ref=e4251]:
+                    - generic [ref=e4252]:
+                      - img "dragonheir best ashqar build" [ref=e4254]
+                      - generic [ref=e4255]: Best Ashqar Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best araces build Best Araces Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4256] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=58397
+                  - listitem [ref=e4257]:
+                    - generic [ref=e4258]:
+                      - img "dragonheir best araces build" [ref=e4260]
+                      - generic [ref=e4261]: Best Araces Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best fihrah build Best Fihrah Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4262] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=47047
+                  - listitem [ref=e4263]:
+                    - generic [ref=e4264]:
+                      - img "dragonheir best fihrah build" [ref=e4266]
+                      - generic [ref=e4267]: Best Fihrah Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best varathas build Best Varathas Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4268] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=119807
+                  - listitem [ref=e4269]:
+                    - generic [ref=e4270]:
+                      - img "dragonheir best varathas build" [ref=e4272]
+                      - generic [ref=e4273]: Best Varathas Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best alistair build Best Alistair Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4274] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=119808
+                  - listitem [ref=e4275]:
+                    - generic [ref=e4276]:
+                      - img "dragonheir best alistair build" [ref=e4278]
+                      - generic [ref=e4279]: Best Alistair Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best miro build Best Miro Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4280] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=68624
+                  - listitem [ref=e4281]:
+                    - generic [ref=e4282]:
+                      - img "dragonheir best miro build" [ref=e4284]
+                      - generic [ref=e4285]: Best Miro Build in Dragonheir (Gear + Artifacts Prio)
+                - link "dragonheir best seidic build Best Seidic Build in Dragonheir (Gear + Artifacts Prio)" [ref=e4286] [cursor=pointer]:
+                  - /url: https://www.allclash.com/?post_type=post&p=58402
+                  - listitem [ref=e4287]:
+                    - generic [ref=e4288]:
+                      - img "dragonheir best seidic build" [ref=e4290]
+                      - generic [ref=e4291]: Best Seidic Build in Dragonheir (Gear + Artifacts Prio)
+              - iframe [ref=e4337]:
+                - generic [ref=f297e2]:
+                  - iframe
+                  - generic [ref=f297e6] [cursor=pointer]:
+                    - iframe [ref=f297e8]:
+                      - generic [ref=f301e5]:
+                        - generic [ref=f301e6]:
+                          - generic:
+                            - img [ref=f301e10] [cursor=pointer]
+                            - button [ref=f301e12] [cursor=pointer]:
+                              - img [ref=f301e13]
+                        - generic [ref=f301e21]:
+                          - link "Click Here" [ref=f301e22] [cursor=pointer]:
+                            - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CaLlNtdLXaZHdMtvyoPwPoZi2gAL89IfQhQHhj9uaxBWkLxABIPKi6SZgzfjhgPwCoAGlxo6gAcgBCagDAcgDmwSqBO4BT9C4k_zwfpZzaw9UOJRasxwVLMXkVKo9IpPpDZwheh0pNwgQOQn6Da7KInLGvyeY6XGFa8_QN5vsCcDFOBA9u3Tn7WXfSCRyO6eBadPo1lEDiMLJvWg6jd80E4U2gFpNUG77JQqB711RhaLlkJIJOtviycdMm-QdDWninOYRCZ3mraZoYLkbeMg_MHc9sZcrZFLwjj85sWcqcXpXxce9uo9AO1YOi8K7bu0NfCAlYJiXcwk0g4MsXCy2h6z6l7I65DdfsZSbXwnGcFn5rftlnkdzBfz6YHOdHdE9QDnUg37vDLwsE3Tm9fjyk-QuaMAEiOq7w9QF4AQDiAW8yoLBV5AGAaAGTYAHw7nx3wKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCC4IgGEQARhfMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WL_du5eX4ZMD8ggQYmlkZGVyLTk1MDI0NDQ2N4AKBJgLAcgLAYAMAaoNAkJS8A0BiA4OsBPYz7Mh2BMN2BQB0BUByhYCCgD4FgGAFwGyFxAYAioKMjEzMjE4NTMxOVAGshgJEgKdYxhNIgEA0BkB2BkB&ae=1&num=1&cid=CAQSvwEABaugfbIQkkPyF--faE6i2-m6-LjRjj_Z-OQdQFj3VmFH-d4JDz5_x6zD0a6FCFdCNxu0DIF9KLAYfrRc1Y6lObaZ_3jiEIiEnq2ZsKK9HEDRlDVgFPK6kED1IVDqwV8IH2YGYfZGKrnTOCkYTEDqk4I7Zw3PoTyEQ85YWwlq2jtGxF_ODrkxKVOv9sqi9s2Re4Y9csHBYaoIRfoR51yeV7k6A7KnKNWF5VxTpP2LY7RYfWrkniOE6UMY0V3SYBgB&sig=AOD64_0j4V01Kat1NjBmRlmUymBegNB8mw&client=ca-pub-6068497455919343&dbm_c=AKAmf-BXlVU3s0mxzCEP9ACzsqYst1f6BjsVw7yPB2fCME7S1Zv4VGmVEGhNbaMq-hx9MQrtrgSObfkK8zW90-N5pIh1uw1fSuEYSB-aw1lwhXF9inWN4hevV891eZcmKS0RRfzuBEffhBcLJNkV0jwv4JqNpbSzTz5Evta2mkdfHbHcQnrcOqOTbzAtm0FyTDIH9epNc1Gi1lOuIF7jMVhcCala_451VCVQ_g3vTbIWBBo0W34BTFZwWOqnSGHGkTt-Pnb8ZjrSloK1FoTTeEaoELeccAmvWkEae31qOZ3ouxL6lmE1Rv8&cry=1&dbm_d=AKAmf-AcO6y6e1ry4dqckP4sX4Jg6whHOmsbGf4wu-7Tn_v6itWQFUecA4qscoKvMs4HJxDXlEW36o_TIpjL080SVdIghPm4L_l7fHRIUaxRFgc2JhWRm86UKiZfIhkVWidtQ-OaLuWSfSdG3mP1Olqn_KhpBcNIew4kXeltgSF83eV5q8gHTpxxHF7uXrqNlsL_PSGX-PRIftRPPW0MuICM4YzmO-0lwWaOjP3hLtToLQQROYL9c_SVFSOvu3QNSgCQ7e3IU5uXghiiOcyVdDy-Ik-Tx4zkUW98gBbCDJTFaLtUl0b7aU22J5zfg6Kl5Sfo4QkxqoF1HLpnAOO5NtHZqlkVAlZFXSY9q4K4SOCEOXwOIH7lhU5386OgYGP6zhzMl-9hAMtgFRE5CLfKC99ZNuKu4KRZN5cKRxsX62eW8hi_pJbnWF-7Dlnb1W9K2ck2yl707eaLIv0Dn58Nwnhe-FI8ioMjUDVAz0C_S08M3zL8yaVp1FGoQsa-pbrkzv-st765MQZEc0qFrj-1D3q7LjwhIpukFuXQ6ifFLExMMW1Jf1vYQCfp9-mtB9JPisiNTSjiCqnKBMBi0ZBVf0erwE5hCpfsN9wvuSzuYMoXdwx9PNC7iutAm4DYCZtivg1vhHBEWb8IiPlMyPihcr8874SzCfOQ8mB70OSzyfKnCNMM8koEt9WFGX-aONKM8k6ubB-5zDN-jpNNfIRXEq33gii6BcxMA10reRMhv67kp9XJXIAwY8Y&adurl=https://servedby.flashtalking.com/click/8/225751;9270593;6069591;210;0/?us_privacy=!!US_PRIVACY!&gdpr=0&ft_partnerimpid=ABAjH0j9jCrS-rKBYe0IaI_IaRtE&ft_impID=6547ED90-5E14-E3F5-CB69-50352523BAE1&ft_custom=ABAjH0j9jCrS-rKBYe0IaI_IaRtE&g=66185C3B40F0E8&random=286763.08080642816&ft_width=160&ft_height=600&url=https://www.adobe.com/br/creativecloud/plans.html?sdid=WPHDHWG1&mv=display&mv2=display
+                            - img "Click Here" [ref=f301e23]
+                          - link "AdChoices arrow" [ref=f301e25] [cursor=pointer]:
+                            - /url: https://www.flashtalking.com/consumer-privacy
+                            - img "AdChoices arrow" [ref=f301e26]
+                          - link "Privacy Notification" [ref=f301e28] [cursor=pointer]:
+                            - /url: https://www.flashtalking.com/consumer-privacy
+                            - img [ref=f301e29]
+                    - link [ref=f297e10]:
+                      - /url: https://equativ.com/privacy-policy/
+                      - img [ref=f297e12]
+    - contentinfo [ref=e4292]:
+      - generic [ref=e4293]:
+        - generic [ref=e4295]:
+          - link "AllClash" [ref=e4298] [cursor=pointer]:
+            - /url: https://www.allclash.com/
+          - list [ref=e4301]:
+            - listitem [ref=e4302]:
+              - link "Contact us" [ref=e4303] [cursor=pointer]:
+                - /url: https://www.allclash.com/contact-us/
+            - listitem [ref=e4304]:
+              - link "Privacy Policy" [ref=e4305] [cursor=pointer]:
+                - /url: https://www.allclash.com/privacy-policy-3/
+            - listitem [ref=e4306]:
+              - link "Terms of Service" [ref=e4307] [cursor=pointer]:
+                - /url: https://www.allclash.com/terms-of-service/
+            - listitem [ref=e4308]:
+              - link "Refund & Cancellation Policy" [ref=e4309] [cursor=pointer]:
+                - /url: https://www.allclash.com/refund-cancellation-policy/
+        - generic [ref=e4312]: ©️ 2014 - 2026 — AllClash.com. All Rights Reserved.
+  - generic [ref=e4313]:
+    - generic [ref=e4314]: "3"
+    - link [ref=e4316] [cursor=pointer]:
+      - /url: https://www.allclash.com/login-3/
+    - generic:
+      - button "Install our app Get Our App 📲Say 👋 to Ads" [ref=e4317] [cursor=pointer]:
+        - generic [ref=e4319]: Install our app
+        - text: Get Our App 📲Say 👋 to Ads
+      - text: Activate 📳Notifications
+    - button [ref=e4320] [cursor=pointer]
+  - generic [ref=e4322]:
+    - iframe [ref=e4340]:
+      - generic [ref=f306e2]:
+        - link "Advertisement" [ref=f306e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjss_zYV7VJb4NeYZCCTfcb5Kw05s7uj_WQQyVAj38EuvyT2T9mxlzaGXSL7D4ie_NrenZrFUN6ecX0DjChLp9dveTQKVgusqe8mV-MdrCJgbJVV9VTQyJA98nmFE8dsTBVRVO2TYSRYrVLtJT8cntfIJJ0HC_bAI00bLqsmitTIUOsZiZrfEcEfXhaHTMu8QB76D0tAe2JvAPPZRJAdV7GCDIA49mjnSSIkuz8MU8OxptXCkhYsuNq7CRq8YeqAtTqomAR4E8-eWPMkX3PSky7E6rstJZpQZs9cw_mn3rw_5iqKshTaO8ABwHn58D9o-zx6-UGHiONn_jCdbk-iCdCeUkUwM5cZ94YUGCqKFXZM51VRHtDOLIs5WPLBa-2WI88SKAjOMfOv8fzzdcAPzqTQx5RvYL2b8V1O2wEO8RSwjUdDk-XpzPi0xXIllJd1c1O0EtrHp-akZ-9_4VjJkyZ9x4l2IzEq7z_gkzvKPvhaiINQgJE11qLttecBnhUy7CX6nNAlEqcBNmMLxbdhVzKyVkjFZCn2XTgQZ6WnqbUt0WNcrSaGjh3PmmXDTbKs4_IFrb3QptcMLgP3fGNTeutLRrawlPVrbvC7NZACkm_78C9GxEBrhYP0-fT9iJqDTngqvEVQU33kQFLJ5BYlVelc-ti2EXDO_e3hj29bgRW0JHHG56_wwgTEAozGm9oVNuwyNJgwQE_eNCokDmKnNU1XsKYU_wbd_YUH93t4dOblBYNFMeMCwnvN4CecKK1X6ebSsKvKcV3xwRD7jI00iDG559zpS4FomnMfnBrsYIhA_u7N9FHnMna40oWdn70eH0fRIdurpYGAnvw-TEg33anP5foAs0iFMJyKGk_AGM3je-DtLzPWdLtV7nAkXr8eQoRH2bMzFahFhPq4RSdQxl4Cv9vh46UDD7dL47O1QPhEcOCxmxm723Tg5mHA8B82ZktR9EKoAhP1MATs9qHrnWI_PK-zw6REUnHf0IkX43U9x0Rg6iu3_nCnnBq1yjeLS7nd9QzQwHNct4yyE6onhh8BI-gW8rtECKfgisGmhiXKsjHrrFaASBRHGctHWXxE4GOk1yzsNWX4wNS54Ko3LRkBwgQNXxU9LUccoyGtEALAP18buUu4dJUra7qZmnpdt_elxXF6Lw4zaJ06t6CShZ4kOzQcnw5lObFYQfkxIBPT7NFmTQJo4V6q0vvL3zackkf2RJEi1zCSIfy-Sit3pQEaG25LGlmU41vlHZli7u9tShqfTVNFRS3WXyrrLd6sxIx7PWJaQIldJ0t4jSenUdFWzQM9bHEzs6gOn40QrpCXrhqYASSHBT0_h56wpQfMzmRgWhreWLyEoXqsCfS93v0dG_-k1ImI2xUN8WjzBUBaWVPWhazEJ4twHLCmVyA9BuQiuWAP3Ry1HwWVw2TFxtxIwkTE86Y4M6WVaIC1HTTvp82Bw5gBvOn-O78LMX46dR4rmbSaVFAJYB3mgiWDZlyJUeCvWyt4AOnhO7rJQJGMqqzUf_3OB37HhN_OkNwTqx4Qck80WRlwblPhpM8_ackEZuAgoI8npb6wcGk-eikJMLSOXWEqjK5B-7d1Jc88uxd6WkzXd2_FV4xxUkVpCh6J2UsM1q8fMy0insVBCSv9wuSM4I6eZzb-x5uWqsEYgOkUl6ykN_L7-aZw8SypzIpyxnUCSKHUMjh2ixahSU7g5qYY_eyZl-UHs6Js0a_y2dVN2QK_pnj-19UotFSLJQHP-vG3-Q7ottG097cM&sai=AMfl-YTN3dqF7yoFLjqhk0oS0Uk057Urdg2ZgTZDmhF0AYuytbSzcdfvP3CxtlouRqTpUn5q_uLXxzgRFXfUXGw76PLqLqZ_saRB-0_WaSbR-GLBK1PPPE69LaDwmVZ0c8Op8P6IiMYs_8sFdRzMMwehJ69x2nVPMu7WXYAFddZ2Fiwt3OkUB6Pd2MQKOeC0juNaFkxHuVBhGlVg9v7BeMmZg0kJrjuH7620eGH7iRgmWHDwMhw2Z-RbqdpV3xovqowJ5ak5yeJ2zb2Mi3R8EF7QqbmTNVcE_JsD7XPr2tmfKwiIso_RiEhqJnYZ6SCzQOmAQ22JHRL1O-iHoKwjvPHw-mbmEUyV7vegswNTGECEZrkWeA_B1z8zx7UWX4_cEN9HrhwuBeccFpS5TZ7_TYicSl66Revswx7EZAzG_j6VPOvH_1dCh5NP_YNAiFXQBtW1C04cpUBbYzzYPmAhY4E4gv79f_uK98POz0TIZNBCY42EP86KWDchy2Z-ySCEpCuHzvwbFKh1m-7JCJrXfFCdNnLmcM0Ckrbj7ZQH6rpEe_CFQgiO8jYZu71X6qfbu01i3ua0MisSmjgHwi4zivTeIL2IlsGjEgDjKgFYh5V8tnf4nFCxInzuCVc7n5DX1ywtTAepoLuTM3fkKHgKA9aS0QqZOUML70LSOez5KLrEpCD7Zzl4_YqmiYNbA-GWv1uiGoPQ18_4l8wS1ZE4IdR3jR9zuFgtBOFpIti7sGrAzUGhShe4SBiKGJ1v-6BAkurPlGmg0Ro&sig=Cg0ArKJSzAyyz6p8zw-o&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9oYm9tYXguY29t&urlfix=1&adurl=https://hbomax.com%3Futm_source%3DN1957659.279382DBMWARNERBROS.DI%26utm_medium%3Dpaid-display%26utm_id%3Dcm%7C33444882%7C8725507%7C417964141%7C252654023
+          - img "Advertisement" [ref=f306e5]
+        - generic [ref=f306e6]:
+          - generic:
+            - img [ref=f306e10] [cursor=pointer]
+            - button [ref=f306e12] [cursor=pointer]:
+              - img [ref=f306e13]
+    - generic [ref=e4341] [cursor=pointer]: Close
+  - generic [ref=e4343]:
+    - img "app icon" [ref=e4345]
+    - generic [ref=e4346]:
+      - generic [ref=e4347]: Our web app is (almost) add-free
+      - generic [ref=e4348]:
+        - button "Install" [ref=e4349] [cursor=pointer]:
+          - generic [ref=e4351]: Install
+        - button "Not now" [ref=e4352] [cursor=pointer]
+    - img [ref=e4354] [cursor=pointer]

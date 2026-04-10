@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bg-deep: #06060c;
+  --color-bg-surface: #0d0d16;
+  --color-bg-card: #12121e;
+  --color-bg-elevated: #1a1a2a;
+  --color-bg-hover: #1f1f32;
+  --color-border: #1e1e30;
+  --color-border-hover: #2a2a40;
+  --color-gold: #c9a24e;
+  --color-gold-dim: #8a6d2f;
+  --color-gold-bright: #e8c96a;
+  --color-text-primary: #e8e6e3;
+  --color-text-dim: #8a8895;
+  --color-text-muted: #5a5868;
+  --color-el-fire: #e8594a;
+  --color-el-ice: #5ba8d9;
+  --color-el-lightning: #a87ce8;
+  --color-el-poison: #6bc95a;
+  --color-el-necrosis: #9b6bc9;
+  --color-el-radiance: #e8c44a;
+  --color-accent-green: #4ae88a;
+  --color-accent-red: #e84a5a;
+  --font-display: 'Cinzel', serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg-deep);
+  color: var(--color-text-primary);
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Grain texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.4;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border-hover); border-radius: 2px; }

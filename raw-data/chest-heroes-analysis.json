@@ -1,0 +1,990 @@
+{
+  "Feenja": {
+    "id": 23000,
+    "heroId": 23000,
+    "name": "Feenja",
+    "element": "Ice",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s3",
+    "type": "Range",
+    "race": "Undead",
+    "class": "Wizard",
+    "captain": "Increases all allies' Enlightenment by  in all battles.",
+    "di_rank": 25,
+    "di_avg": 4.875,
+    "di_ratings": {
+      "temporal_vortex": 5,
+      "goblin_lair": 4,
+      "heretical_ruins": 5,
+      "ancient_battlefield": 5,
+      "arena": 5,
+      "turret": "-"
+    },
+    "skills": {
+      "passive": {
+        "name": "Bride's Last Wish",
+        "description": "Whenever an ally gains or loses a buff, the hero heals them by . This effect can only be triggered once every s. When healing Theodemer, the healing effect is further increased by ."
+      },
+      "battle": {
+        "name": "Manner of Hospitality",
+        "description": "Dispels all debuffs from the ally with the currently lowest percentage of HP. Heals them by , and grants them  for s."
+      },
+      "ultimate": {
+        "name": "Mourning Matrimony",
+        "description": "Heals all allies by  twice and grants them  for s. Deals  twice to enemies within range in the meantime, with a  chance to inflict  on them for s, ignoring  of their Resistance."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200005,
+        "show_name": "Inspiration 1",
+        "spell_tips": "The hero takes  less crit damage."
+      },
+      {
+        "id": 7210006,
+        "show_name": "Inspiration 2",
+        "spell_tips": "When the hero's HP is below , heals the hero by  per second."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Enlightenment +60"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "HP% +30%"
+      },
+      {
+        "id": 2300095,
+        "show_name": "Inspiration 5",
+        "spell_tips": "The battle skill additionally grants  to two other allies for 5s."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 1770.8000000000002,
+      "phy_dmg": 88,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "A",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank + per-activity ratings (0-5)",
+      "allclash": "AC tier A — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Celebration Feast",
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Devitalization (Ice+Poison)"
+  },
+  "Theodemer": {
+    "id": 22990,
+    "heroId": 22990,
+    "name": "Theodemer",
+    "element": "Ice",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s3",
+    "type": "Melee",
+    "race": "Undead",
+    "class": "Warrior",
+    "captain": "Increases all allies' Defense by  in Grand Gladiator Arena battles.",
+    "di_rank": 27,
+    "di_avg": 4.875,
+    "di_ratings": {
+      "temporal_vortex": 5,
+      "goblin_lair": 4,
+      "heretical_ruins": 5,
+      "ancient_battlefield": 5,
+      "arena": 5,
+      "turret": "-"
+    },
+    "skills": {
+      "passive": {
+        "name": "Necrotic Tenacity",
+        "description": "The hero cannot obtain a shield. For each enemy on the field that targets him, gains 1 stack of , up to  stacks. The hero gains the following additional effects when deployed with Feenja:  and  for s and  Ultimate Energy when his HP drops to 0 for the first time during a battle."
+      },
+      "battle": {
+        "name": "Fallen Kingdom Swordplay",
+        "description": "Strikes the enemy 3 times, with each strike dealing  and reducing their Ultimate Energy by . If the target's Ultimate Energy is reduced to 0, the hero gains additional  Ultimate Energy. Also, the third strike has a  chance of inflicting  on them for s."
+      },
+      "ultimate": {
+        "name": "Spite of the Wronged Dead",
+        "description": "Gains  and  for s, and deals  to all enemies, with a  chance of inflicting  on them for s."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200002,
+        "show_name": "Inspiration 1",
+        "spell_tips": "Reduces the hero's damage taken by  when under Control."
+      },
+      {
+        "id": 7210006,
+        "show_name": "Inspiration 2",
+        "spell_tips": "When the hero's HP is below , heals the hero by  per second."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Skill Haste +30"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "HP% +30%"
+      },
+      {
+        "id": 7240005,
+        "show_name": "Inspiration 5",
+        "spell_tips": "When inflicted with Control, reduces its duration by ."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 2299.7999999999997,
+      "phy_dmg": 81.4,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "B",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank + per-activity ratings (0-5)",
+      "allclash": "AC tier B — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Celebration Feast",
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Devitalization (Ice+Poison)"
+  },
+  "Fathomdown": {
+    "id": 22780,
+    "heroId": 22780,
+    "name": "Fathomdown",
+    "element": "Lightning",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s5",
+    "type": "Melee",
+    "race": "Merfolk",
+    "class": "Warrior",
+    "captain": "Increases all allies' Attack by 30% in dungeon battles.",
+    "di_rank": 28,
+    "di_avg": 4.75,
+    "di_ratings": {
+      "temporal_vortex": 5,
+      "goblin_lair": 4,
+      "heretical_ruins": 5,
+      "ancient_battlefield": 5,
+      "arena": 4,
+      "turret": "-"
+    },
+    "skills": {
+      "passive": {
+        "name": "Unshakable",
+        "description": "When taking damage, there is a 30% chance of reducing the damage taken by 50% and healing the hero for [+5%Max HP]. This effect can trigger once every 3.0s. When an ally takes fatal damage for the first time, they become immune to death for this instance, and Fathomdown dispels all the negative effects on them and heals them for [+30%Max HP] of his Max HP. This effect can trigger once every 20s."
+      },
+      "battle": {
+        "name": "Raging Thunder",
+        "description": "Gains Debuff Immunity for 5.0s, dealing [+360%Attack]lightning damage to enemies within range, with a 100.0% chance of inflicting Knocked Up and a 75.0% chance of inflicting 3.0-sec Stunned. When successfully inflicting Stunned, also inflicts Resistance Penalty on the target for 10.0s and dispels all their buffs."
+      },
+      "ultimate": {
+        "name": "Thunderbolt",
+        "description": "Casts the spell for 8s. Summons Lightning Bolts to strike random enemies every 1s, dealing [+150%Attack]lightning damage to the target and all surrounding enemies, with a 75.0% chance of inflicting Attack Penalty II on them for 5.0s. Reduces their Ultimate Energy by 5.0 and inflicts Recharging Speed Penalty for 5.0s. The hit enemies with ≥50% Ultimate Energy lose 10% more Ultimate Energy."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200003,
+        "show_name": "Inspiration 1",
+        "spell_tips": "When taking damage equal to 20% of the hero's Max HP, has a 50% chance of dispelling 1 debuff on the hero. This skill only takes effect once during a period."
+      },
+      {
+        "id": 7210006,
+        "show_name": "Inspiration 2",
+        "spell_tips": "When the hero's HP is below 60%, heals the hero by [+1%Max HP] per second."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Skill Haste +30"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Accuracy +50"
+      },
+      {
+        "id": 2278091,
+        "show_name": "Inspiration 5",
+        "spell_tips": "When the ultimate skill hits, enemies with less than 50% Ultimate Energy will also have their Ultimate Energy reduced. Ultimate Energy reduction is increased to 15%."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 2264,
+      "phy_dmg": 84.39999999999999,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "A",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank + per-activity ratings (0-5)",
+      "allclash": "AC tier A — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Vertigo (Lightning+Necrosis)"
+  },
+  "Quaesitia": {
+    "id": 21020,
+    "heroId": 21020,
+    "name": "Quaesitia",
+    "element": "Necrosis",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s3",
+    "type": "Melee",
+    "race": "Deep Elf",
+    "class": "Warrior",
+    "captain": "Increases all allies' Defense by  in Grand Gladiator Arena battles.",
+    "di_rank": 26,
+    "di_avg": 4.875,
+    "di_ratings": {
+      "temporal_vortex": 4,
+      "goblin_lair": 5,
+      "heretical_ruins": 5,
+      "ancient_battlefield": 5,
+      "arena": 5,
+      "turret": "-"
+    },
+    "skills": {
+      "passive": {
+        "name": "Ironfist",
+        "description": "When taking damage, there is a  chance of inflicting  on the attacker for s. Additionally, when taking damage, triggers Total Defense and restores  (Total Defense triggers once every s)."
+      },
+      "battle": {
+        "name": "Oppression",
+        "description": "Briefly shoots down all incoming ranged basic attacks towards the hero. Then, teleports to the location with the most enemies, dealing  to surrounding enemies, with a  chance of inflicting  for s."
+      },
+      "ultimate": {
+        "name": "Deadly Slash",
+        "description": "Attacks all enemies, dealing , then deals  again with a  chance of inflicting  for s, while pulling targets towards the hero. After the pull, deals  to surrounding enemies, with each attack reducing the target's Ultimate Energy by ."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200001,
+        "show_name": "Inspiration 1",
+        "spell_tips": "Heals the hero by  after killing an enemy."
+      },
+      {
+        "id": 2102092,
+        "show_name": "Inspiration 2",
+        "spell_tips": "The ultimate skill ignores  of the target's Resistance."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Skill Haste +30"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "HP% +30%"
+      },
+      {
+        "id": 2102095,
+        "show_name": "Inspiration 5",
+        "spell_tips": "Each time Adaptive Defense is triggered, HP restoration increases to ."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 2445,
+      "phy_dmg": 88.80000000000001,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "A",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank + per-activity ratings (0-5)",
+      "allclash": "AC tier A — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Celebration Feast",
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Vertigo (Lightning+Necrosis)"
+  },
+  "Rose": {
+    "id": 21270,
+    "heroId": 21270,
+    "name": "Rose",
+    "element": "Radiance",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s2",
+    "type": "Range",
+    "race": "Rural Halfling",
+    "class": "Wizard",
+    "captain": "",
+    "di_rank": 55,
+    "di_avg": 4.5,
+    "di_ratings": {
+      "temporal_vortex": 4,
+      "goblin_lair": 4,
+      "heretical_ruins": 5,
+      "ancient_battlefield": 5,
+      "arena": 4,
+      "turret": "-"
+    },
+    "skills": {
+      "passive": {
+        "name": "Tireless",
+        "description": "When the hero has a buff, the enemy cannot resist debuffs inflicted by the hero."
+      },
+      "battle": {
+        "name": "Sin of Ignorance",
+        "description": "Deals [+250%Attack][+2400%Enlightenment]Radiant Damage to enemies within range, with a 75.0% chance to inflict Recharging Speed Penalty for 5.0s. Meanwhile, the hero gains 20% Enlightenment Up for 5.0."
+      },
+      "ultimate": {
+        "name": "Purged by Knowledge",
+        "description": "Casts the spell 4 times, each dealing [+80%Attack][+800%Enlightenment]Radiant Damage to a random enemy and nearby enemies, with a 75.0% chance of inflicting Attack Penalty I on them for 6.0s. Meanwhile, heals 2 allies with the currently lowest percentage of HP by [+4%Target's Max HP][+600%Enlightenment], with a 100% chance of dispelling 1 debuff from them. The hero casts the spell 1 extra time for every 100 Enlightenment they have, up to 6 times."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200003,
+        "show_name": "Inspiration 1",
+        "spell_tips": "When taking damage equal to 20% of the hero's Max HP, has a 50% chance of dispelling 1 debuff on the hero. This skill only takes effect once during a period."
+      },
+      {
+        "id": 7210000,
+        "show_name": "Inspiration 2",
+        "spell_tips": "When granting a buff, there is a 70% chance of extending its duration by 30%."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Enlightenment +60"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "HP% +30%"
+      },
+      {
+        "id": 7240010,
+        "show_name": "Inspiration 5",
+        "spell_tips": "Buffs granted with the battle skill cannot be dispelled."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 1907.8,
+      "phy_dmg": 92.6,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "B",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank + per-activity ratings (0-5)",
+      "allclash": "AC tier B — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Celebration Feast",
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Incandescence (Fire+Radiance)"
+  },
+  "Synarell": {
+    "id": 22690,
+    "heroId": 22690,
+    "name": "Synarell",
+    "element": "Fire",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s3",
+    "type": "Range",
+    "race": "Sheen Elf",
+    "class": "Arcane Warrior",
+    "captain": "In Fey Meander and Trial Breakthrough battles, increases all allies' Attack by .",
+    "di_rank": 57,
+    "di_avg": 4.5,
+    "di_ratings": {
+      "temporal_vortex": 4,
+      "goblin_lair": 3,
+      "heretical_ruins": 5,
+      "ancient_battlefield": 5,
+      "arena": 5,
+      "turret": "-"
+    },
+    "skills": {
+      "passive": {
+        "name": "Dawn's Protection",
+        "description": "When the hero's skill hits an enemy, there is a  chance of inflicting  on them for s, and the infliction cannot be resisted. Also, when the hero uses a skill to heal an ally, the hero himself gains an healing of  of the current healing granted."
+      },
+      "battle": {
+        "name": "Flame of Exaltation",
+        "description": "Fires 3 fireballs to strike random enemies, with each fireball dealing  and healing the ally with the currently lowest percentage of HP by ."
+      },
+      "ultimate": {
+        "name": "Daylight Domain",
+        "description": "Selects an ally, dispels all of their debuffs and grants them  for s. When  on the ally expires, the hero deals  to all enemies and heals all allies by ."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200002,
+        "show_name": "Inspiration 1",
+        "spell_tips": "Reduces the hero's damage taken by  when under Control."
+      },
+      {
+        "id": 7210007,
+        "show_name": "Inspiration 2",
+        "spell_tips": "When healing an ally with less than  HP, grants  stack of  for s. This skill only takes effect once during a period."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Skill Haste +30"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "ATK% +30%"
+      },
+      {
+        "id": 2269095,
+        "show_name": "Inspiration 5",
+        "spell_tips": "The battle skill can grant an additional stack of  for 5s."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 1608,
+      "phy_dmg": 91,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "A",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank + per-activity ratings (0-5)",
+      "allclash": "AC tier A — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Celebration Feast",
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Incandescence (Fire+Radiance)"
+  },
+  "Malak": {
+    "id": 21250,
+    "heroId": 21250,
+    "name": "Malak",
+    "element": "Poison",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s2",
+    "type": "Melee",
+    "race": "Valley Minotaur",
+    "class": "Warrior",
+    "captain": "Increases all allies' Defense by 30% in Grand Gladiator Arena battles.",
+    "di_rank": 62,
+    "di_avg": 4.375,
+    "di_ratings": {
+      "temporal_vortex": 4,
+      "goblin_lair": 4,
+      "heretical_ruins": 4,
+      "ancient_battlefield": 4,
+      "arena": 5,
+      "turret": "-"
+    },
+    "skills": {
+      "passive": {
+        "name": "Confined",
+        "description": "When inflicted with Control or Ultimate Down, gains 15.0 Ultimate Energy and heals the hero by [+10%Max HP]. This effect can only occur once every 2.0s.  Also, if the hero fails to resist Control or Ultimate Down, there is an extra 40% chance to nullify those effects."
+      },
+      "battle": {
+        "name": "Eternal Existence",
+        "description": "Deals [+240%Attack][+6%Max HP]Poison Damage to the enemy and heals the hero by [+12%Max HP]. The healing is doubled if the enemy is inflicted with a debuff."
+      },
+      "ultimate": {
+        "name": "Bone Gnawing Prison",
+        "description": "Dispels all Control from allies and grants them Control Immunity for 10.0s. Meanwhile, deals [+420%Attack][+14%Max HP]Poison Damage to enemies within range, with a 75.0% chance of inflicting Attack Penalty II for 10.0s."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200002,
+        "show_name": "Inspiration 1",
+        "spell_tips": "Reduces the hero's damage taken by 20% when under Control."
+      },
+      {
+        "id": 7210006,
+        "show_name": "Inspiration 2",
+        "spell_tips": "When the hero's HP is below 60%, heals the hero by [+1%Max HP] per second."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Skill Haste +30"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "DEF% +30%"
+      },
+      {
+        "id": 7240005,
+        "show_name": "Inspiration 5",
+        "spell_tips": "When inflicted with Control, reduces its duration by 50%."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 2382.6,
+      "phy_dmg": 86.6,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "A",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank + per-activity ratings (0-5)",
+      "allclash": "AC tier A — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Celebration Feast",
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Devitalization (Ice+Poison)"
+  },
+  "Dalk": {
+    "id": 21730,
+    "heroId": 21730,
+    "name": "Dalk",
+    "element": "Necrosis",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s2",
+    "type": "Range",
+    "race": "Forest Troll",
+    "class": "Ranger",
+    "captain": "Increases all allies' Accuracy by 50.0 in Grand Gladiator Arena battles.",
+    "di_rank": 70,
+    "di_avg": 4,
+    "di_ratings": {
+      "temporal_vortex": 3,
+      "goblin_lair": 4,
+      "heretical_ruins": 4,
+      "ancient_battlefield": 4,
+      "arena": 5,
+      "turret": "-"
+    },
+    "skills": {
+      "passive": {
+        "name": "Rotten and Stinking",
+        "description": "Attacks the enemy with the highest Attack at the start of combat, dealing [+320%Attack]Necrotic Damage and marking that target to inflict them with 30 stacks of Attack Penalty. The target loses 1 stack of Attack Penalty every 1s for the next 30s."
+      },
+      "battle": {
+        "name": "Rotten Affliction",
+        "description": "Deals [+350%Attack]Necrotic Damage to the enemy with the highest Attack and has a 75.0% chance of inflicting Attack Penalty II on them for 5.0s."
+      },
+      "ultimate": {
+        "name": "Shadowy Devouring",
+        "description": "The hero gains Accuracy Up II for 10.0s. Then deals [+819%Attack]Necrotic Damage to the enemy with the highest Max HP, with a 75.0% chance to inflict Recharging Speed Penalty on them for 10.0s. And reduces the enemy's Ultimate Energy by 30.0, with a 75.0% chance to inflict Banished for 5.0s."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200005,
+        "show_name": "Inspiration 1",
+        "spell_tips": "The hero takes 20% less crit damage."
+      },
+      {
+        "id": 7210006,
+        "show_name": "Inspiration 2",
+        "spell_tips": "When the hero's HP is below 60%, heals the hero by [+1%Max HP] per second."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Skill Haste +30"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Accuracy +50"
+      },
+      {
+        "id": 7240001,
+        "show_name": "Inspiration 5",
+        "spell_tips": "Increases the ultimate skill's initial energy by 5."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 1617.2,
+      "phy_dmg": 89.39999999999999,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "A",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank + per-activity ratings (0-5)",
+      "allclash": "AC tier A — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Celebration Feast",
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Vertigo (Lightning+Necrosis)"
+  },
+  "Astaion": {
+    "id": 22470,
+    "heroId": 22470,
+    "name": "Astaion",
+    "element": "Necrosis",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s4",
+    "type": "Range",
+    "race": "Blazeland Lizardfolk",
+    "class": "Warrior",
+    "captain": "Increases all allies' Defense by 30% in Grand Gladiator Arena battles.",
+    "di_rank": 187,
+    "di_avg": 0,
+    "di_ratings": {},
+    "skills": {
+      "passive": {
+        "name": "Sun Pursuer",
+        "description": "At the start of battle, the hero has a 100.0% chance of inflicting Silence on the nearest enemy for 10.0s, and stealing 30% of their HP and 30% of their Defense. 50% of the stolen attributes will be transferred to the ally with the highest Attack. HP stolen will not exceed 100% of the hero's Max HP. Defense stolen will not exceed 30% of the hero's Defense."
+      },
+      "battle": {
+        "name": "Sun Shader",
+        "description": "Deals [+300%Attack]Necrotic damage to enemies within range with a 50.0% chance of inflicting Stunned for 3.0s. Also grants Crit-hit Resistance for 5.0s to the ally with the highest Attack. For each enemy hit, the hero gains 5.0 Ultimate Energy."
+      },
+      "ultimate": {
+        "name": "Sun Eclipser",
+        "description": "Summons a domain that lasts for 10s at the target's location, dealing [+60%Attack]Necrotic damage to enemies within range every 1s. Heals all allies by [+2%Max HP] simultaneously every second. When enemies within range gain a buff, there is a 40% chance to replace the buff with a random debuff."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200002,
+        "show_name": "Inspiration 1",
+        "spell_tips": "Reduces the hero's damage taken by 20% when under Control."
+      },
+      {
+        "id": 7210016,
+        "show_name": "Inspiration 2",
+        "spell_tips": "Recharges the hero's Ultimate Energy by 15.0 when taking damage over 20% of the hero's max HP. Takes effect once every 20.0s."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Skill Haste +30"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Accuracy +50"
+      },
+      {
+        "id": 2247095,
+        "show_name": "Inspiration 5",
+        "spell_tips": "The range of the ultimate skill's domain becomes a 5x5 rectangle."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 1664.8,
+      "phy_dmg": 84.60000000000001,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "A",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank only (sem ratings, hero muito novo)",
+      "allclash": "AC tier A — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Celebration Feast",
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Vertigo (Lightning+Necrosis)"
+  },
+  "Halramar": {
+    "id": 21370,
+    "heroId": 21370,
+    "name": "Halramar",
+    "element": "Poison",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s4",
+    "type": "Range",
+    "race": "Tigerfolk",
+    "class": "Priest",
+    "captain": "Increases all allies' Resistance by 40.0 in all battles.",
+    "di_rank": 197,
+    "di_avg": 0,
+    "di_ratings": {},
+    "skills": {
+      "passive": {
+        "name": "Lingering Overcast",
+        "description": "As the battle starts, summons Dark Cloud. Halramar cannot gain extra Attack Speed, but Dark Cloud will launch additional attacks following Halramar's basic attacks. Dark Cloud has a 10% chance to inflict （已忽略）#精灵术士小龙自闭buff on enemies for s. The chance of inflicting （已忽略）#精灵术士小龙自闭buff by Dark Cloud depends on Halramar's Resistance. Every 10 Resistance increases the chance by 1%. When Halramar is on the battlefield, enemies' Ultimate Energy obtained through skills and Artifacts will be reduced by 80%."
+      },
+      "battle": {
+        "name": "Gazing Overcast",
+        "description": "Commands Dark Cloud to deal [+300%Attack]poison damage to the enemy with the highest Attack, with a 75.0% chance to inflict Attack Penalty II on them for 5.0s and a 75.0% chance to inflict Oriented Taunt on them for 5.0s."
+      },
+      "ultimate": {
+        "name": "Darkmane's Regards",
+        "description": "Deals [+700%Attack]poison damage to all enemies, with a 75.0% chance to inflict Recharging Speed Penalty for 5.0s on them, and a 75.0% chance to inflict Oriented Charm for 5.0s. At the same time, reduces 25.0 of the targets' Ultimate Energy."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200005,
+        "show_name": "Inspiration 1",
+        "spell_tips": "The hero takes 20% less crit damage."
+      },
+      {
+        "id": 7210008,
+        "show_name": "Inspiration 2",
+        "spell_tips": "Upon being hit by an enemy, reduces the hero's damage taken from that enemy by 1%, up to 15 stacks."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Skill Haste +30"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Resistance +50"
+      },
+      {
+        "id": 2137095,
+        "show_name": "Inspiration 5",
+        "spell_tips": "Summons 2 Dark Clouds. When performing a basic attack, the second Dark Cloud attacks another random target."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 1673,
+      "phy_dmg": 86.6,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "A",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank only (sem ratings, hero muito novo)",
+      "allclash": "AC tier A — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Celebration Feast",
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Devitalization (Ice+Poison)"
+  },
+  "Ivira": {
+    "id": 22450,
+    "heroId": 22450,
+    "name": "Ivira",
+    "element": "Ice",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s5",
+    "type": "Melee",
+    "race": "Deep Elf",
+    "class": "Rogue",
+    "captain": "Increases all allies' Attack by 30% in Grand Gladiator Arena battles.",
+    "di_rank": 199,
+    "di_avg": 0,
+    "di_ratings": {},
+    "skills": {
+      "passive": {
+        "name": "First Impression",
+        "description": "At the start of battle, inflicts Datura Mark on the enemy with the highest Attack. When the target under Datura Mark dies, reselects a target. When the target under Datura Mark gains a buff, reduces the recharge time of the hero's battle skill by 20% and grants 10.0 Ultimate Energy to the hero. This effect can trigger once every 5.0s. If any enemy with Frozen dies, blocks their resurrection."
+      },
+      "battle": {
+        "name": "Another Drink",
+        "description": "Teleports to the enemy with the highest Attack, dispelling their shield, stealing 1 buff(s), and dealing [+300%Attack][+1200%Enlightenment]cold damage. Also inflicts Frozen on the target for 5.0s. This effect ignores the target's 35% Resistance."
+      },
+      "ultimate": {
+        "name": "Stay Awhile",
+        "description": "Deals [+500%Attack][+2400%Enlightenment]cold damage to enemies within range, with a 75.0% chance of inflicting Frozen for 5.0s. This effect ignores the target's 35% Resistance."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200005,
+        "show_name": "Inspiration 1",
+        "spell_tips": "The hero takes 20% less crit damage."
+      },
+      {
+        "id": 7210005,
+        "show_name": "Inspiration 2",
+        "spell_tips": "When dealing damage to enemies with less than 50% HP, the hero gains 15% Damage Bonus."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Enlightenment +60"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Accuracy +50"
+      },
+      {
+        "id": 2245095,
+        "show_name": "Inspiration 5",
+        "spell_tips": "While the hero is on the field, blocks resurrection for all enemies. (Can trigger up to 1 time)"
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 2339.6,
+      "phy_dmg": 96,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "S",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank only (sem ratings, hero muito novo)",
+      "allclash": "AC tier S — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Devitalization (Ice+Poison)"
+  },
+  "Rashaad": {
+    "id": 24420,
+    "heroId": 24420,
+    "name": "Rashaad",
+    "element": "Fire",
+    "rarity": "Legendary",
+    "school": "Support",
+    "season": "s5",
+    "type": "Melee",
+    "race": "Tigerfolk",
+    "class": "Priest",
+    "captain": "",
+    "di_rank": 211,
+    "di_avg": 0,
+    "di_ratings": {},
+    "skills": {
+      "passive": {
+        "name": "Steadfast Heart",
+        "description": "When an enemy gains a shield, the hero gains 10.0 Ultimate Energy. This effect can trigger once every 5.0s. When an ally gains a shield, the hero grants an additional [+50%Attack] healing to them. This effect can trigger once every 5.0s."
+      },
+      "battle": {
+        "name": "Sound of Judgment",
+        "description": "Performs 3 consecutive strikes on enemies in front, dealing [+130%Attack]fire damage and dispelling all their buffs, with a 75.0% chance of inflicting Accuracy Penalty II for 10.0s."
+      },
+      "ultimate": {
+        "name": "Gavel of Justice",
+        "description": "Slams a hammer into the ground, dispelling 2 debuff(s) from allies, dealing [+750%Attack]fire damage damage to enemies around the hero, and stealing shields from them. The stolen shields are distributed evenly among allies. If these enemies have no shields, there is a 75.0% chance of inflicting Stunned for 5.0s. Then, heals all allies for [+200%Attack]. For each target whose shield is dispelled, increases this healing amount by 20%."
+      }
+    },
+    "inspiration": [
+      {
+        "id": 7200004,
+        "show_name": "Inspiration 1",
+        "spell_tips": "Damage dealt to enemies with a shield is increased by 20%."
+      },
+      {
+        "id": 7210017,
+        "show_name": "Inspiration 2",
+        "spell_tips": "The hero grants 15% more shield."
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "Accuracy +50"
+      },
+      {
+        "id": 7250000,
+        "spell_tips": "HP% +30%"
+      },
+      {
+        "id": 2442091,
+        "spell_tips": "When casting a battle skill, grants a [+50%Attack] shield to the hero and a random ally."
+      }
+    ],
+    "base_stats": {
+      "defense": "",
+      "crit_chance": "",
+      "crit_bonus": "",
+      "atk_frequency": "",
+      "max_health": 2137,
+      "phy_dmg": 98,
+      "mastery": 0,
+      "resistance": 0,
+      "accuracy": 0
+    },
+    "ac_tier": "B",
+    "hh_tier": "INDISPONIVEL — HellHades so cobre S1 (estes sao S2-S5)",
+    "data_sources": {
+      "dragonheir_info": "DI rank only (sem ratings, hero muito novo)",
+      "allclash": "AC tier B — allclash.com (scraped 2026-04-09)",
+      "hellhades": "NAO COBRE — tier list limitada a S1 heroes"
+    },
+    "available_in": [
+      "Hero's Anthem (10/Abr)"
+    ],
+    "s6_affinity": "Incandescence (Fire+Radiance)"
+  }
+}

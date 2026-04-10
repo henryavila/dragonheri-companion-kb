@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "source": "dragonheir.info, AllClash, HellHades, Reddit, Steam — community guides",
+    "updated": "2026-04-09",
+    "purpose": "Community-recommended teams per activity. Baseline for comparison with custom analysis."
+  },
+  "activities": {
+    "grave_of_venom": {
+      "name": "Grave of Venom",
+      "type": "Gear Dungeon",
+      "boss": "Deadly Harpy (Poison)",
+      "drops": "Defense gear",
+      "key_mechanics": [
+        "Boss summons Wisps (adds) on attack",
+        "Skill 1: AoE + gives Shield to ALL adds. Each unbroken shield = boss +15% Damage Reduction",
+        "Skill 2: AoE + dispels 1 buff per hero",
+        "Skill 3: Single-target combo, targets random DPS if boss has <2 debuffs, targets tank if >=2 debuffs",
+        "Counter: Break add shields (each = 3% Max HP damage to boss), maintain 2+ debuffs on boss"
+      ],
+      "community_teams": [
+        {
+          "source": "dragonheir.info S4",
+          "heroes": ["Frurbath", "Garius", "Nessa", "Shook", "Deeno"],
+          "captain": "Frurbath (DEF)",
+          "notes": "Shook dispels shields after Skill 2. Frurbath Ult before boss Skill 3 for ATK Penalty."
+        },
+        {
+          "source": "dragonheir.info S4 alt",
+          "heroes": ["Horrus", "Brody", "Frurbath", "Galyan", "Deeno"],
+          "captain": "Frurbath (DEF)",
+          "notes": "Fire+Poison affinity. Brody shield-break utility."
+        }
+      ],
+      "key_heroes": ["Frurbath (tank/heal/cleanse)", "Shook (shield dispel)", "Vinyara (dispel shields)", "Voresh (Buff Prohibition = adds never get shields)", "Sigrid (debuffer)"],
+      "critical_roles": ["Shield Dispel (mandatory)", "ATK Penalty (survival)", "AoE (clear Wisps)", "2+ debuffs on boss (redirect Skill 3 to tank)"]
+    },
+
+    "grave_of_curse": {
+      "name": "Grave of Curse",
+      "type": "Gear Dungeon",
+      "boss": "Blood Prince Xenos (Necrosis)",
+      "drops": "HP gear",
+      "key_mechanics": [
+        "Passive Blood Gush: ALL HP damage drains Max HP permanently. Shields BLOCK the drain",
+        "Skill 1 Rage of Blood: Boss gains ATK Up + ACC Bonus. Devastating if not dispeled",
+        "Skill 2 Punishment: Steals 2 buffs, amplified if target <2 buffs",
+        "Skill 3 Vampiric Shield: AoE + Stun 5s if heroes <2 buffs + 20% recharge to boss",
+        "Counter: Buff Prohibition (prevent ATK Up), Shields (block Max HP drain), Debuff Immunity (block Stun)"
+      ],
+      "community_teams": [
+        {
+          "source": "Henry tested Lv17",
+          "heroes": ["Eurion", "Torrin", "Felosia", "Tamar", "Nastjenka"],
+          "captain": "Nastjenka (+24% ATK)",
+          "notes": "Tamar Buff Prohibition prevents Rage of Blood. Felosia shields block Blood Gush. 3 Permafrost."
+        },
+        {
+          "source": "Henry tested Lv20",
+          "heroes": ["Eurion", "Vinyara", "Auster", "Lossenia", "Thia"],
+          "captain": "unknown",
+          "notes": "5 Permafrost. Thia = Debuff Immunity + Invisibility + Healing Prohibition. Lv17→Lv20 upgrade."
+        }
+      ],
+      "key_heroes": ["Felosia (shields MANDATORY — block Max HP drain + 30% DR + Control Immunity)", "Tamar (Buff Prohibition — ACC 300+ needed)", "Thia (Debuff Immunity + Invisibility + Healing Prohibition)", "Vinyara (dispel buffs)", "Eurion (Ally Protection)"],
+      "critical_roles": ["Shields (block Blood Gush Max HP drain)", "Buff Prohibition (prevent Rage of Blood)", "Debuff Immunity (prevent Stun 5s)", "Sustain (HP drain is permanent)"]
+    },
+
+    "grave_of_rot": {
+      "name": "Grave of Rot",
+      "type": "Gear Dungeon",
+      "boss": "Colossal Scavenger (Poison)",
+      "drops": "Accuracy gear",
+      "key_mechanics": [
+        "Skill 1: Healing Prohibition AoE — must cleanse immediately",
+        "Skill 2: Stun AoE — spread heroes to minimize targets",
+        "Skill 3: Big Hit — highest damage, need DMG Reduction before",
+        "Passive: Corrosion stacks — high stacks = one-shot. AoE healing clears stacks"
+      ],
+      "community_teams": [
+        {
+          "source": "dragonheir.info S4",
+          "heroes": ["Garius", "Nathaniel", "Shook", "Enna", "Nimbus"],
+          "captain": "Garius (DEF)",
+          "notes": "Enna removes Healing Prohibition. Garius needs high RES for Stun. Shield before Skill 3."
+        },
+        {
+          "source": "dragonheir.info S4 alt",
+          "heroes": ["Galyan", "Vicuc", "Adolphus", "Deeno", "Theodore"],
+          "captain": "Deeno (Enlightenment)",
+          "notes": "Vicuc removes Healing Prohibition. Galyan needs high RES."
+        }
+      ],
+      "key_heroes": ["Torrin (dispel debuffs + Invisibility)", "Catherine (Debuff Immunity AoE)", "Thia (Debuff Immunity + Invisibility)", "Nathaniel (AoE shield)", "Acilia (AoE healing + dispel)"],
+      "critical_roles": ["Cleanse Healing Prohibition (ASAP)", "AoE Healing (clears Corrosion stacks)", "Spread positioning (reduce Stun targets)", "DMG Reduction before Skill 3"]
+    },
+
+    "flame_domain": {
+      "name": "Flame Domain",
+      "type": "Gear Dungeon (3 waves, boss wave 3)",
+      "boss": "Akara (Fire boss)",
+      "key_mechanics": [
+        "Avoid Fire/Poison heroes (take more damage, deal less)",
+        "Boss detonates HP burns",
+        "Debuff Immunity critical",
+        "Save ults for wave 3 (boss)"
+      ],
+      "community_teams": [
+        {
+          "source": "dragonheir.info S4",
+          "heroes": ["Volthug", "Catherine", "Theohein", "Careth", "Iola"],
+          "captain": "Iola (ATK)",
+          "notes": "Catherine ult for Debuff Immunity before boss attacks. Lightning+Radiance comp."
+        },
+        {
+          "source": "dragonheir.info S4 alt",
+          "heroes": ["Loris", "Deverick", "Dragros", "Rowena", "Estella"],
+          "captain": "Deverick (ACC)",
+          "notes": "Ice+Necrosis comp. Reserve ults for boss."
+        },
+        {
+          "source": "Henry tested Lv18",
+          "heroes": ["Acilia", "Torrin", "Eurion", "Ladehlia", "Sintrellia"],
+          "captain": "unknown",
+          "notes": "Summon + Acilia + Imortalidade. Lv14 apertado → Lv18 super fácil."
+        }
+      ],
+      "key_heroes": ["Acilia (Debuff Immunity + heal)", "Catherine (Debuff Immunity AoE)", "Ladehlia+Sintrellia (Summon DPS)", "Eurion (tank/survival)", "Torrin (heal/dispel)"],
+      "critical_roles": ["Debuff Immunity (prevent Burn cascade)", "AoE DPS (kill Nestlings fast)", "Save ults for wave 3", "Don't attack boss during Invisibility"]
+    },
+
+    "frost_domain": {
+      "name": "Frost Domain",
+      "type": "Gear Dungeon (3 waves, boss wave 3)",
+      "boss": "Ice Boss",
+      "key_mechanics": [
+        "Passive: Boss gains shield when applying debuffs to your team",
+        "Buff Prohibition at intervals",
+        "Thorn Shield reflects damage",
+        "Multi-hit breaks thorn shield fast"
+      ],
+      "community_teams": [
+        {
+          "source": "dragonheir.info S4",
+          "heroes": ["Lydia", "Catherine", "Nathaniel", "Theohein", "Iola"],
+          "captain": "Iola (ATK)",
+          "notes": "Lydia Control Immunity. Catherine buffs prevent Buff Prohibition effects."
+        },
+        {
+          "source": "dragonheir.info S4 alt",
+          "heroes": ["Lydia", "Enna", "Nathaniel", "Nimbus", "Shook"],
+          "captain": "Nimbus (ATK)",
+          "notes": "Shook removes boss shields. Enna clears debuffs."
+        },
+        {
+          "source": "Henry tested Lv18",
+          "heroes": ["Nastjenka", "Sutha", "Divine Ascetic", "Garett", "Acilia"],
+          "captain": "Nastjenka (+24% ATK)",
+          "notes": "Pure DPS race. 4 Dauntless + Acilia Debuff Immunity. ZERO healer/tank."
+        }
+      ],
+      "key_heroes": ["Catherine (Debuff Immunity = boss can't generate shields)", "Acilia (Debuff Immunity)", "Shook (shield removal)", "Garett/Sutha (multi-hit breaks thorn shield)", "Nastjenka (DPS carry)"],
+      "critical_roles": ["Debuff Immunity (prevent shield generation)", "Multi-hit DPS (break thorn shield)", "Shield Dispel on boss", "Save ults for wave 3"]
+    },
+
+    "tempest_domain": {
+      "name": "Tempest Domain",
+      "type": "Gear Dungeon (3 waves, boss wave 3)",
+      "boss": "Tempest Boss (Lightning?)",
+      "key_mechanics": [
+        "Boss summons baby dragons that HEAL the boss",
+        "Need AoE to kill adds fast",
+        "Healing Reduction helps",
+        "Counter: Lightning+Radiance heroes"
+      ],
+      "community_teams": [
+        {
+          "source": "dragonheir.info S4",
+          "heroes": ["Frurbath", "Voresh", "Sigrid", "Meggan", "Rowena"],
+          "captain": "Frurbath (DEF)",
+          "notes": "Voresh + Sigrid kill baby dragons. Meggan buffs before boss Skill 1."
+        },
+        {
+          "source": "dragonheir.info S4 alt",
+          "heroes": ["Thia", "Adolphus", "Zhar'loth", "Voresh", "Sigrid"],
+          "captain": "Zhar'loth (ATK)",
+          "notes": "Thia buffer. Stack DPS on Voresh/Zhar'loth/Sigrid for dragons."
+        },
+        {
+          "source": "Henry tested Lv15",
+          "heroes": ["Ladehlia", "Sintrellia", "Eches", "Torrin", "Eurion"],
+          "captain": "unknown",
+          "notes": "Summon Necrosis + Eches Healing Reduction. Lv16 blocked (boss regen too high)."
+        }
+      ],
+      "key_heroes": ["Voresh (DPS + Buff Prohibition)", "Eches (Healing Reduction)", "Ladehlia (Shadow Demon AoE for adds)", "AoE DPS (kill baby dragons)", "Frurbath (tank/heal)"],
+      "critical_roles": ["AoE DPS (kill baby dragons ASAP — they heal boss)", "Healing Reduction on boss", "ATK Penalty (survival)", "Save ults for wave 3"]
+    },
+
+    "fey_meander": {
+      "name": "Fey Meander (Fey Corridor)",
+      "type": "Tower Auto-Challenge (300 floors)",
+      "key_mechanics": [
+        "3 boss types rotating: Lady of Pristine Decay, Lady of Greeneries, Fungal Spider Mother",
+        "Elemental Affinity (5 heroes same element) critical for high floors",
+        "Floor 180: debuff heroes need 270+ ACC, tanks 90k+ HP",
+        "Lady of Greeneries = #1 cause of wipe (Poison without Immunity = death)"
+      ],
+      "community_teams": [
+        {
+          "source": "dragonheir.info — Pristine Decay",
+          "heroes": ["Frurbath", "Aladiah", "Voresh", "Durango/Lothair"],
+          "captain": "Frurbath (DEF) or Lothair (Enlightenment)",
+          "notes": "Frurbath cleanses + heals. Manual ult timing on floor 160."
+        },
+        {
+          "source": "dragonheir.info — Lady of Greeneries",
+          "heroes": ["Acilia", "Catherine", "Tonalnan/Alfie/Follie"],
+          "captain": "Flora (ATK)",
+          "notes": "Catherine Debuff Immunity = CORE counter. Prevents Poison = boss damage minimal."
+        },
+        {
+          "source": "dragonheir.info — Fungal Spider Mother",
+          "heroes": ["Frurbath", "Galyan", "Aladiah"],
+          "captain": "Frurbath (DEF)",
+          "notes": "AoE Shield + ATK Penalty. Stack Resistance on primary healer."
+        },
+        {
+          "source": "dragonheir.info — Rally comp",
+          "heroes": ["Garius", "Adolphus", "Gumm", "Lorentheel", "Philto"],
+          "captain": "Lorentheel (Crit Damage)",
+          "notes": "Rally composition for Fey Meander."
+        }
+      ],
+      "key_heroes": ["Catherine (Debuff Immunity AoE — ESSENTIAL)", "Frurbath (universal tank/cleanse/heal)", "Acilia (AoE heal + dispel)", "Voresh (Buff Prohibition)", "Flora (DPS + ATK aura)"],
+      "critical_roles": ["Debuff Immunity (Catherine — #1 mechanic)", "5-hero Elemental Affinity (stat bonus)", "270+ ACC on debuffers for floor 180", "Swap DPS for support on survival floors"]
+    },
+
+    "fallen_shadow_spire": {
+      "name": "Fallen Shadow Spire",
+      "type": "Tower Defense (wave-based, score attack)",
+      "key_mechanics": [
+        "Defend stronghold from monster waves",
+        "Kill enemies fast for consecutive-kill bonus",
+        "Score-based rewards",
+        "AoE dominant — clear waves efficiently"
+      ],
+      "community_teams": [],
+      "key_heroes": ["AoE DPS heroes dominant", "Fast clear speed > survivability"],
+      "critical_roles": ["AoE damage (wave clear)", "Consistent damage output", "Speed of execution"],
+      "note": "Limited community guide data available. Tower defense mode favors AoE-heavy compositions."
+    },
+
+    "grand_gladiator_arena": {
+      "name": "Grand Gladiator Arena",
+      "type": "PvP Async (AI vs AI)",
+      "key_mechanics": [
+        "Heroes synced to highest hero level = fairness",
+        "Defeat higher-ranked player = swap ranks",
+        "10 invitations/day",
+        "Top 10 defensive lineups visible"
+      ],
+      "community_teams": [
+        {
+          "source": "community meta",
+          "heroes": ["Nastjenka", "Vinyara", "Eurion", "Voresh", "Hochadir"],
+          "notes": "5x heroes with 5.0 rating. Raw stats > mechanics in early game."
+        },
+        {
+          "source": "community Dauntless burst",
+          "heroes": ["Nastjenka", "Sutha", "Divine Ascetic", "Garett", "Acilia"],
+          "notes": "Dauntless burst comp. Acilia anti-debuff. Mid/late game dominant."
+        }
+      ],
+      "key_heroes": ["Nastjenka (#1 overall)", "Vinyara (drains ult + Frozen + shield)", "Eurion (Ally Protection)", "Voresh (strip + Buff Prohibition)", "Hvitar (15% HP execute)", "Ghul'ende (ACC aura in Arena)"],
+      "critical_roles": ["High individual hero ratings (5.0 stat advantage)", "Burst damage (kill before enemy supports act)", "CC/Control (Frost chain, Stun)", "Anti-buff (strip enemy buffs)"]
+    },
+
+    "realmwide_arena": {
+      "name": "Realmwide Arena (Team Arena)",
+      "type": "PvP Best-of-3",
+      "key_mechanics": [
+        "Build 3 teams",
+        "Best-of-3 system — counter-picking matters",
+        "Each lineup type has counters",
+        "Burst + Control dominate"
+      ],
+      "community_teams": [
+        {
+          "source": "community meta",
+          "heroes": ["Nastjenka", "Hvitar", "Tamar", "Lothair", "Durango"],
+          "notes": "Burst + control + poison. Hvitar 15% execute + Frost chain. Tamar 75% Buff Prohibition/Stun."
+        }
+      ],
+      "key_heroes": ["Hvitar (execute + Frost chain with Lossenia)", "Tamar (Buff Prohibition + Stun)", "Lothair (Poison DPS)", "Durango (consistent Poison)", "Nastjenka (Dauntless burst)"],
+      "critical_roles": ["3 distinct team archetypes", "Counter-pick knowledge", "Elemental Affinity per team", "Burst openers or resistance stacking"],
+      "note": "Limited specific guide data. Meta is Frost chain, Dauntless burst, or Poison chain."
+    }
+  }
+}

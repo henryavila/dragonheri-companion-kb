@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Dragonheir — Ingredientes de Culinária (Visual)</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #1a1a2e; color: #e0e0e0; font-family: 'Segoe UI', sans-serif; padding: 20px; }
+  h1 { text-align: center; color: #f0c040; margin-bottom: 8px; font-size: 1.8em; }
+  .subtitle { text-align: center; color: #888; margin-bottom: 30px; font-size: 0.9em; }
+  h2 { color: #f0c040; margin: 30px 0 15px; padding-bottom: 6px; border-bottom: 1px solid #333; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+  .card {
+    background: #16213e; border: 1px solid #333; border-radius: 10px;
+    padding: 12px; text-align: center; transition: transform 0.15s, border-color 0.15s;
+  }
+  .card:hover { transform: translateY(-3px); border-color: #f0c040; }
+  .card img { width: 72px; height: 72px; image-rendering: pixelated; margin-bottom: 8px; }
+  .card .name { font-size: 0.82em; font-weight: 600; color: #fff; line-height: 1.3; }
+  .card .price { font-size: 0.75em; color: #aaa; margin-top: 4px; }
+  .card .location { font-size: 0.7em; color: #6a9; margin-top: 2px; }
+
+  /* Tier colors */
+  .tier-legendary .name { color: #ff9f1c; }
+  .tier-premium .name { color: #c77dff; }
+  .tier-basic .name { color: #72efdd; }
+  .tier-special .name { color: #ff6b6b; }
+
+  .legend { display: flex; gap: 20px; justify-content: center; margin-bottom: 20px; flex-wrap: wrap; }
+  .legend span { font-size: 0.8em; padding: 4px 10px; border-radius: 6px; background: #16213e; border: 1px solid #333; }
+  .legend .leg { color: #ff9f1c; }
+  .legend .pre { color: #c77dff; }
+  .legend .bas { color: #72efdd; }
+  .legend .spe { color: #ff6b6b; }
+</style>
+</head>
+<body>
+
+<h1>Ingredientes de Culinaria</h1>
+<p class="subtitle">Dragonheir: Silent Gods Reborn — Guia Visual</p>
+
+<div class="legend">
+  <span class="leg">Elemental (Legendary)</span>
+  <span class="pre">Premium</span>
+  <span class="bas">Basico</span>
+  <span class="spe">Especial</span>
+</div>
+
+<h2>Ingredientes Elementais (Legendary) — 2000-2200 gold</h2>
+<div class="grid">
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1010.png" alt="Flaming Chili">
+    <div class="name">Flaming Chili</div>
+    <div class="price">2000</div>
+    <div class="location">Arbortea Roost</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1018.png" alt="Arctic Cod">
+    <div class="name">Arctic Cod</div>
+    <div class="price">2200</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1014.png" alt="High Ridge Ice">
+    <div class="name">High Ridge Ice</div>
+    <div class="price">2200</div>
+    <div class="location">Field of Burrows</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1019.png" alt="Charged Eel">
+    <div class="name">Charged Eel</div>
+    <div class="price">2200</div>
+    <div class="location">Starfall Plain</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1009.png" alt="Crackling Fruit">
+    <div class="name">Crackling Fruit</div>
+    <div class="price">2200</div>
+    <div class="location">Arbortea Roost</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1017.png" alt="Holy Light Fruit">
+    <div class="name">Holy Light Fruit</div>
+    <div class="price">2200</div>
+    <div class="location">Aquitaine</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1013.png" alt="Glowing Fish Eggs">
+    <div class="name">Glowing Fish Eggs</div>
+    <div class="price">2200</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1012.png" alt="Zombie Crab Shell">
+    <div class="name">Zombie Crab Shell</div>
+    <div class="price">2200</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1015.png" alt="Poisonous Fly Agaric">
+    <div class="name">Poisonous Fly Agaric</div>
+    <div class="price">2200</div>
+    <div class="location">Near Grave of Course</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1020.png" alt="Specter Innards">
+    <div class="name">Specter Innards</div>
+    <div class="price">2100</div>
+    <div class="location">Near Grave of Course</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1016.png" alt="Burnt Beast Meat">
+    <div class="name">Burnt Beast Meat</div>
+    <div class="price">2200</div>
+    <div class="location">Aquitaine</div>
+  </div>
+  <div class="card tier-legendary">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1008.png" alt="Meat of Poisonous Swamp Boar">
+    <div class="name">Meat of Poisonous Swamp Boar</div>
+    <div class="price">2000</div>
+    <div class="location">Dragonsaerie Market</div>
+  </div>
+</div>
+
+<h2>Ingredientes Premium — 1200-1500 gold</h2>
+<div class="grid">
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1002.png" alt="Boar Meat">
+    <div class="name">Boar Meat</div>
+    <div class="price">1500</div>
+    <div class="location">Ruined Trade Road</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1028.png" alt="Beast Meat">
+    <div class="name">Beast Meat</div>
+    <div class="price">1300</div>
+    <div class="location">Ruined Trade Road</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1003.png" alt="Arbortean Tomato">
+    <div class="name">Arbortean Tomato</div>
+    <div class="price">1300</div>
+    <div class="location">Road to Grand Arena</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1025.png" alt="Aquitaine Apple">
+    <div class="name">Aquitaine Apple</div>
+    <div class="price">1300</div>
+    <div class="location">Starfall Plain</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1006.png" alt="Bigmouthed Salmon">
+    <div class="name">Bigmouthed Salmon</div>
+    <div class="price">1300</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1007.png" alt="Piranha">
+    <div class="name">Piranha</div>
+    <div class="price">1299</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1022.png" alt="Elven Wheat">
+    <div class="name">Elven Wheat</div>
+    <div class="price">1200</div>
+    <div class="location">Tavira Market</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1023.png" alt="Goat Milk">
+    <div class="name">Goat Milk</div>
+    <div class="price">1200</div>
+    <div class="location">Starfall Plain</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1042.png" alt="Bay Reach Grapes">
+    <div class="name">Bay Reach Grapes</div>
+    <div class="price">1300</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1041.png" alt="Lumina Tarragon">
+    <div class="name">Lumina Tarragon</div>
+    <div class="price">1300</div>
+    <div class="location">Dragonsaerie Market</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1031.png" alt="Golden Regen Grass">
+    <div class="name">Golden Regen Grass</div>
+    <div class="price">1500</div>
+    <div class="location">Aquitaine Market</div>
+  </div>
+  <div class="card tier-premium">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1034.png" alt="Yak Milk">
+    <div class="name">Yak Milk</div>
+    <div class="price">1400</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+</div>
+
+<h2>Ingredientes Basicos — 300-800 gold</h2>
+<div class="grid">
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1024.png" alt="Milk">
+    <div class="name">Milk</div>
+    <div class="price">800</div>
+    <div class="location">Starfall Plain</div>
+  </div>
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1005.png" alt="Red Carp">
+    <div class="name">Red Carp</div>
+    <div class="price">800</div>
+    <div class="location">Aquitaine</div>
+  </div>
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1004.png" alt="White Clam">
+    <div class="name">White Clam</div>
+    <div class="price">800</div>
+    <div class="location">Ruined Trade Road</div>
+  </div>
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1026.png" alt="Brussel Sprout">
+    <div class="name">Brussel Sprout</div>
+    <div class="price">700</div>
+    <div class="location">Starfall Plain</div>
+  </div>
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1030.png" alt="Red-leaf Regen Grass">
+    <div class="name">Red-leaf Regen Grass</div>
+    <div class="price">700</div>
+    <div class="location">Aquitaine Market</div>
+  </div>
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1001.png" alt="Minced Meat">
+    <div class="name">Minced Meat</div>
+    <div class="price">700</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1043.png" alt="Whisker Shrimp">
+    <div class="name">Whisker Shrimp</div>
+    <div class="price">700</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1027.png" alt="Wild Raspberry">
+    <div class="name">Wild Raspberry</div>
+    <div class="price">500</div>
+    <div class="location">Athalean Prayer Center</div>
+  </div>
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1021.png" alt="Wheat">
+    <div class="name">Wheat</div>
+    <div class="price">400</div>
+    <div class="location">Athalean Prayer Center</div>
+  </div>
+  <div class="card tier-basic">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1029.png" alt="Regen Grass">
+    <div class="name">Regen Grass</div>
+    <div class="price">300</div>
+    <div class="location">Field of Burrows</div>
+  </div>
+</div>
+
+<h2>Ingredientes Especiais</h2>
+<div class="grid">
+  <div class="card tier-special">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1040.png" alt="Black Speckled Moth Wings">
+    <div class="name">Black Speckled Moth Wings</div>
+    <div class="price">2200</div>
+    <div class="location">Famos Market</div>
+  </div>
+  <div class="card tier-special">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1011.png" alt="Fleetfoot Berries">
+    <div class="name">Fleetfoot Berries</div>
+    <div class="price">2200</div>
+    <div class="location">Near Grave of Course</div>
+  </div>
+  <div class="card tier-special">
+    <img src="https://i.dmzgame.com/dragonheir/img/mat_food/1048.png" alt="Crimson Iris">
+    <div class="name">Crimson Iris</div>
+    <div class="price">2200</div>
+    <div class="location">Crimson Iris Port</div>
+  </div>
+</div>
+
+</body>
+</html>
