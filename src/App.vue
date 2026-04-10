@@ -3,7 +3,8 @@ import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import Sidebar from './components/layout/Sidebar.vue'
 import BottomNav from './components/layout/BottomNav.vue'
-import { loadAllData } from './data/loader'
+import { loadCriticalData, loadDeferredData } from './data/loader'
+import { prefetchRoutes } from './router'
 
 const ready = ref(false)
 const error = ref(null)
@@ -15,8 +16,12 @@ router.afterEach(() => { navigating.value = false })
 
 onMounted(async () => {
   try {
-    await loadAllData()
+    await loadCriticalData()
     ready.value = true
+
+    // Background: prefetch routes + load deferred data (non-blocking)
+    prefetchRoutes()
+    loadDeferredData().catch(e => console.warn('Deferred data load failed:', e.message))
   } catch (e) {
     error.value = e.message
   }
