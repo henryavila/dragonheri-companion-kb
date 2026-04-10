@@ -600,6 +600,47 @@ window.DATA_TEAMS = [
       entries: "Priorizar: Derivative damage, single hit damage boost (Flora explosion), basic attack bonus (Wild dice = basic). Evitar: healing/shield amplification."
     },
     notes: "Score anterior: 19M com Felosia (S1). S6: Acilia substitui Felosia como sustain solo. Alternativa: Tonalnan (4.5 Vortex) no lugar de Caspar para combo Felicity (+5 hits = +20% ATK Up + +5% Crit DMG por dice >=5). Ideal para semanas com Fire/Derivative bonus. Adolphus (4.5 Vortex, Fire Epic) como opcao de support extra se Acilia insuficiente."
+  },
+
+  // ============================================================
+  // FEY MEANDER (Abr/2026)
+  // ============================================================
+  {
+    id: "fey-meander-aura-s6",
+    activity: "Fey Meander",
+    activities: ["Fey Meander"],
+    name: "Aura + Acilia",
+    encounter: {
+      mode: "tower",
+      boss: "Torre auto-challenge (300 andares)"
+    },
+    affinity: "5 Incandescence (5 Radiance) | 4 Aura",
+    status: "tested",
+    dps_result: "Destruindo (clear facil)",
+    result: {
+      type: "clear",
+      clear: true
+    },
+    score: null,
+    members: [
+      { id: 22800, role: "DPS burst / Aura Energy scaling / Crit DMG aura captain" },
+      { id: 22790, role: "Amplifier / Aura Energy support" },
+      { id: 21500, role: "Amplifier / Healer / Aura synergy" },
+      { id: 23820, role: "Amplifier / Bond deploy (+20% Max HP, +20% DMG Bonus) / Shield AoE" },
+      { id: 20420, role: "Support / Sustain + anti-debuff / 5.0 universal" }
+    ],
+    tests: [
+      {
+        desc: "Fey Meander (progressao ativa)",
+        result: "Clear facil — destruindo",
+        notes: "Time Aura S6 completo (sem Shahla). 4 Legendary Aura + Acilia sustain. 5 Radiance = 5 Incandescence (+20% Elemental DMG, +2% DR). Aemonleyda como carry principal. Anneliesis Bond deploya 5s depois com burst. Confirmado pelo jogador 10/Abr/2026."
+      }
+    ],
+    mechanics: {
+      key_mechanic: "4 Aura school = sinergia de Aura Energy entre os 4 herois. Anneliesis Bond com aliado no deploy (+20% Max HP, +20% DMG Bonus, +20 Ult Energy) amplifica o time inteiro. Acilia sustain solo suficiente para bosses.",
+      positioning: "Acilia na frente. Aemonleyda carry principal. Anneliesis deploya 5s depois."
+    },
+    notes: "Primeiro time Aura funcional de Henry (S6). Shahla (5a Aura, buffer CritDMG) fica de fora — 4 Aura + Acilia sustain > 5 Aura sem sustain. Testado no Fey Meander com sucesso imediato. Potencial para outras atividades (Temporal Vortex, Heretical Ruins, etc)."
   }
 ];
 
