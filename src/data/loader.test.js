@@ -40,4 +40,16 @@ describe('data loader', () => {
     }
     expect(DEFERRED_KEYS).toHaveLength(11)
   })
+
+  it('critical + deferred should cover all 19 data files with no duplicates', async () => {
+    const { CRITICAL_KEYS, DEFERRED_KEYS } = await import('./loader.js')
+    const allKeys = [...CRITICAL_KEYS, ...DEFERRED_KEYS]
+    expect(allKeys).toHaveLength(19)
+    expect(new Set(allKeys).size).toBe(allKeys.length)
+  })
+
+  it('loadAllData should be exported for backwards compatibility', async () => {
+    const { loadAllData } = await import('./loader.js')
+    expect(typeof loadAllData).toBe('function')
+  })
 })
