@@ -275,6 +275,17 @@ const detailBuildArtifact = computed(() => {
   return detailHero.value?.build?.artifact || null
 })
 
+// Top artifact: BiS from builds, or first game-recommended from tj_sq
+const detailTopArtifact = computed(() => {
+  if (!selectedHero.value) return null
+  const arts = detailArtifacts.value
+  // Prefer the BiS-marked artifact
+  const bis = arts.find(a => a.isBis)
+  if (bis) return bis
+  // Fallback to first game-recommended
+  return arts[0] || null
+})
+
 const rarityArtifactColor = {
   Mythic: 'text-purple-400',
   Legendary: 'text-gold',
@@ -500,6 +511,33 @@ const rarityArtifactColor = {
                 <div class="text-sm text-text-dim">{{ detailHero.hero?.rarity }}</div>
                 <div v-if="detailMeta.length" class="text-xs text-text-muted mt-1.5">
                   {{ detailMeta.join(' \u00b7 ') }}
+                </div>
+              </div>
+            </div>
+
+            <!-- Top Artifact (BiS or #1 recommended) -->
+            <div v-if="detailTopArtifact" class="flex items-center gap-3 bg-bg-card rounded-xl p-3 border border-gold/20">
+              <img
+                v-if="detailTopArtifact.imgUrl"
+                :src="detailTopArtifact.imgUrl"
+                :alt="detailTopArtifact.name"
+                class="w-11 h-11 rounded-lg border border-border object-cover shrink-0"
+                loading="lazy"
+                @error="$event.target.style.display = 'none'"
+              />
+              <div v-else class="w-11 h-11 rounded-lg border border-border bg-bg-elevated shrink-0 flex items-center justify-center text-text-muted text-[0.5rem]">?</div>
+              <div class="min-w-0 flex-1">
+                <div class="flex items-center gap-1.5 flex-wrap">
+                  <span class="text-[0.6rem] font-semibold text-text-muted uppercase tracking-wide">Artefato</span>
+                  <span v-if="detailTopArtifact.isBis" class="text-[0.5rem] font-bold text-gold bg-gold/10 px-1.5 py-0.5 rounded">BiS</span>
+                  <span v-else class="text-[0.5rem] font-bold text-text-muted bg-bg-elevated px-1.5 py-0.5 rounded">#1</span>
+                </div>
+                <div class="text-sm font-semibold mt-0.5" :class="rarityArtifactColor[detailTopArtifact.rarity] || 'text-text-primary'">
+                  {{ detailTopArtifact.name }}
+                </div>
+                <div v-if="detailTopArtifact.skillName" class="text-[0.65rem] text-text-dim mt-0.5 line-clamp-2">
+                  <span class="text-gold-dim font-semibold">{{ detailTopArtifact.skillName }}:</span>
+                  {{ detailTopArtifact.skill }}
                 </div>
               </div>
             </div>
