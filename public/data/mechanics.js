@@ -723,25 +723,154 @@ window.DATA_MECHANICS = {
     // ============================================================
 
     temporal_vortex: {
-      name: "Temporal Vortex",
+      name: "Temporal Vortex — Dahwan's Realm",
       type: "Ranked PvE Boss (daily)",
-      boss: "Boss rotativo com regras semanais",
-      cycle: "20s (skill a cada 5s)",
+      boss: "Great River God Dahwan (3 formas)",
+      cycle: "Skill a cada 5s, rotacao de fase a cada 18s",
       duracao: "20 minutos maximo",
       reward: "Master Pages, Echoes of Clepsydra, Affinity Solvents (baseado em ranking)",
-      mecanica: "Luta de ENDURANCE. Dano total em 20 min = seu score. Ranking no servidor = rewards diarios.",
+      mecanica: "Luta de ENDURANCE. Dano total em 20 min = score. Ranking no servidor = rewards diarios.",
+
+      // ============================================================
+      // MIST SYSTEM — mecanica central do Dahwan's Realm
+      // ============================================================
+      mist: {
+        descricao: "Dahwan comeca com 100 Mist. Mist e o recurso que determina em qual fase o boss opera. Gerenciar Mist e tao importante quanto DPS.",
+        inicio: 100,
+        gera_mist: [
+          "Dano direto no boss gera Mist",
+          "Buffs nos seus herois geram MAIS Mist"
+        ],
+        remove_mist: [
+          "Shields e healing nos seus herois REMOVEM Mist",
+          "Debuffs no boss removem MAIS Mist"
+        ],
+        fases: {
+          scorching: {
+            threshold: "Mist >= 140",
+            duracao: "15 segundos",
+            efeito: "Boss toma dano AUMENTADO de Enlightenment/Derivative. Janela de burst para Poison, Burn e Thunderbolt.",
+            perigo: "Abyss of Chaos: 5 hits globais de Poison + reseta Mist ao maximo → volta pra Merciful",
+            times_ideais: "Poison (Lothair+Twitch+Durango), Burn, Thunderbolt (Perkunte+Orfenna)"
+          },
+          merciful: {
+            threshold: "Mist entre 61-139",
+            duracao: "Ate proxima rotacao (18s)",
+            efeito: "Neutro. Sem bonus nem penalidade extra.",
+            times_ideais: "Qualquer — fase de transicao"
+          },
+          wrathful: {
+            threshold: "Mist <= 60",
+            duracao: "15 segundos",
+            efeito: "Boss mais agressivo MAS toma dano direto AUMENTADO. Janela de burst para times Crit-focused.",
+            perigo: "Boss ataca mais forte — precisa de survival robusto",
+            times_ideais: "Dauntless (Nastjenka+Tharivol+Ivellios), Rally, Crit comps"
+          }
+        }
+      },
+
+      // ============================================================
+      // ENTRIES — opcoes selecionaveis ANTES da luta
+      // ============================================================
+      entries: {
+        descricao: "Antes da luta, voce escolhe como Mist e acumulado/dissipado. 1 entrada fixa + 2 entradas opcionais. Mudam a cada rotacao.",
+        exemplos_conhecidos: [
+          "Cada debuff no boss = +4% dano de todos os aliados",
+          "Cada debuff no boss reduz DEF dele em 8%",
+          "Max stacks de Poison sobe para 60, Burn para 15",
+          "Herois com ATK base <1300 ganham +60% ATK",
+          "Sem Legendary no time: +30% Ult Restoration, boss -40% DEF",
+          "Single hits >10.000 = +30% dano; >500.000 = +60% dano",
+          "Basic attack de todos aliados +35% dano"
+        ],
+        recomendacao_por_time: {
+          dauntless_crit: {
+            objetivo_mist: "BAIXAR Mist para <= 60 (Wrathful Phase)",
+            priorizar: [
+              "Entradas que amplificam dano de basic attack (Nastjenka+DA escalam com basic)",
+              "Entradas que amplificam single hit / Crit damage",
+              "Entradas que aumentam debuff no boss (remove mais Mist = Wrathful mais rapido)"
+            ],
+            evitar: [
+              "Entradas que amplificam buffs nos aliados (gera Mist = afasta de Wrathful)"
+            ]
+          },
+          poison_enlightenment: {
+            objetivo_mist: "SUBIR Mist para >= 140 (Scorching Phase)",
+            priorizar: [
+              "Entradas que aumentam max stacks de Poison/Burn",
+              "Entradas de Derivative/Enlightenment damage bonus",
+              "Entradas de debuff scaling (cada debuff = +dano)"
+            ],
+            evitar: [
+              "Entradas que amplificam healing/shield (remove Mist = afasta de Scorching)"
+            ]
+          },
+          wild_fire: {
+            objetivo_mist: "SUBIR Mist para >= 140 (Scorching Phase)",
+            priorizar: [
+              "Entradas de Derivative damage bonus",
+              "Entradas de single hit damage boost (Flora Vortex explosion = hit massivo)",
+              "Entradas de basic attack bonus (Wild dice = basic attacks)"
+            ],
+            evitar: [
+              "Entradas de healing/shield amplification"
+            ]
+          }
+        }
+      },
+
+      // ============================================================
+      // BOSS ATTACKS
+      // ============================================================
+      boss_skills: {
+        shorebreaker_strike: {
+          tipo: "AoE",
+          efeito: "Dano em area + aplica Defense Penalty",
+          counter: "Posicionar herois para reduzir quantidade de atingidos. Tank/support na frente."
+        },
+        abyss_of_chaos: {
+          tipo: "Global (Scorching Phase only)",
+          efeito: "5 hits de Poison em todos os herois + reseta Mist ao maximo",
+          counter: "Healing pre-emptivo (Oggok Ult antes) + Poison resist"
+        },
+        prismatic_cloak: {
+          tipo: "Passiva",
+          efeito: "Reflete Defense Penalty nos seus herois (ate 50% chance)",
+          counter: "~10% variancia no dano por tentativa. Repetir lutas para score otimo."
+        }
+      },
+
       regras_rotativas: [
-        "Fire/Poison: Boss tem Derivative/Poison Damage Penalties",
-        "Lightning: Basic attack tem bonus de dano OU boss tem Crit/Lightning Penalties",
-        "Ice: Battle skill tem bonus de dano OU boss tem Crit/Ice Penalties"
+        "Fire/Poison: Boss tem Derivative/Poison Damage Penalties → favorece Poison comp",
+        "Lightning: Basic attack bonus OU boss tem Crit/Lightning Penalties → favorece Dauntless",
+        "Ice: Battle skill bonus OU boss tem Crit/Ice Penalties → favorece Ice Blast (Henry NAO tem core)",
+        "Crit bonus: favorece Dauntless e Rally"
       ],
+
+      stat_thresholds: {
+        hp_minimo: "35.000+ por heroi",
+        accuracy_debuffers: "280+ (tank/support que aplicam debuff)",
+        accuracy_dps: "240+ (DPS com artefatos de Defense Penalty)",
+        nota: "Artefatos como Witch's Remains e Crown of the Unclean aplicam Defense Penalty — precisam de Accuracy alta pra acertar"
+      },
+
       o_que_mata: [
         "Time morre cedo = DPS parado = score baixo",
         "Elemento/school errado pras regras rotativas = dano drasticamente reduzido",
-        "Boss escala ao longo dos 20 min = precisa sobreviver"
+        "Boss escala ao longo dos 20 min = precisa sobreviver",
+        "Mist management errado = nunca entrar na fase que beneficia seu time",
+        "Abyss of Chaos mata herois frageis se Oggok/healer nao ativar antes"
       ],
-      como_vencer: "Sobrevivencia PRIMEIRO — 2+ supports (Torrin+Eurion). Voce faz tanto dano quanto consegue sobreviver. Single-target DPS > AoE neste modo. Ajuste time pras regras rotativas semanais.",
-      counters: ["Modulo Torrin+Eurion = sobrevivencia garantida", "Single-target DPS (Nastjenka, Garett) > AoE", "Matchear elemento das regras rotativas", "Defense Penalty gear nos DPS pra boost massivo"]
+
+      como_vencer: "1) Escolher entries que favorecem seu time. 2) Sobrevivencia PRIMEIRO. 3) Gerenciar Mist para a fase correta (Wrathful para Crit, Scorching para Poison). 4) Ajustar time pras regras rotativas semanais. 5) Repetir varias vezes — variancia de 10% por Prismatic Cloak.",
+
+      posicionamento: {
+        regra: "Reduzir herois atingidos por Shorebreaker Strike",
+        tank_support: "Zeffi/Acilia/Frurbath NA FRENTE, absorbendo AoE",
+        carry: "Nastjenka FORA da linha direta do boss",
+        dps_ranged: "Tharivol e Ivellios no FUNDO, protegidos"
+      }
     },
 
     arena: {

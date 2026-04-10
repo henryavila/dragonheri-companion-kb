@@ -538,28 +538,39 @@ window.DATA_ACTIVITIES = [
   // ============================================================
   {
     id: "temporal_vortex",
-    name: "Temporal Vortex",
+    name: "Temporal Vortex — Dahwan's Realm",
     type: "main",
-    boss: { name: "Boss Rotativo", element: "Fire" },
-    drops: "Master Pages, Echoes, Affinity Solvents",
-    cycle: "20min endurance",
+    boss: { name: "Great River God Dahwan", element: "Multi (3 fases)" },
+    drops: "Master Pages, Echoes of Clepsydra, Affinity Solvents",
+    cycle: "20min endurance, fase rota a cada 18s via Mist",
     mechanics: {
       skills: {
         mode: "Luta de ENDURANCE. Dano total em 20 min = score. Ranking no servidor = rewards diarios.",
-        rotativas: "Regras rotativas semanais: Fire/Poison penalties, Lightning basic bonus, Ice battle bonus."
+        mist: "Boss comeca com 100 Mist. Dano+buffs = +Mist. Shields+healing+debuffs = -Mist. Fase muda a cada 18s baseado no Mist.",
+        fases: ">=140 Mist = Scorching (Enlightenment burst). 61-139 = Merciful (neutro). <=60 = Wrathful (Crit burst).",
+        rotativas: "Regras rotativas semanais afetam qual elemento/school tem bonus ou penalty."
       },
       what_kills: [
         "Time morre cedo = DPS parado = score baixo",
         "Elemento/school errado pras regras rotativas",
-        "Boss escala ao longo dos 20 min"
+        "Boss escala ao longo dos 20 min",
+        "Mist management errado = nunca atingir a fase favoravel"
       ],
-      how_to_win: "Sobrevivencia PRIMEIRO — 2+ supports (Torrin+Eurion). Single-target DPS > AoE. Ajuste time pras regras rotativas.",
-      counters: ["Modulo Torrin+Eurion = sobrevivencia garantida", "Single-target DPS (Nastjenka, Garett) > AoE", "Matchear elemento das regras rotativas"],
-      timing: "Ajustar composicao semanalmente conforme regras rotativas."
+      how_to_win: "1) Entries pre-luta que favorecem seu time. 2) Survival. 3) Mist management (Wrathful p/ Crit, Scorching p/ Poison). 4) Ajustar time semanal.",
+      counters: [
+        "Dauntless: Nastjenka+DA+Tharivol+Ivellios+Zeffi (5 Vertigo, Wrathful Phase)",
+        "Poison: Lothair+Durango+Twitch+Oggok+Frurbath (5 Devitalization, Scorching Phase)",
+        "Wild Fire: Flora+Errich+Felicity+Caspar+Acilia (5 Incandescence, Scorching Phase)"
+      ],
+      timing: "Ajustar composicao semanalmente. Escolher entries que favorecem o Mist target do time."
     },
     teams: {
       community: [],
-      custom: [],
+      custom: [
+        "temporal-vortex-dauntless-aggro-s6",
+        "temporal-vortex-poison-endurance-s6",
+        "temporal-vortex-wild-fire-s6"
+      ],
       tested: []
     }
   },

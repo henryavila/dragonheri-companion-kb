@@ -497,6 +497,109 @@ window.DATA_TEAMS = [
       timing: "Thia Ult ANTES do Vampiric Shield (Stun). Vinyara dispela buffs residuais."
     },
     notes: "5 Permafrost com 2 DPS (Auster+Lossenia) + Thia como support nicho. Thia (Epic B-tier) supera expectativa por sinergia direta com mecanicas do boss — confirma principio 'skill mechanic > tier'. Upgrade massivo vs time Lv17 (1 DPS → 2 DPS + survival via Invisibility)."
+  },
+
+  // ============================================================
+  // TEMPORAL VORTEX — Dahwan's Realm (Abr/2026)
+  // ============================================================
+  {
+    id: "temporal-vortex-dauntless-aggro-s6",
+    activity: "Temporal Vortex",
+    activities: ["Temporal Vortex"],
+    name: "Dauntless Aggro S6",
+    encounter: {
+      mode: "endurance",
+      boss: "Great River God Dahwan",
+      duracao: "20 min",
+      mist_target: "Wrathful (Mist <= 60)"
+    },
+    affinity: "5 Vertigo (5 Lightning) | 4 Dauntless",
+    status: "recommended",
+    dps_result: null,
+    result: null,
+    score: null,
+    members: [
+      { id: 20740, role: "Captain / DPS carry (+24% ATK all)", artifact: "Thunder Deity's Spear" },
+      { id: 20890, role: "DPS single-target / ATK Speed ramp / Ignora Immortality" },
+      { id: 20160, role: "DPS / Ult ignora 100% DEF" },
+      { id: 23020, role: "Dauntless enabler / Obsession stacks / basic attack = feather Nastjenka", artifact: "Kui Crown" },
+      { id: 22040, role: "Support / Invincibility <30% HP / DEF Up II / totem strip buffs" }
+    ],
+    tests: [],
+    mechanics: {
+      boss: "Great River God Dahwan (3 formas via Mist)",
+      mist_strategy: "Zeffi healing/shield REMOVE Mist → empurra para Wrathful Phase (Mist <= 60). Na Wrathful, boss toma dano direto AUMENTADO por 15s = janela de Crit burst do Dauntless.",
+      key_mechanic: "4 Dauntless = 50% Thundercloud (DPS massivo). 5 Lightning = 5 Vertigo (+20% Elemental DMG, +2% DR). Tharivol Battle 300% IGNORA IMMORTALITY = DPS consistente mesmo em fases defensivas do boss.",
+      positioning: "Zeffi na frente (tankar Shorebreaker Strike). Nastjenka fora da linha direta do boss. Tharivol e Ivellios no fundo.",
+      entries: "Priorizar: basic attack bonus, single hit/Crit damage, debuff scaling no boss. Evitar: buff amplification nos aliados (gera Mist demais)."
+    },
+    notes: "Evolucao do time que fez 31.3M em S1. Upgrades S6: Ivellios (5.0 Vortex) substitui Sutha (4.0). Zeffi substitui Acilia = completa 5 Vertigo (+20% Elemental DMG). Se survival insuficiente com Zeffi, trocar por Acilia (perde 5 Vertigo, ganha sustain testado). Baseline anterior: 31.3M com Acilia."
+  },
+  {
+    id: "temporal-vortex-poison-endurance-s6",
+    activity: "Temporal Vortex",
+    activities: ["Temporal Vortex"],
+    name: "Poison Endurance S6",
+    encounter: {
+      mode: "endurance",
+      boss: "Great River God Dahwan",
+      duracao: "20 min",
+      mist_target: "Scorching (Mist >= 140)"
+    },
+    affinity: "5 Devitalization (5 Poison) | 3 Poison school",
+    status: "recommended",
+    dps_result: null,
+    result: null,
+    score: null,
+    members: [
+      { id: 20200, role: "Captain / DPS carry (+48 Enlightenment all)" },
+      { id: 20670, role: "DPS / Multi-hit + AoE Poison + marca alvo" },
+      { id: 22010, role: "DPS carry #1 (62k/s confirmado) / Poison feedback loop" },
+      { id: 21700, role: "Tank-healer / Immortality AoE 5s + heal + dispel" },
+      { id: 21670, role: "Tank / cleanse + AoE heal + ATK Penalty" }
+    ],
+    tests: [],
+    mechanics: {
+      boss: "Great River God Dahwan (3 formas via Mist)",
+      mist_strategy: "Poison DoT constante GERA Mist rapidamente → empurra para Scorching Phase (Mist >= 140). Na Scorching, boss toma Enlightenment/Derivative damage AUMENTADO por 15s = janela de burst exponencial para Poison.",
+      key_mechanic: "3 Poison school = 60% Poison Pool (DoT amplificado). Lothair captain +48 Enlightenment = boost massivo para Derivative damage. Twitch+Lothair = feedback loop multiplicativo (Twitch escala exponencialmente com Poison stacks). Oggok Immortality AoE segura time durante Abyss of Chaos (5 Poison hits globais na Scorching).",
+      positioning: "Frurbath na frente. Twitch atras do Oggok (protecao extra). DPS no fundo.",
+      entries: "Priorizar: max stacks Poison/Burn, Derivative/Enlightenment bonus, debuff scaling (+dano por debuff). Evitar: healing/shield amplification (remove Mist, afasta de Scorching)."
+    },
+    notes: "Composicao EXATA do guia S3 de dragonheir.info (Poison Damage Comp). Mesmo core que fez 86M no Continental Boss Tamar. Alternativa: Corrin (5.0 Vortex, Epic) no lugar de Twitch se precisar de Skill Haste damage (Corrin precisa Skill Haste >150). Vicana (4.5 Vortex) como 6a opcao. Ideal para semanas com Poison/Derivative bonus."
+  },
+  {
+    id: "temporal-vortex-wild-fire-s6",
+    activity: "Temporal Vortex",
+    activities: ["Temporal Vortex"],
+    name: "Wild Fire S6",
+    encounter: {
+      mode: "endurance",
+      boss: "Great River God Dahwan",
+      duracao: "20 min",
+      mist_target: "Scorching (Mist >= 140)"
+    },
+    affinity: "5 Incandescence (4 Fire + 1 Radiance) | Wild school",
+    status: "recommended",
+    dps_result: null,
+    result: null,
+    score: null,
+    members: [
+      { id: 20410, role: "Captain / DPS carry (+24% ATK all) / Vortex 16 stacks Wild = 900% explosion" },
+      { id: 20400, role: "DPS / AoE Fire + Meteorite Rain + +2 dice max para Wild" },
+      { id: 20810, role: "DPS / Recast em dice >=4 (ate 3x) + multi-beam Ult" },
+      { id: 21970, role: "DPS / Absurd Charade ignora DEF crescente / throwing knives" },
+      { id: 20420, role: "Support / Sustain + anti-debuff / 5.0 Vortex" }
+    ],
+    tests: [],
+    mechanics: {
+      boss: "Great River God Dahwan (3 formas via Mist)",
+      mist_strategy: "Wild Fire gera muito dano burst → GERA Mist rapido → empurra para Scorching Phase. Flora Vortex explosion 900% = hit massivo na janela Scorching.",
+      key_mechanic: "Wild school feedback loop: Errich +2 dice max → Flora familiar ataca em dice >=5 → Felicity recast 3x em dice >=4 → Caspar ignora DEF. 4 Fire + 1 Radiance = 5 Incandescence (+20% Elemental DMG, +2% DR).",
+      positioning: "Acilia na frente (tankar). Flora e Felicity no fundo. Caspar e Errich no meio.",
+      entries: "Priorizar: Derivative damage, single hit damage boost (Flora explosion), basic attack bonus (Wild dice = basic). Evitar: healing/shield amplification."
+    },
+    notes: "Score anterior: 19M com Felosia (S1). S6: Acilia substitui Felosia como sustain solo. Alternativa: Tonalnan (4.5 Vortex) no lugar de Caspar para combo Felicity (+5 hits = +20% ATK Up + +5% Crit DMG por dice >=5). Ideal para semanas com Fire/Derivative bonus. Adolphus (4.5 Vortex, Fire Epic) como opcao de support extra se Acilia insuficiente."
   }
 ];
 
