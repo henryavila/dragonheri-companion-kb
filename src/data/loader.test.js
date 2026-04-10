@@ -25,17 +25,19 @@ describe('data loader', () => {
     expect(overlap).toEqual([])
   })
 
-  it('critical keys should include heroes, tiers, my-roster, activities, legacy-teams', async () => {
+  it('critical keys should include all 8 landing-page data files', async () => {
     const { CRITICAL_KEYS } = await import('./loader.js')
-    for (const key of ['heroes', 'tiers', 'my-roster', 'activities', 'legacy-teams']) {
+    for (const key of ['heroes', 'tiers', 'my-roster', 'profile', 'activities', 'legacy-teams', 'artifact-map', 'artifact-images']) {
       expect(CRITICAL_KEYS).toContain(key)
     }
+    expect(CRITICAL_KEYS).toHaveLength(8)
   })
 
-  it('deferred keys should include decisions, bets, gear-inventory', async () => {
+  it('deferred keys should include all 11 background data files', async () => {
     const { DEFERRED_KEYS } = await import('./loader.js')
-    for (const key of ['decisions', 'bets', 'gear-inventory']) {
+    for (const key of ['mechanics', 'artifacts', 'builds', 'gear', 'cooking', 'bets', 'decisions', 'gear-inventory', 'calendar', 'guides', 'plan']) {
       expect(DEFERRED_KEYS).toContain(key)
     }
+    expect(DEFERRED_KEYS).toHaveLength(11)
   })
 })
