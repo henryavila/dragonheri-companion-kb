@@ -7,6 +7,7 @@ const routes = [
   { path: '/gear', name: 'gear', component: () => import('./views/GearView.vue'), meta: { label: 'Gear', icon: '◆' } },
   { path: '/artifacts', name: 'artifacts', component: () => import('./views/ArtifactsView.vue'), meta: { label: 'Artefatos', icon: '✧' } },
   { path: '/tierlist', name: 'tierlist', component: () => import('./views/TierListView.vue'), meta: { label: 'Tier List', icon: '▣' } },
+  { path: '/cooking', name: 'cooking', component: () => import('./views/CookingView.vue'), meta: { label: 'Cooking', icon: '🍖' } },
 ]
 
 export default createRouter({ history: createWebHashHistory(), routes })

@@ -17,6 +17,33 @@ window.DATA_COOKING = {
 
   golden_rule: "Buff elemental (+5%) so beneficia herois daquele elemento. Buff secundario (ATK/DEF/RES) aplica a todos os 5. Escolha o elemento da MAIORIA do time.",
   school_recipes: false, // Confirmado: NAO existem recipes de School Bond
+  img_base: "https://i.dmzgame.com/dragonheir/img/item/",
+
+  // === MAPA DE IMAGENS (recipe id → food code) ===
+  images: {
+    "flaming-chili-meatballs": "food_1001",
+    "arctic-soothing-soup": "food_1002",
+    "feast-of-thunder": "food_1004",
+    "feast-of-light": "food_1005",
+    "abyssal-crock": "food_1006",
+    "corrupted-meat-pie": "food_1008",
+    "northland-assorted-jelly": "food_1011",
+    "ritual-of-the-dead": "food_1016",
+    "prayers-caviar": "food_1018",
+    "poisonous-mushroom-soup": "food_1026",
+    "electric-light-rum": "food_1028",
+    "aquitaine-meat-pie": "food_1029",
+    "deer-horn-pie": "food_1031",
+    "arbortean-beef-stew": "food_1032",
+    "royal-fish-soup": "food_1035",
+    "aquitaine-yogurt": "food_1036",
+    "vanilla-stew": "food_1076",
+    "bay-reach-grape-wine": "food_1077",
+    "dragon-deitys-blessing-pie": "food_1078",
+    "smoked-ham": "food_1086",
+    "seafood-chowder": "food_1088",
+    "sweet-fruit-wine": "food_1089"
+  },
 
   // === INGREDIENTES — CATALOGO COMPLETO ===
   ingredients: {
