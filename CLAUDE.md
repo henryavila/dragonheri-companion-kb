@@ -11,7 +11,7 @@
 - **URL:** https://nexus.henryavila.com/dh
 - **Deploy:** `npm run build` (Vite) gera `dist/`, Nexus copia para rota `/dh`
 - **Comando:** `nexus push` para publicar alterações
-- **Sem git.** Versionamento é via OneDrive. Nexus gerencia o ciclo de vida.
+- **Git:** Repo em `henryavila/dragonheri-companion-kb`. **Sempre commitar** ao final de cada tarefa concluída. Commits frequentes, mensagens descritivas em inglês (Conventional Commits). Push automático após commit.
 
 ## Estrutura do Projeto
 
