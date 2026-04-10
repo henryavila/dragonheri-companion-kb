@@ -4,12 +4,13 @@ import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const navItems = routes.filter(r => r.meta?.label)
+const iconUrl = `${import.meta.env.BASE_URL}icon-dragon-minimal.png`
 </script>
 
 <template>
   <aside class="hidden md:flex flex-col w-[220px] fixed top-0 left-0 bottom-0 bg-bg-surface border-r border-border z-50">
     <div class="px-5 pt-5 pb-4 border-b border-border flex items-center gap-3">
-      <img :src="'./icon-dragon-minimal.png'" alt="Dragon Heir" class="w-9 h-9 rounded-lg" />
+      <img :src="iconUrl" alt="Dragon Heir" class="w-9 h-9 rounded-lg" />
       <div>
         <h1 class="font-display text-[1.05rem] font-bold text-gold tracking-wide leading-tight">DRAGON HEIR</h1>
         <div class="text-[0.6rem] text-text-muted tracking-[0.15em] uppercase">Companion</div>
