@@ -10,6 +10,18 @@ dist/
 # Superpowers session artifacts
 .superpowers/
 
+# Game screenshots and logs (too large for git, backed by OneDrive)
+logs/
+screenshots/
+!screenshots/readme-*.png
+
+# Python cache
+__pycache__/
+
+# Root-level artifacts (OneDrive locked, can't delete)
+/EquipSwapCalc.xlsx
+
 # OS files
 Thumbs.db
 .DS_Store
+*.url
