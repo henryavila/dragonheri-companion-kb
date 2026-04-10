@@ -3,13 +3,14 @@
 // This allows data updates without rebuilding the app.
 
 const loaded = new Set()
+const base = import.meta.env.BASE_URL
 
 export function loadData(key) {
   if (loaded.has(key)) return Promise.resolve()
 
   return new Promise((resolve, reject) => {
     const script = document.createElement('script')
-    script.src = `./data/${key}.js`
+    script.src = `${base}data/${key}.js`
     script.onload = () => { loaded.add(key); resolve() }
     script.onerror = () => reject(new Error(`Failed to load data/${key}.js`))
     document.head.appendChild(script)

@@ -4,7 +4,7 @@ import { D } from '@/data'
 
 const allArtifacts = ref([])
 
-fetch('./data/artifacts-all.json')
+fetch(`${import.meta.env.BASE_URL}data/artifacts-all.json`)
   .then(r => r.json())
   .then(data => { allArtifacts.value = data.artifacts || [] })
   .catch(() => { allArtifacts.value = [] })
