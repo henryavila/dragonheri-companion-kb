@@ -514,12 +514,18 @@ window.DATA_TEAMS = [
       mist_target: "Wrathful (Mist <= 60)"
     },
     affinity: "5 Vertigo (5 Lightning) | 4 Dauntless",
+    captain: {
+      id: 20740,
+      name: "Nastjenka",
+      skill: "+24% ATK all battles",
+      reason: "ATK universal amplifica tudo: basic attacks, Ults, Thundercloud procs, sustain da Zeffi. Unica opcao valida — Divine Ascetic tem mesma aura (redundante), Zeffi e DEF dungeon-only, Tharivol/Ivellios nao tem captain."
+    },
     status: "recommended",
     dps_result: null,
     result: null,
     score: null,
     members: [
-      { id: 20740, role: "Captain / DPS carry (+24% ATK all)", artifact: "Thunder Deity's Spear" },
+      { id: 20740, role: "Captain / DPS carry", artifact: "Thunder Deity's Spear" },
       { id: 20890, role: "DPS single-target / ATK Speed ramp / Ignora Immortality" },
       { id: 20160, role: "DPS / Ult ignora 100% DEF" },
       { id: 23020, role: "Dauntless enabler / Obsession stacks / basic attack = feather Nastjenka", artifact: "Kui Crown" },
@@ -547,12 +553,18 @@ window.DATA_TEAMS = [
       mist_target: "Scorching (Mist >= 140)"
     },
     affinity: "5 Devitalization (5 Poison) | 3 Poison school",
+    captain: {
+      id: 20200,
+      name: "Lothair",
+      skill: "+48 Enlightenment all battles",
+      reason: "NAO-OBVIO: Enlightenment > ATK para times Poison. Derivative damage (Twitch, Lothair, Durango) escala com Enlightenment, nao com Crit. +48 Enlight amplifica TODO o dano Derivative do time. Durango (+40 ACC) e alternativa se debuffs estiverem falhando por Accuracy baixa."
+    },
     status: "recommended",
     dps_result: null,
     result: null,
     score: null,
     members: [
-      { id: 20200, role: "Captain / DPS carry (+48 Enlightenment all)" },
+      { id: 20200, role: "Captain / DPS carry" },
       { id: 20670, role: "DPS / Multi-hit + AoE Poison + marca alvo" },
       { id: 22010, role: "DPS carry #1 (62k/s confirmado) / Poison feedback loop" },
       { id: 21700, role: "Tank-healer / Immortality AoE 5s + heal + dispel" },
@@ -580,12 +592,18 @@ window.DATA_TEAMS = [
       mist_target: "Scorching (Mist >= 140)"
     },
     affinity: "5 Incandescence (4 Fire + 1 Radiance) | Wild school",
+    captain: {
+      id: 20410,
+      name: "Flora",
+      skill: "+24% ATK all battles",
+      reason: "ATK amplifica tudo: Wild dice damage, familiar attacks, Vortex explosion 900%. Caspar tem mesma aura (redundante). Felicity (+24% Crit DMG) e alternativa se time inteiro tiver Crit Rate alto, mas ATK e mais universal para Wild porque dice damage e basic attacks escalam com ATK."
+    },
     status: "recommended",
     dps_result: null,
     result: null,
     score: null,
     members: [
-      { id: 20410, role: "Captain / DPS carry (+24% ATK all) / Vortex 16 stacks Wild = 900% explosion" },
+      { id: 20410, role: "Captain / DPS carry / Vortex 16 stacks Wild = 900% explosion" },
       { id: 20400, role: "DPS / AoE Fire + Meteorite Rain + +2 dice max para Wild" },
       { id: 20810, role: "DPS / Recast em dice >=4 (ate 3x) + multi-beam Ult" },
       { id: 21970, role: "DPS / Absurd Charade ignora DEF crescente / throwing knives" },
@@ -615,6 +633,12 @@ window.DATA_TEAMS = [
       boss: "Torre auto-challenge (300 andares)"
     },
     affinity: "5 Incandescence (5 Radiance) | 4 Aura",
+    captain: {
+      id: 22790,
+      name: "Lincos",
+      skill: "+ATK em Fey Meander e Trial Breakthrough",
+      reason: "NAO-OBVIO: Lincos tem aura ESPECIFICA para Fey Meander (+ATK), provavelmente mais forte que auras universais de 24%. Aemonleyda (+Crit DMG all) ou Diantha (+ATK all) sao alternativas para OUTROS modos (Vortex, bosses). Para Fey Meander, Lincos > todos."
+    },
     status: "tested",
     dps_result: "Destruindo (clear facil)",
     result: {
@@ -623,8 +647,8 @@ window.DATA_TEAMS = [
     },
     score: null,
     members: [
-      { id: 22800, role: "DPS burst / Aura Energy scaling / Crit DMG aura captain" },
-      { id: 22790, role: "Amplifier / Aura Energy support" },
+      { id: 22800, role: "DPS burst / Aura Energy scaling" },
+      { id: 22790, role: "Captain / Amplifier / Aura Energy support" },
       { id: 21500, role: "Amplifier / Healer / Aura synergy" },
       { id: 23820, role: "Amplifier / Bond deploy (+20% Max HP, +20% DMG Bonus) / Shield AoE" },
       { id: 20420, role: "Support / Sustain + anti-debuff / 5.0 universal" }
