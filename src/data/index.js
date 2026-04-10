@@ -39,6 +39,7 @@ export const D = {
   mechanics() { return window.DATA_MECHANICS || {} },
   activities() { return window.DATA_ACTIVITIES || [] },
   gear() { return window.DATA_GEAR || {} },
+  cooking() { return window.DATA_COOKING || {} },
 
   heroImgUrl(id) {
     return `https://i.dmzgame.com/dragonheir/img/hero/pic_hero_show_${id}.png`

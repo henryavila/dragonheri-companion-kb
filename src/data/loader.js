@@ -17,6 +17,6 @@ export function loadData(key) {
 }
 
 export async function loadAllData() {
-  const keys = ['heroes', 'tiers', 'my-roster', 'profile', 'mechanics', 'artifacts', 'builds', 'gear', 'activities', 'artifact-map', 'artifact-images']
+  const keys = ['heroes', 'tiers', 'my-roster', 'profile', 'mechanics', 'artifacts', 'builds', 'gear', 'activities', 'artifact-map', 'artifact-images', 'cooking']
   await Promise.all(keys.map(k => loadData(k)))
 }

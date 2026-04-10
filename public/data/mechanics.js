@@ -1315,73 +1315,7 @@ window.DATA_MECHANICS = {
     ]
   },
 
-  // === COOKING RECIPES ===
-  cooking: {
-    rules: {
-      max_ingredients: 4,
-      buff_duration: "600 segundos (10 min)",
-      stacking: "NAO acumulam — nova comida substitui buff anterior",
-      archaeologist_bonus: "+1 nos dice rolls de culinaria",
-      recipes_saved: "Receitas descobertas ficam salvas no Cookbook"
-    },
-    priority: [
-      "Legendary Elemental: +5% Elem Dmg + 10% ATK/DEF (melhor custo-beneficio)",
-      "Epic Stat: +10% HP/ATK/DEF + Accuracy (bom para conteudo geral)",
-      "Ignorar Common/Rare salvo em emergencia"
-    ],
-    golden_rule: "Buff elemental (+5%) so beneficia herois daquele elemento. Food ideal = elemento da maioria do time. Buff secundario (ATK/DEF) aplica a todos.",
-    legendary_atk: [
-      { name: "Flaming Chili Meatball", element: "Fire", effect: "Fire +5%, ATK +10%", ingredients: "Flaming Chili x2 + Boar Meat x2" },
-      { name: "Arctic Soothing Soup", element: "Ice", effect: "Cold +5%, ATK +10%", ingredients: "Arctic Cod x2 + Boar Meat x2" },
-      { name: "Feast of Thunder", element: "Lightning", effect: "Lightning +5%, ATK +10%", ingredients: "Charged Eel x2 + Beast Meat x2" },
-      { name: "Feast of Light", element: "Radiance", effect: "Radiant +5%, ATK +10%", ingredients: "Holy Light Fruit x2 + Beast Meat x2" },
-      { name: "Corrupted Meat Pie", element: "Poison", effect: "Poison +5%, ATK +10%", ingredients: "Poisonous Fly Agaric x2 + Beast Meat x2" },
-      { name: "Abyssal Crock", element: "Necrosis", effect: "Necrotic +5%, ATK +10%", ingredients: "Zombie Crab Shell x2 + Beast Meat x2" }
-    ],
-    legendary_def: [
-      { name: "Electric & Light Rum", element: "Lightning", effect: "Lightning +5%, DEF +10%", ingredients: "Crackling Fruit x2 + Aquitaine Apple x2" },
-      { name: "Poisonous Mushroom Soup", element: "Poison", effect: "Poison +5%, RES +15", ingredients: "Poisonous Fly Agaric x2 + Arbortean Tomato x2" },
-      { name: "Northland Assorted Jelly", element: "Ice", effect: "Cold +5%, DEF +10%", ingredients: "High Ridge Ice x2 + Arbortean Tomato x2" },
-      { name: "Prayer's Caviar", element: "Radiance", effect: "Radiant +5%, DEF +10%", ingredients: "Glowing Fish Eggs x2 + Bigmouthed Salmon x2" },
-      { name: "Ritual of the Dead", element: "Necrosis", effect: "Necrotic +5%, DEF +10%", ingredients: "Zombie Crab Shell x2 + Bigmouthed Salmon x2" }
-    ],
-    epic: [
-      { name: "Deer Horn Pie", effect: "HP +10%, Accuracy +15", ingredients: "Elven Wheat x2 + Arbortean Tomato x1" },
-      { name: "Aquitaine Meat Pie", effect: "HP +10%, ATK +5%", ingredients: "Elven Wheat x2 + Boar Meat x1" },
-      { name: "Arbortean Beef Stew", effect: "ATK +10%, Accuracy +15", ingredients: "Beast Meat x2 + Arbortean Tomato x1" },
-      { name: "Royal Fish Soup", effect: "DEF +10%, Accuracy +15", ingredients: "Bigmouthed Salmon x2 + Arbortean Tomato x1" },
-      { name: "Aquitaine Yogurt", effect: "Accuracy +20, RES +20", ingredients: "Aquitaine Apple x2 + Yak Milk x2" },
-      { name: "Sweet Fruit Wine", effect: "Accuracy +25", ingredients: "Aquitaine Apple x3" }
-    ],
-    // NOTA S6: nomes de afinidade mudaram. Elementos dos times sao os mesmos.
-    // Permafrost→Devitalization(Ice) ou Vertigo(Necrosis), Ulceration→Devitalization(Poison) ou Incandescence(Fire), Resplendence→Vertigo(Lightning) ou Incandescence(Radiance).
-    // TODO: Henry revalidar composicoes com novas afinidades S6.
-    food_by_activity: [
-      { activity: "Bosses (3)", team: "Vertigo (Lightning+Necrosis)", food: "Abyssal Crock", reason: "3/5 Necrosis + ATK" },
-      { activity: "Grave Venom", team: "Devitalization (Ice+Poison)", food: "Corrupted Meat Pie", reason: "5/5 Poison" },
-      { activity: "Ancient Battlefield", team: "Devitalization (Ice)", food: "Arctic Soothing Soup", reason: "Ice team + ATK" },
-      { activity: "Grave Curse", team: "Vertigo (Lightning)", food: "Feast of Thunder", reason: "4/5 Lightning" },
-      { activity: "Grave Rot", team: "Vertigo (Lightning)", food: "Feast of Thunder", reason: "4/5 Lightning" },
-      { activity: "Heretical Ruins", team: "Vertigo (Lightning)", food: "Feast of Thunder", reason: "4/5 Lightning" },
-      { activity: "Temporal Vortex", team: "Vertigo (Lightning)", food: "Feast of Thunder", reason: "PvP burst" },
-      { activity: "Goblin Lair", team: "Devitalization (Ice)", food: "Northland Assorted Jelly", reason: "Auto-farm, DEF > ATK" },
-      { activity: "Fae Meander", team: "Devitalization (Ice)", food: "Arctic Soothing Soup", reason: "DPS checks" },
-      { activity: "Pillar of Trials", team: "Devitalization (Ice)", food: "Arctic Soothing Soup", reason: "Escala dificuldade" },
-      { activity: "Arena", team: "Devitalization (Ice)", food: "Northland Assorted Jelly", reason: "PvP defensiva" }
-    ],
-    top3_to_stock: [
-      { food: "Feast of Thunder", serves: "5 atividades (3 Graves, H.Ruins, T.Vortex)", buy: "Charged Eel (Starfall Plain 2200) + Beast Meat (Ruined Trade Road 1300)" },
-      { food: "Corrupted Meat Pie", serves: "3 atividades (Bosses, G.Venom, A.Battlefield)", buy: "Fly Agaric (Near Grave of Course 2200) + Beast Meat (Ruined Trade Road 1300)" },
-      { food: "Arctic Soothing Soup + Northland Jelly", serves: "4 atividades (Goblin, Fae, Pillar, Arena)", buy: "Arctic Cod (Crimson Iris Port 2200) + Beast Meat/Tomato" }
-    ],
-    key_ingredient: "Beast Meat — usado em 8/10 receitas Legendary ATK. Compre SEMPRE no Ruined Trade Road (1300)",
-    shopping_route: [
-      "Ruined Trade Road → Beast Meat, Boar Meat",
-      "Starfall Plain → Charged Eel, Aquitaine Apple",
-      "Crimson Iris Port → Arctic Cod, Bigmouthed Salmon",
-      "Near Grave of Course → Poisonous Fly Agaric"
-    ]
-  },
+  // === COOKING — Migrado para public/data/cooking.js (DATA_COOKING) ===
 
   // === VERSION INFO ===
   version: "Reborn (Jul/2025)",

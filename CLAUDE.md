@@ -91,7 +91,8 @@ Quando Henry informar que obteve herói, gastou recurso, tomou decisão, etc:
 | Heróis disponíveis nos baús | `public/data/mechanics.js` → seção `chests` |
 | Tier list AC+HH+DI (303 heróis) | `public/data/tiers.js` |
 | Skills de 297 heróis | `public/data/heroes.js` |
-| Mecânicas do jogo (summoning, combat, gear, cooking, school bonds, resonance, game modes) | `public/data/mechanics.js` |
+| Mecânicas do jogo (summoning, combat, gear, school bonds, resonance, game modes) | `public/data/mechanics.js` |
+| Cooking: recipes, ingredientes, merchants, mapeamento por atividade | `public/data/cooking.js` |
 | Guias (rotina diária, beginner, recursos) | `public/data/guides.js` |
 | Builds (talento, gear, artefato por herói) | `public/data/builds.js` |
 | BiS artefatos por herói | `public/data/artifacts.js` |
