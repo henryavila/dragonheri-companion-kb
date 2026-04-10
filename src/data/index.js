@@ -1,6 +1,10 @@
 // data/index.js — Centralized data access (reads from window.DATA_* globals)
 // Data files are loaded at runtime from public/data/ — NOT bundled.
 
+import { ref } from 'vue'
+
+export const deferredReady = ref(false)
+
 let heroById = null
 let heroByName = null
 let tierById = null
