@@ -46,52 +46,60 @@ window.DATA_COOKING = {
   },
 
   // === INGREDIENTES — CATALOGO COMPLETO ===
+  // Fonte: dragonheir.info/materials (verificado Abr/2026)
+  // Formato: npc = nome do NPC, location = local exato, region = area do mapa
   ingredients: {
     // --- Elementais (ingrediente-chave por elemento) ---
-    "Flaming Chili":        { element: "Fire",      cost: 2200, merchant: "Starfall Plain Wilderness — Crimson Crow Guide", category: "elemental" },
-    "Arctic Cod":           { element: "Ice",       cost: 2200, merchant: "Crimson Iris Port — Fish Merchant", category: "elemental" },
-    "High Ridge Ice":       { element: "Ice",       cost: 2200, merchant: "Crimson Iris Port area", category: "elemental" },
-    "Charged Eel":          { element: "Lightning", cost: 2200, merchant: "Starfall Plain — Fish Merchant", category: "elemental" },
-    "Crackling Fruit":      { element: "Lightning", cost: 2200, merchant: "Starfall Plain area", category: "elemental" },
-    "Poisonous Fly Agaric": { element: "Poison",   cost: 2200, merchant: "Near Grave of Course — Ingredient Merchant", category: "elemental" },
-    "Zombie Crab Shell":    { element: "Necrotic",  cost: 2200, merchant: "Necrosis zone merchant", category: "elemental" },
-    "Specter Innards":      { element: "Necrotic",  cost: 2200, merchant: "Necrosis zone merchant", category: "elemental" },
-    "Holy Light Fruit":     { element: "Radiant",   cost: 2200, merchant: "Radiance zone merchant", category: "elemental" },
-    "Glowing Fish Eggs":    { element: "Radiant",   cost: 2200, merchant: "Radiance zone merchant", category: "elemental" },
+    "Flaming Chili":        { element: "Fire",      cost: 2000, npc: "Barton the Merchant", location: "Arbortea Roost", region: "Trailblazer Riverland", category: "elemental",
+                              alt_vendor: { cost: 2200, npc: "Crimson Crow Guide", location: "Near Grave of Course", region: "Northern Nytheria" } },
+    "Arctic Cod":           { element: "Ice",       cost: 2200, npc: "Fishmonger", location: "Crimson Iris Port", region: "Crimson Iris Port", category: "elemental",
+                              alt_vendor: { cost: 2200, npc: "Crimson Crow Guide", location: "Near Grave of Course", region: "Northern Nytheria" } },
+    "High Ridge Ice":       { element: "Ice",       cost: 2200, npc: "Crimson Crow Liaison", location: "Field of Burrows", region: "Starfall Plains", category: "elemental",
+                              alt_vendor: { cost: 2200, npc: "Barton the Merchant", location: "Arbortea Roost", region: "Trailblazer Riverland" } },
+    "Charged Eel":          { element: "Lightning", cost: 2200, npc: "Crimson Crow Merchant", location: "Starfall Plain Wilderness", region: "Starfall Plains", category: "elemental",
+                              alt_vendor: { cost: 2200, npc: "Crimson Crow Guide", location: "Near Grave of Course", region: "Northern Nytheria" } },
+    "Crackling Fruit":      { element: "Lightning", cost: 2200, npc: "Barton the Merchant", location: "Arbortea Roost", region: "Trailblazer Riverland", category: "elemental" },
+    "Poisonous Fly Agaric": { element: "Poison",   cost: 2200, npc: "Crimson Crow Guide", location: "Near Grave of Course", region: "Northern Nytheria", category: "elemental" },
+    "Zombie Crab Shell":    { element: "Necrotic",  cost: 2200, npc: "Merchant", location: "Crimson Iris Port Market", region: "Crimson Iris Port", category: "elemental" },
+    "Specter Innards":      { element: "Necrotic",  cost: 2200, npc: "Merchant", location: "Crimson Iris Port Market", region: "Crimson Iris Port", category: "elemental" },
+    "Holy Light Fruit":     { element: "Radiant",   cost: 2200, npc: "Barton the Merchant", location: "Arbortea Roost", region: "Trailblazer Riverland", category: "elemental",
+                              alt_vendor: { cost: 2200, npc: "Merchant", location: "Aquitaine", region: "Aquitaine" } },
+    "Glowing Fish Eggs":    { element: "Radiant",   cost: 2200, npc: "Merchant", location: "Crimson Iris Port Market", region: "Crimson Iris Port", category: "elemental" },
 
     // --- Carnes ---
-    "Beast Meat":           { element: null, cost: 1300, merchant: "Ruined Trade Road — Meat Merchant", category: "meat", note: "UNIVERSAL: usado em 8/10 Legendary ATK" },
-    "Boar Meat":            { element: null, cost: 1300, merchant: "Ruined Trade Road — Meat Merchant", category: "meat" },
-    "Minced Meat":          { element: null, cost: 800,  merchant: "Arbortea Market", category: "meat" },
+    "Beast Meat":           { element: null, cost: 1300, npc: "Ingredient Merchant", location: "Arbortea Market", region: "Trailblazer Riverland", category: "meat", note: "UNIVERSAL: usado em 8/10 Legendary ATK",
+                              alt_vendor: { cost: 1300, npc: "Crimson Crow Merchant", location: "Starfall Plain Wilderness", region: "Starfall Plains" } },
+    "Boar Meat":            { element: null, cost: 1500, npc: "Crimson Crow Cartographer Intern", location: "Ruined Trade Road", region: "Trailblazer Riverland", category: "meat" },
+    "Minced Meat":          { element: null, cost: 800,  npc: "Ingredient Merchant", location: "Arbortea Market", region: "Trailblazer Riverland", category: "meat" },
 
     // --- Peixes ---
-    "Bigmouthed Salmon":    { element: null, cost: 1800, merchant: "Crimson Iris Port — Fish Merchant", category: "fish" },
-    "Piranha":              { element: null, cost: 1200, merchant: "Various fish merchants", category: "fish" },
-    "Red Carp":             { element: null, cost: 800,  merchant: "Various fish merchants", category: "fish" },
-    "Whisker Shrimp":       { element: null, cost: 600,  merchant: "Various fish merchants", category: "fish" },
-    "White Clam":           { element: null, cost: 600,  merchant: "Various fish merchants", category: "fish" },
+    "Bigmouthed Salmon":    { element: null, cost: 1300, npc: "Fishmonger", location: "Crimson Iris Port", region: "Crimson Iris Port", category: "fish" },
+    "Piranha":              { element: null, cost: 1299, npc: "Fishmonger", location: "Crimson Iris Port", region: "Crimson Iris Port", category: "fish" },
+    "Red Carp":             { element: null, cost: 800,  npc: "Fishmonger", location: "Crimson Iris Port", region: "Crimson Iris Port", category: "fish" },
+    "Whisker Shrimp":       { element: null, cost: 600,  npc: "Fishmonger", location: "Crimson Iris Port", region: "Crimson Iris Port", category: "fish" },
+    "White Clam":           { element: null, cost: 600,  npc: "Fishmonger", location: "Crimson Iris Port", region: "Crimson Iris Port", category: "fish" },
 
     // --- Vegetais / Frutas ---
-    "Arbortean Tomato":     { element: null, cost: 800,  merchant: "Arbortea Market — Ingredient Merchant", category: "produce" },
-    "Aquitaine Apple":      { element: null, cost: 800,  merchant: "Starfall Plain — Fruit Merchant", category: "produce" },
-    "Elven Wheat":          { element: null, cost: 600,  merchant: "Arbortea Market — Ingredient Merchant", category: "produce" },
-    "Brussel Sprout":       { element: null, cost: 400,  merchant: "Arbortea Market", category: "produce" },
-    "Wild Raspberry":       { element: null, cost: 400,  merchant: "Various merchants", category: "produce" },
-    "Bay Reach Grapes":     { element: null, cost: 800,  merchant: "Bay Reach area", category: "produce" },
-    "Wheat":                { element: null, cost: 300,  merchant: "Various merchants", category: "produce" },
-    "Lumina Tarragon":      { element: null, cost: 600,  merchant: "Arbortea Market", category: "produce" },
-    "Fleetfoot Berries":    { element: null, cost: 400,  merchant: "Various merchants", category: "produce" },
-    "Regen Grass":          { element: null, cost: 200,  merchant: "Various merchants", category: "produce" },
+    "Arbortean Tomato":     { element: null, cost: 1300, npc: "Crimson Crow Aide", location: "Road to Grand Arena", region: "Trailblazer Riverland", category: "produce" },
+    "Aquitaine Apple":      { element: null, cost: 1300, npc: "Crimson Crow Merchant", location: "Starfall Plain Wilderness", region: "Starfall Plains", category: "produce" },
+    "Elven Wheat":          { element: null, cost: 1200, npc: "Grocer", location: "Tavira Market", region: "Northern Nytheria", category: "produce" },
+    "Brussel Sprout":       { element: null, cost: 400,  npc: "Crimson Crow Aide", location: "Arbortea (norte)", region: "Trailblazer Riverland", category: "produce" },
+    "Wild Raspberry":       { element: null, cost: 400,  npc: "Various merchants", location: "Multiple", region: "Nytheria", category: "produce" },
+    "Bay Reach Grapes":     { element: null, cost: 800,  npc: "Merchant", location: "Aquitaine", region: "Aquitaine", category: "produce" },
+    "Wheat":                { element: null, cost: 300,  npc: "Various merchants", location: "Multiple", region: "Nytheria", category: "produce" },
+    "Lumina Tarragon":      { element: null, cost: 600,  npc: "Ingredient Merchant", location: "Arbortea Market", region: "Trailblazer Riverland", category: "produce" },
+    "Fleetfoot Berries":    { element: null, cost: 400,  npc: "Various merchants", location: "Multiple", region: "Nytheria", category: "produce" },
+    "Regen Grass":          { element: null, cost: 200,  npc: "Various merchants", location: "Multiple", region: "Nytheria", category: "produce" },
 
     // --- Laticinios ---
-    "Milk":                 { element: null, cost: 400,  merchant: "Various merchants", category: "dairy" },
-    "Goat Milk":            { element: null, cost: 600,  merchant: "Various merchants", category: "dairy" },
-    "Yak Milk":             { element: null, cost: 800,  merchant: "Various merchants", category: "dairy" },
+    "Milk":                 { element: null, cost: 400,  npc: "Various merchants", location: "Multiple", region: "Nytheria", category: "dairy" },
+    "Goat Milk":            { element: null, cost: 600,  npc: "Various merchants", location: "Multiple", region: "Nytheria", category: "dairy" },
+    "Yak Milk":             { element: null, cost: 1400, npc: "Merchant", location: "Crimson Iris Port Market", region: "Crimson Iris Port", category: "dairy" },
 
     // --- Outros ---
-    "Gapworm Larval Exoskeleton": { element: null, cost: 400, merchant: "Various merchants", category: "other" },
-    "Black Speckled Moth Wings":  { element: null, cost: 200, merchant: "Various merchants", category: "other" },
-    "Meat of Poisonous Swamp Boar": { element: "Poison", cost: 1800, merchant: "Near Grave of Course area", category: "meat" }
+    "Gapworm Larval Exoskeleton": { element: null, cost: 400, npc: "Various merchants", location: "Multiple", region: "Nytheria", category: "other" },
+    "Black Speckled Moth Wings":  { element: null, cost: 200, npc: "Various merchants", location: "Multiple", region: "Nytheria", category: "other" },
+    "Meat of Poisonous Swamp Boar": { element: "Poison", cost: 1800, npc: "Crimson Crow Guide", location: "Near Grave of Course", region: "Northern Nytheria", category: "meat" }
   },
 
   // === RECIPES — LEGENDARY (Tier 1: +5% Elem + Stat) ===
@@ -434,8 +442,8 @@ window.DATA_COOKING = {
       covers: ["Grave Curse", "Grave Rot", "Heretical Ruins", "Temporal Vortex"],
       activities_count: 4,
       shopping: [
-        { ingredient: "Charged Eel", qty: 2, merchant: "Starfall Plain", cost: 4400 },
-        { ingredient: "Beast Meat", qty: 1, merchant: "Ruined Trade Road", cost: 1300 }
+        { ingredient: "Charged Eel", qty: 2, merchant: "Crimson Crow Merchant — Starfall Plain Wilderness (Starfall Plains)", cost: 4400 },
+        { ingredient: "Beast Meat", qty: 1, merchant: "Ingredient Merchant — Arbortea Market (Trailblazer Riverland)", cost: 1300 }
       ],
       cost_per_cook: 5700
     },
@@ -445,8 +453,8 @@ window.DATA_COOKING = {
       covers: ["Ancient Battlefield", "Fae Meander", "Pillar of Trials"],
       activities_count: 3,
       shopping: [
-        { ingredient: "Arctic Cod", qty: 2, merchant: "Crimson Iris Port", cost: 4400 },
-        { ingredient: "Beast Meat", qty: 1, merchant: "Ruined Trade Road", cost: 1300 }
+        { ingredient: "Arctic Cod", qty: 2, merchant: "Fishmonger — Crimson Iris Port (costa)", cost: 4400 },
+        { ingredient: "Beast Meat", qty: 1, merchant: "Ingredient Merchant — Arbortea Market (Trailblazer Riverland)", cost: 1300 }
       ],
       cost_per_cook: 5700
     },
@@ -456,10 +464,10 @@ window.DATA_COOKING = {
       covers: ["Goblin Lair", "Arena"],
       activities_count: 2,
       shopping: [
-        { ingredient: "High Ridge Ice", qty: 2, merchant: "Crimson Iris Port area", cost: 4400 },
-        { ingredient: "Elven Wheat", qty: 2, merchant: "Arbortea Market", cost: 1200 }
+        { ingredient: "High Ridge Ice", qty: 2, merchant: "Crimson Crow Liaison — Field of Burrows (Starfall Plains)", cost: 4400 },
+        { ingredient: "Elven Wheat", qty: 2, merchant: "Grocer — Tavira Market (Northern Nytheria)", cost: 2400 }
       ],
-      cost_per_cook: 5600
+      cost_per_cook: 6800
     },
     {
       rank: 4,
@@ -467,8 +475,8 @@ window.DATA_COOKING = {
       covers: ["Grave Venom"],
       activities_count: 1,
       shopping: [
-        { ingredient: "Poisonous Fly Agaric", qty: 2, merchant: "Near Grave of Course", cost: 4400 },
-        { ingredient: "Beast Meat", qty: 2, merchant: "Ruined Trade Road", cost: 2600 }
+        { ingredient: "Poisonous Fly Agaric", qty: 2, merchant: "Crimson Crow Guide — Near Grave of Course (Northern Nytheria)", cost: 4400 },
+        { ingredient: "Beast Meat", qty: 2, merchant: "Ingredient Merchant — Arbortea Market (Trailblazer Riverland)", cost: 2600 }
       ],
       cost_per_cook: 7000
     },
@@ -478,8 +486,8 @@ window.DATA_COOKING = {
       covers: ["World Bosses (3)"],
       activities_count: 1,
       shopping: [
-        { ingredient: "Zombie Crab Shell", qty: 2, merchant: "Necrosis zone", cost: 4400 },
-        { ingredient: "Beast Meat", qty: 2, merchant: "Ruined Trade Road", cost: 2600 }
+        { ingredient: "Zombie Crab Shell", qty: 2, merchant: "Merchant — Crimson Iris Port Market (costa)", cost: 4400 },
+        { ingredient: "Beast Meat", qty: 2, merchant: "Ingredient Merchant — Arbortea Market (Trailblazer Riverland)", cost: 2600 }
       ],
       cost_per_cook: 7000
     }
@@ -487,11 +495,12 @@ window.DATA_COOKING = {
 
   // === ROTA DE COMPRAS OTIMIZADA ===
   shopping_route: [
-    { stop: 1, location: "Ruined Trade Road", buy: ["Beast Meat", "Boar Meat"], note: "SEMPRE primeira parada — Beast Meat e universal" },
-    { stop: 2, location: "Starfall Plain", buy: ["Charged Eel", "Crackling Fruit", "Aquitaine Apple"], note: "Lightning ingredients + frutas" },
-    { stop: 3, location: "Crimson Iris Port", buy: ["Arctic Cod", "High Ridge Ice", "Bigmouthed Salmon"], note: "Ice ingredients + peixes" },
-    { stop: 4, location: "Near Grave of Course", buy: ["Poisonous Fly Agaric"], note: "Poison ingredient" },
-    { stop: 5, location: "Arbortea Market", buy: ["Arbortean Tomato", "Elven Wheat", "Brussel Sprout", "Lumina Tarragon"], note: "Vegetais e graos baratos" }
+    { stop: 1, location: "Arbortea Market + Roost", region: "Trailblazer Riverland", npc: "Ingredient Merchant / Barton the Merchant", buy: ["Beast Meat", "Flaming Chili", "Holy Light Fruit", "Crackling Fruit", "Lumina Tarragon"], note: "Hub central: carnes, elementais Fire/Radiant/Lightning. Barton fica no Roost (area alta da cidade)" },
+    { stop: 2, location: "Starfall Plain Wilderness", region: "Starfall Plains (oeste, perto de Athalean)", npc: "Crimson Crow Merchant", buy: ["Charged Eel", "Aquitaine Apple"], note: "NPC patrulha a estrada perto do settlement elfico Athalean" },
+    { stop: 3, location: "Crimson Iris Port", region: "Crimson Iris Port (costa)", npc: "Fishmonger / Merchant", buy: ["Arctic Cod", "Bigmouthed Salmon", "Zombie Crab Shell", "Glowing Fish Eggs"], note: "Fishmonger no pier vende peixes. Merchant no Market vende elementais Necrotic/Radiant" },
+    { stop: 4, location: "Near Grave of Course", region: "Northern Nytheria", npc: "Crimson Crow Guide", buy: ["Poisonous Fly Agaric", "Charged Eel"], note: "NPC fica na estrada ANTES da entrada da dungeon" },
+    { stop: 5, location: "Tavira Market", region: "Northern Nytheria", npc: "Grocer", buy: ["Elven Wheat"], note: "Tavira fica ao norte, perto de Heretical Ruins" },
+    { stop: 6, location: "Road to Grand Arena", region: "Trailblazer Riverland", npc: "Crimson Crow Aide", buy: ["Arbortean Tomato", "Brussel Sprout"], note: "NPC caminha pela estrada ao norte de Arbortea, rota para a Arena" }
   ],
 
   // === NOTAS DE REFERENCIA ===
