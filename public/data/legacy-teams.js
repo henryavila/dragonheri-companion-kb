@@ -664,7 +664,62 @@ window.DATA_TEAMS = [
       key_mechanic: "4 Aura school = sinergia de Aura Energy entre os 4 herois. Anneliesis Bond com aliado no deploy (+20% Max HP, +20% DMG Bonus, +20 Ult Energy) amplifica o time inteiro. Acilia sustain solo suficiente para bosses.",
       positioning: "Acilia na frente. Aemonleyda carry principal. Anneliesis deploya 5s depois."
     },
-    notes: "Primeiro time Aura funcional de Henry (S6). Shahla (5a Aura, buffer CritDMG) fica de fora — 4 Aura + Acilia sustain > 5 Aura sem sustain. Testado no Fey Meander com sucesso imediato. Potencial para outras atividades (Temporal Vortex, Heretical Ruins, etc)."
+    notes: "Primeiro time Aura funcional de Henry (S6). 4 Aura + Acilia sustain. Testado no Fey Meander com sucesso imediato. Para Fallen Shadow Spire, a versao com Shahla (5 Aura puro) e MUITO superior — ver time separado."
+  },
+  {
+    id: "fallen-shadow-spire-aura-full-s6",
+    activity: "Fallen Shadow Spire",
+    activities: ["Fallen Shadow Spire"],
+    name: "Full Aura (5/5)",
+    encounter: {
+      mode: "wave",
+      boss: "Waves de Monstros"
+    },
+    captain: {
+      id: 22130,
+      name: "Shahla",
+      skill: "+24% ATK all battles",
+      reason: "NAO-OBVIO: Shahla e a unica com captain skill validada (+24% ATK all) no time completo. Aemonleyda tem +Crit DMG all (valor incerto nos dados). Diantha tem +ATK all (valor incerto). Com valores confirmados, Shahla e a escolha segura. Testar Aemonleyda como captain se Crit Rate do time for alto."
+    },
+    affinity: "5 Incandescence (5 Radiance) | 5 Aura",
+    status: "tested",
+    dps_result: "715 pontos (Tier S)",
+    result: {
+      type: "points",
+      points: 715,
+      points_display: "715",
+      tier: "S"
+    },
+    score: 715,
+    members: [
+      { id: 22800, role: "DPS burst / Aura Energy scaling" },
+      { id: 22790, role: "Amplifier / Aura Energy support" },
+      { id: 21500, role: "Amplifier / Healer / Aura synergy" },
+      { id: 23820, role: "Amplifier / Bond deploy (+20% Max HP, +20% DMG Bonus) / Shield AoE" },
+      { id: 22130, role: "Captain / Buffer CritDMG / 5a Aura (completa school bond)" }
+    ],
+    tests: [
+      {
+        desc: "Fallen Shadow Spire — sem Aura",
+        result: "~130 pontos",
+        notes: "Pontuacao base antes do time Aura. Composicao anterior nao registrada."
+      },
+      {
+        desc: "Fallen Shadow Spire — 4 Aura + Acilia",
+        result: "313 pontos",
+        notes: "Primeira versao Aura com Acilia como sustain. 4 Aura school + Acilia Support. Melhoria de 130 → 313 (+140%)."
+      },
+      {
+        desc: "Fallen Shadow Spire — 5 Aura (Full)",
+        result: "715 pontos — TIER S",
+        notes: "Shahla no lugar de Acilia. 5 Aura school completo. Score DOBROU (313 → 715, +128%). Alcancou Tier S. A sinergia de 5 Aura (school bond maximo) + Shahla CritDMG buffer superou a necessidade de sustain dedicado. Confirmado 10/Abr/2026."
+      }
+    ],
+    mechanics: {
+      key_mechanic: "5 Aura school = school bond MAXIMO. Shahla CritDMG buffer amplifica todo o time. 5 Radiance = 5 Incandescence (+20% Elemental DMG, +2% DR). Sem sustain dedicado — a sinergia Aura gera shields/healing internas suficientes para waves.",
+      insight: "Acilia era desnecessaria neste modo. A 5a Aura (Shahla) gera mais DPS que o sustain extra da Acilia. Score: 130 → 313 → 715. Cada upgrade: +140% e +128%."
+    },
+    notes: "Time Aura COMPLETO (5/5). Shahla > Acilia neste modo: 5 Aura school bond + CritDMG buffer > 4 Aura + sustain solo. Inversao do Fey Meander (onde Acilia e necessaria para bosses). Regra: modo wave = mais DPS, modo boss = mais sustain."
   }
 ];
 
