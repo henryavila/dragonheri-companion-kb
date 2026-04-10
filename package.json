@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/generate-data-manifest.mjs && vite build",
+    "generate-manifest": "node scripts/generate-data-manifest.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"

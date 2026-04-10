@@ -21,6 +21,9 @@ __pycache__/
 # Root-level artifacts (OneDrive locked, can't delete)
 /EquipSwapCalc.xlsx
 
+# Auto-generated at build time
+public/data/manifest.json
+
 # OS files
 Thumbs.db
 .DS_Store
