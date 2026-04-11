@@ -520,10 +520,10 @@ window.DATA_TEAMS = [
       skill: "+24% ATK all battles",
       reason: "ATK universal amplifica tudo: basic attacks, Ults, Thundercloud procs, sustain da Zeffi. Unica opcao valida — Divine Ascetic tem mesma aura (redundante), Zeffi e DEF dungeon-only, Tharivol/Ivellios nao tem captain."
     },
-    status: "recommended",
-    dps_result: null,
-    result: null,
-    score: null,
+    status: "tested",
+    dps_result: "7.708M",
+    result: { type: "dps", dps: "7.708M" },
+    score: 7708000,
     members: [
       { id: 20740, role: "Captain / DPS carry", artifact: "Thunder Deity's Spear" },
       { id: 20890, role: "DPS single-target / ATK Speed ramp / Ignora Immortality" },
@@ -531,7 +531,13 @@ window.DATA_TEAMS = [
       { id: 23020, role: "Dauntless enabler / Obsession stacks / basic attack = feather Nastjenka", artifact: "Kui Crown" },
       { id: 22040, role: "Support / Invincibility <30% HP / DEF Up II / totem strip buffs" }
     ],
-    tests: [],
+    tests: [
+      {
+        desc: "Temporal Vortex — Dahwan's Realm comparativo",
+        result: "7.708M (3o lugar de 4 times)",
+        notes: "Herois SEM talentos investidos. Resultado provavelmente equivalente ao Super Ice (~8M) com talentos. Confirmado 10/Abr/2026."
+      }
+    ],
     mechanics: {
       boss: "Great River God Dahwan (3 formas via Mist)",
       mist_strategy: "Zeffi healing/shield REMOVE Mist → empurra para Wrathful Phase (Mist <= 60). Na Wrathful, boss toma dano direto AUMENTADO por 15s = janela de Crit burst do Dauntless.",
@@ -539,7 +545,7 @@ window.DATA_TEAMS = [
       positioning: "Zeffi na frente (tankar Shorebreaker Strike). Nastjenka fora da linha direta do boss. Tharivol e Ivellios no fundo.",
       entries: "Priorizar: basic attack bonus, single hit/Crit damage, debuff scaling no boss. Evitar: buff amplification nos aliados (gera Mist demais)."
     },
-    notes: "Evolucao do time que fez 31.3M em S1. Upgrades S6: Ivellios (5.0 Vortex) substitui Sutha (4.0). Zeffi substitui Acilia = completa 5 Vertigo (+20% Elemental DMG). Se survival insuficiente com Zeffi, trocar por Acilia (perde 5 Vertigo, ganha sustain testado). Baseline anterior: 31.3M com Acilia."
+    notes: "Evolucao do time que fez 31.3M em S1. Upgrades S6: Ivellios (5.0 Vortex) substitui Sutha (4.0). Zeffi substitui Acilia = completa 5 Vertigo (+20% Elemental DMG). RESULTADO: 7.708M sem talentos (3o de 4 times). Superado pelo Aura+Acilia (12.931M) que dominou o comparativo."
   },
   {
     id: "temporal-vortex-poison-endurance-s6",
@@ -618,6 +624,134 @@ window.DATA_TEAMS = [
       entries: "Priorizar: Derivative damage, single hit damage boost (Flora explosion), basic attack bonus (Wild dice = basic). Evitar: healing/shield amplification."
     },
     notes: "Score anterior: 19M com Felosia (S1). S6: Acilia substitui Felosia como sustain solo. Alternativa: Tonalnan (4.5 Vortex) no lugar de Caspar para combo Felicity (+5 hits = +20% ATK Up + +5% Crit DMG por dice >=5). Ideal para semanas com Fire/Derivative bonus. Adolphus (4.5 Vortex, Fire Epic) como opcao de support extra se Acilia insuficiente."
+  },
+  {
+    id: "temporal-vortex-aura-acilia-s6",
+    activity: "Temporal Vortex",
+    activities: ["Temporal Vortex"],
+    name: "Aura + Acilia (BEST)",
+    encounter: {
+      mode: "endurance",
+      boss: "Great River God Dahwan",
+      duracao: "20 min",
+      mist_target: "Qualquer (Aura Energy nao depende de Mist phase)"
+    },
+    affinity: "5 Incandescence (5 Radiance) | 4 Aura",
+    captain: {
+      id: 22790,
+      name: "Lincos",
+      skill: "+ATK em Fey Meander e Trial Breakthrough",
+      reason: "Lincos tem aura especifica pra Fey/Trial, mas no Vortex funciona. Alternativas: Aemonleyda (+Crit DMG all) ou Diantha (+ATK all). Testar Aemonleyda como captain para Vortex especificamente."
+    },
+    status: "tested",
+    dps_result: "12.931M (1o lugar — MELHOR TIME)",
+    result: { type: "dps", dps: "12.931M" },
+    score: 12931000,
+    members: [
+      { id: 22800, role: "DPS burst / Aura Energy scaling" },
+      { id: 22790, role: "Captain / Amplifier / Aura Energy support" },
+      { id: 21500, role: "Amplifier / Healer / Aura synergy" },
+      { id: 23820, role: "Amplifier / Bond deploy (+20% Max HP, +20% DMG Bonus) / Shield AoE" },
+      { id: 20420, role: "Support / Sustain solo / anti-debuff" }
+    ],
+    tests: [
+      {
+        desc: "Temporal Vortex — Dahwan's Realm comparativo 4 times",
+        result: "12.931M (1o de 4 — MELHOR por margem de 60%)",
+        notes: "Aura + Acilia DESTRUIU o comparativo. 60% acima do 2o lugar (Super Ice 8.058M). Mesmo core do Fey Meander. Aura Energy feedback loop escala massivamente em fight de 20 min. Confirmado 10/Abr/2026."
+      }
+    ],
+    mechanics: {
+      boss: "Great River God Dahwan (3 formas via Mist)",
+      key_mechanic: "4 Aura school = sinergia de Aura Energy entre 4 herois. Em 20 min de endurance, o loop de geracao/consumo de Aura Energy escala EXPONENCIALMENTE. Aemonleyda como carry principal. Anneliesis Bond (+20% Max HP, +20% DMG Bonus, +20 Ult Energy) amplifica tudo. Acilia sustain suficiente para sobreviver boss inteiro.",
+      positioning: "Acilia na frente. Aemonleyda carry. Anneliesis deploya 5s depois.",
+      why_best: "Aura domina endurance porque: (1) Aura Energy loop nao depende de Mist phase — funciona em QUALQUER estado do boss, (2) scaling TEMPORAL — quanto mais longa a luta, mais stacks, mais energia, mais dano, (3) Acilia sustain solo e suficiente sem precisar de segundo healer = 4 slots dedicados a DPS/amplify."
+    },
+    notes: "MELHOR TIME do Temporal Vortex confirmado (12.931M). Superou Super Ice (8.058M, +60%), Vertigo (7.708M, +68%), e Thunderbolt (3.156M, +310%). O mesmo time Aura+Acilia que domina Fey Meander e Fallen Shadow Spire. Aura Energy e o melhor scaling mecanico do jogo para endurance."
+  },
+  {
+    id: "temporal-vortex-super-ice-s6",
+    activity: "Temporal Vortex",
+    activities: ["Temporal Vortex"],
+    name: "Super Ice (Frost Chain)",
+    encounter: {
+      mode: "endurance",
+      boss: "Great River God Dahwan",
+      duracao: "20 min",
+      mist_target: "Wrathful (Mist <= 60, Frost/shields removem Mist)"
+    },
+    affinity: "5 Devitalization (5 Ice) | Frost school",
+    captain: {
+      id: 20120,
+      name: "Hvitar",
+      skill: "+24% ATK (verificar em-jogo)",
+      reason: "Hvitar e a carry principal do time Ice. ATK amplifica Frost damage e execute <15% HP."
+    },
+    status: "tested",
+    dps_result: "8.058M (2o lugar)",
+    result: { type: "dps", dps: "8.058M" },
+    score: 8058000,
+    members: [
+      { id: 20120, role: "Captain / DPS carry / Execute <15% HP / Icewind auto" },
+      { id: 21030, role: "DPS / 520% AoE Cold + Frost 10s + tracking arrows" },
+      { id: 21390, role: "Support / Shield AoE + 30% DMG Reduction + Control Immunity" },
+      { id: 20060, role: "Tank / Ice sustain" },
+      { id: 20920, role: "DPS / Frost chain com Auster + Hvitar" }
+    ],
+    tests: [
+      {
+        desc: "Temporal Vortex — Dahwan's Realm comparativo 4 times",
+        result: "8.058M (2o de 4)",
+        notes: "Herois com talentos investidos. Time solido, boa Frost chain (Hvitar+Auster+Lossenia). Superado pelo Aura (12.931M). Confirmado 10/Abr/2026."
+      }
+    ],
+    mechanics: {
+      boss: "Great River God Dahwan (3 formas via Mist)",
+      mist_strategy: "Frost + shields REMOVEM Mist → empurra para Wrathful. Na Wrathful, boss toma dano direto AUMENTADO.",
+      key_mechanic: "Frost chain: Hvitar Icewind auto → Auster tracking arrows em Frost targets → Lossenia Frost undispellable + Cold stacking. 5 Ice = 5 Devitalization (+20% Elemental DMG, +2% DR). Felosia shield AoE protege o time inteiro."
+    },
+    notes: "2o melhor time do comparativo (8.058M). Time com talentos investidos. Frost chain funcional mas DPS linear — nao escala exponencialmente como Aura. Bom para semanas com Ice/Cold bonus."
+  },
+  {
+    id: "temporal-vortex-thunderbolt-s6",
+    activity: "Temporal Vortex",
+    activities: ["Temporal Vortex"],
+    name: "Thunderbolt 5 Legendary",
+    encounter: {
+      mode: "endurance",
+      boss: "Great River God Dahwan",
+      duracao: "20 min"
+    },
+    affinity: "5 Vertigo (5 Lightning) | Thunderbolt school",
+    captain: {
+      id: 21780,
+      name: "Shai'nachtan",
+      skill: "+48 Enlightenment all battles",
+      reason: "Enlightenment amplifica Derivative damage do Thunderbolt."
+    },
+    status: "tested",
+    dps_result: "3.156M (4o lugar — PIOR)",
+    result: { type: "dps", dps: "3.156M" },
+    score: 3156000,
+    members: [
+      { id: 21780, role: "Captain / Thunderbolt trio" },
+      { id: 22370, role: "Perkunte enabler (Electrocuted refresh)" },
+      { id: 21520, role: "Thunderbolt 5.0 carry" },
+      { id: 21480, role: "DPS / Insp.6" },
+      { id: 21310, role: "Support / Tank / Lightning" }
+    ],
+    tests: [
+      {
+        desc: "Temporal Vortex — Dahwan's Realm comparativo 4 times",
+        result: "3.156M (ultimo lugar, 4o de 4)",
+        notes: "Time completo de 5 Legendary Lightning Thunderbolt. Resultado decepcionante — menos de metade do Ice e 1/4 do Aura. Thunderbolt nao escala bem em endurance de 20 min. Confirmado 10/Abr/2026."
+      }
+    ],
+    mechanics: {
+      boss: "Great River God Dahwan (3 formas via Mist)",
+      key_mechanic: "Thunderbolt procs em Electrocuted targets. Shai'nachtan+Orfenna+Perkunte = Thunderbolt trio. Mas Thunderbolt school escala com burst curto, NAO com endurance longo — ao contrario de Aura."
+    },
+    notes: "PIOR TIME do comparativo (3.156M). Thunderbolt e escola de burst, nao de endurance. Em fight de 20 min, o DPS flat nao compete com scaling exponencial de Aura Energy. Nao investir mais neste time para Temporal Vortex. Pode funcionar melhor em modos burst (PvP, arena, bosses rapidos)."
   },
 
   // ============================================================
