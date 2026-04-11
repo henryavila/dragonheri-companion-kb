@@ -177,7 +177,7 @@ window.DATA_MY_ROSTER = [
   // --- Echoing Shadow Summon 800 pulls (09/Abr/2026) ---
   // Milestone bonus (wish list)
   { id: 22790, insp: 4, skill_level: 0, notes: "Lincos (Radiance Aura S3). Echoing Shadow milestone 100 (09/Abr). Insp.4 (2 dupes Echoing + 2 dupes Radiant Wings 09/Abr)" },
-  { id: 21500, insp: 1, skill_level: 0, notes: "Diantha (Radiance Aura S3). Echoing Shadow milestone 200 (09/Abr). Insp.1 (Radiant Wings 09/Abr)" },
+  { id: 21500, insp: 2, skill_level: 0, notes: "Diantha (Radiance Aura S3). Echoing Shadow milestone 200 (09/Abr). Insp.2 (Radiant Wings 09/Abr + dupe 10/Abr)" },
   { id: 22800, insp: 1, skill_level: 0, notes: "Aemonleyda (Radiance Aura S3). Echoing Shadow milestone 300 (09/Abr). Aura 5.0. Core Aura team. Insp.1 (1 dupe regular)" },
   { id: 21310, insp: 2, skill_level: 0, notes: "Stanguem (Lightning Support S3). Echoing Shadow milestone 400 (09/Abr). Insp.2 (Radiant Wings 09/Abr)" },
   { id: 22370, insp: 1, skill_level: 0, notes: "Orfenna (Lightning Thunderbolt S4). Echoing Shadow milestone 600 (09/Abr). Perkunte enabler (Electrocuted refresh). Insp.1 (1 dupe regular)" },
@@ -190,7 +190,7 @@ window.DATA_MY_ROSTER = [
 
   // --- Chest S5 (09/Abr/2026) ---
   { id: 21780, insp: 0, skill_level: 0, notes: "Shai'nachtan (Lightning Thunderbolt S2). Chest S5 (09/Abr). Thunderbolt trio com Perkunte+Orfenna. Captain +48 Enlight all battles" },
-  { id: 22130, insp: 1, skill_level: 0, notes: "Shahla (Radiance Aura S5). Chest S5 (09/Abr). Insp.1 (dupe 10/Abr). 5a Aura (buffer CritDMG). Captain +24% ATK all battles" },
+  { id: 22130, insp: 2, skill_level: 0, notes: "Shahla (Radiance Aura S5). Chest S5 (09/Abr). Insp.2 (dupes 10/Abr x2). 5a Aura (buffer CritDMG). Captain +24% ATK all battles" },
   { id: 20230, insp: 0, skill_level: 0, notes: "Karf (Fire Burn S2). Chest S5 (09/Abr). Burn 4.62" },
 
   // --- Radiant Wings Banner 300 pulls (09/Abr/2026) ---
