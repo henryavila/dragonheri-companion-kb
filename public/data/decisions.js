@@ -3,6 +3,18 @@
 
 window.DATA_DECISIONS = [
   {
+    date: "2026-04-10",
+    title: "Legendary Hero Prime Chest (Celebration Feast): Feenja",
+    tags: ["chest", "celebration-feast", "feenja", "ice", "support"],
+    summary: "Escolheu Feenja (Ice Support S3, id 23000) do Celebration Feast. Avg 4.875, Vortex 5. Healer + Dispel + Captain +Enlightenment all battles. Par com Theodemer.",
+    impact: "63o legendario. Fortalece time Ice (2o melhor no Temporal Vortex com 8.058M). Captain +Enlight util em qualquer composicao. Libera Hero's Anthem para Fathomdown (Lightning Vortex 5, exclusivo daquele bau).",
+    details: `CELEBRATION FEAST — Legendary Hero Prime Chest (10/Abr/2026)
+Escolha: Feenja (23000) — Ice Support S3
+Razao: Top 3 do bau (4.875 avg, empatada com Theodemer e Quaesitia). Vortex 5. Fortalece Ice team.
+Estrategia: Feenja aqui → Fathomdown no Hero's Anthem (exclusivo, anti-death passive, Vortex 5).
+Alternativas descartadas: Theodemer (mesmo avg mas par com Feenja, nao vale pegar os dois da mesma pool), Quaesitia (Necrosis, sem time forte).`
+  },
+  {
     date: "2026-03-26",
     title: "Shadow World Expedition: 4 bosses — Twitch 177M, Vasska 98M, Tamar 86M, Thelandor 46.8M (total 407.8M)",
     tags: ["shadow-world-expedition", "continental-boss", "twitch", "vasska", "tamar", "thelandor", "score"],

@@ -22,6 +22,7 @@ window.DATA_MY_ROSTER = [
   { id: 21460, insp: 3, skill_level: 0, notes: "DI #82. Insp.3 (x3 drops + Echoing Shadow 09/Abr). Sem time canonico ainda" },
   { id: 20990, insp: 4, skill_level: 0, notes: "Lucien (Ice Support). Banner (05/Mar). Insp.4 (Radiant Wings 09/Abr). Opcao defensiva: shield + Control Immunity" },
   { id: 21390, insp: 1, skill_level: 0, notes: "Felosia (Ice Support). Banner (05/Mar). Insp.1 (Banner Premium Necro/Ice 13/Mar). Forte para sobrevivencia: shield AoE + 30% Damage Reduction + Control Immunity" },
+  { id: 23000, insp: 0, skill_level: 0, notes: "Feenja (Ice Support S3). Legendary Hero Prime Chest Celebration Feast (10/Abr). Vortex 5. Healer + Dispel. Captain +Enlight all. Par com Theodemer. Avg 4.875" },
   { id: 20120, insp: 0, skill_level: 0, notes: "Hvitar (Ice Frost). S1 Exclusive DI #6, AC SS! Pity 300 Banner Premium Necro/Ice (13/Mar). Execute <15% HP. Icewind auto no inicio. DoT em Frost targets. Frost chain ELITE com Lossenia+Auster. Queen of Ice" },
   { id: 20300, insp: 3, skill_level: 0, notes: "DI #10. Insp.3! (x4 drops). Ja forte por Inspiration. Sem time Rally montado" },
   { id: 20110, insp: 0, skill_level: 0, notes: "DI #37. Sem time Rally montado" },

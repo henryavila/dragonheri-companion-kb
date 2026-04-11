@@ -21,7 +21,7 @@ window.DATA_PROFILE = {
 
   resources: {
     heroes_total: 184,
-    legendaries: 62,
+    legendaries: 63,
     inspirations: 66,
     wyrmarrow: 0,
     dragon_crystal: 0,
