@@ -15,6 +15,7 @@ const moreItems = [
   { name: 'cooking', label: 'Cooking', icon: '🍖', path: '/cooking' },
   { name: 'artifacts', label: 'Artefatos', icon: '✧', path: '/artifacts' },
   { name: 'tierlist', label: 'Tier List', icon: '▣', path: '/tierlist' },
+  { name: 'familiars', label: 'Familiars', icon: '🐾', path: '/familiars' },
 ]
 
 const showMore = ref(false)

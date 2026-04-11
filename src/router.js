@@ -6,8 +6,9 @@ const gearLoader = () => import('./views/GearView.vue')
 const cookingLoader = () => import('./views/CookingView.vue')
 const artifactsLoader = () => import('./views/ArtifactsView.vue')
 const tierListLoader = () => import('./views/TierListView.vue')
+const familiarsLoader = () => import('./views/FamiliarsView.vue')
 
-const lazyLoaders = [heroesLoader, gearLoader, cookingLoader, artifactsLoader, tierListLoader]
+const lazyLoaders = [heroesLoader, gearLoader, cookingLoader, artifactsLoader, tierListLoader, familiarsLoader]
 
 const routes = [
   { path: '/', name: 'teams', component: TeamsView, meta: { label: 'Times', icon: '⚔' } },
@@ -16,6 +17,7 @@ const routes = [
   { path: '/cooking', name: 'cooking', component: cookingLoader, meta: { label: 'Cooking', icon: '🍖' } },
   { path: '/artifacts', name: 'artifacts', component: artifactsLoader, meta: { label: 'Artefatos', icon: '✧' } },
   { path: '/tierlist', name: 'tierlist', component: tierListLoader, meta: { label: 'Tier List', icon: '▣' } },
+  { path: '/familiars', name: 'familiars', component: familiarsLoader, meta: { label: 'Familiars', icon: '🐾' } },
 ]
 
 /**
