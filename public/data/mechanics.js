@@ -1125,23 +1125,176 @@ window.DATA_MECHANICS = {
   // === FAMILIAR / PET SYSTEM (S3+) ===
   familiars: {
     introduced: "S3 — Snarls of Lava (Nov/2025)",
-    concept: "Pets de combate que apoiam o time com spells ativos e traits passivos (buff, debuff, dano, heal).",
-    how_to_get: "Hatch de ovos (Fallen Shadow Spire e outras atividades).",
-    progression: [
-      "Hatch ovos → familiar com traits aleatorios",
-      "Merge familiars → maior raridade (mais skill slots)",
-      "Fusion → destroi 1 familiar e transfere talents/stats para outro"
-    ],
-    deployment: "1 familiar por time em batalha.",
-    persistence: "Familiars carregam entre seasons (progresso permanente).",
-    top_familiars: [
-      { name: "Rollbot", tier: "S", effect: "Dispel buffs, true damage baseado em Max HP" },
-      { name: "Stoneborn", tier: "A", effect: "Dano baseado em Max HP do alvo, aumenta dano recebido" },
-      { name: "Mimic", tier: "A", effect: "Melhor debuffer e energy control" },
-      { name: "Saberwinger", tier: "A", effect: "Dano + healing baseado em Max HP do alvo" }
-    ],
+    concept: "Pets de combate que apoiam o time. Cada familiar tem 1 Active Spell + Passive Traits + Talents customizaveis via Fusion.",
+    deployment: "1 familiar por time em batalha. Slot unico — escolha importa.",
+    persistence: "Familiars carregam entre seasons (progresso permanente). Todo investimento eh de longo prazo.",
     dev_note: "Devs confirmaram: familiars sao 'strategic companions, not mandatory power checks'.",
-    last_updated: "2026-04-07"
+
+    // --- Como obter e progredir ---
+    how_to_get: [
+      "Hatch de ovos obtidos em Fallen Shadow Spire (fonte principal, rodar diariamente)",
+      "Eventos e atividades especiais tambem dão ovos",
+      "Master Genie: gratis via evento HOMM3 Shadow Returns (completar Central Krewlod chapter)"
+    ],
+    progression: [
+      "Hatch ovos → familiar com traits ALEATORIOS (stats e talents sao RNG)",
+      "Merge familiars do MESMO tipo → aumenta raridade → desbloqueia mais skill slots",
+      "Fusion → DESTROI 1 familiar e transfere talents/stats para outro (irreversivel)",
+      "Maior raridade = mais skill slots ativos = exponencialmente mais forte"
+    ],
+    rarity_system: "Segue a progressao padrao do jogo (Common → Rare → Epic → Legendary). Mythic eh tier exclusivo (Master Genie). Mais raro = mais slots de habilidade.",
+
+    // --- Meta: Max HP scaling domina ---
+    meta_note: "Quase todos top familiars usam dano baseado em Max HP do alvo. Isso escala naturalmente com conteudo endgame (bosses tem HP alto). True Damage (Rollbot) ignora DEF completamente.",
+
+    // --- Catalogo completo de familiars ---
+    familiars_catalog: [
+      {
+        name: "Rollbot",
+        tier: "S",
+        role: "DPS All-Rounder",
+        active: "Dispel buffs do inimigo + true damage baseado em Max HP. Mira no inimigo mais fraco.",
+        passive: "True damage ignora DEF. Dispel remove buffs — essencial contra comps de PvP com shields/buffs.",
+        best_for: ["PvP (S)", "Boss (S+)", "PvE (A)"],
+        priority: "PRIMEIRO familiar a buildar. Versatil em todo conteudo.",
+        source: "AllClash"
+      },
+      {
+        name: "Tressym",
+        tier: "S (Boss)",
+        role: "Damage Amplifier",
+        active: "Maximiza o dano de SAIDA do time inteiro.",
+        passive: "Amplificacao de dano — nao faz dano proprio, mas multiplica o output de todos os herois.",
+        best_for: ["Boss (S+)", "PvE (A)", "PvP (B)"],
+        priority: "SEGUNDO familiar a buildar. DEFAULT para 5 dos 6 bosses do Imperial Shadow Recast.",
+        note: "Usado com Attack Aura hero como captain para combo Aura+Tressym.",
+        source: "AllClash + Imperial Shadow KB"
+      },
+      {
+        name: "Stoneborn",
+        tier: "A",
+        role: "Boss DPS Specialist",
+        active: "Dano baseado em Max HP do alvo.",
+        passive: "Aumenta dano recebido pelo inimigo com maior HP (debuff de dano). Stacka com Tressym concept.",
+        best_for: ["Boss (S+)", "PvE (A)", "PvP (B)"],
+        priority: "Alternativa ao Tressym para boss fights com foco em DPS direto.",
+        source: "AllClash"
+      },
+      {
+        name: "Mimic",
+        tier: "A",
+        role: "Debuffer / Energy Control",
+        active: "Melhor debuffer do jogo. Controla energia do inimigo.",
+        passive: "Enhanced Recharging Speed Penalty — quando combinado com Vinyara, IMPEDE boss de usar skills.",
+        best_for: ["PvP (A)", "Boss especificos (A)", "PvE (B+)"],
+        priority: "TERCEIRO familiar. Essencial para boss Bionphray (Imperial Shadow) + PvP.",
+        note: "Combo Vinyara+Mimic: Vinyara drena Ultimate Energy do boss + Mimic aplica penalty de recarga → boss nunca usa skills → elimina pressao de sobrevivencia.",
+        source: "AllClash + Imperial Shadow KB"
+      },
+      {
+        name: "Saberwinger",
+        tier: "A",
+        role: "DPS + Sustain Hibrido",
+        active: "Dano + healing, ambos baseados em Max HP do alvo.",
+        passive: "Equilibrio entre dano e cura. Nunca eh uma escolha ruim.",
+        best_for: ["PvE (A)", "Boss (A)", "PvP (B)"],
+        priority: "Familiar seguro para conteudo geral. Bom como primeiro se nao tiver Rollbot.",
+        source: "AllClash"
+      },
+      {
+        name: "Vulture",
+        tier: "A-",
+        role: "AoE DPS",
+        active: "Dano AoE baseado em Max HP do alvo + componente de healing.",
+        passive: "Especialista em multi-target. Menos util em single-target (bosses).",
+        best_for: ["PvE AoE (A)", "PvP (C+)", "Boss (B)"],
+        priority: "Bom para dungeons e content com muitos inimigos. Fraco para bosses.",
+        source: "AllClash"
+      },
+      {
+        name: "Master Genie",
+        tier: "S+ (Mythic)",
+        role: "Adaptativo Universal",
+        rarity: "Mythic (tier exclusivo)",
+        active: "Lamp Wish — habilidade ADAPTATIVA que detecta composicao do time e aplica o efeito mais benefico.",
+        passive: "3 modos automaticos: (1) 1 support + high offense = burst damage buff (PvE). (2) 2 supports + endgame = stacking ATK + Crit DMG (sustained DPS). (3) Vs tanky sustain PvP = AoE damage + healing reduction.",
+        best_for: ["PvE (S)", "Boss (S)", "PvP (S)"],
+        priority: "Se evento HOMM3 estiver ativo: PEGAR IMEDIATAMENTE. Mythic gratis, universalmente forte.",
+        how_to_get: "Evento Shadow Returns (HOMM3 Collab) — completar Central Krewlod chapter. GRATIS.",
+        source: "EPlayWorld, VGC, HellHades"
+      },
+      {
+        name: "Batwing",
+        tier: "?",
+        role: "Novo (S5/S6)",
+        active: "Introduzido na S5 Hymn of Chess & Blade (Abr/2026).",
+        passive: "Dados limitados da comunidade ainda.",
+        best_for: ["A definir"],
+        priority: "Aguardar mais dados da comunidade antes de investir.",
+        source: "Patch notes S5"
+      },
+      {
+        name: "Thalarin",
+        tier: "B+",
+        role: "Desconhecido (dados parciais)",
+        active: "Listado no guia AllClash com build dedicada.",
+        best_for: ["A definir"],
+        priority: "Baixa — priorizar Rollbot/Tressym/Mimic primeiro.",
+        source: "AllClash"
+      },
+      {
+        name: "Foliage Spiker",
+        tier: "B+",
+        role: "Desconhecido (dados parciais)",
+        active: "Listado no guia AllClash com build dedicada.",
+        best_for: ["A definir"],
+        priority: "Baixa — priorizar os top 5 primeiro.",
+        source: "AllClash"
+      }
+    ],
+
+    // --- Recomendacoes por game mode ---
+    recommendations_by_mode: {
+      boss_fights: {
+        default: "Tressym (amplifica dano do time inteiro)",
+        exception: "Mimic para Bionphray (energy control com Vinyara)",
+        alternative: "Stoneborn (DPS direto baseado em Max HP)"
+      },
+      pvp: {
+        top: "Rollbot (dispel + true damage) ou Mimic (energy control)",
+        counter_sustain: "Master Genie (healing reduction em modo anti-sustain)"
+      },
+      pve_dungeons: {
+        aoe: "Vulture (multi-target) ou Saberwinger (sustain hibrido)",
+        general: "Rollbot (versatil em tudo)"
+      },
+      fallen_shadow_spire: "Rollbot ou Saberwinger — runs mais suaves"
+    },
+
+    // --- Estrategia de investimento (medium spender) ---
+    investment_priority: [
+      "1. Rollbot — melhor all-rounder, util em TUDO (buildar primeiro)",
+      "2. Tressym — default para boss content (Imperial Shadow, Continental Boss)",
+      "3. Mimic — essencial para bosses especificos (Bionphray) + PvP",
+      "4. Master Genie — se evento HOMM3 ativo, pegar GRATIS (Mythic tier)",
+      "5. Stoneborn ou Saberwinger — conforme necessidade"
+    ],
+    investment_tips: [
+      "NAO hatch e level tudo aleatoriamente. Guardar ovos para batch sessions",
+      "Focar em 2-3 familiars top ao inves de espalhar recursos",
+      "Merge MESMO tipo para subir raridade (mais skill slots = exponencialmente mais forte)",
+      "Fusion eh IRREVERSIVEL — planejar quais talents quer ANTES de sacrificar familiars",
+      "Fallen Shadow Spire DIARIAMENTE — fonte principal de ovos"
+    ],
+
+    // --- Fontes ---
+    sources: [
+      "AllClash: allclash.com/best-familiars-in-dragonheir-silent-gods-builds/",
+      "HellHades: hellhades.com/dragonheir-x-heroes-iii-shadows-return-event-guide/",
+      "Facebook Oficial: DragonheirGame (S3 announcement + Fusion guide)",
+      "Imperial Shadow Recast KB: docs/imperial-shadow-recast-knowledge-base.md"
+    ],
+    last_updated: "2026-04-10"
   },
 
   // === SEASON SYSTEM ===
