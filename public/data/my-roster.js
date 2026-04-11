@@ -185,12 +185,12 @@ window.DATA_MY_ROSTER = [
   // Regular pulls
   { id: 21480, insp: 6, skill_level: 0, notes: "Nissa (Lightning Thunderbolt S2). Echoing Shadow regular (09/Abr). Insp.6 (x7 total, 6 dupes). Captain +30% ATK Fey/Trial" },
   { id: 21880, insp: 0, skill_level: 0, notes: "Bionphray (Lightning Support S1). Echoing Shadow regular (09/Abr)" },
-  { id: 21960, insp: 0, skill_level: 0, notes: "Phaessa (Radiance Support S4). Echoing Shadow regular (09/Abr). Captain +40 ACC all battles" },
+  { id: 21960, insp: 1, skill_level: 0, notes: "Phaessa (Radiance Support S4). Echoing Shadow regular (09/Abr). Insp.1 (dupe 10/Abr). Captain +40 ACC all battles" },
   { id: 20000, insp: 1, skill_level: 0, notes: "Gillian (Radiance Support S1). Echoing Shadow regular (09/Abr). Insp.1 (Radiant Wings 09/Abr)" },
 
   // --- Chest S5 (09/Abr/2026) ---
   { id: 21780, insp: 0, skill_level: 0, notes: "Shai'nachtan (Lightning Thunderbolt S2). Chest S5 (09/Abr). Thunderbolt trio com Perkunte+Orfenna. Captain +48 Enlight all battles" },
-  { id: 22130, insp: 0, skill_level: 0, notes: "Shahla (Radiance Aura S5). Chest S5 (09/Abr). 5a Aura (buffer CritDMG). Captain +24% ATK all battles" },
+  { id: 22130, insp: 1, skill_level: 0, notes: "Shahla (Radiance Aura S5). Chest S5 (09/Abr). Insp.1 (dupe 10/Abr). 5a Aura (buffer CritDMG). Captain +24% ATK all battles" },
   { id: 20230, insp: 0, skill_level: 0, notes: "Karf (Fire Burn S2). Chest S5 (09/Abr). Burn 4.62" },
 
   // --- Radiant Wings Banner 300 pulls (09/Abr/2026) ---
