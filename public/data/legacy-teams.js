@@ -19,14 +19,8 @@ window.DATA_TEAMS = [
     },
     affinity: "5 Ice",
     status: "tested",
-    dps_result: "Lv11 CLEAR — 2:11",
-    result: {
-      type: "clear_time",
-      clear: true,
-      stage: 11,
-      time_seconds: 131,
-      time_display: "2:11"
-    },
+    dps_result: null,
+    result: null,
     score: null,
     members: [
       { id: 20060, role: "Tank / Ally Protection", artifact: "Drugo's Blast Jar", artifact_level: 20 },
@@ -58,12 +52,8 @@ window.DATA_TEAMS = [
     },
     affinity: "5 Ice",
     status: "tested",
-    dps_result: "11.199 pontos",
-    result: {
-      type: "points",
-      points: 11199,
-      points_display: "11.199"
-    },
+    dps_result: null,
+    result: null,
     score: null,
     members: [
       { id: 20060, role: "Tank / Ally Protection", artifact: "Drugo's Blast Jar", artifact_level: 20 },
@@ -98,12 +88,8 @@ window.DATA_TEAMS = [
     },
     affinity: "5 Resplendence | 3 Dauntless + 2 Support",
     status: "tested",
-    dps_result: "7.141 pontos",
-    result: {
-      type: "points",
-      points: 7141,
-      points_display: "7.141"
-    },
+    dps_result: null,
+    result: null,
     score: null,
     members: [
       { id: 20740, role: "Captain / DPS carry", artifact: "Thunder Deity's Spear" },
@@ -135,14 +121,8 @@ window.DATA_TEAMS = [
     },
     affinity: "3 Permafrost (Eurion+Felosia+Torrin)",
     status: "tested",
-    dps_result: "Lv17 CLEAR (~10s restantes)",
-    result: {
-      type: "clear_time",
-      clear: true,
-      stage: 17,
-      time_seconds: null,
-      time_display: "~10s restantes"
-    },
+    dps_result: null,
+    result: null,
     score: null,
     members: [
       { id: 20060, role: "Tank / Ally Protection", artifact: "Drugo's Blast Jar", artifact_level: 20 },
@@ -177,10 +157,7 @@ window.DATA_TEAMS = [
     affinity: "5 Ice (Permafrost)",
     status: "tested",
     dps_result: null,
-    result: {
-      type: "clear",
-      clear: true
-    },
+    result: null,
     score: null,
     members: [
       { id: 20060, role: "Tank / Ally Protection", artifact: "Drugo's Blast Jar", artifact_level: 20 },
